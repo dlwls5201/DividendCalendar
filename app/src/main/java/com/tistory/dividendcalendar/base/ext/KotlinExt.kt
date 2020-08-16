@@ -4,6 +4,7 @@ import android.app.AlertDialog
 import android.content.Context
 import android.content.DialogInterface
 import android.widget.Toast
+import androidx.annotation.StringRes
 import com.tistory.dividendcalendar.base.ext.dialog.AlertBuilder
 import com.tistory.dividendcalendar.base.ext.dialog.AndroidAlertBuilder
 
@@ -25,7 +26,19 @@ fun Context.toast(message: CharSequence): Toast = Toast
         show()
     }
 
-fun Context.longToast(message: Int): Toast = Toast
+fun Context.toast(@StringRes message: Int): Toast = Toast
+    .makeText(this, message, Toast.LENGTH_SHORT)
+    .apply {
+        show()
+    }
+
+fun Context.longToast(message: CharSequence): Toast = Toast
+    .makeText(this, message, Toast.LENGTH_LONG)
+    .apply {
+        show()
+    }
+
+fun Context.longToast(@StringRes message: Int): Toast = Toast
     .makeText(this, message, Toast.LENGTH_LONG)
     .apply {
         show()
