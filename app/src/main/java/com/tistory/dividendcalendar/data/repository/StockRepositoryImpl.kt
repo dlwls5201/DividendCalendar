@@ -5,14 +5,15 @@ import com.tistory.dividendcalendar.base.util.Dlog
 import com.tistory.dividendcalendar.data.base.BaseResponse
 import com.tistory.dividendcalendar.data.source.local.StockDao
 import com.tistory.dividendcalendar.data.source.local.entity.DividendEntity
-import com.tistory.dividendcalendar.data.source.local.entity.LogoEntity
+import com.tistory.dividendcalendar.data.source.local.entity.ProfileEntity
 import com.tistory.dividendcalendar.data.source.local.entity.SymbolEntity
 import com.tistory.dividendcalendar.data.source.local.entity.mapToItem
 import com.tistory.dividendcalendar.data.source.remote.ApiProvider
 import com.tistory.dividendcalendar.data.source.remote.api.StockApi
 import com.tistory.dividendcalendar.data.source.remote.model.DividendResponse
-import com.tistory.dividendcalendar.data.source.remote.model.ProfileResponse
+import com.tistory.dividendcalendar.data.source.remote.model.mapToEntity
 import com.tistory.dividendcalendar.presentation.model.DividendItem
+import com.tistory.dividendcalendar.presentation.model.ProfileItem
 import com.tistory.dividendcalendar.presentation.model.Range
 
 class StockRepositoryImpl(
@@ -24,36 +25,28 @@ class StockRepositoryImpl(
 
     private val gson = Gson()
 
-    override suspend fun getLogo(symbol: String, listener: BaseResponse<String>) {
+    override suspend fun getProfile(symbol: String, listener: BaseResponse<ProfileItem>) {
         listener.onLoading()
-
         try {
-            val cacheLogo = stockDao.getLogo(symbol)
-            if (cacheLogo == null) {
-                val logoUrl = stockApi.getLogo(symbol, token).url
-                stockDao.insertLogo(
-                    LogoEntity(symbol, logoUrl)
-                )
-                listener.onSuccess(logoUrl)
+            val cacheProfile = stockDao.getProfile(symbol)
+            if (cacheProfile == null) {
+                val data = getAndInsertProfileEntity(symbol)
+                listener.onSuccess(data.mapToItem())
             } else {
-                listener.onSuccess(cacheLogo.logoUrl)
+                listener.onSuccess(cacheProfile.mapToItem())
             }
-
         } catch (e: Exception) {
             listener.onError(e)
         }
         listener.onLoaded()
     }
 
-    //TODO 필요한 파라미터 정보 확인
-    override suspend fun getProfile(symbol: String, listener: BaseResponse<ProfileResponse>) {
-        listener.onLoading()
-        try {
-            listener.onSuccess(stockApi.getProfile(symbol, token))
-        } catch (e: Exception) {
-            listener.onError(e)
-        }
-        listener.onLoaded()
+    private suspend fun getAndInsertProfileEntity(symbol: String): ProfileEntity {
+        val logoUrl = stockApi.getLogo(symbol, token).url
+        val profile = stockApi.getProfile(symbol, token)
+        val entity = profile.mapToEntity(logoUrl)
+        stockDao.insertProfile(entity)
+        return entity
     }
 
     /**
@@ -70,6 +63,11 @@ class StockRepositoryImpl(
         try {
             val cacheDividends = stockDao.getDividends(symbol)
             Dlog.d("cacheDividends : $cacheDividends")
+            var cacheProfile = stockDao.getProfile(symbol)
+            Dlog.d("cacheProfile : $cacheProfile")
+            if (cacheProfile == null) {
+                cacheProfile = getAndInsertProfileEntity(symbol)
+            }
 
             if (cacheDividends.isNullOrEmpty()) {
                 Dlog.d("--- 서버로 부터 데이터 가져오기 ---")
@@ -89,7 +87,11 @@ class StockRepositoryImpl(
                     loadDividendAndCaching(symbol, listener::onSuccess, listener::onFail)
                 } else {
                     Dlog.d("--- 캐싱된 데이터 가져오기 ---")
-                    listener.onSuccess(cacheLastDividend.mapToItem())
+                    listener.onSuccess(
+                        cacheLastDividend.mapToItem(
+                            companyName = cacheProfile.companyName, logoUrl = cacheProfile.logoUrl
+                        )
+                    )
                 }
             }
         } catch (e: Exception) {
@@ -107,6 +109,11 @@ class StockRepositoryImpl(
 
         val data = stockApi.getDividend(symbol = symbol, range = range.value, token = token)
         Dlog.d("data : $data")
+        var cacheProfile = stockDao.getProfile(symbol)
+        Dlog.d("cacheProfile : $cacheProfile")
+        if (cacheProfile == null) {
+            cacheProfile = getAndInsertProfileEntity(symbol)
+        }
 
         if (data.toString() == "[]") {
             onFail("다음 배당이 없습니다.")
@@ -115,13 +122,18 @@ class StockRepositoryImpl(
             val dividendResponse = gson.fromJson(json, DividendResponse::class.java)
             Dlog.d("dividendResponse : $dividendResponse")
 
-            if (dividendResponse.amount.isNullOrEmpty() || dividendResponse.amount == "0.0") {
+            if (dividendResponse.amount.isEmpty() || dividendResponse.amount == "0.0") {
                 onFail("다음 배당이 없습니다.")
                 return
             }
 
             val dividendEntity = getAndInsertDividendEntity(symbol, dividendResponse)
-            onSuccess(dividendEntity.mapToItem())
+            onSuccess(
+                dividendEntity.mapToItem(
+                    companyName = cacheProfile.companyName,
+                    logoUrl = cacheProfile.logoUrl
+                )
+            )
         }
     }
 

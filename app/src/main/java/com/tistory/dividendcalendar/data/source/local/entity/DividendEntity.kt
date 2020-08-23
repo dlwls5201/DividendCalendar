@@ -37,9 +37,11 @@ data class SymbolWithDividends(
     val dividends: List<DividendEntity>
 )
 
-fun List<DividendEntity>.mapToItem() = map { it.mapToItem() }
+fun DividendEntity.mapToItem(companyName: String, logoUrl: String) = DividendItem(
+    ticker = parentSymbol,
+    companyName = companyName,
+    logoUrl = logoUrl,
 
-fun DividendEntity.mapToItem() = DividendItem(
     declaredDate = declaredDate,
     exDate = exDate,
     paymentDate = paymentDate,

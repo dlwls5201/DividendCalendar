@@ -2,26 +2,25 @@ package com.tistory.dividendcalendar.data.source.local
 
 import androidx.room.*
 import com.tistory.dividendcalendar.data.source.local.entity.DividendEntity
-import com.tistory.dividendcalendar.data.source.local.entity.LogoEntity
+import com.tistory.dividendcalendar.data.source.local.entity.ProfileEntity
 import com.tistory.dividendcalendar.data.source.local.entity.SymbolEntity
 import com.tistory.dividendcalendar.data.source.local.entity.SymbolWithDividends
 
 @Dao
 interface StockDao {
 
-    //logo
-    @Query("SELECT * FROM logos WHERE symbol = :symbol")
-    suspend fun getLogo(symbol: String): LogoEntity?
+    //profile
+    @Query("SELECT * FROM profiles WHERE symbol = :symbol")
+    suspend fun getProfile(symbol: String): ProfileEntity?
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertLogo(logo: LogoEntity)
+    suspend fun insertProfile(profile: ProfileEntity)
 
-    @Query("DELETE FROM logos WHERE symbol = :symbol")
-    suspend fun deleteLogoBySymbol(symbol: String)
+    @Query("DELETE FROM profiles WHERE symbol = :symbol")
+    suspend fun deleteProfileBySymbol(symbol: String)
 
-    @Query("DELETE FROM logos")
-    suspend fun clearLogo()
-
+    @Query("DELETE FROM profiles")
+    suspend fun clearProfile()
 
     //dividend
     @Transaction

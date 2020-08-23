@@ -1,14 +1,12 @@
 package com.tistory.dividendcalendar.data.repository
 
 import com.tistory.dividendcalendar.data.base.BaseResponse
-import com.tistory.dividendcalendar.data.source.remote.model.ProfileResponse
 import com.tistory.dividendcalendar.presentation.model.DividendItem
+import com.tistory.dividendcalendar.presentation.model.ProfileItem
 
 interface StockRepository {
 
-    suspend fun getLogo(symbol: String, listener: BaseResponse<String>)
-
-    suspend fun getProfile(symbol: String, listener: BaseResponse<ProfileResponse>)
+    suspend fun getProfile(symbol: String, listener: BaseResponse<ProfileItem>)
 
     suspend fun getNextDividend(symbol: String, listener: BaseResponse<DividendItem>)
 

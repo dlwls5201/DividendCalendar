@@ -5,11 +5,11 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.tistory.dividendcalendar.DividendCalendarApplication
 import com.tistory.dividendcalendar.data.source.local.entity.DividendEntity
-import com.tistory.dividendcalendar.data.source.local.entity.LogoEntity
+import com.tistory.dividendcalendar.data.source.local.entity.ProfileEntity
 import com.tistory.dividendcalendar.data.source.local.entity.SymbolEntity
 
 @Database(
-    entities = [LogoEntity::class, SymbolEntity::class, DividendEntity::class],
+    entities = [ProfileEntity::class, SymbolEntity::class, DividendEntity::class],
     version = 1,
     exportSchema = false
 )
