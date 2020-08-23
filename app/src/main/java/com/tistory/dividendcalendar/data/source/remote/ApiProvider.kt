@@ -1,23 +1,28 @@
-package com.tistory.dividendcalendar.data.api
+package com.tistory.dividendcalendar.data.source.remote
 
 import com.tistory.dividendcalendar.BuildConfig
+import com.tistory.dividendcalendar.data.source.remote.api.StockApi
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
-import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 object ApiProvider {
 
-    private const val baseUrl = "https://cloud.iexapis.com/"
-    const val token = "pk_31ea86b506914cf6a38fc21f4eaaf278"
+    private const val baseUrl = "https://cloud.iexapis.com/stable/stock/"
 
-    fun getRetrofitBuild() = Retrofit.Builder()
+    //TODO you must delete updating to github
+    const val token = "pk_763a1177699243abb9d2f9f099e34a39"
+
+    fun provideInvitationApi(): StockApi = getRetrofitBuild()
+        .create(StockApi::class.java)
+
+    private fun getRetrofitBuild() = Retrofit.Builder()
         .baseUrl(baseUrl)
         .client(getOkhttpClient())
         // 받은 응답을 옵서버블 형태로 변환해 줍니다.
-        .addCallAdapterFactory(RxJava2CallAdapterFactory.createAsync())
+        //.addCallAdapterFactory(RxJava2CallAdapterFactory.createAsync())
         .addConverterFactory(getGsonConverter())
         .build()
 
