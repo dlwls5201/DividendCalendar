@@ -8,7 +8,7 @@ import com.tistory.dividendcalendar.data.source.remote.ApiProvider
 
 object Injection {
 
-    fun provideInvitationRepository(): StockRepository {
+    fun provideStockRepository(): StockRepository {
         return StockRepositoryImpl(
             StockDataBase.getInstance().getStockDao(),
             ApiProvider.provideInvitationApi()

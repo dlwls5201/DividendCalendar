@@ -10,6 +10,9 @@ import com.tistory.dividendcalendar.data.source.local.entity.SymbolWithDividends
 interface StockDao {
 
     //profile
+    @Query("SELECT * FROM profiles")
+    suspend fun getProfiles(): List<ProfileEntity>
+
     @Query("SELECT * FROM profiles WHERE symbol = :symbol")
     suspend fun getProfile(symbol: String): ProfileEntity?
 
@@ -22,6 +25,7 @@ interface StockDao {
     @Query("DELETE FROM profiles")
     suspend fun clearProfile()
 
+
     //dividend
     @Transaction
     @Query("SELECT * FROM symbols")
@@ -31,7 +35,10 @@ interface StockDao {
     suspend fun getSymbol(symbol: String): SymbolEntity?
 
     @Query("SELECT * FROM dividends WHERE parentSymbol = :symbol")
-    suspend fun getDividends(symbol: String): List<DividendEntity>
+    suspend fun getDividendsBySymbol(symbol: String): List<DividendEntity>
+
+    @Query("SELECT * FROM dividends")
+    suspend fun getDividends(): List<DividendEntity>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertSymbol(symbol: SymbolEntity)

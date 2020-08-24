@@ -16,6 +16,7 @@ import com.tistory.dividendcalendar.presentation.model.DividendItem
 import com.tistory.dividendcalendar.presentation.model.ProfileItem
 import com.tistory.dividendcalendar.presentation.model.Range
 
+//TODO 해야되는 것 -> 아이템 추가시 중복 체크 하기
 class StockRepositoryImpl(
     private val stockDao: StockDao,
     private val stockApi: StockApi
@@ -61,7 +62,7 @@ class StockRepositoryImpl(
         listener.onLoading()
 
         try {
-            val cacheDividends = stockDao.getDividends(symbol)
+            val cacheDividends = stockDao.getDividendsBySymbol(symbol)
             Dlog.d("cacheDividends : $cacheDividends")
             var cacheProfile = stockDao.getProfile(symbol)
             Dlog.d("cacheProfile : $cacheProfile")
@@ -143,7 +144,7 @@ class StockRepositoryImpl(
     ): DividendEntity {
         val cachedSymbol = stockDao.getSymbol(symbol)
         if (cachedSymbol == null) {
-            stockDao.insertSymbol(SymbolEntity(symbol))
+            stockDao.insertSymbol(SymbolEntity(symbol = symbol))
         }
 
         val currentUnixTime = System.currentTimeMillis() / 1000
@@ -169,5 +170,27 @@ class StockRepositoryImpl(
         val monthSecond = 60 * 60 * 24 * 30
         //TODO [test] return diffDate >= monthSecond
         return diffDate >= 300 // 5분에 한번씩 데이터를 갱신  한다.
+    }
+
+    override suspend fun getDividendItems(listener: BaseResponse<List<DividendItem>>) {
+        listener.onLoading()
+        try {
+            val dividendItems = stockDao.getDividends().map {
+                val symbol = it.parentSymbol
+                val profile = stockDao.getProfile(symbol)
+
+                if (profile != null) {
+                    it.mapToItem(companyName = profile.companyName, logoUrl = profile.logoUrl)
+                } else {
+                    it.mapToItem("-", "")
+                }
+            }
+
+            listener.onSuccess(dividendItems)
+        } catch (e: Exception) {
+            Dlog.e(e.message)
+            listener.onError(e)
+        }
+        listener.onLoaded()
     }
 }

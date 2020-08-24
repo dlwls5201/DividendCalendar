@@ -21,7 +21,7 @@
             android:textSize="14dp" />
 
         <ImageView
-            android:id="@+id/ivViewCalendarPrev"
+            android:id="@+id/btnViewCalendarPrev"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -30,7 +30,7 @@
             android:src="@drawable/ic_arrow_left_white_24dp" />
 
         <ImageView
-            android:id="@+id/ivViewCalendarNext"
+            android:id="@+id/btnViewCalendarNext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"

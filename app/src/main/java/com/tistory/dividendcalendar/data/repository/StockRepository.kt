@@ -10,4 +10,5 @@ interface StockRepository {
 
     suspend fun getNextDividend(symbol: String, listener: BaseResponse<DividendItem>)
 
+    suspend fun getDividendItems(listener: BaseResponse<List<DividendItem>>)
 }

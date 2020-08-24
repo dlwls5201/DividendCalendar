@@ -6,7 +6,10 @@ import com.tistory.dividendcalendar.presentation.model.ProfileItem
 
 @Entity(tableName = "profiles")
 data class ProfileEntity(
-    @PrimaryKey val symbol: String,
+    @PrimaryKey(autoGenerate = true)
+    val profileId: Long = 0,
+
+    val symbol: String,
     val logoUrl: String,
     val companyName: String,
     val exchange: String,

@@ -9,13 +9,16 @@ import com.tistory.dividendcalendar.presentation.model.Frequency
 
 @Entity(tableName = "symbols")
 data class SymbolEntity(
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
+    val symbolId: Long = 0,
     val symbol: String
 )
 
 @Entity(tableName = "dividends")
 data class DividendEntity(
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
+    val dividendId: Long = 0,
+
     val declaredDate: String,
     val parentSymbol: String,
 
@@ -31,8 +34,8 @@ data class SymbolWithDividends(
     @Embedded val symbol: SymbolEntity,
 
     @Relation(
-        parentColumn = "symbol",
-        entityColumn = "parentSymbol"
+        parentColumn = "symbolId",
+        entityColumn = "dividendId"
     )
     val dividends: List<DividendEntity>
 )
