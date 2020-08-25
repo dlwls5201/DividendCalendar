@@ -10,9 +10,10 @@ import java.util.concurrent.TimeUnit
 
 object ApiProvider {
 
-    private const val baseUrl = ""
+    private const val baseUrl = "https://cloud.iexapis.com/"
+    const val token = "pk_31ea86b506914cf6a38fc21f4eaaf278"
 
-    private fun getRetrofitBuild() = Retrofit.Builder()
+    fun getRetrofitBuild() = Retrofit.Builder()
         .baseUrl(baseUrl)
         .client(getOkhttpClient())
         // 받은 응답을 옵서버블 형태로 변환해 줍니다.

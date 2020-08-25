@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">DividendCalendar</string>
+
+    <string name="search">검색</string>
+    <string name="menuAppInfo">앱 정보"</string>
+    <string name="menuQna">문의하기</string>
+    <string name="menuMyStock">MY STOCK</string>
+    <string name="menuCalendar">CALENDAR</string>
+    <string name="searchHint">Search Ticker(ex: AAPL)</string>
+    <string name="amount">보유 수량 %s</string>
+
+    <string name="companyName">회사 명</string>
+    <string name="investAmount">주식 수</string>
+    <string name="confirm">확인</string>
+    <string name="cancel">취소</string>
+    <string name="dividends">배당일</string>
+    <string name="info">정보</string>
 </resources>
