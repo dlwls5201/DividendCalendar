@@ -23,7 +23,7 @@
 
         <activity
             android:name=".presentation.calendar.CalendarActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/AppThemeNoBar" />
 
         <activity android:name=".presentation.main.SearchActivity" />
 
