@@ -279,7 +279,7 @@ class DividendCalendarView : LinearLayout {
                     clItemViewCalendar.setBackgroundColor(
                         ContextCompat.getColor(
                             context,
-                            R.color.darkOrange
+                            R.color.colorPrimaryDark
                         )
                     )
                 }

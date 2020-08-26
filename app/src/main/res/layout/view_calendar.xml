@@ -9,7 +9,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/calendar_bar_size"
-        android:background="@color/orange">
+        android:background="@color/colorPrimary">
 
         <TextView
             android:id="@+id/tvViewCalendarTitle"
@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="current"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="14dp" />
 
         <ImageView
