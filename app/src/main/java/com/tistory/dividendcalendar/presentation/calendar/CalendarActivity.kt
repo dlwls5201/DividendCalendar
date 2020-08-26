@@ -1,18 +1,12 @@
 package com.tistory.dividendcalendar.presentation.calendar
 
 import android.os.Bundle
-import android.view.inputmethod.EditorInfo
 import androidx.appcompat.app.AppCompatActivity
 import com.tistory.dividendcalendar.R
-import com.tistory.dividendcalendar.base.ext.toast
 import com.tistory.dividendcalendar.base.util.Dlog
-import com.tistory.dividendcalendar.data.base.BaseResponse
 import com.tistory.dividendcalendar.data.injection.Injection
-import com.tistory.dividendcalendar.presentation.model.DividendItem
+import com.tistory.dividendcalendar.presentation.calendar.ext.showStockDialog
 import kotlinx.android.synthetic.main.activity_calendar.*
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
 
 class CalendarActivity : AppCompatActivity() {
 
@@ -33,28 +27,15 @@ class CalendarActivity : AppCompatActivity() {
     }
 
     private fun initUiTest() {
-        etTicker.setOnEditorActionListener { _, actionId, _ ->
-            when (actionId) {
-                EditorInfo.IME_ACTION_SEARCH -> {
-                    // 검색 동작
-                    loadDividend()
-                    return@setOnEditorActionListener true
-                }
-                else -> {
-                    return@setOnEditorActionListener false
-                }
-            }
+        fabCalendarAddCompany.setOnClickListener {
+            showStockDialog { ticker, stockCnt ->
+                Dlog.d("ticker : $ticker , stockCnt : $stockCnt")
+            }.show()
         }
     }
 
     private fun loadDividend() {
-        //ticker는 전부 대문자로 통일합니다.
-        val ticker = etTicker.text.toString().toUpperCase()
-        Dlog.d("ticker : $ticker")
-
-        if (ticker.isEmpty()) return
-
-        GlobalScope.launch(Dispatchers.Main) {
+        /*GlobalScope.launch(Dispatchers.Main) {
             stockRepository.getNextDividend(ticker, object : BaseResponse<DividendItem> {
                 override fun onSuccess(data: DividendItem) {
                     Dlog.d(msg = "data :$data")
@@ -76,6 +57,6 @@ class CalendarActivity : AppCompatActivity() {
                     Dlog.d(msg = "onLoaded")
                 }
             })
-        }
+        }*/
     }
 }

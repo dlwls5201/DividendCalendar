@@ -15,4 +15,6 @@
     <string name="cancel">취소</string>
     <string name="dividends">배당일</string>
     <string name="info">정보</string>
+
+    <string name="input_ticker">티커를 입력해주세요.</string>
 </resources>
