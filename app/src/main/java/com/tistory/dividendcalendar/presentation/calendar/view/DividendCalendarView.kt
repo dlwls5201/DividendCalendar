@@ -119,6 +119,12 @@ class DividendCalendarView : LinearLayout {
         headerHeight = resources.getDimension(R.dimen.calendar_header_size)
     }
 
+    private var calendarType: CalendarType = CalendarType.EX_DATE
+
+    enum class CalendarType(val title: String) {
+        EX_DATE("배당락일"), PAYMENT_DATE("지급일")
+    }
+
     private fun assignClickHandlers() {
         // add one month and refresh UI
         btnViewCalendarNext.setOnClickListener { v: View? ->
@@ -145,6 +151,20 @@ class DividendCalendarView : LinearLayout {
                 // handle press
                 eventHandler?.onDayPress(parent.getItemAtPosition(position) as Date, view)
             }
+
+        // change calendar type
+        tvCalendarType.text = calendarType.title
+        tvCalendarType.setOnClickListener {
+            if (calendarType == CalendarType.EX_DATE) {
+                calendarType = CalendarType.PAYMENT_DATE
+                tvCalendarType.text = calendarType.title
+                updateCalendar()
+            } else {
+                calendarType = CalendarType.EX_DATE
+                tvCalendarType.text = calendarType.title
+                updateCalendar()
+            }
+        }
     }
 
 
@@ -264,7 +284,7 @@ class DividendCalendarView : LinearLayout {
                 val year = item.year
 
                 // today
-                val today = Date()
+                /*val today = Date()
 
                 if (month != today.month || year != today.year) {
                     // if this day is outside current month, grey it out
@@ -282,24 +302,28 @@ class DividendCalendarView : LinearLayout {
                             R.color.colorPrimaryDark
                         )
                     )
-                }
+                }*/
 
                 // set text
                 tvItemViewCalendar.text = item.date.toString()
 
-                //TODO 배당락일에 대한 달력 표시
-                dividendItems.filter { it.exDate == getDividedDataFormat(item) }
-                    .forEachIndexed { index, dividendItem ->
-                        when (index) {
-                            0 -> {
-                                Glide.with(context)
-                                    .load(dividendItem.logoUrl)
-                                    .into(ivItemViewCalendarLogo1)
+                dividendItems.filter {
+                    if (calendarType == CalendarType.EX_DATE) {
+                        it.exDate == getDividedDataFormat(item)
+                    } else {
+                        it.paymentDate == getDividedDataFormat(item)
+                    }
+                }.forEachIndexed { index, dividendItem ->
+                    when (index) {
+                        0 -> {
+                            Glide.with(context)
+                                .load(dividendItem.logoUrl)
+                                .into(ivItemViewCalendarLogo1)
 
-                                tvItemViewCalendarCompanyName1.text = dividendItem.companyName
-                            }
-                            1 -> {
-                                Glide.with(context)
+                            tvItemViewCalendarCompanyName1.text = dividendItem.companyName
+                        }
+                        1 -> {
+                            Glide.with(context)
                                     .load(dividendItem.logoUrl)
                                     .into(ivItemViewCalendarLogo2)
 

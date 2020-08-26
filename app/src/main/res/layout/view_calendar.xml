@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/white"
     android:orientation="vertical">
 
@@ -37,6 +38,20 @@
             android:layout_marginLeft="20dp"
             android:layout_toRightOf="@+id/tvViewCalendarTitle"
             android:src="@drawable/ic_arrow_right_white_24dp" />
+
+        <TextView
+            android:id="@+id/tvCalendarType"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:text="배당락일" />
 
     </RelativeLayout>
 
