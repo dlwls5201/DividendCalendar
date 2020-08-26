@@ -12,8 +12,8 @@ import com.bumptech.glide.Glide
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.BaseActivity
 import com.tistory.dividendcalendar.base.util.Dlog
-import com.tistory.dividendcalendar.data.api.ApiProvider
 import com.tistory.dividendcalendar.data.api.StockAPiImpl
+import com.tistory.dividendcalendar.data.source.remote.ApiProvider
 import com.tistory.dividendcalendar.databinding.ActivitySearchBinding
 import com.tistory.dividendcalendar.databinding.ViewInputdialogBinding
 import com.tistory.dividendcalendar.presentation.main.model.DividendsApiModel

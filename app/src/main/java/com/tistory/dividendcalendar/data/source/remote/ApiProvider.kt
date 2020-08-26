@@ -10,7 +10,8 @@ import java.util.concurrent.TimeUnit
 
 object ApiProvider {
 
-    private const val baseUrl = "https://cloud.iexapis.com/stable/stock/"
+    //private const val baseUrl = "https://cloud.iexapis.com/stable/stock/"
+    private const val baseUrl = "https://cloud.iexapis.com/"
 
     //TODO you must delete updating to github
     const val token = "pk_763a1177699243abb9d2f9f099e34a39"
@@ -18,7 +19,7 @@ object ApiProvider {
     fun provideInvitationApi(): StockApi = getRetrofitBuild()
         .create(StockApi::class.java)
 
-    private fun getRetrofitBuild() = Retrofit.Builder()
+    fun getRetrofitBuild() = Retrofit.Builder()
         .baseUrl(baseUrl)
         .client(getOkhttpClient())
         // 받은 응답을 옵서버블 형태로 변환해 줍니다.

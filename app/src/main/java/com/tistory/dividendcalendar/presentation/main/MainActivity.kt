@@ -9,11 +9,12 @@ import androidx.appcompat.widget.SearchView
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.BaseActivity
 import com.tistory.dividendcalendar.databinding.ActivityMainBinding
+import com.tistory.dividendcalendar.presentation.calendar.CalendarActivity
 
 
 class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
     private lateinit var myStockFragment: MyStockFragment
-    private lateinit var calendarFragment: CalendarFragment
+    //private lateinit var calendarFragment: CalendarFragment
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,13 +25,13 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
     private fun setUI() {
         binding.activity = this
         myStockFragment = MyStockFragment.newInstance()
-        calendarFragment = CalendarFragment.newInstance()
+        //calendarFragment = CalendarFragment.newInstance()
 
         supportFragmentManager.beginTransaction().add(R.id.mainFrame, myStockFragment)
             .commit()
-        supportFragmentManager.beginTransaction().add(R.id.mainFrame, calendarFragment)
-            .commit()
-        supportFragmentManager.beginTransaction().hide(calendarFragment).commit()
+        /* supportFragmentManager.beginTransaction().add(R.id.mainFrame, calendarFragment)
+             .commit()*/
+        //supportFragmentManager.beginTransaction().hide(calendarFragment).commit()
     }
 
     /**
@@ -40,11 +41,12 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         if (isMyStock) {
             if (!myStockFragment.isHidden) return
             supportFragmentManager.beginTransaction().show(myStockFragment).commit()
-            supportFragmentManager.beginTransaction().hide(calendarFragment).commit()
+            //supportFragmentManager.beginTransaction().hide(calendarFragment).commit()
         } else {
-            if (!calendarFragment.isHidden) return
-            supportFragmentManager.beginTransaction().hide(myStockFragment).commit()
-            supportFragmentManager.beginTransaction().show(calendarFragment).commit()
+            //if (!calendarFragment.isHidden) return
+            //supportFragmentManager.beginTransaction().hide(myStockFragment).commit()
+            //supportFragmentManager.beginTransaction().show(calendarFragment).commit()
+            startActivity(Intent(this, CalendarActivity::class.java))
         }
     }
 

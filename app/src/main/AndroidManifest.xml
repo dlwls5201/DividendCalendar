@@ -21,7 +21,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".presentation.calendar.CalendarActivity" />
+        <activity
+            android:name=".presentation.calendar.CalendarActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
         <activity android:name=".presentation.main.SearchActivity" />
 
         <activity
