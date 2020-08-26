@@ -22,6 +22,32 @@ class StockRepositoryImpl(
 
     private val gson = Gson()
 
+    override suspend fun getStock(ticker: String, listener: BaseResponse<StockEntity>) {
+        listener.onLoading()
+
+        val symbol = ticker.toUpperCase()
+
+        try {
+            val cacheStock = stockDao.getStock(symbol)
+            Dlog.d("cacheStock : $cacheStock")
+
+            if (cacheStock == null) {
+                val logo = stockApi.getLogo(symbol, token)
+                val profile = stockApi.getProfile(symbol, token)
+                Dlog.d("logo : $logo , profile : $profile")
+                val stock = StockEntity.create(symbol, 0, logo, profile)
+                stockDao.insertStock(stock)
+
+                listener.onSuccess(stock)
+            } else {
+                listener.onSuccess(cacheStock)
+            }
+        } catch (e: Exception) {
+            listener.onError(e)
+        }
+        listener.onLoaded()
+    }
+
     override suspend fun putStock(
         ticker: String,
         stockCnt: Int,
@@ -130,14 +156,14 @@ class StockRepositoryImpl(
         Dlog.d("data : $data")
 
         if (data.toString() == "[]") {
-            Dlog.d("다음 배당이 없습니다.")
+            Dlog.d("$symbol 다음 배당이 없습니다.")
         } else {
             val json = gson.toJson(data)
             val dividendResponse = gson.fromJson(json, DividendResponse::class.java)
             Dlog.d("dividendResponse : $dividendResponse")
 
             if (dividendResponse.amount.isEmpty() || dividendResponse.amount == "0.0") {
-                Dlog.d("다음 배당이 없습니다.")
+                Dlog.d("$symbol 다음 배당이 없습니다.")
                 return
             }
 
@@ -149,7 +175,7 @@ class StockRepositoryImpl(
 
     private fun checkMoreMonthTime(diffDate: Long): Boolean {
         val monthSecond = 60 * 60 * 24 * 30
-        //TODO [test] return diffDate >= monthSecond
-        return diffDate >= 300 // 5분에 한번씩 데이터를 갱신  한다.
+        return diffDate >= monthSecond
+        //TODO return diffDate >= 300 // 5분에 한번씩 데이터를 갱신  한다.
     }
 }
