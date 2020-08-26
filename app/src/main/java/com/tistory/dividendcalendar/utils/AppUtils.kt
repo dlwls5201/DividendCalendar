@@ -1,4 +1,4 @@
-package com.mashup.patatoinvitation.utils
+package com.tistory.dividendcalendar.utils
 
 import android.app.Activity
 import android.content.Context

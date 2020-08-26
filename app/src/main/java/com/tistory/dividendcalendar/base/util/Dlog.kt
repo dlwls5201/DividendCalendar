@@ -15,10 +15,22 @@ object Dlog {
         }
     }
 
+    fun d(msg: String?) {
+        if (isDebug()) {
+            Log.d(TAG, buildLogMsg(msg))
+        }
+    }
+
     //info
     fun i(tag: String = TAG, msg: String?) {
         if (isDebug()) {
             Log.i(tag, buildLogMsg(msg))
+        }
+    }
+
+    fun i(msg: String?) {
+        if (isDebug()) {
+            Log.i(TAG, buildLogMsg(msg))
         }
     }
 
@@ -29,10 +41,22 @@ object Dlog {
         }
     }
 
+    fun w(msg: String?) {
+        if (isDebug()) {
+            Log.w(TAG, buildLogMsg(msg))
+        }
+    }
+
     //error
     fun e(tag: String = TAG, msg: String?) {
         if (isDebug()) {
             Log.e(tag, buildLogMsg(msg))
+        }
+    }
+
+    fun e(msg: String?) {
+        if (isDebug()) {
+            Log.e(TAG, buildLogMsg(msg))
         }
     }
 
@@ -43,10 +67,22 @@ object Dlog {
         }
     }
 
+    fun v(msg: String?) {
+        if (isDebug()) {
+            Log.v(TAG, buildLogMsg(msg))
+        }
+    }
+
     //what a terrible failure
     fun wtf(tag: String = TAG, msg: String?) {
         if (isDebug()) {
             Log.wtf(tag, buildLogMsg(msg))
+        }
+    }
+
+    fun wtf(msg: String?) {
+        if (isDebug()) {
+            Log.wtf(TAG, buildLogMsg(msg))
         }
     }
 
