@@ -4,9 +4,13 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.util.Dlog
+import com.tistory.dividendcalendar.data.base.BaseResponse
 import com.tistory.dividendcalendar.data.injection.Injection
 import com.tistory.dividendcalendar.presentation.calendar.ext.showStockDialog
 import kotlinx.android.synthetic.main.activity_calendar.*
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 
 class CalendarActivity : AppCompatActivity() {
 
@@ -30,33 +34,34 @@ class CalendarActivity : AppCompatActivity() {
         fabCalendarAddCompany.setOnClickListener {
             showStockDialog { ticker, stockCnt ->
                 Dlog.d("ticker : $ticker , stockCnt : $stockCnt")
+                putTickerAndStockCnt(ticker, stockCnt)
             }.show()
         }
     }
 
-    private fun loadDividend() {
-        /*GlobalScope.launch(Dispatchers.Main) {
-            stockRepository.getNextDividend(ticker, object : BaseResponse<DividendItem> {
-                override fun onSuccess(data: DividendItem) {
-                    Dlog.d(msg = "data :$data")
+    private fun putTickerAndStockCnt(ticker: String, stockCnt: Int) {
+        GlobalScope.launch(Dispatchers.Main) {
+            stockRepository.putStock(ticker, stockCnt, object : BaseResponse<Any> {
+                override fun onSuccess(data: Any) {
+                    Dlog.d("onSuccess")
                 }
 
                 override fun onFail(description: String) {
-                    toast(description)
+                    Dlog.d("onFail")
                 }
 
                 override fun onError(throwable: Throwable) {
-                    Dlog.d(msg = "onError :${throwable.message}")
+                    Dlog.d("onError")
                 }
 
                 override fun onLoading() {
-                    Dlog.d(msg = "onLoading")
+                    Dlog.d("onLoading")
                 }
 
                 override fun onLoaded() {
-                    Dlog.d(msg = "onLoaded")
+                    Dlog.d("onLoaded")
                 }
             })
-        }*/
+        }
     }
 }

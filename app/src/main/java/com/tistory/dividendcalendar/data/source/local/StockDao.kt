@@ -2,47 +2,42 @@ package com.tistory.dividendcalendar.data.source.local
 
 import androidx.room.*
 import com.tistory.dividendcalendar.data.source.local.entity.DividendEntity
-import com.tistory.dividendcalendar.data.source.local.entity.ProfileEntity
-import com.tistory.dividendcalendar.data.source.local.entity.SymbolEntity
-import com.tistory.dividendcalendar.data.source.local.entity.SymbolWithDividends
+import com.tistory.dividendcalendar.data.source.local.entity.StockEntity
+import com.tistory.dividendcalendar.data.source.local.entity.StockWithDividendEntity
 
 @Dao
 interface StockDao {
 
-    //profile
-    @Query("SELECT * FROM profiles")
-    suspend fun getProfiles(): List<ProfileEntity>
-
-    @Query("SELECT * FROM profiles WHERE symbol = :symbol")
-    suspend fun getProfile(symbol: String): ProfileEntity?
+    //stock
+    @Query("SELECT * FROM stocks WHERE symbol = :symbol")
+    suspend fun getStock(symbol: String): StockEntity?
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertProfile(profile: ProfileEntity)
+    suspend fun insertStock(stock: StockEntity)
 
-    @Query("DELETE FROM profiles WHERE symbol = :symbol")
+    @Query("DELETE FROM stocks WHERE symbol = :symbol")
     suspend fun deleteProfileBySymbol(symbol: String)
 
-    @Query("DELETE FROM profiles")
+    @Query("DELETE FROM stocks")
     suspend fun clearProfile()
 
 
     //dividend
-    @Transaction
-    @Query("SELECT * FROM symbols")
-    suspend fun getSymbolWithDividends(): List<SymbolWithDividends>
-
-    @Query("SELECT * FROM symbols WHERE symbol = :symbol")
-    suspend fun getSymbol(symbol: String): SymbolEntity?
-
-    @Query("SELECT * FROM dividends WHERE parentSymbol = :symbol")
-    suspend fun getDividendsBySymbol(symbol: String): List<DividendEntity>
-
-    @Query("SELECT * FROM dividends")
-    suspend fun getDividends(): List<DividendEntity>
-
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertSymbol(symbol: SymbolEntity)
-
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertDividend(dividend: DividendEntity)
+
+    @Query("DELETE FROM dividends")
+    suspend fun clearDividend()
+
+
+    //stockWithDividend
+    @Transaction
+    @Query("SELECT * FROM stocks WHERE symbol = :symbol")
+    suspend fun getStockWithDividend(symbol: String): StockWithDividendEntity?
+
+    @Transaction
+    @Query("SELECT * FROM stocks")
+    suspend fun getStockWithDividends(): List<StockWithDividendEntity>
+
+
 }

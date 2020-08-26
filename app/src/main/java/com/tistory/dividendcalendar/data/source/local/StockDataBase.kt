@@ -5,11 +5,10 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.tistory.dividendcalendar.DividendCalendarApplication
 import com.tistory.dividendcalendar.data.source.local.entity.DividendEntity
-import com.tistory.dividendcalendar.data.source.local.entity.ProfileEntity
-import com.tistory.dividendcalendar.data.source.local.entity.SymbolEntity
+import com.tistory.dividendcalendar.data.source.local.entity.StockEntity
 
 @Database(
-    entities = [ProfileEntity::class, SymbolEntity::class, DividendEntity::class],
+    entities = [StockEntity::class, DividendEntity::class],
     version = 1,
     exportSchema = false
 )
@@ -28,8 +27,7 @@ abstract class StockDataBase : RoomDatabase() {
                         DividendCalendarApplication.INSTANCE,
                         StockDataBase::class.java,
                         "stockDataBase.db"
-                    ).fallbackToDestructiveMigration()  //TODO 테스트용 : 빌드 시 마다 기존 데이터베이스 삭제
-                        .build()
+                    ).build()
                 }
             }
             return INSTANCE!!

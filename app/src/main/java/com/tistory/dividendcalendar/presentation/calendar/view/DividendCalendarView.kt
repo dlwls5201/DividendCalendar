@@ -101,7 +101,7 @@ class DividendCalendarView : LinearLayout {
         assignUiHeaderSize()
         assignClickHandlers()
 
-        //updateCalendar();
+        updateCalendar()
     }
 
     private fun loadDateFormat(attrs: AttributeSet?) {

@@ -9,26 +9,29 @@ import retrofit2.http.Query
 
 interface StockApi {
 
-    @GET("{symbol}/logo")
+    @GET("stable/stock/{symbol}/logo")
     suspend fun getLogo(
         @Path("symbol") symbol: String,
         @Query("token") token: String
     ): LogoResponse
 
-    @GET("{symbol}/company")
+    @GET("stable/stock/{symbol}/company")
     suspend fun getProfile(
         @Path("symbol") symbol: String,
         @Query("token") token: String
     ): ProfileResponse
 
-    @GET("{symbol}/dividends/{range}")
+    /**
+     * 응답이 DividendResponse와 빈배열 두가지로 오고 있음.
+     */
+    @GET("stable/stock/{symbol}/dividends/{range}")
     suspend fun getDividend(
         @Path("symbol") symbol: String,
         @Path("range") range: String,
         @Query("token") token: String
-    ): Any //DividendResponse
+    ): Any
 
-    @GET("{symbol}/dividends/{range}")
+    @GET("stable/stock/{symbol}/dividends/{range}")
     suspend fun getDividends(
         @Path("symbol") symbol: String,
         @Path("range") range: String,

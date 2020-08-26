@@ -2,7 +2,6 @@ package com.tistory.dividendcalendar.data.source.remote.model
 
 
 import com.google.gson.annotations.SerializedName
-import com.tistory.dividendcalendar.data.source.local.entity.ProfileEntity
 
 data class ProfileResponse(
     @SerializedName("symbol")
@@ -45,26 +44,4 @@ data class ProfileResponse(
     val country: String,
     @SerializedName("phone")
     val phone: String
-)
-
-fun ProfileResponse.mapToEntity(logoUrl: String) = ProfileEntity(
-    symbol = symbol,
-    logoUrl = logoUrl,
-    companyName = companyName,
-    exchange = exchange,
-    industry = industry,
-    website = website,
-    description = description,
-    ceo = ceo,
-    securityName = securityName,
-    issueType = issueType,
-    sector = sector,
-    primarySicCode = primarySicCode,
-    employees = employees,
-    address = address,
-    state = state,
-    city = city,
-    zip = zip,
-    country = country,
-    phone = phone
 )

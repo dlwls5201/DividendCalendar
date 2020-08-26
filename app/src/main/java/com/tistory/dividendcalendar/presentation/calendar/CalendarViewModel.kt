@@ -19,7 +19,7 @@ class CalendarViewModel(
 
     fun loadDividendItems() {
         viewModelScope.launch {
-            stockRepository.getDividendItems(object : BaseResponse<List<DividendItem>> {
+            stockRepository.getAllDividendItems(object : BaseResponse<List<DividendItem>> {
                 override fun onSuccess(data: List<DividendItem>) {
                     Dlog.d("onSuccess : $data")
                     _dividendItems.postValue(data)
