@@ -165,30 +165,19 @@ class SearchActivity : BaseActivity<ActivitySearchBinding>(R.layout.activity_sea
         view.inputConfirm.setOnClickListener {
             alertDialog.dismiss()
 
-            if (view.inputCompany.text.toString()
-                    .isEmpty() || view.inputInvestAmount.text.toString().isEmpty()
-            ) {
+            if (view.inputInvestAmount.text.toString().isEmpty()) {
                 Toast.makeText(this, "빈 곳을 입력 해 주세요.", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
             launch(Dispatchers.IO) {
-                var amount = 0
-                try {
-                    amount = stockDividends.amount.toInt()
-                    amount *= view.inputInvestAmount.text.toString().toInt()
-                } catch (ex: Exception) {
-                    ex.printStackTrace()
-                    amount = 0
-                }
-
                 val stockModel =
                     StockModel(
                         0,
-                        view.inputCompany.text.toString(),
+                        stockInfo.companyName,
                         stockLogo.url,
                         stockInfo.symbol,
-                        amount.toString()
+                        view.inputInvestAmount.text.toString()
                     )
 
                 stockModelView.insert(stockModel)
