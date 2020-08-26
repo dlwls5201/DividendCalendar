@@ -8,24 +8,6 @@
         android:padding="10dp">
 
         <TextView
-            android:id="@+id/inputLabelCompany"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/companyName"
-            android:textColor="@android:color/background_dark"
-            android:textStyle="bold"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <EditText
-            android:id="@+id/inputCompany"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:singleLine="true"
-            app:layout_constraintTop_toBottomOf="@id/inputLabelCompany" />
-
-        <TextView
             android:id="@+id/inputLabelInvestAmount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -33,13 +15,16 @@
             android:text="@string/investAmount"
             android:textColor="@android:color/background_dark"
             android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@id/inputCompany" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
 
         <EditText
             android:id="@+id/inputInvestAmount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:singleLine="true"
+            android:inputType="number"
+            android:digits="0123456789"
             app:layout_constraintTop_toBottomOf="@id/inputLabelInvestAmount" />
 
         <androidx.constraintlayout.widget.ConstraintLayout

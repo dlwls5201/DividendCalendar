@@ -10,5 +10,5 @@ data class StockModel(
     val companyName: String = "",
     val companyLogo: String = "",
     val ticker: String = "",
-    val amount: String = ""
+    var amount: String = ""
 )
