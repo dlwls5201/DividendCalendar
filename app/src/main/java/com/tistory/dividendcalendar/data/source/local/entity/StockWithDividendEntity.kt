@@ -98,6 +98,14 @@ data class DividendEntity(
             frequency = dividend.frequency,
             requestedDate = System.currentTimeMillis() / 1000
         )
+
+        fun createDummy(
+            symbol: String
+        ) = DividendEntity(
+            declaredDate = "dummy",
+            parentSymbol = symbol,
+            requestedDate = System.currentTimeMillis() / 1000
+        )
     }
 }
 

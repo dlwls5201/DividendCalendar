@@ -122,7 +122,7 @@ class StockRepositoryImpl(
 
         try {
             val cacheStockWithDividends = stockDao.getStockWithDividend(symbol)
-            Dlog.d("cacheStockWithDividends : $cacheStockWithDividends")
+            Dlog.d("$symbol : cacheStockWithDividends : $cacheStockWithDividends")
 
             if (cacheStockWithDividends == null || cacheStockWithDividends.dividends.isNullOrEmpty()) {
                 Dlog.d("--- $symbol 서버로 부터 데이터 가져오기 ---")
@@ -157,6 +157,9 @@ class StockRepositoryImpl(
 
         if (data.toString() == "[]") {
             Dlog.d("$symbol 다음 배당이 없습니다.")
+            val dummyDividend = DividendEntity.createDummy(symbol)
+            Dlog.d("dummy data insert : $dummyDividend")
+            stockDao.insertDividend(dummyDividend)
         } else {
             val json = gson.toJson(data)
             val dividendResponse = gson.fromJson(json, DividendResponse::class.java)
@@ -176,6 +179,6 @@ class StockRepositoryImpl(
     private fun checkOverMonthTime(diffDate: Long): Boolean {
         val monthSecond = 60 * 60 * 24 * 30
         return diffDate >= monthSecond
-        //TODO return diffDate >= 300 // 5분에 한번씩 데이터를 갱신  한다.
+        //TODO return diffDate >= 300 // 5분에 한번씩 데이터를 갱신 한다.
     }
 }
