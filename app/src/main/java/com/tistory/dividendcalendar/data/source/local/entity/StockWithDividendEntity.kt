@@ -105,6 +105,7 @@ fun DividendEntity.mapToItem(stock: StockEntity) = DividendItem(
     ticker = stock.symbol,
     companyName = stock.companyName,
     logoUrl = stock.logoUrl,
+    stockCnt = stock.stockCnt,
 
     exDate = exDate,
     paymentDate = paymentDate,

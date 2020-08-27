@@ -17,4 +17,6 @@
     <string name="info">정보</string>
 
     <string name="input_ticker">티커를 입력해주세요.</string>
+    <string name="company_format">%s(%s)</string>
+
 </resources>
