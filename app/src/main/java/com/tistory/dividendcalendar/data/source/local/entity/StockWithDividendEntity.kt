@@ -88,7 +88,7 @@ data class DividendEntity(
             symbol: String,
             dividend: DividendResponse
         ) = DividendEntity(
-            declaredDate = dividend.declaredDate,
+            declaredDate = "${symbol}_${dividend.declaredDate}",
             parentSymbol = symbol,
 
             exDate = dividend.exDate,
@@ -102,7 +102,7 @@ data class DividendEntity(
         fun createDummy(
             symbol: String
         ) = DividendEntity(
-            declaredDate = "dummy",
+            declaredDate = "${symbol}_dummy",
             parentSymbol = symbol,
             requestedDate = System.currentTimeMillis() / 1000
         )
