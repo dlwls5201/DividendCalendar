@@ -234,6 +234,8 @@ class DividendCalendarView : LinearLayout {
         fun onDayPress(date: Date?, view: View?)
     }
 
+    private val today = Date()
+
     private inner class CalendarAdapter(
         context: Context,
         days: ArrayList<Date>
@@ -252,6 +254,8 @@ class DividendCalendarView : LinearLayout {
             }
 
             mView?.run {
+                val flItemViewCalendarParent: FrameLayout =
+                    findViewById(R.id.flItemViewCalendarParent)
                 val clItemViewCalendar: ConstraintLayout = findViewById(R.id.clItemViewCalendar)
                 val tvItemViewCalendar = findViewById<TextView>(R.id.tvItemViewCalendar)
 
@@ -268,7 +272,7 @@ class DividendCalendarView : LinearLayout {
                     findViewById<TextView>(R.id.tvItemViewCalendarCompanyName2)
 
                 // set the child height according to the parent height.
-                clItemViewCalendar.layoutParams = ConstraintLayout.LayoutParams(
+                flItemViewCalendarParent.layoutParams = FrameLayout.LayoutParams(
                     LayoutParams.MATCH_PARENT,
                     childViewHeight.toInt()
                 )
@@ -284,25 +288,25 @@ class DividendCalendarView : LinearLayout {
                 val year = item.year
 
                 // today
-                /*val today = Date()
+                val currentYear = currentDate.get(Calendar.YEAR)
+                val currentMonth = currentDate.get(Calendar.MONTH)
+                Dlog.d("item year $year , month : $month -> currentYear : $currentYear, currentMonth : $currentMonth")
 
-                if (month != today.month || year != today.year) {
-                    // if this day is outside current month, grey it out
-                    tvItemViewCalendar.setTextColor(
+                if (month != currentMonth) {
+                    clItemViewCalendar.visibility = View.INVISIBLE
+                } else {
+                    clItemViewCalendar.visibility = View.VISIBLE
+                }
+
+                if (month == today.month && day == today.date) {
+                    tvItemViewCalendar.setTypeface(null, Typeface.BOLD)
+                    flItemViewCalendarParent.setBackgroundColor(
                         ContextCompat.getColor(
                             context,
                             R.color.greyed_out
                         )
                     )
-                } else if (day == today.date) {
-                    tvItemViewCalendar.setTypeface(null, Typeface.BOLD)
-                    clItemViewCalendar.setBackgroundColor(
-                        ContextCompat.getColor(
-                            context,
-                            R.color.colorPrimaryDark
-                        )
-                    )
-                }*/
+                }
 
                 // set text
                 tvItemViewCalendar.text = item.date.toString()
@@ -324,17 +328,17 @@ class DividendCalendarView : LinearLayout {
                         }
                         1 -> {
                             Glide.with(context)
-                                    .load(dividendItem.logoUrl)
-                                    .into(ivItemViewCalendarLogo2)
+                                .load(dividendItem.logoUrl)
+                                .into(ivItemViewCalendarLogo2)
 
-                                tvItemViewCalendarCompanyName2.text = dividendItem.companyName
-                            }
-                            else -> {
-                                //TODO item over 3
-                                Dlog.d("item over 3")
-                            }
+                            tvItemViewCalendarCompanyName2.text = dividendItem.companyName
+                        }
+                        else -> {
+                            //TODO item over 3
+                            Dlog.d("item over 3")
                         }
                     }
+                }
             }
 
             return mView!!
