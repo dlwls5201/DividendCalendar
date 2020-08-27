@@ -135,9 +135,9 @@ class StockRepositoryImpl(
 
                 //한달 전 데이터는 새로 업데이트 해줍니다.
                 val diffDate = currentUnixTime - requestedData
-                Dlog.d("diffDate : $diffDate -> check : ${checkMoreMonthTime(diffDate)}")
+                Dlog.d("diffDate : $diffDate -> check : ${checkOverMonthTime(diffDate)}")
 
-                if (checkMoreMonthTime(diffDate)) {
+                if (checkOverMonthTime(diffDate)) {
                     Dlog.d("--- $symbol 오래된 데이터 이므로 갱신 ---")
                     loadDividendAndCaching(symbol)
                 } else {
@@ -173,7 +173,7 @@ class StockRepositoryImpl(
         }
     }
 
-    private fun checkMoreMonthTime(diffDate: Long): Boolean {
+    private fun checkOverMonthTime(diffDate: Long): Boolean {
         val monthSecond = 60 * 60 * 24 * 30
         return diffDate >= monthSecond
         //TODO return diffDate >= 300 // 5분에 한번씩 데이터를 갱신  한다.
