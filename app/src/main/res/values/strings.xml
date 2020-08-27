@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DividendCalendar</string>
+    <string name="app_name">배당금달력</string>
 
     <string name="search">검색</string>
     <string name="menuAppInfo">앱 정보"</string>
