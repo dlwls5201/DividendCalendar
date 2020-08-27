@@ -80,6 +80,19 @@ class StockRepositoryImpl(
         listener.onLoaded()
     }
 
+    override suspend fun deleteStockFromTicker(ticker: String, listener: BaseResponse<Any>) {
+        listener.onLoading()
+
+        try {
+            val symbol = ticker.toUpperCase()
+            stockDao.deleteProfileBySymbol(symbol)
+        } catch (e: Exception) {
+            listener.onError(e)
+        }
+
+        listener.onLoaded()
+    }
+
     override suspend fun getAllDividendItems(listener: BaseResponse<List<DividendItem>>) {
         listener.onLoading()
 

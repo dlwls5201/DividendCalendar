@@ -10,6 +10,8 @@ interface StockRepository {
 
     suspend fun putStock(ticker: String, stockCnt: Int, listener: BaseResponse<Any>)
 
+    suspend fun deleteStockFromTicker(ticker: String, listener: BaseResponse<Any>)
+
     suspend fun loadNextDividendsFromTicker(ticker: String)
 
     suspend fun getAllDividendItems(listener: BaseResponse<List<DividendItem>>)
