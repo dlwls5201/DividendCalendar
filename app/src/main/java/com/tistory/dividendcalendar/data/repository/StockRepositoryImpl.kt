@@ -125,7 +125,7 @@ class StockRepositoryImpl(
             Dlog.d("cacheStockWithDividends : $cacheStockWithDividends")
 
             if (cacheStockWithDividends == null || cacheStockWithDividends.dividends.isNullOrEmpty()) {
-                Dlog.d("--- 서버로 부터 데이터 가져오기 ---")
+                Dlog.d("--- $symbol 서버로 부터 데이터 가져오기 ---")
                 loadDividendAndCaching(symbol)
             } else {
                 val cacheLastDividend = cacheStockWithDividends.dividends.last()
@@ -138,10 +138,10 @@ class StockRepositoryImpl(
                 Dlog.d("diffDate : $diffDate -> check : ${checkMoreMonthTime(diffDate)}")
 
                 if (checkMoreMonthTime(diffDate)) {
-                    Dlog.d("--- 오래된 데이터 이므로 갱신 ---")
+                    Dlog.d("--- $symbol 오래된 데이터 이므로 갱신 ---")
                     loadDividendAndCaching(symbol)
                 } else {
-                    Dlog.d("--- 캐싱된 데이터 시용 ---")
+                    Dlog.d("--- $symbol 캐싱된 데이터 시용 ---")
                 }
             }
         } catch (e: Exception) {

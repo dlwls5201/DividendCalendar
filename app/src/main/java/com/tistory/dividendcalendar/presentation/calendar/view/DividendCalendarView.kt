@@ -142,14 +142,34 @@ class DividendCalendarView : LinearLayout {
         gvViewCalendar.onItemLongClickListener =
             OnItemLongClickListener { view: AdapterView<*>, cell: View, position: Int, id: Long ->
                 // handle long-press
-                eventHandler?.onDayLongPress(view.getItemAtPosition(position) as Date)
+                val date = view.getItemAtPosition(position) as Date
+
+                dividendItems.filter {
+                    if (calendarType == CalendarType.EX_DATE) {
+                        it.exDate == getDividedDataFormat(date)
+                    } else {
+                        it.paymentDate == getDividedDataFormat(date)
+                    }
+                }.let {
+                    eventHandler?.onDayLongPress(it)
+                }
                 true
             }
 
         gvViewCalendar.onItemClickListener =
             OnItemClickListener { parent: AdapterView<*>, view: View, position: Int, id: Long ->
                 // handle press
-                eventHandler?.onDayPress(parent.getItemAtPosition(position) as Date, view)
+                val date = parent.getItemAtPosition(position) as Date
+
+                dividendItems.filter {
+                    if (calendarType == CalendarType.EX_DATE) {
+                        it.exDate == getDividedDataFormat(date)
+                    } else {
+                        it.paymentDate == getDividedDataFormat(date)
+                    }
+                }.let {
+                    eventHandler?.onDayPress(it)
+                }
             }
 
         // change calendar type
@@ -230,8 +250,8 @@ class DividendCalendarView : LinearLayout {
      * the outside world
      */
     interface EventHandler {
-        fun onDayLongPress(date: Date?)
-        fun onDayPress(date: Date?, view: View?)
+        fun onDayLongPress(items: List<DividendItem>)
+        fun onDayPress(items: List<DividendItem>)
     }
 
     private val today = Date()
@@ -290,7 +310,6 @@ class DividendCalendarView : LinearLayout {
                 // today
                 val currentYear = currentDate.get(Calendar.YEAR)
                 val currentMonth = currentDate.get(Calendar.MONTH)
-                Dlog.d("item year $year , month : $month -> currentYear : $currentYear, currentMonth : $currentMonth")
 
                 if (month != currentMonth) {
                     clItemViewCalendar.visibility = View.INVISIBLE
@@ -343,11 +362,11 @@ class DividendCalendarView : LinearLayout {
 
             return mView!!
         }
+    }
 
-        private val sdf = SimpleDateFormat("yyyy-MM-dd")
+    private val sdf = SimpleDateFormat("yyyy-MM-dd")
 
-        private fun getDividedDataFormat(data: Date): String {
-            return sdf.format(data)
-        }
+    private fun getDividedDataFormat(data: Date): String {
+        return sdf.format(data)
     }
 }
