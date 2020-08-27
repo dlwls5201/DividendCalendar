@@ -86,6 +86,8 @@ class StockRepositoryImpl(
         try {
             val symbol = ticker.toUpperCase()
             stockDao.deleteProfileBySymbol(symbol)
+
+            listener.onSuccess(ticker)
         } catch (e: Exception) {
             listener.onError(e)
         }

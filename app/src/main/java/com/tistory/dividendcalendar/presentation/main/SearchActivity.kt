@@ -1,5 +1,6 @@
 package com.tistory.dividendcalendar.presentation.main
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.MenuItem
@@ -13,6 +14,8 @@ import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.BaseActivity
 import com.tistory.dividendcalendar.base.util.Dlog
 import com.tistory.dividendcalendar.data.api.StockAPiImpl
+import com.tistory.dividendcalendar.data.base.BaseResponse
+import com.tistory.dividendcalendar.data.injection.Injection
 import com.tistory.dividendcalendar.data.source.remote.ApiProvider
 import com.tistory.dividendcalendar.databinding.ActivitySearchBinding
 import com.tistory.dividendcalendar.databinding.ViewInputdialogBinding
@@ -31,10 +34,14 @@ import retrofit2.Response
 class SearchActivity : BaseActivity<ActivitySearchBinding>(R.layout.activity_search) {
     companion object {
         const val EXTRA_TICKER = "ticker"
+        const val EXTRA_STOCK = "stock"
         const val REQ_SEARCH = 4000
     }
 
-    private lateinit var stockModelView: MyStockViewModel
+    //private lateinit var stockModelView: MyStockViewModel
+    private val stockRepository by lazy {
+        Injection.provideStockRepository()
+    }
     private lateinit var stockInfo: StockApiModel
     private lateinit var stockLogo: LogoApiModel
     private lateinit var stockDividends: DividendsApiModel
@@ -46,8 +53,6 @@ class SearchActivity : BaseActivity<ActivitySearchBinding>(R.layout.activity_sea
         binding.activity = this
         binding.searchProgress.visibility = View.VISIBLE
         binding.searchMain.visibility = View.GONE
-
-        stockModelView = ViewModelProvider(this).get(MyStockViewModel::class.java)
 
         intent?.extras?.let {
             val ticker = it.getString(EXTRA_TICKER)
@@ -180,7 +185,32 @@ class SearchActivity : BaseActivity<ActivitySearchBinding>(R.layout.activity_sea
                         view.inputInvestAmount.text.toString()
                     )
 
-                stockModelView.insert(stockModel)
+                stockRepository.putStock(stockModel.ticker, stockModel.amount.toInt(), object: BaseResponse<Any>{
+                    override fun onSuccess(data: Any) {
+                        Dlog.d("onSuccess")
+
+                        val intent = Intent()
+                        intent.putExtra(EXTRA_STOCK, stockModel)
+                        setResult(RESULT_OK, intent)
+                        finish()
+                    }
+
+                    override fun onFail(description: String) {
+                        Dlog.d("onFail")
+                    }
+
+                    override fun onError(throwable: Throwable) {
+                        Dlog.d("onError")
+                    }
+
+                    override fun onLoading() {
+                        Dlog.d("onLoading")
+                    }
+
+                    override fun onLoaded() {
+                        Dlog.d("onLoaded")
+                    }
+                })
             }
         }
 

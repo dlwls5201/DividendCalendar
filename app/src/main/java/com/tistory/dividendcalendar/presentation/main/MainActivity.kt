@@ -5,11 +5,14 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.view.autofill.AutofillManager
 import androidx.appcompat.widget.SearchView
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.BaseActivity
+import com.tistory.dividendcalendar.base.util.Dlog
 import com.tistory.dividendcalendar.databinding.ActivityMainBinding
 import com.tistory.dividendcalendar.presentation.calendar.CalendarActivity
+import com.tistory.dividendcalendar.presentation.main.model.StockModel
 
 
 class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
@@ -59,12 +62,19 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
             val mSearch: MenuItem = findItem(R.id.actionSearch)
             val mSearchView: SearchView = mSearch.actionView as SearchView
             mSearchView.queryHint = getString(R.string.searchHint)
+            // API 11 autofill 기능사용
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                mSearchView.setAutofillHints("ticker")
+                //eventHandler(mSearchView)
+            }
             mSearchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
                 override fun onQueryTextSubmit(query: String?): Boolean {
                     // 검색화면으로 이동
                     val intent = Intent(this@MainActivity, SearchActivity::class.java)
                     intent.putExtra(SearchActivity.EXTRA_TICKER, query)
                     startActivityForResult(intent, SearchActivity.REQ_SEARCH)
+
+                    mSearchView.onActionViewCollapsed()
 
                     return false
                 }
@@ -75,6 +85,18 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
             })
         }
         return super.onCreateOptionsMenu(menu)
+    }
+
+    /**
+     * autofill 자동 완성 요청 강제
+     * https://developer.android.com/guide/topics/text/autofill-optimize?hl=ko
+     * https://github.com/googlearchive/android-AutofillFramework/tree/master/kotlinApp
+     */
+    fun eventHandler(view: View) {
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+            val afm = getSystemService(AutofillManager::class.java)
+            afm?.requestAutofill(view)
+        }
     }
 
     /**
@@ -96,7 +118,12 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         super.onActivityResult(requestCode, resultCode, data)
 
         if (requestCode == SearchActivity.REQ_SEARCH && resultCode == RESULT_OK) {
-
+            data?.extras?.run {
+                val stockModel = getParcelable<StockModel>(SearchActivity.EXTRA_STOCK)
+                stockModel?.let {
+                    myStockFragment.calendarViewModel.loadDividendItems()
+                }
+            }
 
         }
     }
