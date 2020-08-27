@@ -21,4 +21,14 @@
     <color name="spring">#448da64b</color>
 
     <color name="greyed_out">#c7c7c7</color>
+
+    <color name="gray1">#424242</color>
+    <color name="gray2">#616161</color>
+    <color name="gray3">#757575</color>
+    <color name="gray4">#9E9E9E</color>
+    <color name="gray5">#BDBDBD</color>
+    <color name="gray6">#E0E0E0</color>
+    <color name="gray7">#EEEEEE</color>
+    <color name="gray8">#F5F5F5</color>
+    <color name="gray9">#FAFAFA</color>
 </resources>
