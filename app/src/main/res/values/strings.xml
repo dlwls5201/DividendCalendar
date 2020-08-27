@@ -19,4 +19,8 @@
     <string name="input_ticker">티커를 입력해주세요.</string>
     <string name="company_format">%s(%s)</string>
 
+    <string name="ex_date_day">배당락일 :</string>
+    <string name="pay_date_day">지급일 :</string>
+    <string name="declare_date_day">발표일 :</string>
+    <string name="price_of_one_stock">1주당 가격 :</string>
 </resources>

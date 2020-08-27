@@ -59,7 +59,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="배당락일 : "
+                    android:text="@string/ex_date_day"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
@@ -83,7 +83,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="지급일 : "
+                    android:text="@string/pay_date_day"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
@@ -99,6 +99,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:visibility="gone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -107,7 +108,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="발표일 : "
+                    android:text="@string/declare_date_day"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
@@ -117,6 +118,30 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:text="@{item.declaredDate}"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    tools:text="2020-04-27" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price_of_one_stock"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@{String.valueOf(item.amount)}"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     tools:text="2020-04-27" />
