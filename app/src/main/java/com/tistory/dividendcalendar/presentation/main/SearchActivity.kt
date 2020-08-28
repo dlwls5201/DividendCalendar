@@ -44,6 +44,7 @@ class SearchActivity : BaseActivity<ActivitySearchBinding>(R.layout.activity_sea
             launch(Dispatchers.Main) {
                 stockRepository.getStock(ticker, object : BaseResponse<StockEntity> {
                     override fun onSuccess(data: StockEntity) {
+                        Dlog.d("onSuccess")
                         showSearchMain()
 
                         Glide.with(this@SearchActivity)
@@ -65,21 +66,25 @@ class SearchActivity : BaseActivity<ActivitySearchBinding>(R.layout.activity_sea
                     }
 
                     override fun onFail(description: String) {
+                        Dlog.d("onFail")
                         hideSearchMain()
                         toast(description)
                     }
 
                     override fun onError(throwable: Throwable) {
+                        Dlog.d("onError")
                         hideSearchMain()
                         toast(throwable.message ?: "error")
                     }
 
                     override fun onLoading() {
+                        Dlog.d("onLoading")
                         hideSearchMain()
                         showProgress()
                     }
 
                     override fun onLoaded() {
+                        Dlog.d("onLoaded")
                         hideProgress()
                     }
 
@@ -136,6 +141,7 @@ class SearchActivity : BaseActivity<ActivitySearchBinding>(R.layout.activity_sea
                 launch(Dispatchers.Main) {
                     stockRepository.putStock(ticker, stockCnt.toInt(), object : BaseResponse<Any> {
                         override fun onSuccess(data: Any) {
+                            Dlog.d("onSuccess")
                             val intent = Intent()
                             setResult(RESULT_OK, intent)
                             finish()

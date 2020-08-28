@@ -28,4 +28,6 @@
     <string name="my_stock_cnt">나의 주식 수 :</string>
     <string name="price_of_one_stock">1주당 가격 :</string>
     <string name="add_dividend_calendar">배당금 달력에 추가합니다.</string>
+
+    <string name="complete">완료</string>
 </resources>

@@ -6,4 +6,7 @@
     <item
         android:id="@+id/delete"
         android:title="삭제하기" />
+    <item
+        android:id="@+id/reload"
+        android:title="배당락일 최신화" />
 </menu>

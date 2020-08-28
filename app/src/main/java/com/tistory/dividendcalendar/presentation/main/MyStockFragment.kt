@@ -15,6 +15,7 @@ import com.bumptech.glide.Glide
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.BaseFragment
 import com.tistory.dividendcalendar.base.ext.alert
+import com.tistory.dividendcalendar.base.ext.longToast
 import com.tistory.dividendcalendar.base.ext.toast
 import com.tistory.dividendcalendar.base.simplerecyclerview.SimpleRecyclerViewAdapter
 import com.tistory.dividendcalendar.base.simplerecyclerview.SimpleViewHolder
@@ -130,6 +131,9 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
                             negativeButton("취소") { }
                         }?.show()
                     }
+                    R.id.reload -> {
+                        reloadData(data)
+                    }
                 }
 
                 true
@@ -193,6 +197,34 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
             }
 
             alertDialog.show()
+        }
+
+        /**
+         * 배당금 다시 받아오기
+         */
+        private fun reloadData(data: DividendItem) {
+            launch(Dispatchers.Main) {
+                stockRepository.loadNextDividendsFromTicker(
+                    data.ticker,
+                    object : BaseResponse<Any> {
+                        override fun onSuccess(data: Any) {
+                            context?.longToast(requireContext().getString(R.string.complete))
+                            calendarViewModel.loadDividendItems()
+                        }
+
+                        override fun onFail(description: String) {
+                        }
+
+                        override fun onError(throwable: Throwable) {
+                        }
+
+                        override fun onLoading() {
+                        }
+
+                        override fun onLoaded() {
+                        }
+                    })
+            }
         }
     }
 }

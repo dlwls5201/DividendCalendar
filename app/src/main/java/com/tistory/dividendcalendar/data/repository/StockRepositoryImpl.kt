@@ -95,6 +95,22 @@ class StockRepositoryImpl(
         listener.onLoaded()
     }
 
+    override suspend fun loadNextDividendsFromTicker(ticker: String, listener: BaseResponse<Any>) {
+        listener.onLoading()
+
+        try {
+            val symbol = ticker.toUpperCase()
+
+            Dlog.d("--- $symbol 서버로 부터 데이터 가져오기 ---")
+            loadDividendAndCaching(symbol)
+            listener.onSuccess(Any())
+        } catch (e: Exception) {
+            listener.onError(e)
+        }
+
+        listener.onLoaded()
+    }
+
     override suspend fun getAllDividendItems(listener: BaseResponse<List<DividendItem>>) {
         listener.onLoading()
 
@@ -129,7 +145,7 @@ class StockRepositoryImpl(
      *      - 2020.08.23 배당이 없는 회사와 다음 배당일이 발표 안된 회사를 구분할 수 없음
      * 3. 데이터는 있는데 amount가 없는 경우 -> 배당이 있지만 다음 배당일이 선언 안된 회사
      */
-    override suspend fun loadNextDividendsFromTicker(
+    private suspend fun loadNextDividendsFromTicker(
         ticker: String
     ) {
 
