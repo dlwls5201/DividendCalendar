@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+        <import type="android.text.TextUtils" />
 
         <variable
             name="data"
@@ -55,7 +56,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:singleLine="true"
-                    android:text="@{@string/ex_date_format(data.exDate)}"
+                    android:text="@{TextUtils.isEmpty(data.exDate) ? @string/next_ex_date_info_is_nothing : @string/ex_date_format(data.exDate)}"
                     android:textColor="@color/gray1"
                     android:textSize="13dp"
                     app:layout_constraintLeft_toLeftOf="parent"

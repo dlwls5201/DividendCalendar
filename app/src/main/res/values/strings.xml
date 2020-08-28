@@ -20,6 +20,7 @@
     <string name="input_stock_cnt">내가 보유한 주식 수를 입력해 주세요.</string>
     <string name="company_format">%s(%s)</string>
     <string name="ex_date_format">배당락일 : %s</string>
+    <string name="next_ex_date_info_is_nothing">베딩락일 : 미정</string>
 
     <string name="ex_date_day">배당락일 :</string>
     <string name="pay_date_day">지급일 :</string>
