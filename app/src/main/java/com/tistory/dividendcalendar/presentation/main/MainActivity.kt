@@ -7,7 +7,6 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import android.view.autofill.AutofillManager
 import androidx.appcompat.widget.SearchView
 import com.tistory.dividendcalendar.BuildConfig
 import com.tistory.dividendcalendar.R
@@ -15,15 +14,26 @@ import com.tistory.dividendcalendar.base.BaseActivity
 import com.tistory.dividendcalendar.base.ext.alert
 import com.tistory.dividendcalendar.databinding.ActivityMainBinding
 import com.tistory.dividendcalendar.presentation.calendar.CalendarActivity
+import com.tistory.dividendcalendar.utils.addKeyboardListener
 
 
 class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
     private lateinit var myStockFragment: MyStockFragment
 
+    //callback to be provided to extension function for keyboard changes
+    private val keyboardCallback: (visible: Boolean) -> Unit = {
+        if (it) {
+            //Something..
+        } else {
+            //Something..
+        }
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setUI()
+        setKeyboardListener()
     }
 
     private fun setUI() {
@@ -33,6 +43,13 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         supportFragmentManager.beginTransaction()
             .add(R.id.mainFrame, myStockFragment)
             .commit()
+    }
+
+    private fun setKeyboardListener() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            //only receives callbacks when the inset affects my window.
+            binding.container.addKeyboardListener(keyboardCallback)
+        }
     }
 
     /**
@@ -56,11 +73,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
             val mSearch: MenuItem = findItem(R.id.actionSearch)
             val mSearchView: SearchView = mSearch.actionView as SearchView
             mSearchView.queryHint = getString(R.string.searchHint)
-            // API 11 autofill 기능사용
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                mSearchView.setAutofillHints("ticker")
-                //eventHandler(mSearchView)
-            }
             mSearchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
                 override fun onQueryTextSubmit(query: String?): Boolean {
                     // 검색화면으로 이동
@@ -79,18 +91,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
             })
         }
         return super.onCreateOptionsMenu(menu)
-    }
-
-    /**
-     * autofill 자동 완성 요청 강제
-     * https://developer.android.com/guide/topics/text/autofill-optimize?hl=ko
-     * https://github.com/googlearchive/android-AutofillFramework/tree/master/kotlinApp
-     */
-    fun eventHandler(view: View) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            val afm = getSystemService(AutofillManager::class.java)
-            afm?.requestAutofill(view)
-        }
     }
 
     /**
