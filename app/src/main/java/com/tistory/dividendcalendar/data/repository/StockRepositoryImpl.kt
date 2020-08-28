@@ -182,6 +182,11 @@ class StockRepositoryImpl(
 
             if (dividendResponse.amount.isEmpty() || dividendResponse.amount == "0.0") {
                 Dlog.d("$symbol 다음 배당이 없습니다.")
+
+                //TODO 데이터 갱신을 언제 할 것인가?
+                val dividend = DividendEntity.createDummy(symbol)
+                Dlog.d("insert : $dividend")
+                stockDao.insertDividend(dividend)
                 return
             }
 
@@ -194,6 +199,5 @@ class StockRepositoryImpl(
     private fun checkOverMonthTime(diffDate: Long): Boolean {
         val monthSecond = 60 * 60 * 24 * 30
         return diffDate >= monthSecond
-        //TODO return diffDate >= 300 // 5분에 한번씩 데이터를 갱신 한다.
     }
 }
