@@ -19,7 +19,7 @@ object ApiProvider {
     fun provideInvitationApi(): StockApi = getRetrofitBuild()
         .create(StockApi::class.java)
 
-    fun getRetrofitBuild() = Retrofit.Builder()
+    private fun getRetrofitBuild() = Retrofit.Builder()
         .baseUrl(baseUrl)
         .client(getOkhttpClient())
         // 받은 응답을 옵서버블 형태로 변환해 줍니다.
