@@ -43,36 +43,36 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:singleLine="true"
-                    android:text="@{data.companyName}"
+                    android:text="@{@string/company_format(data.companyName, data.ticker)}"
                     android:textColor="@color/gray1"
                     android:textSize="13dp"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    tools:text="APPLE" />
+                    tools:text="Apple.Inc(AAPL)" />
 
                 <TextView
-                    android:id="@+id/stockTicker"
+                    android:id="@+id/stockExDate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:singleLine="true"
-                    android:text="@{data.ticker}"
+                    android:text="@{@string/ex_date_format(data.exDate)}"
                     android:textColor="@color/gray1"
                     android:textSize="13dp"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/stockName"
-                    tools:text="aapl" />
+                    tools:text="배당락일 : 2020-04-27" />
 
                 <TextView
                     android:id="@+id/stockAmount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:singleLine="true"
-                    android:text="@{@string/amount(data.stockCnt)}"
+                    android:text="@{@string/my_stock_cnt_with_integer(data.stockCnt)}"
                     android:textColor="@color/gray1"
                     android:textSize="13dp"
                     app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/stockTicker"
-                    tools:text="보유 주식 수 30" />
+                    app:layout_constraintTop_toBottomOf="@id/stockExDate"
+                    tools:text="나의 주식 수 30" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <ImageView

@@ -39,5 +39,7 @@ interface StockDao {
     @Query("SELECT * FROM stocks")
     suspend fun getStockWithDividends(): List<StockWithDividendEntity>
 
-
+    @Transaction
+    @Query("SELECT * FROM stocks ORDER BY companyName ASC")
+    suspend fun getSortingStockWithDividends(): List<StockWithDividendEntity>
 }

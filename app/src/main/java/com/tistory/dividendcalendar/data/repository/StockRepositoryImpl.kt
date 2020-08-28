@@ -99,7 +99,7 @@ class StockRepositoryImpl(
         listener.onLoading()
 
         try {
-            val cacheStocks = stockDao.getStockWithDividends()
+            val cacheStocks = stockDao.getSortingStockWithDividends()
             Dlog.d("cacheStocks : $cacheStocks")
 
             //최신 배당금 정보로 갱신 해줍니다.
