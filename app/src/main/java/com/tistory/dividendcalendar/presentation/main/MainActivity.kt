@@ -1,14 +1,18 @@
 package com.tistory.dividendcalendar.presentation.main
 
 import android.content.Intent
+import android.content.pm.PackageInfo
+import android.os.Build
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.view.autofill.AutofillManager
 import androidx.appcompat.widget.SearchView
+import com.tistory.dividendcalendar.BuildConfig
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.BaseActivity
+import com.tistory.dividendcalendar.base.ext.alert
 import com.tistory.dividendcalendar.databinding.ActivityMainBinding
 import com.tistory.dividendcalendar.presentation.calendar.CalendarActivity
 
@@ -93,15 +97,39 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
      * 앱 정보, 문의하기 클릭 이벤트
      */
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        val info: PackageInfo = packageManager.getPackageInfo(packageName, 0)
+        val versionName = info.versionName
+        //val versionCode = info.versionCode
+
         when (item.itemId) {
             R.id.actionSettingAppInfo -> {
-
+                val message = StringBuilder().apply {
+                    append("내가 보유한 주식의 배당락일과 배당지급일을 달력을 통해 한 눈에 정리하여 확인할 수 있는 앱입니다.\n\n")
+                    append("ver. $versionName")
+                }
+                alert(title = getString(R.string.app_name), message = message) {
+                    positiveButton("확인") {}
+                }.show()
             }
             R.id.actionSettingQna -> {
-
+                sendEmail()
             }
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    private fun sendEmail() {
+        val email = Intent(Intent.ACTION_SEND).apply {
+            type = "plain/Text"
+            val address = arrayOf("dlwls5201@gmail.com")
+            putExtra(Intent.EXTRA_EMAIL, address)
+            putExtra(Intent.EXTRA_SUBJECT, "<" + getString(R.string.app_name) + ">")
+            putExtra(
+                Intent.EXTRA_TEXT,
+                "AppVersion :${BuildConfig.VERSION_NAME}\nDevice : ${Build.MODEL}\nAndroid OS : ${Build.VERSION.SDK_INT}\n\n Content :\n"
+            )
+        }
+        startActivity(email)
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
