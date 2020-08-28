@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.MenuItem
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.databinding.DataBindingUtil
 import com.bumptech.glide.Glide
@@ -129,8 +128,10 @@ class SearchActivity : BaseActivity<ActivitySearchBinding>(R.layout.activity_sea
         }
 
         view.inputConfirm.setOnClickListener {
-            if (view.inputInvestAmount.text.toString().isEmpty()) {
-                Toast.makeText(this, getString(R.string.input_stock_cnt), Toast.LENGTH_SHORT).show()
+            if (view.inputInvestAmount.text.toString()
+                    .isEmpty() || view.inputInvestAmount.text.toString().toInt() <= 0
+            ) {
+                toast(getString(R.string.input_stock_cnt))
                 return@setOnClickListener
             }
 

@@ -161,7 +161,9 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
                 alertDialog.dismiss()
             }
             view.inputConfirm.setOnClickListener {
-                if (view.inputInvestAmount.text.toString().isEmpty()) {
+                if (view.inputInvestAmount.text.toString()
+                        .isEmpty() || view.inputInvestAmount.text.toString().toInt() <= 0
+                ) {
                     context?.toast(getString(R.string.input_stock_cnt))
                     return@setOnClickListener
                 }
