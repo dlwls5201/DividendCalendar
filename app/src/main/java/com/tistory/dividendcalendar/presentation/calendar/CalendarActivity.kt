@@ -25,9 +25,6 @@ class CalendarActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction()
             .replace(R.id.flContainer, CalendarFragment.newInstance())
             .commit()
-
-        //TODO ui test
-        initUiTest()
     }
 
     private fun initUiTest() {
