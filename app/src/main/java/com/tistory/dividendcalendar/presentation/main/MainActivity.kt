@@ -57,7 +57,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
             val mSearchView: SearchView = mSearch.actionView as SearchView
             mSearchView.queryHint = getString(R.string.searchHint)
             // API 11 autofill 기능사용
-            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                 mSearchView.setAutofillHints("ticker")
                 //eventHandler(mSearchView)
             }
@@ -87,7 +87,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
      * https://github.com/googlearchive/android-AutofillFramework/tree/master/kotlinApp
      */
     fun eventHandler(view: View) {
-        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val afm = getSystemService(AutofillManager::class.java)
             afm?.requestAutofill(view)
         }
