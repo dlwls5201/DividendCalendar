@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <data>
 
@@ -24,7 +25,7 @@
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:adjustViewBounds="true"
-                android:src="@mipmap/ic_launcher"
+                tools:src="@mipmap/ic_launcher"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -43,8 +44,11 @@
                     android:layout_height="wrap_content"
                     android:singleLine="true"
                     android:text="@{data.companyName}"
+                    android:textColor="@color/gray1"
+                    android:textSize="13dp"
                     app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="APPLE" />
 
                 <TextView
                     android:id="@+id/stockTicker"
@@ -52,17 +56,23 @@
                     android:layout_height="wrap_content"
                     android:singleLine="true"
                     android:text="@{data.ticker}"
+                    android:textColor="@color/gray1"
+                    android:textSize="13dp"
                     app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/stockName" />
+                    app:layout_constraintTop_toBottomOf="@id/stockName"
+                    tools:text="aapl" />
 
                 <TextView
                     android:id="@+id/stockAmount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:singleLine="true"
-                    android:text="@{@string/amount(data.amount)}"
+                    android:text="@{@string/amount(data.stockCnt)}"
+                    android:textColor="@color/gray1"
+                    android:textSize="13dp"
                     app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/stockTicker" />
+                    app:layout_constraintTop_toBottomOf="@id/stockTicker"
+                    tools:text="보유 주식 수 30" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <ImageView

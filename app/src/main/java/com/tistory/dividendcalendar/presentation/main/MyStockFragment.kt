@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.MenuItem
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.widget.PopupMenu
 import androidx.databinding.DataBindingUtil
@@ -15,6 +14,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.BaseFragment
+import com.tistory.dividendcalendar.base.ext.alert
+import com.tistory.dividendcalendar.base.ext.toast
 import com.tistory.dividendcalendar.base.simplerecyclerview.SimpleRecyclerViewAdapter
 import com.tistory.dividendcalendar.base.simplerecyclerview.SimpleViewHolder
 import com.tistory.dividendcalendar.base.util.Dlog
@@ -28,7 +29,6 @@ import com.tistory.dividendcalendar.presentation.calendar.CalendarViewModelFacto
 import com.tistory.dividendcalendar.presentation.model.DividendItem
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 
 class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_fragment) {
 
@@ -36,7 +36,6 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
         fun newInstance() = MyStockFragment()
     }
 
-    private lateinit var viewModel: MyStockViewModel
     val calendarViewModel by lazy {
         ViewModelProvider(
             this, CalendarViewModelFactory(
@@ -44,13 +43,13 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
             )
         ).get(CalendarViewModel::class.java)
     }
+
     private val stockRepository by lazy {
         Injection.provideStockRepository()
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(MyStockViewModel::class.java)
         binding.stockList.adapter = StockAdapter()
 
         val layoutManager = LinearLayoutManager(activity)
@@ -58,13 +57,12 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
         binding.stockList.layoutManager = layoutManager
 
         calendarViewModel.loadDividendItems()
+
         calendarViewModel.dividendItems.observe(viewLifecycleOwner, Observer {
             binding.stockList.adapter?.let { adapter ->
                 (adapter as StockAdapter).replaceAll(it)
             }
         })
-
-
     }
 
     inner class StockAdapter :
@@ -87,52 +85,55 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
         }
 
         /**
-         * 수정, 삭제하는 팜업메뉴
+         * 수정, 삭제하는 팝업메뉴
          */
-        fun showPopup(view: View, data: DividendItem) {
+        private fun showPopup(view: View, data: DividendItem) {
             val popup: PopupMenu = PopupMenu(view.context, view)
             popup.inflate(R.menu.edit)
-
-            popup.setOnMenuItemClickListener(PopupMenu.OnMenuItemClickListener { item: MenuItem? ->
-
+            popup.setOnMenuItemClickListener { item: MenuItem? ->
                 when (item?.itemId) {
                     R.id.edit -> {
                         editCompany(view, data)
                     }
                     R.id.delete -> {
                         //viewModel.delete(data)
-                        launch(Dispatchers.IO) {
-                            stockRepository.deleteStockFromTicker(data.ticker, object :
-                                BaseResponse<Any> {
-                                override fun onSuccess(data: Any) {
-                                    Dlog.d("onSuccess")
-                                    calendarViewModel.loadDividendItems()
-                                    Toast.makeText(view.context, "삭제 되었습니다.", Toast.LENGTH_SHORT)
-                                        .show()
-                                }
+                        context?.alert(title = "배담금 달력에 표시된 모든 배당금 정보가 사라집니다") {
+                            positiveButton("삭제") {
+                                launch(Dispatchers.Main) {
+                                    stockRepository.deleteStockFromTicker(data.ticker, object :
+                                        BaseResponse<Any> {
+                                        override fun onSuccess(data: Any) {
+                                            Dlog.d("onSuccess")
+                                            calendarViewModel.loadDividendItems()
+                                            view.context.toast("삭제 되었습니다.")
+                                        }
 
-                                override fun onFail(description: String) {
-                                    Dlog.d("onFail")
-                                }
+                                        override fun onFail(description: String) {
+                                            Dlog.d("onFail")
+                                        }
 
-                                override fun onError(throwable: Throwable) {
-                                    Dlog.d("onError")
-                                }
+                                        override fun onError(throwable: Throwable) {
+                                            Dlog.d("onError")
+                                        }
 
-                                override fun onLoading() {
-                                    Dlog.d("onLoading")
-                                }
+                                        override fun onLoading() {
+                                            Dlog.d("onLoading")
+                                        }
 
-                                override fun onLoaded() {
-                                    Dlog.d("onLoaded")
+                                        override fun onLoaded() {
+                                            Dlog.d("onLoaded")
+                                        }
+                                    })
                                 }
-                            })
-                        }
+                            }
+
+                            negativeButton("취소") { }
+                        }?.show()
                     }
                 }
 
                 true
-            })
+            }
 
             popup.show()
         }
@@ -140,7 +141,7 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
         /**
          * 수량 수정하는 다이얼로그
          */
-        fun editCompany(moreView: View, data: DividendItem) {
+        private fun editCompany(moreView: View, data: DividendItem) {
             val view = DataBindingUtil.inflate<ViewInputdialogBinding>(
                 LayoutInflater.from(moreView.context),
                 R.layout.view_inputdialog,
@@ -156,21 +157,20 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
                 alertDialog.dismiss()
             }
             view.inputConfirm.setOnClickListener {
-                alertDialog.dismiss()
-
                 if (view.inputInvestAmount.text.toString().isEmpty()) {
-                    Toast.makeText(moreView.context, "빈 곳을 입력 해 주세요.", Toast.LENGTH_SHORT).show()
+                    context?.toast(getString(R.string.input_stock_cnt))
                     return@setOnClickListener
                 }
 
-                launch(Dispatchers.IO) {
-                    val stockCnt = view.inputInvestAmount.text.toString().toInt()
-                    //viewModel.update(data)
+                alertDialog.dismiss()
 
-                    stockRepository.putStock(data.ticker, stockCnt, object :
-                        BaseResponse<Any> {
+                launch(Dispatchers.Main) {
+                    val stockCnt = view.inputInvestAmount.text.toString().toInt()
+                    stockRepository.putStock(data.ticker, stockCnt, object : BaseResponse<Any> {
                         override fun onSuccess(data: Any) {
                             Dlog.d("onSuccess")
+                            calendarViewModel.loadDividendItems()
+                            context?.toast("수정 되었습니다.")
                         }
 
                         override fun onFail(description: String) {
@@ -189,10 +189,6 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
                             Dlog.d("onLoaded")
                         }
                     })
-
-                    withContext(Dispatchers.Main) {
-                        Toast.makeText(moreView.context, "수정 되었습니다.", Toast.LENGTH_SHORT).show()
-                    }
                 }
             }
 

@@ -7,7 +7,7 @@
     <string name="menuMyStock">MY STOCK</string>
     <string name="menuCalendar">CALENDAR</string>
     <string name="searchHint">Search Ticker(ex: AAPL)</string>
-    <string name="amount">보유 수량 %s</string>
+    <string name="amount">보유 주식 수 %d</string>
 
     <string name="companyName">회사 명</string>
     <string name="investAmount">주식 수</string>
@@ -17,6 +17,7 @@
     <string name="info">정보</string>
 
     <string name="input_ticker">티커를 입력해주세요.</string>
+    <string name="input_stock_cnt">내가 보유한 주식 수를 입력해 주세요.</string>
     <string name="company_format">%s(%s)</string>
 
     <string name="ex_date_day">배당락일 :</string>
@@ -24,4 +25,5 @@
     <string name="declare_date_day">발표일 :</string>
     <string name="my_stock_cnt">나의 주식 수 :</string>
     <string name="price_of_one_stock">1주당 가격 :</string>
+    <string name="add_dividend_calendar">배당금 달력에 추가합니다.</string>
 </resources>

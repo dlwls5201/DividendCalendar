@@ -9,32 +9,26 @@ import android.view.autofill.AutofillManager
 import androidx.appcompat.widget.SearchView
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.BaseActivity
-import com.tistory.dividendcalendar.base.util.Dlog
 import com.tistory.dividendcalendar.databinding.ActivityMainBinding
 import com.tistory.dividendcalendar.presentation.calendar.CalendarActivity
-import com.tistory.dividendcalendar.presentation.main.model.StockModel
 
 
 class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
+
     private lateinit var myStockFragment: MyStockFragment
-    //private lateinit var calendarFragment: CalendarFragment
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setUI()
     }
 
     private fun setUI() {
         binding.activity = this
         myStockFragment = MyStockFragment.newInstance()
-        //calendarFragment = CalendarFragment.newInstance()
 
-        supportFragmentManager.beginTransaction().add(R.id.mainFrame, myStockFragment)
+        supportFragmentManager.beginTransaction()
+            .add(R.id.mainFrame, myStockFragment)
             .commit()
-        /* supportFragmentManager.beginTransaction().add(R.id.mainFrame, calendarFragment)
-             .commit()*/
-        //supportFragmentManager.beginTransaction().hide(calendarFragment).commit()
     }
 
     /**
@@ -44,11 +38,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         if (isMyStock) {
             if (!myStockFragment.isHidden) return
             supportFragmentManager.beginTransaction().show(myStockFragment).commit()
-            //supportFragmentManager.beginTransaction().hide(calendarFragment).commit()
         } else {
-            //if (!calendarFragment.isHidden) return
-            //supportFragmentManager.beginTransaction().hide(myStockFragment).commit()
-            //supportFragmentManager.beginTransaction().show(calendarFragment).commit()
             startActivity(Intent(this, CalendarActivity::class.java))
         }
     }
@@ -116,15 +106,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-
         if (requestCode == SearchActivity.REQ_SEARCH && resultCode == RESULT_OK) {
-            data?.extras?.run {
-                val stockModel = getParcelable<StockModel>(SearchActivity.EXTRA_STOCK)
-                stockModel?.let {
-                    myStockFragment.calendarViewModel.loadDividendItems()
-                }
-            }
-
+            myStockFragment.calendarViewModel.loadDividendItems()
         }
     }
 }

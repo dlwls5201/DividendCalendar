@@ -8,148 +8,102 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.databinding.DataBindingUtil
-import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.BaseActivity
+import com.tistory.dividendcalendar.base.ext.toast
 import com.tistory.dividendcalendar.base.util.Dlog
-import com.tistory.dividendcalendar.data.api.StockAPiImpl
 import com.tistory.dividendcalendar.data.base.BaseResponse
 import com.tistory.dividendcalendar.data.injection.Injection
-import com.tistory.dividendcalendar.data.source.remote.ApiProvider
+import com.tistory.dividendcalendar.data.source.local.entity.StockEntity
 import com.tistory.dividendcalendar.databinding.ActivitySearchBinding
 import com.tistory.dividendcalendar.databinding.ViewInputdialogBinding
-import com.tistory.dividendcalendar.presentation.main.model.DividendsApiModel
-import com.tistory.dividendcalendar.presentation.main.model.LogoApiModel
-import com.tistory.dividendcalendar.presentation.main.model.StockApiModel
-import com.tistory.dividendcalendar.presentation.main.model.StockModel
-import kotlinx.coroutines.*
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 /**
  * 검색 화면
  */
 class SearchActivity : BaseActivity<ActivitySearchBinding>(R.layout.activity_search) {
+
     companion object {
         const val EXTRA_TICKER = "ticker"
-        const val EXTRA_STOCK = "stock"
         const val REQ_SEARCH = 4000
     }
 
-    //private lateinit var stockModelView: MyStockViewModel
     private val stockRepository by lazy {
         Injection.provideStockRepository()
     }
-    private lateinit var stockInfo: StockApiModel
-    private lateinit var stockLogo: LogoApiModel
-    private lateinit var stockDividends: DividendsApiModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         binding.activity = this
-        binding.searchProgress.visibility = View.VISIBLE
-        binding.searchMain.visibility = View.GONE
 
-        intent?.extras?.let {
-            val ticker = it.getString(EXTRA_TICKER)
-            ticker?.let {
-                Dlog.d("SJ", "ticker : ${it}")
-                launch(Dispatchers.IO) {
-                    val retrofit = ApiProvider.getRetrofitBuild()
-                    val service = retrofit.create(StockAPiImpl::class.java)
+        getStockFromIntent()?.let { ticker ->
+            launch(Dispatchers.Main) {
+                stockRepository.getStock(ticker, object : BaseResponse<StockEntity> {
+                    override fun onSuccess(data: StockEntity) {
+                        showSearchMain()
 
-                    val logo = async(Dispatchers.IO) {
-                        service.companyLogo(ticker, ApiProvider.token)
-                            .enqueue(object : Callback<LogoApiModel> {
-                                override fun onResponse(
-                                    call: Call<LogoApiModel>,
-                                    response: Response<LogoApiModel>
-                                ) {
-                                    response.body()?.let { image ->
-                                        stockLogo = image
+                        Glide.with(this@SearchActivity)
+                            .load(data.logoUrl)
+                            .into(binding.logoImage)
 
-                                        Glide.with(this@SearchActivity).load(image.url)
-                                            .into(binding.logoImage)
-                                    }
-                                }
+                        val desc = StringBuffer().apply {
+                            append("대표 : ${data.ceo}")
+                            append("\n직원 수 : ${data.employees}")
+                            append("\n주소 : ${data.address}")
+                            append("\n도시 : ${data.city}")
+                            append("\n전화 번호 : ${data.phone}")
+                            append("\n웹사이트 : ${data.website}")
+                            append("\n회사 소개\n${data.description}")
+                        }
 
-                                override fun onFailure(call: Call<LogoApiModel>, t: Throwable) {
-                                    t.printStackTrace()
-                                }
-                            })
+                        binding.companyName.text = data.companyName
+                        binding.desc.text = desc
                     }
 
-                    val companyInfo = async(Dispatchers.IO) {
-                        service.companyInfo(ticker, ApiProvider.token)
-                            .enqueue(object : Callback<StockApiModel> {
-                                override fun onResponse(
-                                    call: Call<StockApiModel>,
-                                    response: Response<StockApiModel>
-                                ) {
-                                    response.body()?.run {
-                                        stockInfo = this
-
-                                        val desc = StringBuffer()
-                                        desc.append("대표 : $CEO")
-                                        desc.append("\n직원 수 : $employees")
-                                        desc.append("\n주소 : $address")
-                                        desc.append("\n도시 : $city")
-                                        desc.append("\n전화 번호 : $phone")
-                                        desc.append("\n웹사이트 : $website")
-                                        desc.append("\n회사 소개\n$description")
-                                        binding.desc.text = desc.toString()
-                                    }
-                                }
-
-                                override fun onFailure(call: Call<StockApiModel>, t: Throwable) {
-
-                                }
-                            })
+                    override fun onFail(description: String) {
+                        hideSearchMain()
+                        toast(description)
                     }
 
-                    val dividends = async(Dispatchers.IO) {
-                        service.companyDividends(ticker, "next", ApiProvider.token)
-                            .enqueue(object : Callback<DividendsApiModel> {
-                                override fun onResponse(
-                                    call: Call<DividendsApiModel>,
-                                    response: Response<DividendsApiModel>
-                                ) {
-                                    response.body()?.run {
-                                        stockDividends = this
-
-                                        val desc = StringBuffer()
-                                        desc.append("배당 만료일 : $exDate")
-                                        desc.append("\n배당 일자 : $paymentDate")
-                                        desc.append("\n배당 기록일 : $recordDate")
-                                        desc.append("\n배당 신고일 : $declaredDate")
-                                        desc.append("\n배당 금액 : $amount")
-                                        desc.append("\n배당 주기 : $frequency")
-                                        binding.dividendsDesc.text = desc.toString()
-
-                                    }
-                                }
-
-                                override fun onFailure(
-                                    call: Call<DividendsApiModel>,
-                                    t: Throwable
-                                ) {
-
-                                }
-                            })
+                    override fun onError(throwable: Throwable) {
+                        hideSearchMain()
+                        toast(throwable.message ?: "error")
                     }
 
-                    awaitAll(logo, companyInfo, dividends)
-                    withContext(Dispatchers.Main) {
-                        binding.searchProgress.visibility = View.GONE
-                        binding.searchMain.visibility = View.VISIBLE
+                    override fun onLoading() {
+                        hideSearchMain()
+                        showProgress()
                     }
-                }
+
+                    override fun onLoaded() {
+                        hideProgress()
+                    }
+
+                })
             }
         }
+    }
+
+    private fun getStockFromIntent() = intent?.extras?.getString(EXTRA_TICKER)
+
+    private fun showProgress() {
+        binding.searchProgress.visibility = View.VISIBLE
+    }
+
+    private fun hideProgress() {
+        binding.searchProgress.visibility = View.GONE
+    }
+
+    private fun showSearchMain() {
+        binding.searchMain.visibility = View.VISIBLE
+    }
+
+    private fun hideSearchMain() {
+        binding.searchMain.visibility = View.GONE
     }
 
     fun addCompany() {
@@ -164,53 +118,47 @@ class SearchActivity : BaseActivity<ActivitySearchBinding>(R.layout.activity_sea
         dialog.setCancelable(false)
 
         val alertDialog = dialog.create()
+
         view.inputCancel.setOnClickListener {
             alertDialog.dismiss()
         }
-        view.inputConfirm.setOnClickListener {
-            alertDialog.dismiss()
 
+        view.inputConfirm.setOnClickListener {
             if (view.inputInvestAmount.text.toString().isEmpty()) {
-                Toast.makeText(this, "빈 곳을 입력 해 주세요.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.input_stock_cnt), Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
-            launch(Dispatchers.IO) {
-                val stockModel =
-                    StockModel(
-                        0,
-                        stockInfo.companyName,
-                        stockLogo.url,
-                        stockInfo.symbol,
-                        view.inputInvestAmount.text.toString()
-                    )
+            alertDialog.dismiss()
 
-                stockRepository.putStock(stockModel.ticker, stockModel.amount.toInt(), object: BaseResponse<Any>{
-                    override fun onSuccess(data: Any) {
-                        Dlog.d("onSuccess")
+            getStockFromIntent()?.let { ticker ->
+                val stockCnt = view.inputInvestAmount.text.toString()
+                launch(Dispatchers.Main) {
+                    stockRepository.putStock(ticker, stockCnt.toInt(), object : BaseResponse<Any> {
+                        override fun onSuccess(data: Any) {
+                            val intent = Intent()
+                            setResult(RESULT_OK, intent)
+                            finish()
+                        }
 
-                        val intent = Intent()
-                        intent.putExtra(EXTRA_STOCK, stockModel)
-                        setResult(RESULT_OK, intent)
-                        finish()
-                    }
+                        override fun onFail(description: String) {
+                            Dlog.d("onFail")
+                        }
 
-                    override fun onFail(description: String) {
-                        Dlog.d("onFail")
-                    }
+                        override fun onError(throwable: Throwable) {
+                            Dlog.d("onError")
+                        }
 
-                    override fun onError(throwable: Throwable) {
-                        Dlog.d("onError")
-                    }
+                        override fun onLoading() {
+                            Dlog.d("onLoading")
+                        }
 
-                    override fun onLoading() {
-                        Dlog.d("onLoading")
-                    }
+                        override fun onLoaded() {
+                            Dlog.d("onLoaded")
+                        }
 
-                    override fun onLoaded() {
-                        Dlog.d("onLoaded")
-                    }
-                })
+                    })
+                }
             }
         }
 

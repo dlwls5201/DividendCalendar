@@ -8,14 +8,27 @@
         android:padding="10dp">
 
         <TextView
+            android:id="@+id/inputLabelInvestTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/add_dividend_calendar"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
             android:id="@+id/inputLabelInvestAmount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/investAmount"
+            android:textSize="15dp"
             android:textColor="@android:color/background_dark"
             android:textStyle="bold"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputLabelInvestTitle"
             app:layout_constraintLeft_toLeftOf="parent"/>
 
         <EditText
@@ -27,37 +40,32 @@
             android:digits="0123456789"
             app:layout_constraintTop_toBottomOf="@id/inputLabelInvestAmount" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:orientation="horizontal"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/inputInvestAmount">
 
             <Button
-                android:id="@+id/inputConfirm"
+                android:id="@+id/inputCancel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/cardview_dark_background"
-                android:text="@string/confirm"
-                android:textColor="@android:color/white"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:text="@string/cancel"
+                android:textColor="@android:color/white" />
 
             <Button
-                android:id="@+id/inputCancel"
+                android:id="@+id/inputConfirm"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:background="@color/cardview_dark_background"
-                android:text="@string/cancel"
-                android:textColor="@android:color/white"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toRightOf="@id/inputConfirm"
-                app:layout_constraintTop_toTopOf="parent" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                android:text="@string/confirm"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
