@@ -11,7 +11,9 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/stockList"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            tools:itemCount="2"
+            tools:listitem="@layout/item_stock" />
 
         <TextView
             android:id="@+id/tvNoDividendDescription"
@@ -22,9 +24,11 @@
             android:textColor="@color/black"
             android:lineSpacingExtra="4dp"
             android:textSize="18dp"
+            android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
