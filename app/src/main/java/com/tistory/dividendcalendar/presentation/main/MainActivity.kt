@@ -12,6 +12,7 @@ import com.tistory.dividendcalendar.BuildConfig
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.BaseActivity
 import com.tistory.dividendcalendar.base.ext.alert
+import com.tistory.dividendcalendar.base.util.Dlog
 import com.tistory.dividendcalendar.databinding.ActivityMainBinding
 import com.tistory.dividendcalendar.presentation.calendar.CalendarActivity
 import com.tistory.dividendcalendar.utils.addKeyboardListener
@@ -134,6 +135,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
+        Dlog.d("onActivityResult requestCode : $requestCode , resultCode : $resultCode")
         if (requestCode == SearchActivity.REQ_SEARCH && resultCode == RESULT_OK) {
             myStockFragment.calendarViewModel.loadDividendItems()
         }

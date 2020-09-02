@@ -125,12 +125,19 @@ class StockRepositoryImpl(
             }
 
             val dividendItems = mutableListOf<DividendItem>()
-            cacheStocks.forEach { stock ->
-                stock.dividends.forEach {
-                    dividendItems.add(it.mapToItem(stock.stock))
-                }
+
+            //TODO 비효율적인 구조로 개선이 필요합니다.
+            val updatedDividedStocks = stockDao.getSortingStockWithDividends()
+                .filter { it.stock.stockCnt != 0 }
+            Dlog.d("updatedDividedStocks size : ${updatedDividedStocks.size}")
+
+            updatedDividedStocks.forEach { stock ->
+                val lastDividend = stock.dividends.last()
+                Dlog.d("getAllDividendItems lastDividend : $lastDividend")
+                dividendItems.add(lastDividend.mapToItem(stock.stock))
             }
 
+            Dlog.d("getAllDividendItems onSuccess size : ${dividendItems.size}")
             listener.onSuccess(dividendItems)
         } catch (e: Exception) {
             listener.onError(e)

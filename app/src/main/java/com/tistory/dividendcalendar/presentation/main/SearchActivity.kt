@@ -142,7 +142,7 @@ class SearchActivity : BaseActivity<ActivitySearchBinding>(R.layout.activity_sea
                 launch(Dispatchers.Main) {
                     stockRepository.putStock(ticker, stockCnt.toInt(), object : BaseResponse<Any> {
                         override fun onSuccess(data: Any) {
-                            Dlog.d("onSuccess")
+                            Dlog.d("putStock onSuccess")
                             val intent = Intent()
                             setResult(RESULT_OK, intent)
                             finish()
