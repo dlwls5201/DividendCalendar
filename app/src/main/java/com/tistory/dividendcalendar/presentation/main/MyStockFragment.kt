@@ -60,10 +60,24 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
         calendarViewModel.loadDividendItems()
 
         calendarViewModel.dividendItems.observe(viewLifecycleOwner, Observer {
+            if (it.isEmpty()) {
+                showNoDividendDescription()
+            } else {
+                hideDoDividendDescription()
+            }
+
             binding.stockList.adapter?.let { adapter ->
                 (adapter as StockAdapter).replaceAll(it)
             }
         })
+    }
+
+    private fun showNoDividendDescription() {
+        binding.tvNoDividendDescription.visibility = View.VISIBLE
+    }
+
+    private fun hideDoDividendDescription() {
+        binding.tvNoDividendDescription.visibility = View.GONE
     }
 
     inner class StockAdapter :
