@@ -26,9 +26,5 @@
             android:theme="@style/AppThemeNoBar" />
 
         <activity android:name=".presentation.main.SearchActivity" />
-
-        <activity
-            android:name=".presentation.SplashActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
 </manifest>

@@ -14,7 +14,7 @@ object ApiProvider {
     private const val baseUrl = "https://cloud.iexapis.com/"
 
     //TODO you must delete updating to github
-    const val token = ""
+    const val token = "pk_763a1177699243abb9d2f9f099e34a39"
 
     fun provideInvitationApi(): StockApi = getRetrofitBuild()
         .create(StockApi::class.java)
