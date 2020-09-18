@@ -10,16 +10,17 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.library.baseAdapters.BR
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
+import com.tistory.blackjinbase.base.BaseFragment
+import com.tistory.blackjinbase.ext.alert
+import com.tistory.blackjinbase.ext.longToast
+import com.tistory.blackjinbase.ext.toast
+import com.tistory.blackjinbase.simplerecyclerview.SimpleRecyclerViewAdapter
+import com.tistory.blackjinbase.simplerecyclerview.SimpleViewHolder
+import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
-import com.tistory.dividendcalendar.base.BaseFragment
-import com.tistory.dividendcalendar.base.ext.alert
-import com.tistory.dividendcalendar.base.ext.longToast
-import com.tistory.dividendcalendar.base.ext.toast
-import com.tistory.dividendcalendar.base.simplerecyclerview.SimpleRecyclerViewAdapter
-import com.tistory.dividendcalendar.base.simplerecyclerview.SimpleViewHolder
-import com.tistory.dividendcalendar.base.util.Dlog
 import com.tistory.dividendcalendar.data.base.BaseResponse
 import com.tistory.dividendcalendar.data.injection.Injection
 import com.tistory.dividendcalendar.databinding.ItemStockBinding
@@ -32,6 +33,8 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_fragment) {
+
+    override var logTag = "MyStockFragment"
 
     companion object {
         fun newInstance() = MyStockFragment()
@@ -91,6 +94,7 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
                 Glide.with(holder.itemView.context).load(data.logoUrl)
                     .into(holder.binding.stockLogo)
             }
+
             // 메뉴 클릭시
             holder.binding.stockMore.setOnClickListener { view ->
                 holder.binding.data?.let { data ->
@@ -114,7 +118,7 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
                         //viewModel.delete(data)
                         context?.alert(title = "배담금 달력에 표시된 모든 배당금 정보가 사라집니다") {
                             positiveButton("삭제") {
-                                launch(Dispatchers.Main) {
+                                viewLifecycleOwner.lifecycleScope.launch(Dispatchers.Main) {
                                     stockRepository.deleteStockFromTicker(data.ticker, object :
                                         BaseResponse<Any> {
                                         override fun onSuccess(data: Any) {
@@ -184,7 +188,7 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
 
                 alertDialog.dismiss()
 
-                launch(Dispatchers.Main) {
+                viewLifecycleOwner.lifecycleScope.launch(Dispatchers.Main) {
                     val stockCnt = view.inputInvestAmount.text.toString().toInt()
                     stockRepository.putStock(data.ticker, stockCnt, object : BaseResponse<Any> {
                         override fun onSuccess(data: Any) {
@@ -219,7 +223,7 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
          * 배당금 다시 받아오기
          */
         private fun reloadData(data: DividendItem) {
-            launch(Dispatchers.Main) {
+            viewLifecycleOwner.lifecycleScope.launch(Dispatchers.Main) {
                 stockRepository.loadNextDividendsFromTicker(
                     data.ticker,
                     object : BaseResponse<Any> {

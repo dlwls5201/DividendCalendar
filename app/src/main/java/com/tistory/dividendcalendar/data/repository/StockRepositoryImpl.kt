@@ -1,7 +1,7 @@
 package com.tistory.dividendcalendar.data.repository
 
 import com.google.gson.Gson
-import com.tistory.dividendcalendar.base.util.Dlog
+import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.data.base.BaseResponse
 import com.tistory.dividendcalendar.data.source.local.StockDao
 import com.tistory.dividendcalendar.data.source.local.entity.DividendEntity

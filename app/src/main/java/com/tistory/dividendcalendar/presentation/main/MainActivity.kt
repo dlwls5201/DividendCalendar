@@ -8,17 +8,19 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.widget.SearchView
+import com.tistory.blackjinbase.base.BaseActivity
+import com.tistory.blackjinbase.ext.alert
+import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.BuildConfig
 import com.tistory.dividendcalendar.R
-import com.tistory.dividendcalendar.base.BaseActivity
-import com.tistory.dividendcalendar.base.ext.alert
-import com.tistory.dividendcalendar.base.util.Dlog
 import com.tistory.dividendcalendar.databinding.ActivityMainBinding
 import com.tistory.dividendcalendar.presentation.calendar.CalendarActivity
 import com.tistory.dividendcalendar.utils.addKeyboardListener
 
 
 class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
+
+    override var logTag = "MainActivity"
 
     private lateinit var myStockFragment: MyStockFragment
 

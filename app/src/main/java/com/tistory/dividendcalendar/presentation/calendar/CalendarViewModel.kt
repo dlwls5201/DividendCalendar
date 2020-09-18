@@ -2,9 +2,9 @@ package com.tistory.dividendcalendar.presentation.calendar
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.tistory.dividendcalendar.base.BaseViewModel
-import com.tistory.dividendcalendar.base.util.Dlog
+import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.data.base.BaseResponse
 import com.tistory.dividendcalendar.data.repository.StockRepository
 import com.tistory.dividendcalendar.presentation.model.DividendItem
@@ -12,7 +12,7 @@ import kotlinx.coroutines.launch
 
 class CalendarViewModel(
     private val stockRepository: StockRepository
-) : BaseViewModel() {
+) : ViewModel() {
 
     private val _dividendItems = MutableLiveData<List<DividendItem>>()
     val dividendItems: LiveData<List<DividendItem>> get() = _dividendItems

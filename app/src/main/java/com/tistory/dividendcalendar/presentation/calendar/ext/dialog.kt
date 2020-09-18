@@ -4,8 +4,8 @@ import android.content.Context
 import android.view.LayoutInflater
 import androidx.appcompat.app.AlertDialog
 import androidx.databinding.DataBindingUtil
+import com.tistory.blackjinbase.ext.toast
 import com.tistory.dividendcalendar.R
-import com.tistory.dividendcalendar.base.ext.toast
 import com.tistory.dividendcalendar.databinding.ViewStockDialogBinding
 
 fun Context.showStockDialog(confirmListener: (ticker: String, stockCnt: Int) -> Unit): AlertDialog {

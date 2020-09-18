@@ -4,17 +4,18 @@ import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.tistory.blackjinbase.base.BaseFragment
+import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
-import com.tistory.dividendcalendar.base.BaseFragment
-import com.tistory.dividendcalendar.base.util.Dlog
 import com.tistory.dividendcalendar.data.injection.Injection
 import com.tistory.dividendcalendar.databinding.FragmentCalendarBinding
 import com.tistory.dividendcalendar.presentation.calendar.dialog.DividendsDialogFragment
 import com.tistory.dividendcalendar.presentation.calendar.view.DividendCalendarView
 import com.tistory.dividendcalendar.presentation.model.DividendItem
-import kotlinx.android.synthetic.main.fragment_calendar.*
 
 class CalendarFragment : BaseFragment<FragmentCalendarBinding>(R.layout.fragment_calendar) {
+
+    override var logTag = "CalendarFragment"
 
     companion object {
 
@@ -32,8 +33,7 @@ class CalendarFragment : BaseFragment<FragmentCalendarBinding>(R.layout.fragment
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.calendarViewModel = calendarViewModel
-
-        dividendCalendarView.setEventHandler(object : DividendCalendarView.EventHandler {
+        binding.dividendCalendarView.setEventHandler(object : DividendCalendarView.EventHandler {
             override fun onDayLongPress(items: List<DividendItem>) {
                 Dlog.d("onDayLongPress items : $items")
                 DividendsDialogFragment.newInstance(items)
@@ -52,7 +52,7 @@ class CalendarFragment : BaseFragment<FragmentCalendarBinding>(R.layout.fragment
         calendarViewModel.loadDividendItems()
 
         calendarViewModel.dividendItems.observe(viewLifecycleOwner, Observer {
-            dividendCalendarView.updateCalendar(it)
+            binding.dividendCalendarView.updateCalendar(it)
         })
     }
 }

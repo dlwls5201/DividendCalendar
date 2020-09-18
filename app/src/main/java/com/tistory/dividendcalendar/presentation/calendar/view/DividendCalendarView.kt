@@ -13,8 +13,8 @@ import android.widget.AdapterView.OnItemLongClickListener
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import com.bumptech.glide.Glide
+import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
-import com.tistory.dividendcalendar.base.util.Dlog
 import com.tistory.dividendcalendar.presentation.model.DividendItem
 import kotlinx.android.synthetic.main.view_calendar.view.*
 import java.text.SimpleDateFormat

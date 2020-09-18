@@ -7,11 +7,12 @@ import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.lifecycleScope
 import com.bumptech.glide.Glide
+import com.tistory.blackjinbase.base.BaseActivity
+import com.tistory.blackjinbase.ext.toast
+import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
-import com.tistory.dividendcalendar.base.BaseActivity
-import com.tistory.dividendcalendar.base.ext.toast
-import com.tistory.dividendcalendar.base.util.Dlog
 import com.tistory.dividendcalendar.data.base.BaseResponse
 import com.tistory.dividendcalendar.data.injection.Injection
 import com.tistory.dividendcalendar.data.source.local.entity.StockEntity
@@ -24,6 +25,8 @@ import kotlinx.coroutines.launch
  * 검색 화면
  */
 class SearchActivity : BaseActivity<ActivitySearchBinding>(R.layout.activity_search) {
+
+    override var logTag = "SearchActivity"
 
     companion object {
         const val EXTRA_TICKER = "ticker"
@@ -40,7 +43,7 @@ class SearchActivity : BaseActivity<ActivitySearchBinding>(R.layout.activity_sea
         binding.activity = this
 
         getStockFromIntent()?.let { ticker ->
-            launch(Dispatchers.Main) {
+            lifecycleScope.launch(Dispatchers.Main) {
                 stockRepository.getStock(ticker, object : BaseResponse<StockEntity> {
                     override fun onSuccess(data: StockEntity) {
                         Dlog.d("onSuccess")
@@ -139,7 +142,7 @@ class SearchActivity : BaseActivity<ActivitySearchBinding>(R.layout.activity_sea
 
             getStockFromIntent()?.let { ticker ->
                 val stockCnt = view.inputInvestAmount.text.toString()
-                launch(Dispatchers.Main) {
+                lifecycleScope.launch(Dispatchers.Main) {
                     stockRepository.putStock(ticker, stockCnt.toInt(), object : BaseResponse<Any> {
                         override fun onSuccess(data: Any) {
                             Dlog.d("putStock onSuccess")

@@ -6,10 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import androidx.fragment.app.DialogFragment
+import com.tistory.blackjinbase.simplerecyclerview.SimpleRecyclerViewAdapter
+import com.tistory.blackjinbase.simplerecyclerview.SimpleViewHolder
 import com.tistory.dividendcalendar.BR
 import com.tistory.dividendcalendar.R
-import com.tistory.dividendcalendar.base.simplerecyclerview.SimpleRecyclerViewAdapter
-import com.tistory.dividendcalendar.base.simplerecyclerview.SimpleViewHolder
 import com.tistory.dividendcalendar.databinding.DialogDividendsBinding
 import com.tistory.dividendcalendar.databinding.ItemDividendBinding
 import com.tistory.dividendcalendar.presentation.model.DividendItem
