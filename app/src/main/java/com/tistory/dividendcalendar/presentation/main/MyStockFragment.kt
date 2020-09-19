@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.MenuItem
 import android.view.View
+import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.widget.PopupMenu
 import androidx.databinding.DataBindingUtil
@@ -12,7 +13,6 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.bumptech.glide.Glide
 import com.tistory.blackjinbase.base.BaseFragment
 import com.tistory.blackjinbase.ext.alert
 import com.tistory.blackjinbase.ext.longToast
@@ -29,6 +29,7 @@ import com.tistory.dividendcalendar.databinding.ViewInputdialogBinding
 import com.tistory.dividendcalendar.presentation.calendar.CalendarViewModel
 import com.tistory.dividendcalendar.presentation.calendar.CalendarViewModelFactory
 import com.tistory.dividendcalendar.presentation.model.DividendItem
+import kotlinx.android.synthetic.main.item_stock.view.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
@@ -86,19 +87,14 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
     inner class StockAdapter :
         SimpleRecyclerViewAdapter<DividendItem, ItemStockBinding>(R.layout.item_stock, BR.data) {
 
-        override fun onBindViewHolder(holder: SimpleViewHolder<ItemStockBinding>, position: Int) {
-            super.onBindViewHolder(holder, position)
-
-            // 로고 이미지 로딩
-            holder.binding.data?.let { data ->
-                Glide.with(holder.itemView.context).load(data.logoUrl)
-                    .into(holder.binding.stockLogo)
-            }
-
-            // 메뉴 클릭시
-            holder.binding.stockMore.setOnClickListener { view ->
-                holder.binding.data?.let { data ->
-                    showPopup(view, data)
+        override fun onCreateViewHolder(
+            parent: ViewGroup,
+            viewType: Int
+        ): SimpleViewHolder<ItemStockBinding> {
+            return super.onCreateViewHolder(parent, viewType).apply {
+                itemView.stockMore.setOnClickListener {
+                    val data = getItem(adapterPosition)
+                    showPopup(it, data)
                 }
             }
         }
