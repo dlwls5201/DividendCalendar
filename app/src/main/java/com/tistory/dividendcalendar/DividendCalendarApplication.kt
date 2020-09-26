@@ -11,6 +11,5 @@ class DividendCalendarApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         INSTANCE = this
-        //RoomProvider.init(this)
     }
 }

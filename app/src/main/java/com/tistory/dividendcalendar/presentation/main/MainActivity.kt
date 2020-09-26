@@ -15,7 +15,6 @@ import com.tistory.dividendcalendar.BuildConfig
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.ActivityMainBinding
 import com.tistory.dividendcalendar.presentation.calendar.CalendarActivity
-import com.tistory.dividendcalendar.utils.addKeyboardListener
 
 
 class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
@@ -24,19 +23,9 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
     private lateinit var myStockFragment: MyStockFragment
 
-    //callback to be provided to extension function for keyboard changes
-    private val keyboardCallback: (visible: Boolean) -> Unit = {
-        if (it) {
-            //Something..
-        } else {
-            //Something..
-        }
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setUI()
-        setKeyboardListener()
     }
 
     private fun setUI() {
@@ -46,13 +35,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         supportFragmentManager.beginTransaction()
             .add(R.id.mainFrame, myStockFragment)
             .commit()
-    }
-
-    private fun setKeyboardListener() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-            //only receives callbacks when the inset affects my window.
-            binding.container.addKeyboardListener(keyboardCallback)
-        }
     }
 
     /**
