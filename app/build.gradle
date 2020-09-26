@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 30
@@ -108,6 +109,9 @@ dependencies {
 
     // base
     implementation 'com.blackjin.library:blackjinbase:1.1.0'
+
+    // add the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-analytics:17.5.0'
 
     // test
     testImplementation 'junit:junit:4.12'
