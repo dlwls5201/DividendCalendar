@@ -20,15 +20,15 @@ import com.tistory.blackjinbase.ext.toast
 import com.tistory.blackjinbase.simplerecyclerview.SimpleRecyclerViewAdapter
 import com.tistory.blackjinbase.simplerecyclerview.SimpleViewHolder
 import com.tistory.blackjinbase.util.Dlog
-import com.tistory.data.base.BaseResponse
-import com.tistory.data.injection.Injection
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.ItemStockBinding
 import com.tistory.dividendcalendar.databinding.MyStockFragmentBinding
 import com.tistory.dividendcalendar.databinding.ViewInputdialogBinding
+import com.tistory.dividendcalendar.injection.Injection
 import com.tistory.dividendcalendar.presentation.calendar.CalendarViewModel
 import com.tistory.dividendcalendar.presentation.calendar.CalendarViewModelFactory
 import com.tistory.dividendcalendar.presentation.model.DividendItem
+import com.tistory.dividendcalendar.repository.base.BaseResponse
 import kotlinx.android.synthetic.main.item_stock.view.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -44,13 +44,13 @@ class MyStockFragment : BaseFragment<MyStockFragmentBinding>(R.layout.my_stock_f
     val calendarViewModel by lazy {
         ViewModelProvider(
             this, CalendarViewModelFactory(
-                Injection.provideStockRepository()
+                Injection.provideStockRepository(requireContext())
             )
         ).get(CalendarViewModel::class.java)
     }
 
     private val stockRepository by lazy {
-        Injection.provideStockRepository()
+        Injection.provideStockRepository(requireContext())
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

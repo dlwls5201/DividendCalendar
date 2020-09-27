@@ -1,4 +1,4 @@
-package com.tistory.data.base
+package com.tistory.dividendcalendar.repository.base
 
 interface BaseResponse<T> {
 

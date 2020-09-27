@@ -5,9 +5,9 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tistory.blackjinbase.util.Dlog
-import com.tistory.data.base.BaseResponse
-import com.tistory.data.repository.StockRepository
 import com.tistory.dividendcalendar.presentation.model.DividendItem
+import com.tistory.dividendcalendar.repository.StockRepository
+import com.tistory.dividendcalendar.repository.base.BaseResponse
 import kotlinx.coroutines.launch
 
 class CalendarViewModel(

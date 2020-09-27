@@ -1,7 +1,8 @@
-package com.tistory.data.repository
+package com.tistory.dividendcalendar.repository
 
-import com.tistory.data.base.BaseResponse
 import com.tistory.data.source.local.entity.StockEntity
+import com.tistory.dividendcalendar.presentation.model.DividendItem
+import com.tistory.dividendcalendar.repository.base.BaseResponse
 
 interface StockRepository {
 

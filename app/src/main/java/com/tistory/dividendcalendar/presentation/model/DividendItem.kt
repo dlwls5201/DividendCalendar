@@ -1,6 +1,8 @@
 package com.tistory.dividendcalendar.presentation.model
 
 import android.os.Parcelable
+import com.tistory.data.source.local.entity.DividendEntity
+import com.tistory.data.source.local.entity.StockEntity
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
@@ -32,3 +34,17 @@ enum class Frequency {
         }
     }
 }
+
+fun DividendEntity.mapToItem(stock: StockEntity) = DividendItem(
+    ticker = stock.symbol,
+    companyName = stock.companyName,
+    logoUrl = stock.logoUrl,
+    stockCnt = stock.stockCnt,
+
+    exDate = exDate,
+    paymentDate = paymentDate,
+    recordDate = recordDate,
+    declaredDate = declaredDate,
+    amount = amount,
+    frequency = Frequency.getFrequency(frequency)
+)

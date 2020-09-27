@@ -2,7 +2,7 @@ package com.tistory.dividendcalendar.presentation.calendar
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.tistory.data.repository.StockRepository
+import com.tistory.dividendcalendar.repository.StockRepository
 
 class CalendarViewModelFactory(
     private val stockRepository: StockRepository

@@ -12,12 +12,12 @@ import com.bumptech.glide.Glide
 import com.tistory.blackjinbase.base.BaseActivity
 import com.tistory.blackjinbase.ext.toast
 import com.tistory.blackjinbase.util.Dlog
-import com.tistory.data.base.BaseResponse
-import com.tistory.data.injection.Injection
 import com.tistory.data.source.local.entity.StockEntity
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.ActivitySearchBinding
 import com.tistory.dividendcalendar.databinding.ViewInputdialogBinding
+import com.tistory.dividendcalendar.injection.Injection
+import com.tistory.dividendcalendar.repository.base.BaseResponse
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
@@ -34,7 +34,7 @@ class SearchActivity : BaseActivity<ActivitySearchBinding>(R.layout.activity_sea
     }
 
     private val stockRepository by lazy {
-        Injection.provideStockRepository()
+        Injection.provideStockRepository(this)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

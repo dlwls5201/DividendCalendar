@@ -1,15 +1,16 @@
-package com.tistory.data.repository
+package com.tistory.dividendcalendar.repository
 
 import com.google.gson.Gson
 import com.tistory.blackjinbase.util.Dlog
-import com.tistory.data.base.BaseResponse
 import com.tistory.data.source.local.StockDao
 import com.tistory.data.source.local.entity.DividendEntity
 import com.tistory.data.source.local.entity.StockEntity
-import com.tistory.data.source.local.entity.mapToItem
 import com.tistory.data.source.remote.ApiProvider
 import com.tistory.data.source.remote.api.StockApi
 import com.tistory.data.source.remote.model.DividendResponse
+import com.tistory.dividendcalendar.presentation.model.DividendItem
+import com.tistory.dividendcalendar.presentation.model.mapToItem
+import com.tistory.dividendcalendar.repository.base.BaseResponse
 
 class StockRepositoryImpl(
     private val stockDao: StockDao,
@@ -187,9 +188,9 @@ class StockRepositoryImpl(
     }
 
     private suspend fun loadDividendAndCaching(symbol: String) {
-        val range = Range.NEXT
+        val range = "next"
 
-        val data = stockApi.getDividend(symbol = symbol, range = range.value, token = token)
+        val data = stockApi.getDividend(symbol = symbol, range = range, token = token)
         Dlog.d("data : $data")
 
         if (data.toString() == "[]") {

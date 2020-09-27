@@ -1,5 +1,6 @@
 package com.tistory.data.source.local
 
+import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
@@ -17,15 +18,15 @@ abstract class StockDataBase : RoomDatabase() {
 
     companion object {
 
+        private const val DB_NAME = "stockDataBase.db"
+
         private var INSTANCE: StockDataBase? = null
 
-        fun getInstance(): StockDataBase {
+        fun getInstance(context: Context): StockDataBase {
             if (INSTANCE == null) {
                 synchronized(RoomDatabase::class) {
                     INSTANCE = Room.databaseBuilder(
-                        DividendCalendarApplication.INSTANCE,
-                        StockDataBase::class.java,
-                        "stockDataBase.db"
+                        context, StockDataBase::class.java, DB_NAME
                     ).build()
                 }
             }

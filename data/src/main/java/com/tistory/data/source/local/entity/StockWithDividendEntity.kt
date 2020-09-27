@@ -107,20 +107,6 @@ data class DividendEntity(
     }
 }
 
-fun DividendEntity.mapToItem(stock: StockEntity) = DividendItem(
-    ticker = stock.symbol,
-    companyName = stock.companyName,
-    logoUrl = stock.logoUrl,
-    stockCnt = stock.stockCnt,
-
-    exDate = exDate,
-    paymentDate = paymentDate,
-    recordDate = recordDate,
-    declaredDate = declaredDate,
-    amount = amount,
-    frequency = Frequency.getFrequency(frequency)
-)
-
 data class StockWithDividendEntity(
     @Embedded val stock: StockEntity,
 
