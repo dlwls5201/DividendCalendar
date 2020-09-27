@@ -20,9 +20,9 @@ import com.tistory.blackjinbase.ext.toast
 import com.tistory.blackjinbase.simplerecyclerview.SimpleRecyclerViewAdapter
 import com.tistory.blackjinbase.simplerecyclerview.SimpleViewHolder
 import com.tistory.blackjinbase.util.Dlog
+import com.tistory.data.base.BaseResponse
+import com.tistory.data.injection.Injection
 import com.tistory.dividendcalendar.R
-import com.tistory.dividendcalendar.data.base.BaseResponse
-import com.tistory.dividendcalendar.data.injection.Injection
 import com.tistory.dividendcalendar.databinding.ItemStockBinding
 import com.tistory.dividendcalendar.databinding.MyStockFragmentBinding
 import com.tistory.dividendcalendar.databinding.ViewInputdialogBinding

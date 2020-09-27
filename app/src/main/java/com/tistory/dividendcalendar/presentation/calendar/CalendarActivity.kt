@@ -3,9 +3,9 @@ package com.tistory.dividendcalendar.presentation.calendar
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.tistory.blackjinbase.util.Dlog
+import com.tistory.data.base.BaseResponse
+import com.tistory.data.injection.Injection
 import com.tistory.dividendcalendar.R
-import com.tistory.dividendcalendar.data.base.BaseResponse
-import com.tistory.dividendcalendar.data.injection.Injection
 import com.tistory.dividendcalendar.presentation.calendar.ext.showStockDialog
 import kotlinx.android.synthetic.main.activity_calendar.*
 import kotlinx.coroutines.Dispatchers

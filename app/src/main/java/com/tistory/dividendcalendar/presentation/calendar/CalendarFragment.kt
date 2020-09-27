@@ -6,8 +6,8 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.tistory.blackjinbase.base.BaseFragment
 import com.tistory.blackjinbase.util.Dlog
+import com.tistory.data.injection.Injection
 import com.tistory.dividendcalendar.R
-import com.tistory.dividendcalendar.data.injection.Injection
 import com.tistory.dividendcalendar.databinding.FragmentCalendarBinding
 import com.tistory.dividendcalendar.presentation.calendar.dialog.DividendsDialogFragment
 import com.tistory.dividendcalendar.presentation.calendar.view.DividendCalendarView
