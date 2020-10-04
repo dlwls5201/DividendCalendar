@@ -12,10 +12,9 @@ import android.widget.AdapterView.OnItemClickListener
 import android.widget.AdapterView.OnItemLongClickListener
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
-import com.bumptech.glide.Glide
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
-import com.tistory.dividendcalendar.presentation.model.DividendItem
+import com.tistory.domain.model.DividendItem
 import kotlinx.android.synthetic.main.view_calendar.view.*
 import java.text.SimpleDateFormat
 import java.util.*
@@ -339,16 +338,16 @@ class DividendCalendarView : LinearLayout {
                 }.forEachIndexed { index, dividendItem ->
                     when (index) {
                         0 -> {
-                            Glide.with(context)
-                                .load(dividendItem.logoUrl)
-                                .into(ivItemViewCalendarLogo1)
+                            /* Glide.with(context)
+                                 .load(dividendItem.logoUrl)
+                                 .into(ivItemViewCalendarLogo1)*/
 
                             tvItemViewCalendarCompanyName1.text = dividendItem.companyName
                         }
                         1 -> {
-                            Glide.with(context)
+                            /*Glide.with(context)
                                 .load(dividendItem.logoUrl)
-                                .into(ivItemViewCalendarLogo2)
+                                .into(ivItemViewCalendarLogo2)*/
 
                             tvItemViewCalendarCompanyName2.text = dividendItem.companyName
                         }

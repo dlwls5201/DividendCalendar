@@ -8,10 +8,10 @@ import com.tistory.blackjinbase.base.BaseFragment
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.FragmentCalendarBinding
-import com.tistory.dividendcalendar.injection.Injection
+import com.tistory.dividendcalendar.di.Injection
 import com.tistory.dividendcalendar.presentation.calendar.dialog.DividendsDialogFragment
 import com.tistory.dividendcalendar.presentation.calendar.view.DividendCalendarView
-import com.tistory.dividendcalendar.presentation.model.DividendItem
+import com.tistory.domain.model.DividendItem
 
 class CalendarFragment : BaseFragment<FragmentCalendarBinding>(R.layout.fragment_calendar) {
 
@@ -25,7 +25,7 @@ class CalendarFragment : BaseFragment<FragmentCalendarBinding>(R.layout.fragment
     private val calendarViewModel by lazy {
         ViewModelProvider(
             this, CalendarViewModelFactory(
-                Injection.provideStockRepository(requireContext())
+                Injection.provideStockUsecase(requireContext())
             )
         ).get(CalendarViewModel::class.java)
     }

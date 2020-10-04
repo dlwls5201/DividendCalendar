@@ -1,28 +1,30 @@
 package com.tistory.data.source.local
 
-import androidx.room.*
-import com.tistory.data.source.local.entity.DividendEntity
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
 import com.tistory.data.source.local.entity.StockEntity
-import com.tistory.data.source.local.entity.StockWithDividendEntity
 
 @Dao
 interface StockDao {
 
-    //stock
+    @Query("SELECT * FROM stocks")
+    suspend fun getStocks(): List<StockEntity>
+
     @Query("SELECT * FROM stocks WHERE symbol = :symbol")
     suspend fun getStock(symbol: String): StockEntity?
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertStock(stock: StockEntity)
 
-    @Query("DELETE FROM stocks WHERE symbol = :symbol")
+
+    /*@Query("DELETE FROM stocks WHERE symbol = :symbol")
     suspend fun deleteProfileBySymbol(symbol: String)
 
     @Query("DELETE FROM stocks")
     suspend fun clearProfile()
 
-
-    //dividend
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertDividend(dividend: DividendEntity)
 
@@ -30,7 +32,6 @@ interface StockDao {
     suspend fun clearDividend()
 
 
-    //stockWithDividend
     @Transaction
     @Query("SELECT * FROM stocks WHERE symbol = :symbol")
     suspend fun getStockWithDividend(symbol: String): StockWithDividendEntity?
@@ -41,5 +42,5 @@ interface StockDao {
 
     @Transaction
     @Query("SELECT * FROM stocks ORDER BY companyName ASC")
-    suspend fun getSortingStockWithDividends(): List<StockWithDividendEntity>
+    suspend fun getSortingStockWithDividends(): List<StockWithDividendEntity>*/
 }

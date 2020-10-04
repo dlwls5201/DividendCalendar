@@ -11,6 +11,7 @@ android {
 }
 
 dependencies {
+    implementation project(':domain')
 
     // room
     implementation "androidx.room:room-runtime:$room_version"

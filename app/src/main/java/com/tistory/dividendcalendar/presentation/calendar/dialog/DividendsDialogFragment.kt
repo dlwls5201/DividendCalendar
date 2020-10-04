@@ -12,7 +12,7 @@ import com.tistory.dividendcalendar.BR
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.DialogDividendsBinding
 import com.tistory.dividendcalendar.databinding.ItemDividendBinding
-import com.tistory.dividendcalendar.presentation.model.DividendItem
+import com.tistory.domain.model.DividendItem
 import kotlinx.android.synthetic.main.dialog_dividends.*
 
 class DividendsDialogFragment : DialogFragment() {

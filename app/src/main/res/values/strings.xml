@@ -1,34 +1,18 @@
 <resources>
     <string name="app_name">배당금달력</string>
 
-    <string name="search">검색</string>
-    <string name="menuAppInfo">앱 정보"</string>
-    <string name="menuQna">문의하기</string>
-    <string name="menuMyStock">MY STOCK</string>
-    <string name="menuCalendar">CALENDAR</string>
     <string name="searchHint">Search Ticker(ex: AAPL)</string>
-    <string name="my_stock_cnt_with_integer">나의 주식 수 %d</string>
 
     <string name="companyName">회사 명</string>
     <string name="investAmount">주식 수</string>
     <string name="confirm">확인</string>
     <string name="cancel">취소</string>
-    <string name="dividends">배당일</string>
-    <string name="info">정보</string>
 
     <string name="input_ticker">티커를 입력해주세요.</string>
-    <string name="input_stock_cnt">1주 이상의 주식 수를 입력해 주세요.</string>
     <string name="company_format">%s(%s)</string>
-    <string name="ex_date_format">배당락일 : %s</string>
-    <string name="next_ex_date_info_is_nothing">베딩락일 : 미정</string>
 
     <string name="ex_date_day">배당락일 :</string>
     <string name="pay_date_day">지급일 :</string>
-    <string name="declare_date_day">발표일 :</string>
     <string name="my_stock_cnt">나의 주식 수 :</string>
     <string name="price_of_one_stock">1주당 가격 :</string>
-    <string name="add_dividend_calendar">배당금 달력에 추가합니다.</string>
-
-    <string name="complete">완료</string>
-    <string name="no_dividend_description">보유한 주식이 없습니다\n검색을 통해 주식을 추가해주세요</string>
 </resources>

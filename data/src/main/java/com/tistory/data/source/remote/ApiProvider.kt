@@ -16,14 +16,12 @@ object ApiProvider {
     //TODO you must delete updating to github
     const val token = "pk_763a1177699243abb9d2f9f099e34a39"
 
-    fun provideInvitationApi(): StockApi = getRetrofitBuild()
+    fun provideStockApi(): StockApi = getRetrofitBuild()
         .create(StockApi::class.java)
 
     private fun getRetrofitBuild() = Retrofit.Builder()
         .baseUrl(baseUrl)
         .client(getOkhttpClient())
-        // 받은 응답을 옵서버블 형태로 변환해 줍니다.
-        //.addCallAdapterFactory(RxJava2CallAdapterFactory.createAsync())
         .addConverterFactory(getGsonConverter())
         .build()
 

@@ -27,12 +27,10 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':blackjinbase')
 
     //Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-
-    // baseblackjin
-    implementation 'com.blackjin.library:blackjinbase:1.1.0'
 
     //junit
     testImplementation 'junit:junit:4.12'

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SampleActivity</string>
+    <string name="recycler_view_sample">Recycler View Sample</string>
+    <string name="simple_recycler_view_sample">Simple Recycler View Sample</string>
+    <string name="live_recycler_view_sample">Live Recycler View Sample</string>
+    <string name="show_alert">show alert</string>
+    <string name="single_click">single click</string>
+</resources>

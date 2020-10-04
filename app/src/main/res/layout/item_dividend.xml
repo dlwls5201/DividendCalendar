@@ -8,7 +8,7 @@
 
         <variable
             name="item"
-            type="com.tistory.dividendcalendar.presentation.model.DividendItem" />
+            type="com.tistory.domain.model.DividendItem" />
     </data>
 
     <androidx.cardview.widget.CardView

@@ -4,14 +4,12 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.tistory.blackjinbase.util.Dlog
-import com.tistory.dividendcalendar.presentation.model.DividendItem
-import com.tistory.dividendcalendar.repository.StockRepository
-import com.tistory.dividendcalendar.repository.base.BaseResponse
+import com.tistory.domain.model.DividendItem
+import com.tistory.domain.usecase.StockUsecase
 import kotlinx.coroutines.launch
 
 class CalendarViewModel(
-    private val stockRepository: StockRepository
+    private val stockUsecase: StockUsecase
 ) : ViewModel() {
 
     private val _dividendItems = MutableLiveData<List<DividendItem>>()
@@ -19,7 +17,7 @@ class CalendarViewModel(
 
     fun loadDividendItems() {
         viewModelScope.launch {
-            stockRepository.getAllDividendItems(object : BaseResponse<List<DividendItem>> {
+            /*stockRepository.getAllDividendItems(object : BaseResponse<List<DividendItem>> {
                 override fun onSuccess(data: List<DividendItem>) {
                     Dlog.d("onSuccess : $data")
                     _dividendItems.postValue(data)
@@ -41,7 +39,7 @@ class CalendarViewModel(
                     Dlog.d("onLoaded")
                 }
 
-            })
+            })*/
         }
     }
 }
