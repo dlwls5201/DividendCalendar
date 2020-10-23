@@ -12,7 +12,7 @@ import com.tistory.dividendcalendar.BR
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.DialogDividendsBinding
 import com.tistory.dividendcalendar.databinding.ItemDividendBinding
-import com.tistory.domain.model.DividendItem
+import com.tistory.domain.model.CalendarItem
 import kotlinx.android.synthetic.main.dialog_dividends.*
 
 class DividendsDialogFragment : DialogFragment() {
@@ -23,7 +23,7 @@ class DividendsDialogFragment : DialogFragment() {
 
         private const val ARGUMENT_DIVIDEND_ITEMS = "dividend_items"
 
-        fun newInstance(items: List<DividendItem>) = DividendsDialogFragment().apply {
+        fun newInstance(items: List<CalendarItem>) = DividendsDialogFragment().apply {
             arguments = bundleOf(Pair(ARGUMENT_DIVIDEND_ITEMS, items.toTypedArray()))
         }
     }
@@ -45,10 +45,10 @@ class DividendsDialogFragment : DialogFragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val items = arguments?.getParcelableArray(ARGUMENT_DIVIDEND_ITEMS)
-            ?.toList() as List<DividendItem>
+            ?.toList() as List<CalendarItem>
 
         with(rvDialogDividends) {
-            adapter = object : SimpleRecyclerViewAdapter<DividendItem, ItemDividendBinding>(
+            adapter = object : SimpleRecyclerViewAdapter<CalendarItem, ItemDividendBinding>(
                 R.layout.item_dividend,
                 BR.item
             ) {

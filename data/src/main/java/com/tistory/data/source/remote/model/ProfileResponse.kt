@@ -5,43 +5,43 @@ import com.google.gson.annotations.SerializedName
 
 data class ProfileResponse(
     @SerializedName("symbol")
-    val symbol: String,
+    val symbol: String?,
     @SerializedName("companyName")
-    val companyName: String,
+    val companyName: String?,
     @SerializedName("exchange")
-    val exchange: String,
+    val exchange: String?,
     @SerializedName("industry")
-    val industry: String,
+    val industry: String?,
     @SerializedName("website")
-    val website: String,
+    val website: String?,
     @SerializedName("description")
-    val description: String,
+    val description: String?,
     @SerializedName("CEO")
-    val ceo: String,
+    val ceo: String?,
     @SerializedName("securityName")
-    val securityName: String,
+    val securityName: String?,
     @SerializedName("issueType")
-    val issueType: String,
+    val issueType: String?,
     @SerializedName("sector")
-    val sector: String,
+    val sector: String?,
     @SerializedName("primarySicCode")
-    val primarySicCode: Int,
+    val primarySicCode: Int?,
     @SerializedName("employees")
-    val employees: Int,
+    val employees: Int?,
     @SerializedName("tags")
-    val tags: List<String>,
+    val tags: List<String>?,
     @SerializedName("address")
-    val address: String,
+    val address: String?,
     @SerializedName("address2")
     val address2: String?,
     @SerializedName("state")
-    val state: String,
+    val state: String?,
     @SerializedName("city")
-    val city: String,
+    val city: String?,
     @SerializedName("zip")
-    val zip: String,
+    val zip: String?,
     @SerializedName("country")
-    val country: String,
+    val country: String?,
     @SerializedName("phone")
-    val phone: String
+    val phone: String?
 )

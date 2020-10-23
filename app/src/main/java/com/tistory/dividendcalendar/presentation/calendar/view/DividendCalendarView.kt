@@ -12,9 +12,10 @@ import android.widget.AdapterView.OnItemClickListener
 import android.widget.AdapterView.OnItemLongClickListener
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
+import com.bumptech.glide.Glide
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
-import com.tistory.domain.model.DividendItem
+import com.tistory.domain.model.CalendarItem
 import kotlinx.android.synthetic.main.view_calendar.view.*
 import java.text.SimpleDateFormat
 import java.util.*
@@ -41,7 +42,7 @@ class DividendCalendarView : LinearLayout {
     private val currentDate = Calendar.getInstance()
 
     // dividends
-    private val dividendItems = mutableListOf<DividendItem>()
+    private val dividendItems = mutableListOf<CalendarItem>()
 
     //event handling
     private var eventHandler: EventHandler? = null
@@ -190,9 +191,10 @@ class DividendCalendarView : LinearLayout {
     /**
      * Display dates correctly in grid
      */
-    fun updateCalendar(dividends: List<DividendItem>) {
+    fun updateCalendar(items: List<CalendarItem>) {
+        Dlog.d("items : $items")
         dividendItems.clear()
-        dividendItems.addAll(dividends)
+        dividendItems.addAll(items)
         updateCalendar()
     }
 
@@ -249,8 +251,8 @@ class DividendCalendarView : LinearLayout {
      * the outside world
      */
     interface EventHandler {
-        fun onDayLongPress(items: List<DividendItem>)
-        fun onDayPress(items: List<DividendItem>)
+        fun onDayLongPress(items: List<CalendarItem>)
+        fun onDayPress(items: List<CalendarItem>)
     }
 
     private val today = Date()
@@ -276,19 +278,19 @@ class DividendCalendarView : LinearLayout {
                 val flItemViewCalendarParent: FrameLayout =
                     findViewById(R.id.flItemViewCalendarParent)
                 val clItemViewCalendar: ConstraintLayout = findViewById(R.id.clItemViewCalendar)
-                val tvItemViewCalendar = findViewById<TextView>(R.id.tvItemViewCalendar)
+                val tvItemViewCalendar: TextView = findViewById(R.id.tvItemViewCalendar)
 
-                val llItemViewCalendarParent1 =
-                    findViewById<LinearLayout>(R.id.llItemViewCalendarParent1)
-                val ivItemViewCalendarLogo1 = findViewById<ImageView>(R.id.ivItemViewCalendarLogo1)
-                val tvItemViewCalendarCompanyName1 =
-                    findViewById<TextView>(R.id.tvItemViewCalendarCompanyName1)
+                val ivItemViewCalendarLogo1: ImageView = findViewById(R.id.ivItemViewCalendarLogo1)
+                val tvItemViewCalendarCompanyName1: TextView =
+                    findViewById(R.id.tvItemViewCalendarCompanyName1)
 
-                val llItemViewCalendarParent2 =
-                    findViewById<LinearLayout>(R.id.llItemViewCalendarParent2)
-                val ivItemViewCalendarLogo2 = findViewById<ImageView>(R.id.ivItemViewCalendarLogo2)
-                val tvItemViewCalendarCompanyName2 =
-                    findViewById<TextView>(R.id.tvItemViewCalendarCompanyName2)
+                val ivItemViewCalendarLogo2: ImageView = findViewById(R.id.ivItemViewCalendarLogo2)
+                val tvItemViewCalendarCompanyName2: TextView =
+                    findViewById(R.id.tvItemViewCalendarCompanyName2)
+
+                val llItemViewCalendarParent3: LinearLayout =
+                    findViewById(R.id.llItemViewCalendarParent3)
+                llItemViewCalendarParent3.visibility = View.GONE
 
                 // set the child height according to the parent height.
                 flItemViewCalendarParent.layoutParams = FrameLayout.LayoutParams(
@@ -338,22 +340,21 @@ class DividendCalendarView : LinearLayout {
                 }.forEachIndexed { index, dividendItem ->
                     when (index) {
                         0 -> {
-                            /* Glide.with(context)
-                                 .load(dividendItem.logoUrl)
-                                 .into(ivItemViewCalendarLogo1)*/
+                            Glide.with(context)
+                                .load(dividendItem.logoUrl)
+                                .into(ivItemViewCalendarLogo1)
 
                             tvItemViewCalendarCompanyName1.text = dividendItem.companyName
                         }
                         1 -> {
-                            /*Glide.with(context)
+                            Glide.with(context)
                                 .load(dividendItem.logoUrl)
-                                .into(ivItemViewCalendarLogo2)*/
+                                .into(ivItemViewCalendarLogo2)
 
                             tvItemViewCalendarCompanyName2.text = dividendItem.companyName
                         }
                         else -> {
-                            //TODO item over 3
-                            Dlog.d("item over 3")
+                            llItemViewCalendarParent3.visibility = View.VISIBLE
                         }
                     }
                 }

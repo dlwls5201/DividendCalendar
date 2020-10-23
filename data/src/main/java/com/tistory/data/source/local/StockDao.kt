@@ -1,46 +1,49 @@
 package com.tistory.data.source.local
 
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
+import com.tistory.data.source.local.entity.DividendEntity
 import com.tistory.data.source.local.entity.StockEntity
+import com.tistory.data.source.local.entity.StockWithDividendEntity
+import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface StockDao {
 
     @Query("SELECT * FROM stocks")
-    suspend fun getStocks(): List<StockEntity>
+    fun getStocks(): Flow<List<StockEntity>>
+
+    @Query("SELECT * FROM dividends")
+    fun getDividends(): Flow<List<DividendEntity>>
+
+    @Transaction
+    @Query("SELECT * FROM stocks")
+    fun getStockWithDividends(): Flow<List<StockWithDividendEntity>>
+
 
     @Query("SELECT * FROM stocks WHERE symbol = :symbol")
     suspend fun getStock(symbol: String): StockEntity?
-
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertStock(stock: StockEntity)
-
-
-    /*@Query("DELETE FROM stocks WHERE symbol = :symbol")
-    suspend fun deleteProfileBySymbol(symbol: String)
-
-    @Query("DELETE FROM stocks")
-    suspend fun clearProfile()
-
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertDividend(dividend: DividendEntity)
-
-    @Query("DELETE FROM dividends")
-    suspend fun clearDividend()
-
 
     @Transaction
     @Query("SELECT * FROM stocks WHERE symbol = :symbol")
     suspend fun getStockWithDividend(symbol: String): StockWithDividendEntity?
 
-    @Transaction
-    @Query("SELECT * FROM stocks")
-    suspend fun getStockWithDividends(): List<StockWithDividendEntity>
 
-    @Transaction
-    @Query("SELECT * FROM stocks ORDER BY companyName ASC")
-    suspend fun getSortingStockWithDividends(): List<StockWithDividendEntity>*/
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertStock(stock: StockEntity)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertDividend(dividend: DividendEntity)
+
+    //같이 넣을 수 없다 -> error
+    //@Insert(onConflict = OnConflictStrategy.REPLACE)
+    //suspend fun insertStockWithDividend(stock: StockWithDividendEntity)
+
+    @Query("DELETE FROM stocks WHERE symbol = :symbol")
+    suspend fun deleteStock(symbol: String)
+
+    @Query("DELETE FROM stocks")
+    suspend fun clearStocks()
+
+    @Query("DELETE FROM dividends WHERE parentSymbol = :symbol")
+    suspend fun deleteDividends(symbol: String)
 }

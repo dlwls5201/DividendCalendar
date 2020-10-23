@@ -5,5 +5,5 @@ import com.google.gson.annotations.SerializedName
 
 data class LogoResponse(
     @SerializedName("url")
-    val url: String
+    val url: String = ""
 )

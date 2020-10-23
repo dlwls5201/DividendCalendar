@@ -6,12 +6,21 @@ import androidx.lifecycle.lifecycleScope
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.di.Injection
-import com.tistory.dividendcalendar.presentation.calendar.ext.showStockDialog
+import com.tistory.dividendcalendar.presentation.calendar.dialog.showStockDialog
+import com.tistory.domain.base.BaseListener
 import kotlinx.android.synthetic.main.activity_calendar.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 class CalendarActivity : AppCompatActivity() {
+
+    private val addStockUsecase by lazy {
+        Injection.provideAddStockUsecase()
+    }
+
+    private val repository by lazy {
+        Injection.provideStockWithDividendRepo()
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,32 +31,53 @@ class CalendarActivity : AppCompatActivity() {
             .commit()
 
         initUiTest()
-        initRepository()
     }
 
     private fun initUiTest() {
         fabCalendarAddCompany.setOnClickListener {
-            showStockDialog { ticker, stockCnt ->
-                Dlog.d("ticker : $ticker , stockCnt : $stockCnt")
-                putTickerAndStockCnt(ticker, stockCnt)
-            }.show()
+            showStockDialog(
+                confirmListener = ::putStockWithDividend
+            ).show()
         }
     }
 
-    private val repository by lazy {
-        Injection.provideStockRepository(this)
-    }
-
-    private fun putTickerAndStockCnt(ticker: String, stockCnt: Int) {
+    private fun putStockWithDividend(ticker: String, stockCnt: Int) {
         lifecycleScope.launch(Dispatchers.IO) {
-            repository.putStock(ticker, stockCnt)
+            addStockUsecase.build(ticker, stockCnt, object : BaseListener<Any>() {
+                override fun onSuccess(data: Any) {
+                    Dlog.d("onSuccess")
+                }
+
+                override fun onLoading() {
+                    Dlog.d("onLoading")
+                }
+
+                override fun onError(error: Throwable) {
+                    Dlog.d("onError : ${error.message}")
+                }
+
+                override fun onLoaded() {
+                    Dlog.d("onLoaded")
+                }
+            })
         }
     }
 
-    private fun initRepository() {
+    private fun fetchStock(ticker: String) {
         lifecycleScope.launch(Dispatchers.IO) {
-            val stocks = repository.getStocks()
-            Dlog.d("stocks : $stocks")
+            repository.fetchAndPutDividends(ticker)
+        }
+    }
+
+    private fun deleteStock(ticker: String) {
+        lifecycleScope.launch(Dispatchers.IO) {
+            repository.deleteStock(ticker)
+        }
+    }
+
+    private fun clearStock() {
+        lifecycleScope.launch(Dispatchers.IO) {
+            repository.clearStock()
         }
     }
 }
