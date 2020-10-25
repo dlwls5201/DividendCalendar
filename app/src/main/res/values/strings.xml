@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">배당금달력</string>
 
-    <string name="searchHint">Search Ticker(ex: AAPL)</string>
+    <string name="search_ticker_hint">Search Ticker(ex: AAPL)</string>
 
     <string name="companyName">회사 명</string>
     <string name="investAmount">주식 수</string>
@@ -12,7 +12,18 @@
     <string name="company_format">%s(%s)</string>
 
     <string name="ex_date_day">배당락일 :</string>
-    <string name="pay_date_day">지급일 :</string>
+    <string name="payment_date_day">지급일 :</string>
     <string name="my_stock_cnt">나의 주식 수 :</string>
     <string name="price_of_one_stock">1주당 가격 :</string>
+    <string name="frequency">빈도 :</string>
+
+    <string name="ex_date_format">배당락일 : %s</string>
+    <string name="payment_date_format">지급일 : %s</string>
+    <string name="stock_date_format">배당락일 : %s / 지급일 : %s</string>
+    <string name="my_stock_cnt_format">나의 주식 수 : %d</string>
+    <string name="frequency_format">빈도 : %s</string>
+
+    <string name="stock_date_noting_yet">배당일 미정</string>
+    <string name="ex_date_noting_yet">배당락일 미정</string>
+    <string name="payment_date_noting_yet">지급일 미정</string>
 </resources>

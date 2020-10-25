@@ -13,11 +13,18 @@
     <color name="black">#2b2b2b</color>
     <color name="white">#ffffff</color>
 
+    <color name="dim">#33000000</color>
+
     <color name="summer">#44eebd82</color>
     <color name="fall">#44d8d27e</color>
     <color name="winter">#44a1c1da</color>
     <color name="spring">#448da64b</color>
 
-    <color name="greyed_out">#c7c7c7</color>
+    <color name="gray_01">#F5F5F5</color>
+    <color name="gray_02">#DCDDDF</color>
+    <color name="gray_03">#B8BCBF</color>
+    <color name="gray_04">#71787F</color>
+    <color name="gray_05">#2B353E</color>
+    <color name="gray_06">#131E29</color>
 
 </resources>

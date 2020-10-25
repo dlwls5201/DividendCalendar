@@ -4,6 +4,7 @@ import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.PrimaryKey
 import com.tistory.domain.model.CalendarItem
+import com.tistory.domain.model.DividendItem
 import com.tistory.domain.model.Frequency
 
 @Entity(
@@ -33,6 +34,15 @@ fun DividendEntity.mapToItem(stock: StockEntity) = CalendarItem(
     companyName = stock.companyName,
     logoUrl = stock.logoUrl,
     stockCnt = stock.stockCnt,
+    exDate = exDate,
+    paymentDate = paymentDate,
+    declaredDate = declaredDate,
+    amount = amount,
+    frequency = Frequency.get(frequency)
+)
+
+fun DividendEntity.mapToItem() = DividendItem(
+    ticker = parentSymbol,
     exDate = exDate,
     paymentDate = paymentDate,
     declaredDate = declaredDate,

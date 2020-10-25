@@ -2,9 +2,15 @@ package com.tistory.dividendcalendar.presentation.stock
 
 import android.os.Bundle
 import android.view.View
+import androidx.lifecycle.Observer
+import androidx.lifecycle.asLiveData
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.DividendFragment
 import com.tistory.dividendcalendar.databinding.FragmentStockBinding
+import com.tistory.dividendcalendar.di.Injection
+import com.tistory.dividendcalendar.presentation.calendar.dialog.ModifyStockDialogFragment
+import com.tistory.dividendcalendar.presentation.stock.adapter.StockAdapter
+import kotlinx.android.synthetic.main.fragment_stock.*
 
 class StockFragment : DividendFragment<FragmentStockBinding>(R.layout.fragment_stock) {
 
@@ -15,7 +21,38 @@ class StockFragment : DividendFragment<FragmentStockBinding>(R.layout.fragment_s
 
     override var logTag = "StockFragment"
 
+    private val repository by lazy {
+        Injection.provideStockWithDividendRepo()
+    }
+
+    private val stockAdapter by lazy {
+        StockAdapter().apply {
+            onStockClickListener = {
+                ModifyStockDialogFragment.newInstanceForModify(it.symbol, it.stockCnt)
+                    .show(childFragmentManager, logTag)
+            }
+        }
+    }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        initRecyclerView()
+
     }
+
+    private fun initRecyclerView() {
+        with(rvStock) {
+            adapter = stockAdapter
+        }
+    }
+
+    override fun onViewModelSetup() {
+        super.onViewModelSetup()
+
+        repository.getStockItems().asLiveData().observe(viewLifecycleOwner, Observer {
+            stockAdapter.replaceAll(it)
+        })
+    }
+
 }

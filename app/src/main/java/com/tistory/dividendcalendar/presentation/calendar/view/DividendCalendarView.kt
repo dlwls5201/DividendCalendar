@@ -323,7 +323,7 @@ class DividendCalendarView : LinearLayout {
                     flItemViewCalendarParent.setBackgroundColor(
                         ContextCompat.getColor(
                             context,
-                            R.color.greyed_out
+                            R.color.gray_02
                         )
                     )
                 }

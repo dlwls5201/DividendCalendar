@@ -7,15 +7,18 @@ import com.tistory.data.source.local.StockDao
 import com.tistory.data.source.local.entity.DividendEntity
 import com.tistory.data.source.local.entity.StockEntity
 import com.tistory.data.source.local.entity.mapToItem
+import com.tistory.data.source.local.entity.mapToStockItem
 import com.tistory.data.source.remote.api.StockApi
 import com.tistory.data.source.remote.model.DividendResponse
 import com.tistory.domain.model.CalendarItem
+import com.tistory.domain.model.StockItem
 import com.tistory.domain.repository.StockWithDividendRepository
 import kotlinx.coroutines.async
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flatMapConcat
 import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.flow.map
 
 class StockWithDividendRepositoryImpl(
     private val stockDao: StockDao,
@@ -32,9 +35,6 @@ class StockWithDividendRepositoryImpl(
         return stockDao.getDividends()
     }
 
-    fun getStockWithDividends(): Flow<List<StockWithDividendEntity>> {
-        return stockDao.getStockWithDividends()
-    }
 
     suspend fun getStock(ticker: String): StockEntity? {
         val symbol = ticker.toUpperCase()
@@ -49,6 +49,12 @@ class StockWithDividendRepositoryImpl(
         Dlog.d("stockWithDividendEntity : $stockWithDividendEntity")
         return stockWithDividendEntity
     }*/
+
+    override fun getStockItems(): Flow<List<StockItem>> {
+        return stockDao.getStockWithDividends().map {
+            it.map { entity -> entity.mapToStockItem() }
+        }
+    }
 
     override fun getCalendarItems(): Flow<List<CalendarItem>> {
         return stockDao.getStockWithDividends().flatMapConcat {

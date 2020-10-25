@@ -6,11 +6,4 @@
 
     <color name="githubBlue">#0363d1</color>
     <color name="githubBlack">#1e2327</color>
-
-    <color name="gray_01">#F5F5F5</color>
-    <color name="gray_02">#DCDDDF</color>
-    <color name="gray_03">#B8BCBF</color>
-    <color name="gray_04">#71787F</color>
-    <color name="gray_05">#2B353E</color>
-    <color name="gray_06">#131E29</color>
 </resources>

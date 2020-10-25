@@ -11,14 +11,14 @@
         app:cardElevation="0dp">
 
         <FrameLayout
-            android:layout_width="300dp"
-            android:layout_height="300dp">
+            android:layout_width="350dp"
+            android:layout_height="wrap_content">
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rvDialogDividends"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
+                android:orientation="horizontal"
                 tools:itemCount="3"
                 tools:listitem="@layout/item_dividend"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />

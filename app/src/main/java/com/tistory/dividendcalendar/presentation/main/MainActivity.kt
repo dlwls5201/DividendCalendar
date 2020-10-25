@@ -4,19 +4,15 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import androidx.core.content.ContextCompat
-import androidx.lifecycle.lifecycleScope
 import com.tistory.blackjinbase.base.BaseActivity
-import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.ActivityMainBinding
 import com.tistory.dividendcalendar.di.Injection
 import com.tistory.dividendcalendar.presentation.calendar.CalendarFragment
-import com.tistory.dividendcalendar.presentation.calendar.dialog.showStockDialog
+import com.tistory.dividendcalendar.presentation.calendar.dialog.ModifyStockDialogFragment
 import com.tistory.dividendcalendar.presentation.setting.SettingFragment
 import com.tistory.dividendcalendar.presentation.stock.StockFragment
-import com.tistory.domain.base.BaseListener
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.coroutines.launch
 
 class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
@@ -51,9 +47,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         }
 
         fabAddStock.setOnClickListener {
-            showStockDialog(
-                confirmListener = ::putStockWithDividend
-            ).show()
+            ModifyStockDialogFragment.newInstanceForAdd()
+                .show(supportFragmentManager, logTag)
         }
     }
 
@@ -140,30 +135,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
     private fun setNavIconEnable(imageView: ImageView) {
         imageView.setColorFilter(ContextCompat.getColor(this, R.color.colorPrimaryDark))
-    }
-
-    private fun putStockWithDividend(ticker: String, stockCnt: Int) {
-        lifecycleScope.launch {
-            addStockUsecase.build(ticker, stockCnt, object : BaseListener<Any>() {
-                override fun onSuccess(data: Any) {
-                    Dlog.d("onSuccess")
-                }
-
-                override fun onLoading() {
-                    Dlog.d("onLoading")
-                    showProgress()
-                }
-
-                override fun onError(error: Throwable) {
-                    Dlog.d("onError : ${error.message}")
-                }
-
-                override fun onLoaded() {
-                    Dlog.d("onLoaded")
-                    hideProgress()
-                }
-            })
-        }
     }
 
     private fun showProgress() {

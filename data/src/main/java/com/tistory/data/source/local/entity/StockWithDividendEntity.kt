@@ -2,6 +2,7 @@ package com.tistory.data.source.local.entity
 
 import androidx.room.Embedded
 import androidx.room.Relation
+import com.tistory.domain.model.StockItem
 
 
 data class StockWithDividendEntity(
@@ -12,4 +13,13 @@ data class StockWithDividendEntity(
         entityColumn = "parentSymbol"
     )
     val dividends: List<DividendEntity>
+)
+
+fun StockWithDividendEntity.mapToStockItem() = StockItem(
+    symbol = stock.symbol,
+    stockCnt = stock.stockCnt,
+    logoUrl = stock.logoUrl,
+    companyName = stock.companyName,
+    hasNextDividend = stock.hasNextDividend,
+    dividends = dividends.map { it.mapToItem() }
 )

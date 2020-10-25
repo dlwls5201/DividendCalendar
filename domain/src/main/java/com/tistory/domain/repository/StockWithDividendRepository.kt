@@ -1,9 +1,12 @@
 package com.tistory.domain.repository
 
 import com.tistory.domain.model.CalendarItem
+import com.tistory.domain.model.StockItem
 import kotlinx.coroutines.flow.Flow
 
 interface StockWithDividendRepository {
+
+    fun getStockItems(): Flow<List<StockItem>>
 
     fun getCalendarItems(): Flow<List<CalendarItem>>
 

@@ -1,19 +1,12 @@
 package com.tistory.dividendcalendar.presentation.calendar.dialog
 
-import android.content.Context
-import android.view.LayoutInflater
-import androidx.appcompat.app.AlertDialog
-import androidx.databinding.DataBindingUtil
-import com.tistory.blackjinbase.ext.toast
-import com.tistory.dividendcalendar.R
-import com.tistory.dividendcalendar.databinding.ViewStockDialogBinding
-
+/*
 fun Context.showStockDialog(
     confirmListener: (ticker: String, stockCnt: Int) -> Unit
 ): AlertDialog {
-    val dialogView = DataBindingUtil.inflate<ViewStockDialogBinding>(
+    val dialogView = DataBindingUtil.inflate<DialogModifyStockBinding>(
         LayoutInflater.from(this),
-        R.layout.view_stock_dialog,
+        R.layout.dialog_modify_stock,
         null,
         false
     )
@@ -48,4 +41,4 @@ fun Context.showStockDialog(
     }
 
     return alertDialog
-}
+}*/

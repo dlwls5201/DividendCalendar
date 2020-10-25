@@ -23,4 +23,5 @@ class AddStockUsecase(
             listener.onLoaded()
         }
     }
+
 }
