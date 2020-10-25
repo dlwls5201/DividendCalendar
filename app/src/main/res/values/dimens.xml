@@ -3,4 +3,6 @@
 
     <dimen name="calendar_bar_size">48dp</dimen>
     <dimen name="calendar_header_size">40dp</dimen>
+
+    <dimen name="nav_icon_size">24dp</dimen>
 </resources>

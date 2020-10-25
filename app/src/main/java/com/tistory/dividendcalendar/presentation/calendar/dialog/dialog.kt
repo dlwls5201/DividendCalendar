@@ -42,6 +42,7 @@ fun Context.showStockDialog(
                     stockCount = "0"
                 }
                 confirmListener.invoke(ticker, stockCount.toInt())
+                alertDialog.dismiss()
             }
         }
     }
