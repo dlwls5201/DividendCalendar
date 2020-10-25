@@ -119,7 +119,7 @@ class DividendCalendarView : LinearLayout {
         headerHeight = resources.getDimension(R.dimen.calendar_header_size)
     }
 
-    private var calendarType: CalendarType = CalendarType.EX_DATE
+    private var calendarType: CalendarType = CalendarType.PAYMENT_DATE
 
     enum class CalendarType(val title: String) {
         EX_DATE("배당락일"), PAYMENT_DATE("지급일")

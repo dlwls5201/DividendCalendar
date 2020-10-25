@@ -51,7 +51,7 @@
             android:paddingEnd="10dp"
             android:textColor="@color/white"
             android:textSize="15dp"
-            tools:text="배당락일" />
+            tools:text="지급일" />
 
     </RelativeLayout>
 
