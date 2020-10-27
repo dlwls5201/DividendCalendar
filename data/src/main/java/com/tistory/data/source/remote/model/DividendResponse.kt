@@ -9,6 +9,6 @@ data class DividendResponse(
     val flag: String = "",
     val currency: String = "",
     val description: String = "",
-    val frequency: String = "",  // monthly, quarterly, semi-annual, annual, unspecified
+    val frequency: String? = "",  // monthly, quarterly, semi-annual, annual, unspecified
     val date: String = "" // 2020-10-23
 )

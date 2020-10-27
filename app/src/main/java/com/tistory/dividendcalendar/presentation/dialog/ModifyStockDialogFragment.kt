@@ -136,7 +136,7 @@ class ModifyStockDialogFragment : DialogFragment() {
 
     private fun deleteStock(ticker: String) {
         lifecycleScope.launch {
-            repository.deleteStock(ticker)
+            repository.deleteStockWithDividends(ticker)
             with(Dispatchers.Main) {
                 dismiss()
             }

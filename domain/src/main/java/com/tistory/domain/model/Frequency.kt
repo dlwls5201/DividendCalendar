@@ -5,7 +5,7 @@ enum class Frequency {
 
     companion object {
 
-        fun get(frequency: String) = when (frequency) {
+        fun get(frequency: String?) = when (frequency) {
             "monthly" -> MONTHLY
             "quarterly" -> QUARTER
             "semi-annual" -> SEMI

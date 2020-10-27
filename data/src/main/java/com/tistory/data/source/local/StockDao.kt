@@ -20,6 +20,7 @@ interface StockDao {
     fun getStockWithDividends(): Flow<List<StockWithDividendEntity>>
 
 
+
     @Query("SELECT * FROM stocks WHERE symbol = :symbol")
     suspend fun getStock(symbol: String): StockEntity?
 
@@ -34,9 +35,6 @@ interface StockDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertDividend(dividend: DividendEntity)
 
-    //같이 넣을 수 없다 -> error
-    //@Insert(onConflict = OnConflictStrategy.REPLACE)
-    //suspend fun insertStockWithDividend(stock: StockWithDividendEntity)
 
     @Query("DELETE FROM stocks WHERE symbol = :symbol")
     suspend fun deleteStock(symbol: String)
@@ -46,4 +44,10 @@ interface StockDao {
 
     @Query("DELETE FROM dividends WHERE parentSymbol = :symbol")
     suspend fun deleteDividends(symbol: String)
+
+    @Transaction
+    suspend fun deleteStockWithDividends(symbol: String) {
+        deleteStock(symbol)
+        deleteDividends(symbol)
+    }
 }

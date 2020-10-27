@@ -11,6 +11,7 @@ import com.tistory.dividendcalendar.di.Injection
 import com.tistory.dividendcalendar.presentation.dialog.ModifyStockDialogFragment
 import com.tistory.dividendcalendar.presentation.stock.adapter.StockAdapter
 import kotlinx.android.synthetic.main.fragment_stock.*
+import kotlinx.coroutines.flow.debounce
 
 class StockFragment : DividendFragment<FragmentStockBinding>(R.layout.fragment_stock) {
 
@@ -48,14 +49,17 @@ class StockFragment : DividendFragment<FragmentStockBinding>(R.layout.fragment_s
     override fun onViewModelSetup() {
         super.onViewModelSetup()
 
-        repository.getStockItems().asLiveData().observe(viewLifecycleOwner, Observer {
-            if (it.isEmpty()) {
-                showEmptyStockView()
-            } else {
-                hideEmptyStockView()
-                stockAdapter.replaceAll(it)
-            }
-        })
+        repository.getStockItems().debounce(300)
+            .asLiveData().observe(viewLifecycleOwner, Observer {
+                if (it.isEmpty()) {
+                    showEmptyStockView()
+                } else {
+                    hideEmptyStockView()
+                }
+
+                //새로 추가하거나 수정한 데이터가 상단에 오도록 한다.
+                stockAdapter.replaceAll(it.asReversed())
+            })
     }
 
     private fun showEmptyStockView() {

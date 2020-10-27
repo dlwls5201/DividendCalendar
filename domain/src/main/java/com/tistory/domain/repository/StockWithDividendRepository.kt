@@ -16,7 +16,7 @@ interface StockWithDividendRepository {
 
     suspend fun fetchAndPutDividends(ticker: String)
 
-    suspend fun deleteStock(ticker: String)
+    suspend fun deleteStockWithDividends(ticker: String)
 
     suspend fun clearStock()
 }

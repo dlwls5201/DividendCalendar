@@ -183,10 +183,10 @@ class StockWithDividendRepositoryImpl(
         }
     }
 
-    override suspend fun deleteStock(ticker: String) {
+    override suspend fun deleteStockWithDividends(ticker: String) {
         val symbol = ticker.toUpperCase()
-        Dlog.d("$symbol -> deleteStock")
-        stockDao.deleteStock(symbol)
+        Dlog.d("$symbol -> deleteStockWithDividends")
+        stockDao.deleteStockWithDividends(symbol)
     }
 
     override suspend fun clearStock() {
