@@ -145,31 +145,43 @@ class ModifyStockDialogFragment : DialogFragment() {
 
     private fun putStockWithDividend(ticker: String, stockCnt: Int) {
         lifecycleScope.launch {
-            addStockUsecase.build(ticker, stockCnt, object : BaseListener<Any>() {
-                override fun onSuccess(data: Any) {
-                    Dlog.d("onSuccess")
+            val dialogType = arguments?.getSerializable(ARGUMENT_TYPE) as DialogType?
+            when (dialogType) {
+                DialogType.ADD -> {
+                    addStockUsecase.build(ticker, stockCnt, object : BaseListener<Any>() {
+                        override fun onSuccess(data: Any) {
+                            Dlog.d("onSuccess")
+                            dismiss()
+                        }
+
+                        override fun onLoading() {
+                            Dlog.d("onLoading")
+                            showProgress()
+                        }
+
+                        override fun onError(error: Throwable) {
+                            Dlog.d("onError : ${error.message}")
+                            if (error is HttpException && error.code() == 404) {
+                                requireContext().longToast(resources.getString(R.string.not_find_selected_ticker))
+                            } else {
+                                requireContext().longToast(resources.getString(R.string.please_check_internet))
+                            }
+                        }
+
+                        override fun onLoaded() {
+                            Dlog.d("onLoaded")
+                            hideProgress()
+                        }
+                    })
+                }
+                DialogType.MODIFY -> {
+                    repository.modifyStockCnt(ticker, stockCnt)
                     dismiss()
                 }
-
-                override fun onLoading() {
-                    Dlog.d("onLoading")
-                    showProgress()
+                null -> {
+                    //..
                 }
-
-                override fun onError(error: Throwable) {
-                    Dlog.d("onError : ${error.message}")
-                    if (error is HttpException && error.code() == 404) {
-                        requireContext().longToast(resources.getString(R.string.not_find_selected_ticker))
-                    } else {
-                        requireContext().longToast(resources.getString(R.string.please_check_internet))
-                    }
-                }
-
-                override fun onLoaded() {
-                    Dlog.d("onLoaded")
-                    hideProgress()
-                }
-            })
+            }
         }
     }
 
