@@ -1,4 +1,4 @@
-package com.tistory.dividendcalendar.presentation.calendar.dialog
+package com.tistory.dividendcalendar.presentation.dialog
 
 import android.content.Context
 import android.os.Bundle
@@ -10,6 +10,7 @@ import android.widget.EditText
 import androidx.core.os.bundleOf
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.lifecycleScope
+import com.tistory.blackjinbase.ext.longToast
 import com.tistory.blackjinbase.ext.toast
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
@@ -19,6 +20,7 @@ import com.tistory.domain.base.BaseListener
 import kotlinx.android.synthetic.main.dialog_modify_stock.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import retrofit2.HttpException
 
 class ModifyStockDialogFragment : DialogFragment() {
 
@@ -79,9 +81,11 @@ class ModifyStockDialogFragment : DialogFragment() {
         when (dialogType) {
             DialogType.ADD -> {
                 btnDelete.visibility = View.GONE
+                btnOk.text = resources.getString(R.string.add)
             }
             DialogType.MODIFY -> {
                 btnDelete.visibility = View.VISIBLE
+                btnOk.text = resources.getString(R.string.modify)
 
                 val ticker = arguments?.getString(ARGUMENT_TICKER, "") ?: ""
                 val stockCnt = arguments?.getInt(ARGUMENT_STOCK_CNT, 0) ?: 0
@@ -144,6 +148,7 @@ class ModifyStockDialogFragment : DialogFragment() {
             addStockUsecase.build(ticker, stockCnt, object : BaseListener<Any>() {
                 override fun onSuccess(data: Any) {
                     Dlog.d("onSuccess")
+                    dismiss()
                 }
 
                 override fun onLoading() {
@@ -153,12 +158,16 @@ class ModifyStockDialogFragment : DialogFragment() {
 
                 override fun onError(error: Throwable) {
                     Dlog.d("onError : ${error.message}")
+                    if (error is HttpException && error.code() == 404) {
+                        requireContext().longToast(resources.getString(R.string.not_find_selected_ticker))
+                    } else {
+                        requireContext().longToast(resources.getString(R.string.please_check_internet))
+                    }
                 }
 
                 override fun onLoaded() {
                     Dlog.d("onLoaded")
                     hideProgress()
-                    dismiss()
                 }
             })
         }

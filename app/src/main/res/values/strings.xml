@@ -1,29 +1,34 @@
 <resources>
     <string name="app_name">배당금달력</string>
 
-    <string name="search_ticker_hint">Search Ticker(ex: AAPL)</string>
+    <string name="empty_stock_view">티커를 입력해 주식을 추가해 주세요\n<u>미국 기업만 검색 가능합니다.</u></string>
+    <string name="input_ticker_hint">티커를 입력해주세요(ex: AAPL)</string>
+    <string name="not_find_selected_ticker">검색한 티커의 결과가 없습니다.</string>
+    <string name="please_check_internet">인터넷 연결을 확인해주세요</string>
 
     <string name="companyName">회사 명</string>
     <string name="investAmount">주식 수</string>
     <string name="confirm">확인</string>
+    <string name="add">추가</string>
+    <string name="modify">수정</string>
     <string name="cancel">취소</string>
+    <string name="delete">삭제</string>
 
     <string name="input_ticker">티커를 입력해주세요.</string>
     <string name="company_format">%s(%s)</string>
 
-    <string name="ex_date_day">배당락일 :</string>
-    <string name="payment_date_day">지급일 :</string>
-    <string name="my_stock_cnt">나의 주식 수 :</string>
-    <string name="price_of_one_stock">1주당 가격 :</string>
-    <string name="frequency">빈도 :</string>
+    <string name="item_ex_date_day">배당락일 :</string>
+    <string name="item_payment_date_day">지급일 :</string>
+    <string name="item_my_stock_cnt">나의 주식 수 :</string>
+    <string name="item_price_of_one_stock">1주당 가격 :</string>
+    <string name="item_frequency">빈도 :</string>
 
-    <string name="ex_date_format">배당락일 : %s</string>
-    <string name="payment_date_format">지급일 : %s</string>
-    <string name="stock_date_format">배당락일 : %s / 지급일 : %s</string>
-    <string name="my_stock_cnt_format">나의 주식 수 : %d</string>
-    <string name="frequency_format">빈도 : %s</string>
+    <string name="item_stock_date_format">배당락일 : %s / 지급일 : %s</string>
+    <string name="item_my_stock_cnt_format">나의 주식 수 : %d</string>
+    <string name="item_frequency_format">빈도 : %s</string>
 
     <string name="stock_date_noting_yet">배당일 미정</string>
     <string name="ex_date_noting_yet">배당락일 미정</string>
     <string name="payment_date_noting_yet">지급일 미정</string>
+    <string name="not_has_dividend_info">배당금 정보가 없습니다.</string>
 </resources>

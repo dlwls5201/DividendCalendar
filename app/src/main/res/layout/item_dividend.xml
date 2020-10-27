@@ -59,7 +59,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/ex_date_day"
+                    android:text="@string/item_ex_date_day"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
@@ -83,7 +83,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/payment_date_day"
+                    android:text="@string/item_payment_date_day"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
@@ -107,7 +107,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/my_stock_cnt"
+                    android:text="@string/item_my_stock_cnt"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
@@ -131,7 +131,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/price_of_one_stock"
+                    android:text="@string/item_price_of_one_stock"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
@@ -155,7 +155,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/frequency"
+                    android:text="@string/item_frequency"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />

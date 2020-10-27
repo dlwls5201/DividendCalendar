@@ -10,6 +10,8 @@ interface StockWithDividendRepository {
 
     fun getCalendarItems(): Flow<List<CalendarItem>>
 
+    suspend fun modifyStockCnt(ticker: String, stockCnt: Int)
+
     suspend fun fetchAndPutStock(ticker: String, stockCnt: Int)
 
     suspend fun fetchAndPutDividends(ticker: String)

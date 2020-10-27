@@ -8,7 +8,7 @@ import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.DividendFragment
 import com.tistory.dividendcalendar.databinding.FragmentStockBinding
 import com.tistory.dividendcalendar.di.Injection
-import com.tistory.dividendcalendar.presentation.calendar.dialog.ModifyStockDialogFragment
+import com.tistory.dividendcalendar.presentation.dialog.ModifyStockDialogFragment
 import com.tistory.dividendcalendar.presentation.stock.adapter.StockAdapter
 import kotlinx.android.synthetic.main.fragment_stock.*
 
@@ -36,9 +36,7 @@ class StockFragment : DividendFragment<FragmentStockBinding>(R.layout.fragment_s
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         initRecyclerView()
-
     }
 
     private fun initRecyclerView() {
@@ -51,8 +49,21 @@ class StockFragment : DividendFragment<FragmentStockBinding>(R.layout.fragment_s
         super.onViewModelSetup()
 
         repository.getStockItems().asLiveData().observe(viewLifecycleOwner, Observer {
-            stockAdapter.replaceAll(it)
+            if (it.isEmpty()) {
+                showEmptyStockView()
+            } else {
+                hideEmptyStockView()
+                stockAdapter.replaceAll(it)
+            }
         })
+    }
+
+    private fun showEmptyStockView() {
+        tvStockEmptyView.visibility = View.VISIBLE
+    }
+
+    private fun hideEmptyStockView() {
+        tvStockEmptyView.visibility = View.GONE
     }
 
 }

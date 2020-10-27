@@ -9,7 +9,7 @@ import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.ActivityMainBinding
 import com.tistory.dividendcalendar.di.Injection
 import com.tistory.dividendcalendar.presentation.calendar.CalendarFragment
-import com.tistory.dividendcalendar.presentation.calendar.dialog.ModifyStockDialogFragment
+import com.tistory.dividendcalendar.presentation.dialog.ModifyStockDialogFragment
 import com.tistory.dividendcalendar.presentation.setting.SettingFragment
 import com.tistory.dividendcalendar.presentation.stock.StockFragment
 import kotlinx.android.synthetic.main.activity_main.*

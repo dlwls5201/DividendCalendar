@@ -1,4 +1,4 @@
-package com.tistory.dividendcalendar.presentation.calendar.dialog
+package com.tistory.dividendcalendar.presentation.dialog
 
 import android.os.Bundle
 import android.view.LayoutInflater

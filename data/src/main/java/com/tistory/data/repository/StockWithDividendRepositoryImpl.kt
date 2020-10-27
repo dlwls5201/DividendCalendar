@@ -25,6 +25,10 @@ class StockWithDividendRepositoryImpl(
     private val stockApi: StockApi
 ) : StockWithDividendRepository {
 
+    companion object {
+        private const val ONE_YEAR = "1y"
+    }
+
     private val gson = Gson()
 
     /*fun getStocks(): Flow<List<StockEntity>> {
@@ -69,6 +73,20 @@ class StockWithDividendRepositoryImpl(
                 }
                 emit(tempCalendarItems)
             }
+        }
+    }
+
+    override suspend fun modifyStockCnt(ticker: String, stockCnt: Int) {
+        val symbol = ticker.toUpperCase()
+        val stockEntity = stockDao.getStock(symbol)
+        Dlog.d("stockEntity : $stockEntity")
+
+        if (stockEntity == null) {
+            fetchAndPutStock(ticker, stockCnt)
+        } else {
+            val stock = stockEntity.copy(stockCnt = stockCnt)
+            Dlog.d("modify stock : $stock")
+            stockDao.insertStock(stock)
         }
     }
 
@@ -145,7 +163,8 @@ class StockWithDividendRepositoryImpl(
                 Dlog.d("다음 배당금이 없습니다")
             }
 
-            val dividends = stockApi.getDividends(symbol, "1y")
+            val dividends =
+                stockApi.getDividends(symbol, ONE_YEAR).filter { it.amount.isNotEmpty() }
             Dlog.d("dividends : $dividends")
 
             dividends.forEach {

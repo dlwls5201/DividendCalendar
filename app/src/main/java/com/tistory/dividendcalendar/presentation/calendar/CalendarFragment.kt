@@ -9,8 +9,8 @@ import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.DividendFragment
 import com.tistory.dividendcalendar.databinding.FragmentCalendarBinding
 import com.tistory.dividendcalendar.di.Injection
-import com.tistory.dividendcalendar.presentation.calendar.dialog.DividendsDialogFragment
 import com.tistory.dividendcalendar.presentation.calendar.view.DividendCalendarView
+import com.tistory.dividendcalendar.presentation.dialog.DividendsDialogFragment
 import com.tistory.domain.model.CalendarItem
 
 class CalendarFragment : DividendFragment<FragmentCalendarBinding>(R.layout.fragment_calendar) {
