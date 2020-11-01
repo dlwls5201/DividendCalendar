@@ -2,7 +2,7 @@ package com.tistory.data.source.local.entity
 
 import androidx.room.Embedded
 import androidx.room.Relation
-import com.tistory.domain.model.StockItem
+import com.tistory.domain.model.StockWithDividendItem
 
 
 data class StockWithDividendEntity(
@@ -15,7 +15,7 @@ data class StockWithDividendEntity(
     val dividends: List<DividendEntity>
 )
 
-fun StockWithDividendEntity.mapToStockItem() = StockItem(
+fun StockWithDividendEntity.mapToStockItem() = StockWithDividendItem(
     symbol = stock.symbol,
     stockCnt = stock.stockCnt,
     logoUrl = stock.logoUrl,

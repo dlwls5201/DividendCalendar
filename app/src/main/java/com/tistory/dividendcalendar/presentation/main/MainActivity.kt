@@ -47,7 +47,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         val dayMilliSecond = 24 * 60 * 60 * 1000 // 86400000
         Dlog.d("diffTime : $diffTime -> dayMilliSecond :$dayMilliSecond")
 
-        if (diffTime > dayMilliSecond) {
+        //TODO test diffTime > dayMilliSecond
+        if (true) {
             syncAllStockWithDividends()
         }
     }
@@ -63,7 +64,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
                 override fun onLoading() {
                     Dlog.d("onLoading")
-                    showProgress()
+                    showFullProgress()
                 }
 
                 override fun onError(error: Throwable) {
@@ -72,7 +73,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
                 override fun onLoaded() {
                     Dlog.d("onLoaded")
-                    hideProgress()
+                    hideFullProgress()
                 }
             })
         }
@@ -182,11 +183,13 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         imageView.setColorFilter(ContextCompat.getColor(this, R.color.colorPrimaryDark))
     }
 
-    private fun showProgress() {
+    private fun showFullProgress() {
+        flMainContainer.visibility = View.GONE
         flMainProgress.visibility = View.VISIBLE
     }
 
-    private fun hideProgress() {
+    private fun hideFullProgress() {
+        flMainContainer.visibility = View.VISIBLE
         flMainProgress.visibility = View.GONE
     }
 }

@@ -11,7 +11,7 @@
 
         <variable
             name="item"
-            type="com.tistory.domain.model.StockItem" />
+            type="com.tistory.domain.model.StockWithDividendItem" />
     </data>
 
     <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"

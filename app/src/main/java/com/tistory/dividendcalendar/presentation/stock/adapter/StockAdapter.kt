@@ -8,18 +8,19 @@ import com.tistory.blackjinbase.base.BaseDiffUtilCallback
 import com.tistory.blackjinbase.base.BaseViewHolder
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.ItemStockBinding
-import com.tistory.domain.model.StockItem
+import com.tistory.domain.model.StockWithDividendItem
 
-class StockAdapter : RecyclerView.Adapter<BaseViewHolder<ViewDataBinding, StockItem>>() {
+class StockAdapter :
+    RecyclerView.Adapter<BaseViewHolder<ViewDataBinding, StockWithDividendItem>>() {
 
-    private val items = mutableListOf<StockItem>()
+    private val items = mutableListOf<StockWithDividendItem>()
 
-    var onStockClickListener: ((item: StockItem) -> Unit)? = null
+    var onStockClickListener: ((withDividendItem: StockWithDividendItem) -> Unit)? = null
 
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ): BaseViewHolder<ViewDataBinding, StockItem> {
+    ): BaseViewHolder<ViewDataBinding, StockWithDividendItem> {
         return StockViewHolder(parent).apply {
             itemView.setOnClickListener {
                 val item = items[adapterPosition]
@@ -31,28 +32,28 @@ class StockAdapter : RecyclerView.Adapter<BaseViewHolder<ViewDataBinding, StockI
     override fun getItemCount() = items.size
 
     override fun onBindViewHolder(
-        holder: BaseViewHolder<ViewDataBinding, StockItem>,
+        holder: BaseViewHolder<ViewDataBinding, StockWithDividendItem>,
         position: Int
     ) {
         holder.bind(items[position])
     }
 
-    fun replaceAll(items: List<StockItem>) {
-        val diffCallback = BaseDiffUtilCallback(this.items, items)
+    fun replaceAll(withDividendItems: List<StockWithDividendItem>) {
+        val diffCallback = BaseDiffUtilCallback(this.items, withDividendItems)
         val diffResult = DiffUtil.calculateDiff(diffCallback)
 
         this.items.run {
             clear()
-            addAll(items)
+            addAll(withDividendItems)
         }
 
         diffResult.dispatchUpdatesTo(this)
     }
 
     class StockViewHolder(parent: ViewGroup) :
-        BaseViewHolder<ItemStockBinding, StockItem>(parent, R.layout.item_stock) {
+        BaseViewHolder<ItemStockBinding, StockWithDividendItem>(parent, R.layout.item_stock) {
 
-        override fun bind(data: StockItem) {
+        override fun bind(data: StockWithDividendItem) {
             binding.item = data
         }
 

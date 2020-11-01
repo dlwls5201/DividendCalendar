@@ -11,7 +11,7 @@ import com.tistory.data.source.local.entity.mapToStockItem
 import com.tistory.data.source.remote.api.StockApi
 import com.tistory.data.source.remote.model.DividendResponse
 import com.tistory.domain.model.CalendarItem
-import com.tistory.domain.model.StockItem
+import com.tistory.domain.model.StockWithDividendItem
 import com.tistory.domain.repository.StockWithDividendRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
@@ -33,7 +33,7 @@ class StockWithDividendRepositoryImpl(
 
     private val gson = Gson()
 
-    override fun getStockItems(): Flow<List<StockItem>> {
+    override fun getStockItems(): Flow<List<StockWithDividendItem>> {
         return stockDao.getStockWithDividends().map {
             it.map { entity -> entity.mapToStockItem() }
         }
@@ -109,8 +109,8 @@ class StockWithDividendRepositoryImpl(
             val nextDividend = stockApi.getDividend(symbol)
             Dlog.d("nextDividend : $nextDividend")
 
-            stockDao.deleteDividends(symbol)
-            Dlog.d("deleteDividends")
+            //stockDao.deleteDividends(symbol)
+            //Dlog.d("deleteDividends")
 
             val hasNextDividend = nextDividend.toString() != "[]"
             stockDao.insertStock(
@@ -169,6 +169,61 @@ class StockWithDividendRepositoryImpl(
             withContext(Dispatchers.Default) {
                 Dlog.d("stock : ${stock.symbol} -> fetchAllStockDividend")
                 fetchAndPutDividends(stock.symbol)
+            }
+        }
+    }
+
+    override suspend fun fetchAllStockNextDividend() {
+        stockDao.getStockList().forEach { stock ->
+            withContext(Dispatchers.Default) {
+                Dlog.d("stock : ${stock.symbol} -> fetchAllStockDividend")
+                fetchAndPutNextDividends(stock.symbol)
+            }
+        }
+    }
+
+    private suspend fun fetchAndPutNextDividends(ticker: String) {
+        val symbol = ticker.toUpperCase()
+        val stockWithDividend = stockDao.getStockWithDividend(symbol)
+        Dlog.d("$symbol -> stockWithDividend : $stockWithDividend")
+
+        if (stockWithDividend != null) {
+
+            val nextDividend = stockApi.getDividend(symbol)
+            Dlog.d("nextDividend : $nextDividend")
+
+            //stockDao.deleteDividends(symbol)
+            //Dlog.d("deleteDividends")
+
+            val hasNextDividend = nextDividend.toString() != "[]"
+            stockDao.insertStock(
+                stockWithDividend.stock.copy(hasNextDividend = hasNextDividend)
+            )
+
+            if (hasNextDividend) {
+                val jsonString = gson.toJson(nextDividend)
+                Dlog.d("jsonString : $jsonString")
+
+                val tempDividend =
+                    gson.fromJson(jsonString, DividendResponse::class.java)
+                Dlog.d("tempDividend : $tempDividend")
+
+                tempDividend.let {
+                    stockDao.insertDividend(
+                        DividendEntity(
+                            dividendId = DividendEntity.makeDividendId(symbol, it.paymentDate),
+                            parentSymbol = symbol,
+                            exDate = it.exDate,
+                            declaredDate = it.declaredDate,
+                            paymentDate = it.paymentDate,
+                            recordDate = it.date,
+                            amount = it.amount.toFloatCheckFormat(),
+                            frequency = it.frequency
+                        )
+                    )
+                }
+            } else {
+                Dlog.d("다음 배당금이 없습니다")
             }
         }
     }

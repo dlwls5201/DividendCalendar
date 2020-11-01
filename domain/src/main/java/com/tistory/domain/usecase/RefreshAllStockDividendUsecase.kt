@@ -13,7 +13,7 @@ class RefreshAllStockDividendUsecase(
             try {
                 listener.onLoading()
                 withContext(Dispatchers.IO) {
-                    stockWithDividendRepository.fetchAllStockDividend()
+                    stockWithDividendRepository.fetchAllStockNextDividend()
                 }
                 listener.onSuccess(Any())
             } catch (e: Exception) {
