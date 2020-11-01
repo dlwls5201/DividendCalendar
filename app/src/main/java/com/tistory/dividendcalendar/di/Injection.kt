@@ -6,6 +6,7 @@ import com.tistory.data.source.local.StockDataBase
 import com.tistory.data.source.remote.ApiProvider
 import com.tistory.domain.repository.StockWithDividendRepository
 import com.tistory.domain.usecase.AddStockUsecase
+import com.tistory.domain.usecase.RefreshAllStockDividendUsecase
 
 object Injection {
 
@@ -16,6 +17,9 @@ object Injection {
     }
 
     fun provideAddStockUsecase() = AddStockUsecase(provideStockWithDividendRepo())
+
+    fun provideRefreshAllStockDividendUsecase() =
+        RefreshAllStockDividendUsecase(provideStockWithDividendRepo())
 
     fun provideStockWithDividendRepo(): StockWithDividendRepository {
         return StockWithDividendRepositoryImpl(

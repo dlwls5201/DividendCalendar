@@ -4,7 +4,9 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import androidx.core.content.ContextCompat
+import androidx.lifecycle.lifecycleScope
 import com.tistory.blackjinbase.base.BaseActivity
+import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.ActivityMainBinding
 import com.tistory.dividendcalendar.di.Injection
@@ -12,7 +14,10 @@ import com.tistory.dividendcalendar.presentation.calendar.CalendarFragment
 import com.tistory.dividendcalendar.presentation.dialog.ModifyStockDialogFragment
 import com.tistory.dividendcalendar.presentation.setting.SettingFragment
 import com.tistory.dividendcalendar.presentation.stock.StockFragment
+import com.tistory.dividendcalendar.utils.PrefUtil
+import com.tistory.domain.base.BaseListener
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.coroutines.launch
 
 class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
@@ -22,8 +27,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
     private var calendarFragment: CalendarFragment? = null
     private var settingFragment: SettingFragment? = null
 
-    private val addStockUsecase by lazy {
-        Injection.provideAddStockUsecase()
+    private val refreshAllStockDividendUsecase by lazy {
+        Injection.provideRefreshAllStockDividendUsecase()
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +36,46 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
         initButton()
         initStockFragment()
+        checkOneDaySync()
+    }
+
+    private fun checkOneDaySync() {
+        val recentLoadingTime = PrefUtil.get(PrefUtil.RECENT_LOADING_TIME, 0L)
+        val currentTime = System.currentTimeMillis()
+        val diffTime = currentTime - recentLoadingTime
+
+        val dayMilliSecond = 24 * 60 * 60 * 1000 // 86400000
+        Dlog.d("diffTime : $diffTime -> dayMilliSecond :$dayMilliSecond")
+
+        if (diffTime > dayMilliSecond) {
+            syncAllStockWithDividends()
+        }
+    }
+
+    private fun syncAllStockWithDividends() {
+        lifecycleScope.launch {
+            refreshAllStockDividendUsecase.build(object : BaseListener<Any>() {
+                override fun onSuccess(data: Any) {
+                    Dlog.d("onSuccess")
+                    val currentTime = System.currentTimeMillis()
+                    PrefUtil.put(PrefUtil.RECENT_LOADING_TIME, currentTime)
+                }
+
+                override fun onLoading() {
+                    Dlog.d("onLoading")
+                    showProgress()
+                }
+
+                override fun onError(error: Throwable) {
+                    Dlog.d("onError : ${error.message}")
+                }
+
+                override fun onLoaded() {
+                    Dlog.d("onLoaded")
+                    hideProgress()
+                }
+            })
+        }
     }
 
     private fun initButton() {

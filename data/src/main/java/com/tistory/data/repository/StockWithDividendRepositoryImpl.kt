@@ -13,12 +13,14 @@ import com.tistory.data.source.remote.model.DividendResponse
 import com.tistory.domain.model.CalendarItem
 import com.tistory.domain.model.StockItem
 import com.tistory.domain.repository.StockWithDividendRepository
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flatMapConcat
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.withContext
 
 class StockWithDividendRepositoryImpl(
     private val stockDao: StockDao,
@@ -30,29 +32,6 @@ class StockWithDividendRepositoryImpl(
     }
 
     private val gson = Gson()
-
-    /*fun getStocks(): Flow<List<StockEntity>> {
-        return stockDao.getStocks()
-    }
-
-    fun getDividends(): Flow<List<DividendEntity>> {
-        return stockDao.getDividends()
-    }
-
-
-    suspend fun getStock(ticker: String): StockEntity? {
-        val symbol = ticker.toUpperCase()
-        val stockEntity = stockDao.getStock(symbol)
-        Dlog.d("stockEntity : $stockEntity")
-        return stockEntity
-    }
-
-    suspend fun getStockWithDividend(ticker: String): StockWithDividendEntity? {
-        val symbol = ticker.toUpperCase()
-        val stockWithDividendEntity = stockDao.getStockWithDividend(symbol)
-        Dlog.d("stockWithDividendEntity : $stockWithDividendEntity")
-        return stockWithDividendEntity
-    }*/
 
     override fun getStockItems(): Flow<List<StockItem>> {
         return stockDao.getStockWithDividends().map {
@@ -149,6 +128,7 @@ class StockWithDividendRepositoryImpl(
                 tempDividend.let {
                     stockDao.insertDividend(
                         DividendEntity(
+                            dividendId = DividendEntity.makeDividendId(symbol, it.paymentDate),
                             parentSymbol = symbol,
                             exDate = it.exDate,
                             declaredDate = it.declaredDate,
@@ -170,6 +150,7 @@ class StockWithDividendRepositoryImpl(
             dividends.forEach {
                 stockDao.insertDividend(
                     DividendEntity(
+                        dividendId = DividendEntity.makeDividendId(symbol, it.paymentDate),
                         parentSymbol = symbol,
                         exDate = it.exDate,
                         declaredDate = it.declaredDate,
@@ -179,6 +160,15 @@ class StockWithDividendRepositoryImpl(
                         frequency = it.frequency
                     )
                 )
+            }
+        }
+    }
+
+    override suspend fun fetchAllStockDividend() {
+        stockDao.getStockList().forEach { stock ->
+            withContext(Dispatchers.Default) {
+                Dlog.d("stock : ${stock.symbol} -> fetchAllStockDividend")
+                fetchAndPutDividends(stock.symbol)
             }
         }
     }

@@ -19,8 +19,8 @@ import com.tistory.domain.model.Frequency
         )]*/
 )
 data class DividendEntity(
-    @PrimaryKey(autoGenerate = true)
-    val dividendId: Long = 0,
+    @PrimaryKey
+    val dividendId: String,
     val parentSymbol: String,
     val exDate: String = "",
     val declaredDate: String,
@@ -28,7 +28,12 @@ data class DividendEntity(
     val recordDate: String = "",
     val amount: Float = 0f,
     val frequency: String? = ""
-)
+) {
+    companion object {
+
+        fun makeDividendId(symbol: String, paymentDate: String) = "${symbol}_${paymentDate}"
+    }
+}
 
 fun DividendEntity.mapToItem(stock: StockEntity) = CalendarItem(
     ticker = parentSymbol,

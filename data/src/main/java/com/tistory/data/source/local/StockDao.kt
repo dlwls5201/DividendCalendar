@@ -12,6 +12,9 @@ interface StockDao {
     @Query("SELECT * FROM stocks")
     fun getStocks(): Flow<List<StockEntity>>
 
+    @Query("SELECT * FROM stocks")
+    fun getStockList(): List<StockEntity>
+
     @Query("SELECT * FROM dividends")
     fun getDividends(): Flow<List<DividendEntity>>
 

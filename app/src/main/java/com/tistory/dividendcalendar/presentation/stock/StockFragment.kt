@@ -49,7 +49,7 @@ class StockFragment : DividendFragment<FragmentStockBinding>(R.layout.fragment_s
     override fun onViewModelSetup() {
         super.onViewModelSetup()
 
-        repository.getStockItems().debounce(300)
+        repository.getStockItems().debounce(500)
             .asLiveData().observe(viewLifecycleOwner, Observer {
                 if (it.isEmpty()) {
                     showEmptyStockView()
