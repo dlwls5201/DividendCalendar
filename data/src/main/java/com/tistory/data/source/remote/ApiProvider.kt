@@ -13,8 +13,7 @@ object ApiProvider {
     //private const val baseUrl = "https://cloud.iexapis.com/stable/stock/"
     private const val baseUrl = "https://cloud.iexapis.com/"
 
-    //TODO you must delete updating to github
-    const val token = ""
+    const val token = ApiKey.iex_cloud_api_key
 
     fun provideStockApi(): StockApi = getRetrofitBuild()
         .create(StockApi::class.java)
