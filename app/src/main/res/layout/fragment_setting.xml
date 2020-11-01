@@ -18,8 +18,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Setting"
+                android:text="@string/setting"
                 android:textColor="@color/white"
+                android:textAllCaps="true"
                 android:textSize="14dp" />
         </FrameLayout>
 

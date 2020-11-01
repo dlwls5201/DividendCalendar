@@ -47,8 +47,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         val dayMilliSecond = 24 * 60 * 60 * 1000 // 86400000
         Dlog.d("diffTime : $diffTime -> dayMilliSecond :$dayMilliSecond")
 
-        //TODO test diffTime > dayMilliSecond
-        if (true) {
+        if (diffTime > dayMilliSecond) {
             syncAllStockWithDividends()
         }
     }

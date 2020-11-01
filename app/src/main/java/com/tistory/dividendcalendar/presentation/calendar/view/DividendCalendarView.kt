@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import android.widget.*
 import android.widget.AdapterView.OnItemClickListener
 import android.widget.AdapterView.OnItemLongClickListener
+import androidx.annotation.StringRes
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import com.bumptech.glide.Glide
@@ -121,8 +122,8 @@ class DividendCalendarView : LinearLayout {
 
     private var calendarType: CalendarType = CalendarType.PAYMENT_DATE
 
-    enum class CalendarType(val title: String) {
-        EX_DATE("배당락일"), PAYMENT_DATE("지급일")
+    enum class CalendarType(@StringRes val stringId: Int) {
+        EX_DATE(R.string.ex_date_day), PAYMENT_DATE(R.string.payment_date_day)
     }
 
     private fun assignClickHandlers() {
@@ -173,15 +174,15 @@ class DividendCalendarView : LinearLayout {
             }
 
         // change calendar type
-        tvCalendarType.text = calendarType.title
-        tvCalendarType.setOnClickListener {
+        btnCalendarType.text = resources.getString(calendarType.stringId)
+        btnCalendarType.setOnClickListener {
             if (calendarType == CalendarType.EX_DATE) {
                 calendarType = CalendarType.PAYMENT_DATE
-                tvCalendarType.text = calendarType.title
+                btnCalendarType.text = resources.getString(calendarType.stringId)
                 updateCalendar()
             } else {
                 calendarType = CalendarType.EX_DATE
-                tvCalendarType.text = calendarType.title
+                btnCalendarType.text = resources.getString(calendarType.stringId)
                 updateCalendar()
             }
         }
