@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_alert"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:text="@string/show_alert" />
+
+        <Button
+            android:id="@+id/btn_single_click"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:text="@string/single_click" />
+
+        <Button
+            android:id="@+id/btn_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:text="@string/recycler_view_sample" />
+
+        <Button
+            android:id="@+id/btn_simple_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:text="@string/simple_recycler_view_sample" />
+
+        <Button
+            android:id="@+id/btn_live_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:text="@string/live_recycler_view_sample" />
+
+    </LinearLayout>
+</layout>

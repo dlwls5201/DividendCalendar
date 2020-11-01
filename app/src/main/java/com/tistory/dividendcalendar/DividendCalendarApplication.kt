@@ -1,16 +1,14 @@
 package com.tistory.dividendcalendar
 
 import android.app.Application
+import com.tistory.dividendcalendar.di.Injection
+import com.tistory.dividendcalendar.utils.PrefUtil
 
 class DividendCalendarApplication : Application() {
 
-    companion object {
-        lateinit var INSTANCE: Application
-    }
-
     override fun onCreate() {
         super.onCreate()
-        INSTANCE = this
-        //RoomProvider.init(this)
+        Injection.init(this)
+        PrefUtil.init(this)
     }
 }

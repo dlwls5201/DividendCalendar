@@ -4,22 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+
         <import type="android.text.TextUtils" />
 
+        <import type="android.view.View" />
+
         <variable
-            name="data"
-            type="com.tistory.dividendcalendar.presentation.model.DividendItem" />
+            name="item"
+            type="com.tistory.domain.model.StockWithDividendItem" />
     </data>
 
     <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         app:cardCornerRadius="10dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
             android:padding="10dp">
 
             <ImageView
@@ -27,68 +33,87 @@
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:adjustViewBounds="true"
-                tools:src="@mipmap/ic_launcher"
-                bind:setImageUrl="@{data.logoUrl}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                bind:setImageUrl="@{item.logoUrl}"
+                tools:src="@mipmap/ic_launcher" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelineStartFromImage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toRightOf="@id/stockLogo"
-                app:layout_constraintTop_toTopOf="parent">
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="70dp" />
 
-                <TextView
-                    android:id="@+id/stockName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:text="@{@string/company_format(data.companyName, data.ticker)}"
-                    android:textColor="@color/gray1"
-                    android:textSize="13dp"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:text="Apple.Inc(AAPL)" />
-
-                <TextView
-                    android:id="@+id/stockExDate"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:text="@{TextUtils.isEmpty(data.exDate) ? @string/next_ex_date_info_is_nothing : @string/ex_date_format(data.exDate)}"
-                    android:textColor="@color/gray1"
-                    android:textSize="13dp"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/stockName"
-                    tools:text="배당락일 : 2020-04-27" />
-
-                <TextView
-                    android:id="@+id/stockAmount"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:text="@{@string/my_stock_cnt_with_integer(data.stockCnt)}"
-                    android:textColor="@color/gray1"
-                    android:textSize="13dp"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/stockExDate"
-                    tools:text="나의 주식 수 30" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <ImageView
-                android:id="@+id/stockMore"
+            <TextView
+                android:id="@+id/tvStockName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_more"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:singleLine="true"
+                android:text="@{@string/company_format(item.companyName, item.symbol)}"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvStockExDate"
+                app:layout_constraintStart_toEndOf="@id/guidelineStartFromImage"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Apple.Inc(AAPL)" />
 
+            <TextView
+                android:id="@+id/tvStockExDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@{item.hasNextDividend ? @string/item_stock_date_format(item.dividends[0].exDate, item.dividends[0].paymentDate) : @string/stock_date_noting_yet}"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:visibility="@{item.dividends.size() > 0 ? View.VISIBLE : View.GONE}"
+                app:layout_constraintBottom_toTopOf="@id/tvStockDividendInfo"
+                app:layout_constraintStart_toEndOf="@id/guidelineStartFromImage"
+                app:layout_constraintTop_toBottomOf="@id/tvStockName"
+                tools:text="배당락일 : 2020-04-27 / 지급일 : 2020-04-27" />
+
+            <TextView
+                android:id="@+id/tvStockDividendInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/not_has_dividend_info"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:visibility="@{item.dividends.size() > 0 ? View.GONE : View.VISIBLE}"
+                app:layout_constraintBottom_toTopOf="@id/tvStockCount"
+                app:layout_constraintStart_toEndOf="@id/guidelineStartFromImage"
+                app:layout_constraintTop_toBottomOf="@id/tvStockExDate"
+                tools:text="배당금 정보가 없습니다." />
+
+            <TextView
+                android:id="@+id/tvStockCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@{@string/item_my_stock_cnt_format(item.stockCnt)}"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                app:layout_constraintBottom_toTopOf="@id/tvStockFrequency"
+                app:layout_constraintStart_toEndOf="@id/guidelineStartFromImage"
+                app:layout_constraintTop_toBottomOf="@id/tvStockDividendInfo"
+                tools:text="나의 주식 수 30" />
+
+            <TextView
+                android:id="@+id/tvStockFrequency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@{@string/item_frequency_format(item.dividends[0].frequency.name())}"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:visibility="@{item.dividends.size() > 0 ? View.VISIBLE : View.GONE}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/guidelineStartFromImage"
+                app:layout_constraintTop_toBottomOf="@id/tvStockCount"
+                tools:text="빈도 : QUARTER" />
         </androidx.constraintlayout.widget.ConstraintLayout>
-
-
     </androidx.cardview.widget.CardView>
 </layout>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/white"
     android:orientation="vertical">
 
@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="5dp"
             android:layout_toLeftOf="@+id/tvViewCalendarTitle"
             android:src="@drawable/ic_arrow_left_white_24dp" />
 
@@ -35,23 +35,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="5dp"
             android:layout_toRightOf="@+id/tvViewCalendarTitle"
             android:src="@drawable/ic_arrow_right_white_24dp" />
 
-        <TextView
-            android:id="@+id/tvCalendarType"
+        <Button
+            android:id="@+id/btnCalendarType"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/cardview_dark_background"
+            android:textAllCaps="false"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginEnd="10dp"
-            android:gravity="center"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
+            android:textSize="10dp"
             android:textColor="@color/white"
-            android:textSize="15dp"
-            tools:text="배당락일" />
+            tools:text="@string/payment_date_day" />
 
     </RelativeLayout>
 
@@ -69,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="일"
+            android:text="@string/sun"
             android:textColor="@color/black"
             android:textSize="14dp" />
 
@@ -78,7 +77,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="월"
+            android:text="@string/mon"
             android:textColor="@color/black"
             android:textSize="14dp" />
 
@@ -87,7 +86,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="화"
+            android:text="@string/tue"
             android:textColor="@color/black"
             android:textSize="14dp" />
 
@@ -96,7 +95,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="수"
+            android:text="@string/wed"
             android:textColor="@color/black"
             android:textSize="14dp" />
 
@@ -105,7 +104,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="목"
+            android:text="@string/thu"
             android:textColor="@color/black"
             android:textSize="14dp" />
 
@@ -114,7 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="금"
+            android:text="@string/fri"
             android:textColor="@color/black"
             android:textSize="14dp" />
 
@@ -123,7 +122,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="토"
+            android:text="@string/sat"
             android:textColor="@color/black"
             android:textSize="14dp" />
 

@@ -1,2 +1,5 @@
+include ':blackjinbase'
+include ':domain'
+include ':data'
 include ':app'
 rootProject.name = "DividendCalendar"

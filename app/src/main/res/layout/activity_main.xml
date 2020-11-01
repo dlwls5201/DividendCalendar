@@ -1,53 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
 
-        <variable
-            name="activity"
-            type="com.tistory.dividendcalendar.presentation.main.MainActivity" />
     </data>
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/container"
-        xmlns:tools="http://schemas.android.com/tools"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".presentation.main.MainActivity">
-
-        <Button
-            android:id="@+id/mainMyStock"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:background="@null"
-            android:onClick="@{(view) -> activity.onTab(view, true)}"
-            android:text="@string/menuMyStock"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_default="percent"
-            app:layout_constraintWidth_percent="0.5" />
-
-        <Button
-            android:id="@+id/mainCalendar"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:background="@null"
-            android:onClick="@{(view) -> activity.onTab(view, false)}"
-            android:text="@string/menuCalendar"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_default="percent"
-            app:layout_constraintWidth_percent="0.5" />
+        android:layout_height="match_parent">
 
         <FrameLayout
-            android:id="@+id/mainFrame"
-            android:layout_width="match_parent"
+            android:id="@+id/flMainContainer"
+            android:layout_width="0dp"
             android:layout_height="0dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/mainMyStock" />
+            app:layout_constraintBottom_toTopOf="@id/llBottomNav"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
+        <LinearLayout
+            android:id="@+id/llBottomNav"
+            android:layout_width="0dp"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            android:elevation="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <FrameLayout
+                android:id="@+id/btnNavChart"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground">
+
+                <ImageView
+                    android:id="@+id/ivNavChart"
+                    android:layout_width="@dimen/nav_icon_size"
+                    android:layout_height="@dimen/nav_icon_size"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_nav_chart_outlined_black_18dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/btnNavCalendar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground">
+
+                <ImageView
+                    android:id="@+id/ivNavCalendar"
+                    android:layout_width="@dimen/nav_icon_size"
+                    android:layout_height="@dimen/nav_icon_size"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_nav_calendar_black_18dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/btnNavSetting"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground">
+
+                <ImageView
+                    android:id="@+id/ivNavSetting"
+                    android:layout_width="@dimen/nav_icon_size"
+                    android:layout_height="@dimen/nav_icon_size"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_nav_settings_black_18dp" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabAddStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:src="@android:drawable/ic_input_add"
+            android:tint="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@id/llBottomNav"
+            app:layout_constraintRight_toRightOf="parent"
+            app:useCompatPadding="true" />
+
+        <FrameLayout
+            android:id="@+id/flMainProgress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:visibility="gone"
+            android:background="@color/dim"
+            android:elevation="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

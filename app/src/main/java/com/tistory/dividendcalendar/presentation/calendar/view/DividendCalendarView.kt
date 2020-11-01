@@ -10,12 +10,13 @@ import android.view.ViewGroup
 import android.widget.*
 import android.widget.AdapterView.OnItemClickListener
 import android.widget.AdapterView.OnItemLongClickListener
+import androidx.annotation.StringRes
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import com.bumptech.glide.Glide
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
-import com.tistory.dividendcalendar.presentation.model.DividendItem
+import com.tistory.domain.model.CalendarItem
 import kotlinx.android.synthetic.main.view_calendar.view.*
 import java.text.SimpleDateFormat
 import java.util.*
@@ -42,7 +43,7 @@ class DividendCalendarView : LinearLayout {
     private val currentDate = Calendar.getInstance()
 
     // dividends
-    private val dividendItems = mutableListOf<DividendItem>()
+    private val dividendItems = mutableListOf<CalendarItem>()
 
     //event handling
     private var eventHandler: EventHandler? = null
@@ -119,10 +120,10 @@ class DividendCalendarView : LinearLayout {
         headerHeight = resources.getDimension(R.dimen.calendar_header_size)
     }
 
-    private var calendarType: CalendarType = CalendarType.EX_DATE
+    private var calendarType: CalendarType = CalendarType.PAYMENT_DATE
 
-    enum class CalendarType(val title: String) {
-        EX_DATE("배당락일"), PAYMENT_DATE("지급일")
+    enum class CalendarType(@StringRes val stringId: Int) {
+        EX_DATE(R.string.ex_date_day), PAYMENT_DATE(R.string.payment_date_day)
     }
 
     private fun assignClickHandlers() {
@@ -173,15 +174,15 @@ class DividendCalendarView : LinearLayout {
             }
 
         // change calendar type
-        tvCalendarType.text = calendarType.title
-        tvCalendarType.setOnClickListener {
+        btnCalendarType.text = resources.getString(calendarType.stringId)
+        btnCalendarType.setOnClickListener {
             if (calendarType == CalendarType.EX_DATE) {
                 calendarType = CalendarType.PAYMENT_DATE
-                tvCalendarType.text = calendarType.title
+                btnCalendarType.text = resources.getString(calendarType.stringId)
                 updateCalendar()
             } else {
                 calendarType = CalendarType.EX_DATE
-                tvCalendarType.text = calendarType.title
+                btnCalendarType.text = resources.getString(calendarType.stringId)
                 updateCalendar()
             }
         }
@@ -191,9 +192,10 @@ class DividendCalendarView : LinearLayout {
     /**
      * Display dates correctly in grid
      */
-    fun updateCalendar(dividends: List<DividendItem>) {
+    fun updateCalendar(items: List<CalendarItem>) {
+        Dlog.d("items : $items")
         dividendItems.clear()
-        dividendItems.addAll(dividends)
+        dividendItems.addAll(items)
         updateCalendar()
     }
 
@@ -250,8 +252,8 @@ class DividendCalendarView : LinearLayout {
      * the outside world
      */
     interface EventHandler {
-        fun onDayLongPress(items: List<DividendItem>)
-        fun onDayPress(items: List<DividendItem>)
+        fun onDayLongPress(items: List<CalendarItem>)
+        fun onDayPress(items: List<CalendarItem>)
     }
 
     private val today = Date()
@@ -277,19 +279,19 @@ class DividendCalendarView : LinearLayout {
                 val flItemViewCalendarParent: FrameLayout =
                     findViewById(R.id.flItemViewCalendarParent)
                 val clItemViewCalendar: ConstraintLayout = findViewById(R.id.clItemViewCalendar)
-                val tvItemViewCalendar = findViewById<TextView>(R.id.tvItemViewCalendar)
+                val tvItemViewCalendar: TextView = findViewById(R.id.tvItemViewCalendar)
 
-                val llItemViewCalendarParent1 =
-                    findViewById<LinearLayout>(R.id.llItemViewCalendarParent1)
-                val ivItemViewCalendarLogo1 = findViewById<ImageView>(R.id.ivItemViewCalendarLogo1)
-                val tvItemViewCalendarCompanyName1 =
-                    findViewById<TextView>(R.id.tvItemViewCalendarCompanyName1)
+                val ivItemViewCalendarLogo1: ImageView = findViewById(R.id.ivItemViewCalendarLogo1)
+                val tvItemViewCalendarCompanyName1: TextView =
+                    findViewById(R.id.tvItemViewCalendarCompanyName1)
 
-                val llItemViewCalendarParent2 =
-                    findViewById<LinearLayout>(R.id.llItemViewCalendarParent2)
-                val ivItemViewCalendarLogo2 = findViewById<ImageView>(R.id.ivItemViewCalendarLogo2)
-                val tvItemViewCalendarCompanyName2 =
-                    findViewById<TextView>(R.id.tvItemViewCalendarCompanyName2)
+                val ivItemViewCalendarLogo2: ImageView = findViewById(R.id.ivItemViewCalendarLogo2)
+                val tvItemViewCalendarCompanyName2: TextView =
+                    findViewById(R.id.tvItemViewCalendarCompanyName2)
+
+                val llItemViewCalendarParent3: LinearLayout =
+                    findViewById(R.id.llItemViewCalendarParent3)
+                llItemViewCalendarParent3.visibility = View.GONE
 
                 // set the child height according to the parent height.
                 flItemViewCalendarParent.layoutParams = FrameLayout.LayoutParams(
@@ -322,7 +324,7 @@ class DividendCalendarView : LinearLayout {
                     flItemViewCalendarParent.setBackgroundColor(
                         ContextCompat.getColor(
                             context,
-                            R.color.greyed_out
+                            R.color.gray_02
                         )
                     )
                 }
@@ -353,8 +355,7 @@ class DividendCalendarView : LinearLayout {
                             tvItemViewCalendarCompanyName2.text = dividendItem.companyName
                         }
                         else -> {
-                            //TODO item over 3
-                            Dlog.d("item over 3")
+                            llItemViewCalendarParent3.visibility = View.VISIBLE
                         }
                     }
                 }

@@ -79,5 +79,24 @@
                 android:textSize="10dp"
                 tools:text="name" />
         </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llItemViewCalendarParent3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/llItemViewCalendarParent2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textSize="10dp"
+                android:text="more.."
+                android:textColor="@color/white" />
+        </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

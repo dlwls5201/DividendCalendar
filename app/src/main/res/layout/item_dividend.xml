@@ -8,12 +8,12 @@
 
         <variable
             name="item"
-            type="com.tistory.dividendcalendar.presentation.model.DividendItem" />
+            type="com.tistory.domain.model.CalendarItem" />
     </data>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="220dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
         android:layout_margin="10dp"
         app:cardCornerRadius="10dp"
         app:cardElevation="5dp">
@@ -34,7 +34,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     bind:setImageUrl="@{item.logoUrl}"
-                    tools:background="@color/greyed_out" />
+                    tools:background="@color/gray_02" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -59,7 +59,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/ex_date_day"
+                    android:text="@string/item_ex_date_day"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
@@ -83,7 +83,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/pay_date_day"
+                    android:text="@string/item_payment_date_day"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
@@ -107,7 +107,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/my_stock_cnt"
+                    android:text="@string/item_my_stock_cnt"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
@@ -131,7 +131,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/price_of_one_stock"
+                    android:text="@string/item_price_of_one_stock"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
@@ -143,7 +143,31 @@
                     android:text="@{String.valueOf(item.amount)}"
                     android:textColor="@color/black"
                     android:textSize="15dp"
-                    tools:text="2020-04-27" />
+                    tools:text="$0.4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/item_frequency"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@{item.frequency.name()}"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    tools:text="빈도 : QUARTER" />
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
