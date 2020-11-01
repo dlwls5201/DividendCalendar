@@ -65,7 +65,7 @@ class StockWithDividendRepositoryImpl(
         } else {
             val stock = stockEntity.copy(stockCnt = stockCnt)
             Dlog.d("modify stock : $stock")
-            stockDao.insertStock(stock)
+            stockDao.updateStock(stock)
         }
     }
 
@@ -94,8 +94,8 @@ class StockWithDividendRepositoryImpl(
             }
         } else {
             val copyStock = stockEntity.copy(stockCnt = stockCnt)
-            Dlog.d("insert copyStock : $copyStock")
-            stockDao.insertStock(copyStock)
+            Dlog.d("update copyStock : $copyStock")
+            stockDao.updateStock(copyStock)
         }
     }
 
@@ -113,7 +113,7 @@ class StockWithDividendRepositoryImpl(
             //Dlog.d("deleteDividends")
 
             val hasNextDividend = nextDividend.toString() != "[]"
-            stockDao.insertStock(
+            stockDao.updateStock(
                 stockWithDividend.stock.copy(hasNextDividend = hasNextDividend)
             )
 

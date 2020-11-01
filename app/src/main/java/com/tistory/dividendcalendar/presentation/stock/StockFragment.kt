@@ -57,8 +57,13 @@ class StockFragment : DividendFragment<FragmentStockBinding>(R.layout.fragment_s
                     hideEmptyStockView()
                 }
 
-                //새로 추가하거나 수정한 데이터가 상단에 오도록 한다.
-                stockAdapter.replaceAll(it.asReversed())
+                stockAdapter.replaceAll(it.sortedByDescending { item ->
+                    if (item.dividends.isNotEmpty()) {
+                        item.dividends.first().paymentDate
+                    } else {
+                        Char.MIN_VALUE.toString()
+                    }
+                })
             })
     }
 

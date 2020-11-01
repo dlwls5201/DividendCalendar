@@ -32,8 +32,11 @@ interface StockDao {
     suspend fun getStockWithDividend(symbol: String): StockWithDividendEntity?
 
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    @Insert
     suspend fun insertStock(stock: StockEntity)
+
+    @Update
+    suspend fun updateStock(stock: StockEntity)
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertDividend(dividend: DividendEntity)
