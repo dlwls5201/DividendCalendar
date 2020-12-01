@@ -101,67 +101,25 @@ class StockWithDividendRepositoryImpl(
     }
 
     override suspend fun fetchAndPutDividends(ticker: String) {
+        fetchAndPutNextDividends(ticker)
         val symbol = ticker.toUpperCase()
-        val stockWithDividend = stockDao.getStockWithDividend(symbol)
-        Dlog.d("$symbol -> stockWithDividend : $stockWithDividend")
+        val dividends =
+            stockApi.getDividends(symbol, ONE_YEAR).filter { it.amount.isNotEmpty() }
+        Dlog.d("dividends : $dividends")
 
-        if (stockWithDividend != null) {
-
-            val nextDividend = stockApi.getDividend(symbol)
-            Dlog.d("nextDividend : $nextDividend")
-
-            //stockDao.deleteDividends(symbol)
-            //Dlog.d("deleteDividends")
-
-            val hasNextDividend = nextDividend.toString() != "[]"
-            stockDao.updateStock(
-                stockWithDividend.stock.copy(hasNextDividend = hasNextDividend)
-            )
-
-            if (hasNextDividend) {
-                val jsonString = gson.toJson(nextDividend)
-                Dlog.d("jsonString : $jsonString")
-
-                val tempDividend =
-                    gson.fromJson(jsonString, DividendResponse::class.java)
-                Dlog.d("tempDividend : $tempDividend")
-
-                tempDividend.let {
-                    stockDao.insertDividend(
-                        DividendEntity(
-                            dividendId = DividendEntity.makeDividendId(symbol, it.paymentDate),
-                            parentSymbol = symbol,
-                            exDate = it.exDate,
-                            declaredDate = it.declaredDate,
-                            paymentDate = it.paymentDate,
-                            recordDate = it.date,
-                            amount = it.amount.toFloatCheckFormat(),
-                            frequency = it.frequency
-                        )
-                    )
-                }
-            } else {
-                Dlog.d("다음 배당금이 없습니다")
-            }
-
-            val dividends =
-                stockApi.getDividends(symbol, ONE_YEAR).filter { it.amount.isNotEmpty() }
-            Dlog.d("dividends : $dividends")
-
-            dividends.forEach {
-                stockDao.insertDividend(
-                    DividendEntity(
-                        dividendId = DividendEntity.makeDividendId(symbol, it.paymentDate),
-                        parentSymbol = symbol,
-                        exDate = it.exDate,
-                        declaredDate = it.declaredDate,
-                        paymentDate = it.paymentDate,
-                        recordDate = it.date,
-                        amount = it.amount.toFloatCheckFormat(),
-                        frequency = it.frequency
-                    )
+        dividends.forEach {
+            stockDao.insertDividend(
+                DividendEntity(
+                    dividendId = DividendEntity.makeDividendId(symbol, it.paymentDate),
+                    parentSymbol = symbol,
+                    exDate = it.exDate,
+                    declaredDate = it.declaredDate,
+                    paymentDate = it.paymentDate,
+                    recordDate = it.date,
+                    amount = it.amount.toFloatCheckFormat(),
+                    frequency = it.frequency
                 )
-            }
+            )
         }
     }
 
@@ -194,9 +152,6 @@ class StockWithDividendRepositoryImpl(
 
             val nextDividend = stockApi.getDividend(symbol)
             Dlog.d("nextDividend : $nextDividend")
-
-            //stockDao.deleteDividends(symbol)
-            //Dlog.d("deleteDividends")
 
             val jsonString = gson.toJson(nextDividend)
             try {
