@@ -1,7 +1,7 @@
 package com.tistory.domain.model
 
-enum class Frequency {
-    MONTHLY, QUARTER, SEMI, ANNUAL, NONE;
+enum class Frequency(val value: Int) {
+    MONTHLY(12), QUARTER(4), SEMI(2), ANNUAL(1), NONE(0);
 
     companion object {
 

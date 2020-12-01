@@ -47,4 +47,5 @@
 
     <string name="ok">확인</string>
     <string name="total_dividend_explain">해당월의 내가 입력한 모든\n(주식 * 보유갯수) 값입니다.</string>
+    <string name="total_dividend_monthly">월평균 배당금 : $%.2f</string>
 </resources>
