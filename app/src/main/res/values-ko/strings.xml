@@ -6,6 +6,7 @@
     <string name="not_find_selected_ticker">검색한 티커의 결과가 없습니다.</string>
     <string name="please_check_internet">인터넷 연결을 확인해주세요</string>
 
+    <string name="dividend">배당금</string>
     <string name="ticker_name">티커 명</string>
     <string name="stock_count">주식 수</string>
     <string name="confirm">확인</string>
@@ -43,4 +44,7 @@
     <string name="thu">목</string>
     <string name="fri">금</string>
     <string name="sat">토</string>
+
+    <string name="ok">확인</string>
+    <string name="total_dividend_explain">해당월의 내가 입력한 모든\n(주식 * 보유갯수) 값입니다.</string>
 </resources>

@@ -6,6 +6,7 @@
     <string name="not_find_selected_ticker">not find selected ticker</string>
     <string name="please_check_internet">please check internet</string>
 
+    <string name="dividend">dividend</string>
     <string name="ticker_name">ticker name</string>
     <string name="stock_count">stock count</string>
     <string name="confirm">confirm</string>
@@ -43,4 +44,7 @@
     <string name="thu">Thu</string>
     <string name="fri">Fri</string>
     <string name="sat">Sat</string>
+
+    <string name="ok">ok</string>
+    <string name="total_dividend_explain">This is total dividend of current month\n(stock dividend * stock count)</string>
 </resources>

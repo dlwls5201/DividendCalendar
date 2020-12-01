@@ -81,14 +81,17 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
     private fun initButton() {
         btnNavChart.setOnClickListener {
             initStockFragment()
+            showFloatingBtn()
         }
 
         btnNavCalendar.setOnClickListener {
             initCalendarFragment()
+            hideFloatingBtn()
         }
 
         btnNavSetting.setOnClickListener {
             initSettingFragment()
+            hideFloatingBtn()
         }
 
         fabAddStock.setOnClickListener {
@@ -190,5 +193,13 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
     private fun hideFullProgress() {
         flMainContainer.visibility = View.VISIBLE
         flMainProgress.visibility = View.GONE
+    }
+
+    private fun showFloatingBtn() {
+        fabAddStock.visibility = View.VISIBLE
+    }
+
+    private fun hideFloatingBtn() {
+        fabAddStock.visibility = View.GONE
     }
 }
