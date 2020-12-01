@@ -21,6 +21,7 @@ import kotlinx.coroutines.flow.flatMapConcat
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
+import org.json.JSONArray
 
 class StockWithDividendRepositoryImpl(
     private val stockDao: StockDao,
@@ -175,6 +176,8 @@ class StockWithDividendRepositoryImpl(
 
     override suspend fun fetchAllStockNextDividend() {
         stockDao.getStockList().forEach { stock ->
+            Dlog.d("stock : ${stock.symbol}")
+
             withContext(Dispatchers.Default) {
                 Dlog.d("stock : ${stock.symbol} -> fetchAllStockDividend")
                 fetchAndPutNextDividends(stock.symbol)
@@ -195,37 +198,50 @@ class StockWithDividendRepositoryImpl(
             //stockDao.deleteDividends(symbol)
             //Dlog.d("deleteDividends")
 
-            val hasNextDividend = nextDividend.toString() != "[]"
-            stockDao.insertStock(
-                stockWithDividend.stock.copy(hasNextDividend = hasNextDividend)
-            )
+            val jsonString = gson.toJson(nextDividend)
+            try {
+                val jsonArray = JSONArray(jsonString)
+                val size = jsonArray.length()
+                Dlog.d("jsonArray length : $size")
 
-            if (hasNextDividend) {
-                val jsonString = gson.toJson(nextDividend)
-                Dlog.d("jsonString : $jsonString")
+                val hasNextDividend = size != 0
+                Dlog.d("hasNextDividend $hasNextDividend")
 
-                val tempDividend =
-                    gson.fromJson(jsonString, DividendResponse::class.java)
-                Dlog.d("tempDividend : $tempDividend")
+                stockDao.updateStock(
+                    stockWithDividend.stock.copy(hasNextDividend = hasNextDividend)
+                )
 
-                tempDividend.let {
-                    stockDao.insertDividend(
-                        DividendEntity(
-                            dividendId = DividendEntity.makeDividendId(symbol, it.paymentDate),
-                            parentSymbol = symbol,
-                            exDate = it.exDate,
-                            declaredDate = it.declaredDate,
-                            paymentDate = it.paymentDate,
-                            recordDate = it.date,
-                            amount = it.amount.toFloatCheckFormat(),
-                            frequency = it.frequency
+                if (hasNextDividend) {
+                    val jsonObject = jsonArray.get(0)
+                    Dlog.d("jsonObject : $jsonObject")
+
+                    val tempDividend =
+                        gson.fromJson(jsonObject.toString(), DividendResponse::class.java)
+                    Dlog.d("tempDividend : $tempDividend")
+
+                    tempDividend.let {
+                        stockDao.insertDividend(
+                            DividendEntity(
+                                dividendId = DividendEntity.makeDividendId(symbol, it.paymentDate),
+                                parentSymbol = symbol,
+                                exDate = it.exDate,
+                                declaredDate = it.declaredDate,
+                                paymentDate = it.paymentDate,
+                                recordDate = it.date,
+                                amount = it.amount.toFloatCheckFormat(),
+                                frequency = it.frequency
+                            )
                         )
-                    )
+                    }
                 }
-            } else {
-                Dlog.d("다음 배당금이 없습니다")
+            } catch (e: Exception) {
+                Dlog.e(e.message)
             }
+
+        } else {
+            Dlog.d("다음 배당금이 없습니다")
         }
+
     }
 
     override suspend fun deleteStockWithDividends(ticker: String) {
