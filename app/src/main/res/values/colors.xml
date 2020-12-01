@@ -14,11 +14,7 @@
     <color name="white">#ffffff</color>
 
     <color name="dim">#33000000</color>
-
-    <color name="summer">#44eebd82</color>
-    <color name="fall">#44d8d27e</color>
-    <color name="winter">#44a1c1da</color>
-    <color name="spring">#448da64b</color>
+    <color name="calendar_header">#44a1c1da</color>
 
     <color name="gray_01">#F5F5F5</color>
     <color name="gray_02">#DCDDDF</color>

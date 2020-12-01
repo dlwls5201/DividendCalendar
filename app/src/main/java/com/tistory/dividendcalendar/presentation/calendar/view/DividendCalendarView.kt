@@ -54,16 +54,12 @@ class DividendCalendarView : LinearLayout {
     private var barHeight = 0f
     private var headerHeight = 0f
 
-    // seasons' rainbow
-    private val rainbow = intArrayOf(
-        R.color.summer,
-        R.color.fall,
-        R.color.winter,
-        R.color.spring
-    )
+    // calendar Type
+    private var calendarType: CalendarType = CalendarType.PAYMENT_DATE
 
-    // month-season association (northern hemisphere, sorry australia :)
-    private val monthSeason = intArrayOf(2, 2, 3, 3, 3, 0, 0, 0, 1, 1, 1, 2)
+    enum class CalendarType(@StringRes val stringId: Int) {
+        EX_DATE(R.string.ex_date_day), PAYMENT_DATE(R.string.payment_date_day)
+    }
 
     constructor(context: Context?) : super(context)
 
@@ -99,8 +95,8 @@ class DividendCalendarView : LinearLayout {
         inflater.inflate(R.layout.view_calendar, this)
 
         loadDateFormat(attrs)
-        assignUiHeaderSize()
-        assignClickHandlers()
+        initUiHeaderSize()
+        initButton()
 
         updateCalendar()
     }
@@ -115,18 +111,12 @@ class DividendCalendarView : LinearLayout {
         }
     }
 
-    private fun assignUiHeaderSize() {
+    private fun initUiHeaderSize() {
         barHeight = resources.getDimension(R.dimen.calendar_bar_size)
         headerHeight = resources.getDimension(R.dimen.calendar_header_size)
     }
 
-    private var calendarType: CalendarType = CalendarType.PAYMENT_DATE
-
-    enum class CalendarType(@StringRes val stringId: Int) {
-        EX_DATE(R.string.ex_date_day), PAYMENT_DATE(R.string.payment_date_day)
-    }
-
-    private fun assignClickHandlers() {
+    private fun initButton() {
         // add one month and refresh UI
         btnViewCalendarNext.setOnClickListener { v: View? ->
             currentDate.add(Calendar.MONTH, 1)
@@ -174,20 +164,25 @@ class DividendCalendarView : LinearLayout {
             }
 
         // change calendar type
-        btnCalendarType.text = resources.getString(calendarType.stringId)
-        btnCalendarType.setOnClickListener {
-            if (calendarType == CalendarType.EX_DATE) {
-                calendarType = CalendarType.PAYMENT_DATE
-                btnCalendarType.text = resources.getString(calendarType.stringId)
-                updateCalendar()
-            } else {
-                calendarType = CalendarType.EX_DATE
-                btnCalendarType.text = resources.getString(calendarType.stringId)
-                updateCalendar()
+        ivFilterCalendarType.setOnClickListener {
+            val popup = PopupMenu(context, ivFilterCalendarType)
+            popup.inflate(R.menu.calendar_header)
+            popup.setOnMenuItemClickListener { item ->
+                when (item.itemId) {
+                    R.id.action_payment_date_day -> {
+                        calendarType = CalendarType.PAYMENT_DATE
+                        updateCalendar()
+                    }
+                    R.id.action_ex_date_day -> {
+                        calendarType = CalendarType.EX_DATE
+                        updateCalendar()
+                    }
+                }
+                true
             }
+            popup.show();
         }
     }
-
 
     /**
      * Display dates correctly in grid
@@ -228,13 +223,15 @@ class DividendCalendarView : LinearLayout {
 
         // update title
         val sdf = SimpleDateFormat(dateFormat)
-        tvViewCalendarTitle.text = sdf.format(currentDate.time)
+        tvViewCalendarTitle.text =
+            ("${sdf.format(currentDate.time)} ${resources.getString(calendarType.stringId)}")
 
-        // set header color according to current season
-        val month = currentDate[Calendar.MONTH]
-        val season = monthSeason[month]
-        val color = rainbow[season]
-        llViewCalendarHeader.setBackgroundColor(ContextCompat.getColor(context, color))
+        // update total current dividend
+        val sdf2 = SimpleDateFormat("MMMM")
+        val totalDividend = getTotalCurrentDividend()
+        val title =
+            "${sdf2.format(currentDate.time)} ${resources.getString(R.string.dividend)} : $$totalDividend"
+        totalCurrentDividendListener?.invoke(title)
     }
 
     private val childViewHeight: Float
@@ -369,5 +366,39 @@ class DividendCalendarView : LinearLayout {
 
     private fun getDividedDataFormat(data: Date): String {
         return sdf.format(data)
+    }
+
+    /**
+     * Total Current Dividend listener
+     */
+    private var totalCurrentDividendListener: ((title: String) -> Unit)? = null
+
+    fun setTotalDividendListener(listener: (title: String) -> Unit) {
+        totalCurrentDividendListener = listener
+    }
+
+    private fun getTotalCurrentDividend(): Float {
+        val currentYear = currentDate.get(Calendar.YEAR)
+        val currentMonth = currentDate.get(Calendar.MONTH) + 1
+
+        dividendItems.filter {
+            val date = it.paymentDate.split("-")
+            if (date.size == 3) {
+                val itemYear = date[0].toInt()
+                val itemMonth = date[1].toInt()
+
+                itemYear == currentYear && currentMonth == itemMonth
+            } else {
+                false
+            }
+        }.let {
+            var totalDividend = 0f
+
+            it.forEach { item ->
+                totalDividend += item.amount * item.stockCnt
+            }
+
+            return totalDividend
+        }
     }
 }

@@ -2,8 +2,8 @@ package com.tistory.dividendcalendar.presentation.calendar
 
 import android.os.Bundle
 import android.view.View
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.tistory.blackjinbase.ext.alert
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.DividendFragment
@@ -33,11 +33,19 @@ class CalendarFragment : DividendFragment<FragmentCalendarBinding>(R.layout.frag
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.calendarViewModel = calendarViewModel
+        initCalendarView()
+        initButton()
+
+    }
+
+    private fun initCalendarView() {
         binding.dividendCalendarView.setEventHandler(object : DividendCalendarView.EventHandler {
             override fun onDayLongPress(items: List<CalendarItem>) {
                 Dlog.d("onDayLongPress items : $items")
-                DividendsDialogFragment.newInstance(items)
-                    .show(childFragmentManager, DividendsDialogFragment.TAG)
+                if (items.isNotEmpty()) {
+                    DividendsDialogFragment.newInstance(items)
+                        .show(childFragmentManager, DividendsDialogFragment.TAG)
+                }
             }
 
             override fun onDayPress(items: List<CalendarItem>) {
@@ -48,11 +56,27 @@ class CalendarFragment : DividendFragment<FragmentCalendarBinding>(R.layout.frag
                 }
             }
         })
+
+        binding.dividendCalendarView.setTotalDividendListener(::setCalculateTotalDividend)
+    }
+
+    private fun setCalculateTotalDividend(title: String) {
+        binding.tvCalendarTotalDividend.text = title
+    }
+
+    private fun initButton() {
+        binding.cvCalendarTotalDividend.setOnClickListener {
+            requireContext().alert(message = getString(R.string.total_dividend_explain)) {
+                positiveButton(getString(R.string.ok)) {
+                    //..
+                }
+            }.show()
+        }
     }
 
     override fun onViewModelSetup() {
-        calendarViewModel.dividendItems.observe(viewLifecycleOwner, Observer {
+        calendarViewModel.dividendItems.observe(viewLifecycleOwner) {
             binding.dividendCalendarView.updateCalendar(it)
-        })
+        }
     }
 }

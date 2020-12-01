@@ -6,6 +6,7 @@
     <string name="not_find_selected_ticker">검색한 티커의 결과가 없습니다.</string>
     <string name="please_check_internet">인터넷 연결을 확인해주세요</string>
 
+    <string name="dividend">배당금</string>
     <string name="ticker_name">티커 명</string>
     <string name="stock_count">주식 수</string>
     <string name="confirm">확인</string>
@@ -31,7 +32,6 @@
     <string name="item_my_stock_cnt_format">나의 주식 수 : %d</string>
     <string name="item_frequency_format">빈도 : %s</string>
 
-    <string name="stock_date_noting_yet">배당일 미정</string>
     <string name="ex_date_noting_yet">배당락일 미정</string>
     <string name="payment_date_noting_yet">지급일 미정</string>
     <string name="not_has_dividend_info">배당금 정보가 없습니다.</string>
@@ -44,4 +44,8 @@
     <string name="thu">목</string>
     <string name="fri">금</string>
     <string name="sat">토</string>
+
+    <string name="ok">확인</string>
+    <string name="total_dividend_explain">해당월의 내가 입력한 모든\n(주식의 배당금 * 보유갯수) 값입니다.</string>
+    <string name="total_dividend_monthly">월평균 배당금 : $%.2f</string>
 </resources>
