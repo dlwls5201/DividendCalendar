@@ -54,16 +54,12 @@ class DividendCalendarView : LinearLayout {
     private var barHeight = 0f
     private var headerHeight = 0f
 
-    // seasons' rainbow
-    private val rainbow = intArrayOf(
-        R.color.summer,
-        R.color.fall,
-        R.color.winter,
-        R.color.spring
-    )
+    // calendar Type
+    private var calendarType: CalendarType = CalendarType.PAYMENT_DATE
 
-    // month-season association (northern hemisphere, sorry australia :)
-    private val monthSeason = intArrayOf(2, 2, 3, 3, 3, 0, 0, 0, 1, 1, 1, 2)
+    enum class CalendarType(@StringRes val stringId: Int) {
+        EX_DATE(R.string.ex_date_day), PAYMENT_DATE(R.string.payment_date_day)
+    }
 
     constructor(context: Context?) : super(context)
 
@@ -120,12 +116,6 @@ class DividendCalendarView : LinearLayout {
         headerHeight = resources.getDimension(R.dimen.calendar_header_size)
     }
 
-    private var calendarType: CalendarType = CalendarType.PAYMENT_DATE
-
-    enum class CalendarType(@StringRes val stringId: Int) {
-        EX_DATE(R.string.ex_date_day), PAYMENT_DATE(R.string.payment_date_day)
-    }
-
     private fun assignClickHandlers() {
         // add one month and refresh UI
         btnViewCalendarNext.setOnClickListener { v: View? ->
@@ -174,17 +164,23 @@ class DividendCalendarView : LinearLayout {
             }
 
         // change calendar type
-        btnCalendarType.text = resources.getString(calendarType.stringId)
-        btnCalendarType.setOnClickListener {
-            if (calendarType == CalendarType.EX_DATE) {
-                calendarType = CalendarType.PAYMENT_DATE
-                btnCalendarType.text = resources.getString(calendarType.stringId)
-                updateCalendar()
-            } else {
-                calendarType = CalendarType.EX_DATE
-                btnCalendarType.text = resources.getString(calendarType.stringId)
-                updateCalendar()
+        ivFilterCalendarType.setOnClickListener {
+            val popup = PopupMenu(context, ivFilterCalendarType)
+            popup.inflate(R.menu.calendar_header)
+            popup.setOnMenuItemClickListener { item ->
+                when (item.itemId) {
+                    R.id.action_payment_date_day -> {
+                        calendarType = CalendarType.PAYMENT_DATE
+                        updateCalendar()
+                    }
+                    R.id.action_ex_date_day -> {
+                        calendarType = CalendarType.EX_DATE
+                        updateCalendar()
+                    }
+                }
+                true
             }
+            popup.show();
         }
     }
 
@@ -228,13 +224,8 @@ class DividendCalendarView : LinearLayout {
 
         // update title
         val sdf = SimpleDateFormat(dateFormat)
-        tvViewCalendarTitle.text = sdf.format(currentDate.time)
-
-        // set header color according to current season
-        val month = currentDate[Calendar.MONTH]
-        val season = monthSeason[month]
-        val color = rainbow[season]
-        llViewCalendarHeader.setBackgroundColor(ContextCompat.getColor(context, color))
+        tvViewCalendarTitle.text =
+            ("${sdf.format(currentDate.time)} ${resources.getString(calendarType.stringId)}")
     }
 
     private val childViewHeight: Float

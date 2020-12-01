@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_payment_date_day"
+        android:title="@string/payment_date_day"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_ex_date_day"
+        android:title="@string/ex_date_day"
+        app:showAsAction="never" />
+</menu>
