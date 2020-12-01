@@ -65,7 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:text="@{item.hasNextDividend ? @string/item_stock_date_format(item.dividends[0].exDate, item.dividends[0].paymentDate) : @string/stock_date_noting_yet}"
+                android:text="@{@string/item_stock_date_format(item.dividends[0].exDate, item.dividends[0].paymentDate)}"
                 android:textColor="@color/black"
                 android:textSize="13dp"
                 android:visibility="@{item.dividends.size() > 0 ? View.VISIBLE : View.GONE}"

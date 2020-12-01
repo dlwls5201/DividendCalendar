@@ -31,7 +31,6 @@
     <string name="item_my_stock_cnt_format">stock cnt : %d</string>
     <string name="item_frequency_format">frequency : %s</string>
 
-    <string name="stock_date_noting_yet">Undetermined</string>
     <string name="ex_date_noting_yet">exDividendDate Undetermined</string>
     <string name="payment_date_noting_yet">payDate Undetermined</string>
     <string name="not_has_dividend_info">No dividend information</string>

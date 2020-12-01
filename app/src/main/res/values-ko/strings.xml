@@ -31,7 +31,6 @@
     <string name="item_my_stock_cnt_format">나의 주식 수 : %d</string>
     <string name="item_frequency_format">빈도 : %s</string>
 
-    <string name="stock_date_noting_yet">배당일 미정</string>
     <string name="ex_date_noting_yet">배당락일 미정</string>
     <string name="payment_date_noting_yet">지급일 미정</string>
     <string name="not_has_dividend_info">배당금 정보가 없습니다.</string>
