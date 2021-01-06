@@ -27,9 +27,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':blackjinbase')
 
-    //Kotlin
+    // kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
     // room
@@ -39,14 +38,17 @@ dependencies {
     // optional - Kotlin Extensions and Coroutines support for Room
     implementation "androidx.room:room-ktx:$room_version"
 
-    //junit
+    // base
+    implementation "com.blackjin.library:blackjinbase:$black_jin_base"
+
+    // junit
     testImplementation 'junit:junit:4.12'
 
-    //espresso
+    // espresso
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    //mockito
+    // mockito
     testImplementation 'org.mockito:mockito-core:2.28.0'
     testImplementation 'org.mockito:mockito-inline:2.28.0'
 }

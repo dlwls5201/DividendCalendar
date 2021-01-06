@@ -1,4 +1,3 @@
-include ':blackjinbase'
 include ':domain'
 include ':data'
 include ':app'

@@ -1,4 +1,4 @@
-package com.tistory.blackjinbase.ext
+package com.tistory.data.ext
 
 fun String.toFloatCheckFormat(): Float {
     return try {

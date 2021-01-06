@@ -1,8 +1,8 @@
 package com.tistory.data.repository
 
 import com.google.gson.Gson
-import com.tistory.blackjinbase.ext.toFloatCheckFormat
 import com.tistory.blackjinbase.util.Dlog
+import com.tistory.data.ext.toFloatCheckFormat
 import com.tistory.data.source.local.StockDao
 import com.tistory.data.source.local.entity.DividendEntity
 import com.tistory.data.source.local.entity.StockEntity
