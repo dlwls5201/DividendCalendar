@@ -163,7 +163,7 @@ class StockWithDividendRepositoryImpl(
                 Dlog.d("hasNextDividend $hasNextDividend")
 
                 stockDao.updateStock(
-                    stockWithDividend.stock.copy(hasNextDividend = hasNextDividend)
+                    stockWithDividend.stock
                 )
 
                 if (hasNextDividend) {

@@ -9,6 +9,5 @@ data class StockEntity(
     val symbol: String,
     val stockCnt: Int = 0,
     val logoUrl: String = "",
-    val companyName: String = "",
-    val hasNextDividend: Boolean = false
+    val companyName: String = ""
 )

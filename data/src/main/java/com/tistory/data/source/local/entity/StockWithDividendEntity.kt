@@ -20,6 +20,5 @@ fun StockWithDividendEntity.mapToStockItem() = StockWithDividendItem(
     stockCnt = stock.stockCnt,
     logoUrl = stock.logoUrl,
     companyName = stock.companyName,
-    hasNextDividend = stock.hasNextDividend,
     dividends = dividends.sortedByDescending { it.paymentDate }.map { it.mapToItem() }
 )
