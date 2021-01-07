@@ -15,12 +15,12 @@ import com.tistory.domain.model.CalendarItem
 
 class CalendarFragment : DividendFragment<FragmentCalendarBinding>(R.layout.fragment_calendar) {
 
-    override var logTag = "CalendarFragment"
-
     companion object {
 
         fun newInstance() = CalendarFragment()
     }
+
+    override var logTag = "CalendarFragment"
 
     private val calendarViewModel by lazy {
         ViewModelProvider(

@@ -7,8 +7,13 @@ import com.tistory.dividendcalendar.utils.PrefUtil
 
 class DividendCalendarApplication : Application() {
 
+    companion object {
+        lateinit var INSTANCE: Application
+    }
+
     override fun onCreate() {
         super.onCreate()
+        INSTANCE = this
         Injection.init(this)
         PrefUtil.init(this)
         Dlog.initDebug(BuildConfig.DEBUG)
