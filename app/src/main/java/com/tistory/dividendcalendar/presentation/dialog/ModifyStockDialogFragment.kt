@@ -10,6 +10,7 @@ import android.widget.EditText
 import androidx.core.os.bundleOf
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.lifecycleScope
+import com.tistory.blackjinbase.ext.longToast
 import com.tistory.blackjinbase.ext.toast
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
@@ -19,6 +20,7 @@ import com.tistory.domain.base.BaseListener
 import kotlinx.android.synthetic.main.dialog_modify_stock.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import retrofit2.HttpException
 
 class ModifyStockDialogFragment : DialogFragment() {
 
@@ -158,13 +160,12 @@ class ModifyStockDialogFragment : DialogFragment() {
                         }
 
                         override fun onError(error: Throwable) {
-                            //TODO modify error case
                             Dlog.d("onError : ${error.message}")
-                            /*if (error is HttpException && error.code() == 404) {
+                            if (error is HttpException && error.code() == 404) {
                                 requireContext().longToast(resources.getString(R.string.not_find_selected_ticker))
                             } else {
                                 requireContext().longToast(resources.getString(R.string.please_check_internet))
-                            }*/
+                            }
                         }
 
                         override fun onLoaded() {
