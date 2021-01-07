@@ -45,4 +45,14 @@ dependencies {
     // glide
     implementation "com.github.bumptech.glide:glide:$glide_version"
     annotationProcessor "com.github.bumptech.glide:compiler:$glide_version"
+
+    // mockito
+    testImplementation 'org.mockito:mockito-core:3.2.4'
+    testImplementation 'org.mockito:mockito-inline:3.2.4'
+
+    // test for coroutine
+    testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.4.2'
+
+    // test for InstantTaskExecutorRule
+    testImplementation 'androidx.arch.core:core-testing:2.1.0'
 }
