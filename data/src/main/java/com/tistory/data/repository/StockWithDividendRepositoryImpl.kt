@@ -123,15 +123,6 @@ class StockWithDividendRepositoryImpl(
         }
     }
 
-    override suspend fun fetchAllStockDividend() {
-        stockDao.getStockList().forEach { stock ->
-            withContext(Dispatchers.Default) {
-                Dlog.d("stock : ${stock.symbol} -> fetchAllStockDividend")
-                fetchAndPutDividends(stock.symbol)
-            }
-        }
-    }
-
     override suspend fun fetchAllStockNextDividend() {
         stockDao.getStockList().forEach { stock ->
             Dlog.d("stock : ${stock.symbol}")
@@ -203,10 +194,5 @@ class StockWithDividendRepositoryImpl(
         val symbol = ticker.toUpperCase()
         Dlog.d("$symbol -> deleteStockWithDividends")
         stockDao.deleteStockWithDividends(symbol)
-    }
-
-    override suspend fun clearStock() {
-        Dlog.d("clearStock")
-        stockDao.clearStocks()
     }
 }
