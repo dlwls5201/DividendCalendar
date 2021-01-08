@@ -1,11 +1,12 @@
 package com.tistory.dividendcalendar.presentation.stock
 
+import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
 import com.tistory.domain.repository.StockWithDividendRepository
 
-class StockViewModel(
+class StockViewModel @ViewModelInject constructor(
     stockWithDividendRepository: StockWithDividendRepository
 ) : ViewModel() {
 
