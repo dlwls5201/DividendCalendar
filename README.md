@@ -12,17 +12,23 @@
 
 ## Clean Architecture
 
-- Data layer
-
-데이터과 관련된 부분을 담당합니다.
-리포지터리 패턴을 적용하여 한번 호출된 API는 캐싱해서 사용합니다.
+### App Module
 
 - Presentation Layer
 
-화면과 관련된 부분을 담당합니다.
-MVVM 패턴으로 작업되어 있습니다.
+화면과 관련된 부분을 담당합니다. MVVM 패턴으로 작업되어 있습니다.
 
-> 각 레이버별로 Model을 두어 서로의 의존성을 없앴습니다. Data -> Presentation 으로의 의존성을 가지도록 설계되었습니다.
+### Data Module
+
+- Data layer
+
+데이터과 관련된 부분을 담당합니다. 리포지터리 패턴을 적용하여 한번 호출된 API는 캐싱해서 사용합니다.
+
+### Domain Module
+
+- Domain Layer
+
+비즈니스 로직을 담당합니다. 유저의 한가지 행동 당 하나의 Usecase를 정의합니다.
 
 ## Spec
 
@@ -32,6 +38,7 @@ MVVM 패턴으로 작업되어 있습니다.
 - Repository Pattern
 - Clean Architecture
 - Coroutine
+- DI(Hilt)
 
 ## Third party
 
