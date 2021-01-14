@@ -24,8 +24,7 @@ class StockViewModel @ViewModelInject constructor(
     fun getDividendMonthly(): Float {
         var totalAmount = 0f
 
-        val items = stockItems.value
-        items?.forEach { item ->
+        stockItems.value?.forEach { item ->
             if (item.dividends.isNotEmpty()) {
                 item.dividends.maxByOrNull { dividend -> dividend.paymentDate }?.also { dividend ->
                     totalAmount += dividend.amount * dividend.frequency.value * item.stockCnt
