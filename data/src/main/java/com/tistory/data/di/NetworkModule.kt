@@ -18,7 +18,7 @@ object NetworkModule {
     private const val baseUrl = "https://cloud.iexapis.com/"
 
     @Provides
-    fun getRetrofitBuild(client: OkHttpClient, gsonFactory: GsonConverterFactory) =
+    fun getRetrofit(client: OkHttpClient, gsonFactory: GsonConverterFactory): Retrofit =
         Retrofit.Builder()
             .baseUrl(baseUrl)
             .client(client)
@@ -26,10 +26,10 @@ object NetworkModule {
             .build()
 
     @Provides
-    fun getGsonConverter() = GsonConverterFactory.create()
+    fun getGsonConverter(): GsonConverterFactory = GsonConverterFactory.create()
 
     @Provides
-    fun getOkhttpClient() = OkHttpClient.Builder().apply {
+    fun getOkhttpClient(): OkHttpClient = OkHttpClient.Builder().apply {
 
         //TimeOut 시간을 지정합니다.
         readTimeout(60, TimeUnit.SECONDS)
