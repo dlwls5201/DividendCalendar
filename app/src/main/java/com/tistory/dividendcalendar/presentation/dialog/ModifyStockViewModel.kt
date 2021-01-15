@@ -133,7 +133,7 @@ class ModifyStockViewModel @ViewModelInject constructor(
 
     private fun addStock(ticker: String, stockCnt: Int) {
         viewModelScope.launch {
-            addStockUsecase.build(ticker, stockCnt, object : BaseListener<Any>() {
+            addStockUsecase.get(ticker, stockCnt, object : BaseListener<Any>() {
                 override fun onSuccess(data: Any) {
                     Dlog.d("onSuccess")
                     finishView()

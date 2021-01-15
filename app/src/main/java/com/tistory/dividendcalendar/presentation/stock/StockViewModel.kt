@@ -10,7 +10,7 @@ class StockViewModel @ViewModelInject constructor(
     getStockItemsUsecase: GetStockItemsUsecase
 ) : ViewModel() {
 
-    val stockItems = getStockItemsUsecase.build().asLiveData()
+    val stockItems = getStockItemsUsecase.get().asLiveData()
 
     val isVisibleEmptyViewLiveData = MediatorLiveData<Boolean>().apply {
         addSource(stockItems) {

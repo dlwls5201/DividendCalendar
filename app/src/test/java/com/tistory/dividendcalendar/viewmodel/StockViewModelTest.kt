@@ -7,7 +7,7 @@ import com.tistory.dividendcalendar.presentation.stock.StockViewModel
 import com.tistory.domain.model.DividendItem
 import com.tistory.domain.model.Frequency
 import com.tistory.domain.model.StockWithDividendItem
-import com.tistory.domain.repository.StockWithDividendRepository
+import com.tistory.domain.usecase.GetStockItemsUsecase
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.test.runBlockingTest
@@ -31,7 +31,7 @@ class StockViewModelTest {
 
     private lateinit var stockViewModel: StockViewModel
 
-    private val stockWithDividendRepository = mock(StockWithDividendRepository::class.java)
+    private val getStockItemsUsecase = mock(GetStockItemsUsecase::class.java)
 
     @Before
     fun setUp() {
@@ -41,11 +41,11 @@ class StockViewModelTest {
     @Test
     fun `has empty`() = coroutineTestRule.testDispatcher.runBlockingTest {
         //given
-        `when`(stockWithDividendRepository.getStockItems()).thenReturn(
+        `when`(getStockItemsUsecase.get()).thenReturn(
             flow { emit(emptyList<StockWithDividendItem>()) }
         )
 
-        stockViewModel = StockViewModel(stockWithDividendRepository)
+        stockViewModel = StockViewModel(getStockItemsUsecase)
 
         //when
         stockViewModel.stockItems.getOrAwaitValue()
@@ -61,10 +61,11 @@ class StockViewModelTest {
     @Test
     fun `has one item`() = coroutineTestRule.testDispatcher.runBlockingTest {
         //given
-        `when`(stockWithDividendRepository.getStockItems()).thenReturn(
+        `when`(getStockItemsUsecase.get()).thenReturn(
             flow { emit(getItem()) }
         )
-        stockViewModel = StockViewModel(stockWithDividendRepository)
+
+        stockViewModel = StockViewModel(getStockItemsUsecase)
 
         //when
         stockViewModel.stockItems.getOrAwaitValue()
@@ -77,10 +78,11 @@ class StockViewModelTest {
     @Test
     fun `has items`() = coroutineTestRule.testDispatcher.runBlockingTest {
         //given
-        `when`(stockWithDividendRepository.getStockItems()).thenReturn(
+        `when`(getStockItemsUsecase.get()).thenReturn(
             flow { emit(getItems()) }
         )
-        stockViewModel = StockViewModel(stockWithDividendRepository)
+
+        stockViewModel = StockViewModel(getStockItemsUsecase)
 
         //when
         stockViewModel.stockItems.getOrAwaitValue()
