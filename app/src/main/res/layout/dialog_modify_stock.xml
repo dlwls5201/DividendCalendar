@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="modifyStockViewModel"
+            type="com.tistory.dividendcalendar.presentation.dialog.ModifyStockViewModel" />
+    </data>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,8 +32,10 @@
             android:id="@+id/etTicker"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:enabled="@{modifyStockViewModel.editTickerEnable}"
             android:hint="@string/input_ticker_hint"
-            android:singleLine="true" />
+            android:singleLine="true"
+            android:text="@={modifyStockViewModel.editTicker}" />
 
         <TextView
             android:id="@+id/tvStockCnt"
@@ -42,7 +52,8 @@
             android:layout_height="wrap_content"
             android:hint="0"
             android:inputType="number"
-            android:singleLine="true" />
+            android:singleLine="true"
+            android:text="@={modifyStockViewModel.editTickerCnt}" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -59,6 +70,7 @@
                 android:layout_height="45dp"
                 android:layout_marginEnd="10dp"
                 android:background="@color/cardview_dark_background"
+                android:onClick="@{() -> modifyStockViewModel.finishView()}"
                 android:text="@string/cancel"
                 android:textColor="@android:color/white" />
 
@@ -68,8 +80,10 @@
                 android:layout_height="45dp"
                 android:layout_marginEnd="10dp"
                 android:background="@color/cardview_dark_background"
+                android:onClick="@{() -> modifyStockViewModel.deleteStock()}"
                 android:text="@string/delete"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                bind:visibility="@{modifyStockViewModel.deleteVisible}" />
 
             <FrameLayout
                 android:layout_width="80dp"
@@ -80,6 +94,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/cardview_dark_background"
+                    android:onClick="@{() -> modifyStockViewModel.okStock()}"
+                    android:text="@{modifyStockViewModel.btnOkTitle}"
                     android:textColor="@android:color/white"
                     tools:text="@string/add" />
 
@@ -91,7 +107,7 @@
                     android:clickable="true"
                     android:elevation="10dp"
                     android:focusable="true"
-                    android:visibility="gone"
+                    bind:visibility="@{modifyStockViewModel.btnOkLoading}"
                     tools:visibility="visible">
 
                     <ProgressBar
