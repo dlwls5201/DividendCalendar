@@ -2,6 +2,7 @@ package com.tistory.domain.di
 
 import com.tistory.domain.repository.StockWithDividendRepository
 import com.tistory.domain.usecase.AddStockUsecase
+import com.tistory.domain.usecase.GetStockItemsUsecase
 import com.tistory.domain.usecase.RefreshAllStockDividendUsecase
 import dagger.Module
 import dagger.Provides
@@ -19,4 +20,8 @@ object UsecaseModule {
     @Provides
     fun provideRefreshAllStockDividendUsecase(stockWithDividendRepository: StockWithDividendRepository) =
         RefreshAllStockDividendUsecase(stockWithDividendRepository)
+
+    @Provides
+    fun provideGetStockItemsUsecase(stockWithDividendRepository: StockWithDividendRepository) =
+        GetStockItemsUsecase(stockWithDividendRepository)
 }
