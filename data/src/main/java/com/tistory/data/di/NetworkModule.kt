@@ -1,32 +1,35 @@
-package com.tistory.data.source.remote
+package com.tistory.data.di
 
 import com.tistory.data.BuildConfig
-import com.tistory.data.source.remote.api.StockApi
+import dagger.Module
+import dagger.Provides
+import dagger.hilt.InstallIn
+import dagger.hilt.android.components.ApplicationComponent
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
-object ApiProvider {
+@Module
+@InstallIn(ApplicationComponent::class)
+object NetworkModule {
 
-    //private const val baseUrl = "https://cloud.iexapis.com/stable/stock/"
     private const val baseUrl = "https://cloud.iexapis.com/"
 
-    const val token = ApiKey.iex_cloud_api_key
+    @Provides
+    fun getRetrofit(client: OkHttpClient, gsonFactory: GsonConverterFactory): Retrofit =
+        Retrofit.Builder()
+            .baseUrl(baseUrl)
+            .client(client)
+            .addConverterFactory(gsonFactory)
+            .build()
 
-    fun provideStockApi(): StockApi = getRetrofitBuild()
-        .create(StockApi::class.java)
+    @Provides
+    fun getGsonConverter(): GsonConverterFactory = GsonConverterFactory.create()
 
-    private fun getRetrofitBuild() = Retrofit.Builder()
-        .baseUrl(baseUrl)
-        .client(getOkhttpClient())
-        .addConverterFactory(getGsonConverter())
-        .build()
-
-    private fun getGsonConverter() = GsonConverterFactory.create()
-
-    private fun getOkhttpClient() = OkHttpClient.Builder().apply {
+    @Provides
+    fun getOkhttpClient(): OkHttpClient = OkHttpClient.Builder().apply {
 
         //TimeOut 시간을 지정합니다.
         readTimeout(60, TimeUnit.SECONDS)

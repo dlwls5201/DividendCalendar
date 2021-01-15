@@ -2,15 +2,16 @@ package com.tistory.dividendcalendar.presentation.stock
 
 import android.os.Bundle
 import android.view.View
-import androidx.lifecycle.ViewModelProvider
+import androidx.fragment.app.viewModels
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.DividendFragment
 import com.tistory.dividendcalendar.databinding.FragmentStockBinding
-import com.tistory.dividendcalendar.di.Injection
 import com.tistory.dividendcalendar.presentation.dialog.ModifyStockDialogFragment
 import com.tistory.dividendcalendar.presentation.stock.adapter.StockAdapter
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_stock.*
 
+@AndroidEntryPoint
 class StockFragment : DividendFragment<FragmentStockBinding>(R.layout.fragment_stock) {
 
     companion object {
@@ -20,13 +21,7 @@ class StockFragment : DividendFragment<FragmentStockBinding>(R.layout.fragment_s
 
     override var logTag = "StockFragment"
 
-    private val stockViewModel by lazy {
-        ViewModelProvider(
-            this, StockViewModelFactory(
-                Injection.provideStockWithDividendRepo()
-            )
-        ).get(StockViewModel::class.java)
-    }
+    private val stockViewModel by viewModels<StockViewModel>()
 
     private val stockAdapter by lazy {
         StockAdapter().apply {

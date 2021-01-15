@@ -2,17 +2,18 @@ package com.tistory.dividendcalendar.presentation.calendar
 
 import android.os.Bundle
 import android.view.View
-import androidx.lifecycle.ViewModelProvider
+import androidx.fragment.app.viewModels
 import com.tistory.blackjinbase.ext.alert
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.DividendFragment
 import com.tistory.dividendcalendar.databinding.FragmentCalendarBinding
-import com.tistory.dividendcalendar.di.Injection
 import com.tistory.dividendcalendar.presentation.calendar.view.DividendCalendarView
 import com.tistory.dividendcalendar.presentation.dialog.DividendsDialogFragment
 import com.tistory.domain.model.CalendarItem
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class CalendarFragment : DividendFragment<FragmentCalendarBinding>(R.layout.fragment_calendar) {
 
     companion object {
@@ -22,13 +23,7 @@ class CalendarFragment : DividendFragment<FragmentCalendarBinding>(R.layout.frag
 
     override var logTag = "CalendarFragment"
 
-    private val calendarViewModel by lazy {
-        ViewModelProvider(
-            this, CalendarViewModelFactory(
-                Injection.provideStockWithDividendRepo()
-            )
-        ).get(CalendarViewModel::class.java)
-    }
+    private val calendarViewModel by viewModels<CalendarViewModel>()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

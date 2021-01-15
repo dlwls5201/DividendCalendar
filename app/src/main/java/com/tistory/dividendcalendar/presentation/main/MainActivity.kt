@@ -9,16 +9,19 @@ import com.tistory.blackjinbase.base.BaseActivity
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.ActivityMainBinding
-import com.tistory.dividendcalendar.di.Injection
 import com.tistory.dividendcalendar.presentation.calendar.CalendarFragment
 import com.tistory.dividendcalendar.presentation.dialog.ModifyStockDialogFragment
 import com.tistory.dividendcalendar.presentation.setting.SettingFragment
 import com.tistory.dividendcalendar.presentation.stock.StockFragment
 import com.tistory.dividendcalendar.utils.PrefUtil
 import com.tistory.domain.base.BaseListener
+import com.tistory.domain.usecase.RefreshAllStockDividendUsecase
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
+@AndroidEntryPoint
 class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
     override var logTag = "MainActivity"
@@ -27,9 +30,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
     private var calendarFragment: CalendarFragment? = null
     private var settingFragment: SettingFragment? = null
 
-    private val refreshAllStockDividendUsecase by lazy {
-        Injection.provideRefreshAllStockDividendUsecase()
-    }
+    @Inject
+    lateinit var refreshAllStockDividendUsecase: RefreshAllStockDividendUsecase
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
