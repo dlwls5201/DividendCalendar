@@ -17,7 +17,3 @@ abstract class DividendFragment<B : ViewDataBinding>(
 
     override fun onViewModelSetup() {}
 }
-
-interface BaseUi {
-    fun onViewModelSetup()
-}
