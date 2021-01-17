@@ -1,6 +1,7 @@
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'dagger.hilt.android.plugin'
 
 android {
     compileSdkVersion compile_sdk_version
@@ -34,7 +35,7 @@ dependencies {
     // retrofit
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
     implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
-    
+
     // room
     implementation "androidx.room:room-runtime:$room_version"
     kapt "androidx.room:room-compiler:$room_version"
@@ -48,6 +49,12 @@ dependencies {
 
     // base
     implementation "com.blackjin.library:blackjinbase:$black_jin_base"
+
+    // Hilt
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
+    implementation "androidx.hilt:hilt-lifecycle-viewmodel:$hilt_android_x_version"
+    kapt "androidx.hilt:hilt-compiler:$hilt_android_x_version"
 
     // junit
     testImplementation 'junit:junit:4.12'

@@ -15,13 +15,17 @@ import com.tistory.blackjinbase.ext.toast
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.DialogModifyStockBinding
-import com.tistory.dividendcalendar.di.Injection
 import com.tistory.domain.base.BaseListener
+import com.tistory.domain.repository.StockWithDividendRepository
+import com.tistory.domain.usecase.AddStockUsecase
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.dialog_modify_stock.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import retrofit2.HttpException
+import javax.inject.Inject
 
+@AndroidEntryPoint
 class ModifyStockDialogFragment : DialogFragment() {
 
     companion object {
@@ -49,13 +53,11 @@ class ModifyStockDialogFragment : DialogFragment() {
         ADD, MODIFY
     }
 
-    private val addStockUsecase by lazy {
-        Injection.provideAddStockUsecase()
-    }
+    @Inject
+    lateinit var addStockUsecase: AddStockUsecase
 
-    private val repository by lazy {
-        Injection.provideStockWithDividendRepo()
-    }
+    @Inject
+    lateinit var repository: StockWithDividendRepository
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

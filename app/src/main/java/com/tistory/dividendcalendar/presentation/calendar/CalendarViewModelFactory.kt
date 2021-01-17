@@ -1,9 +1,6 @@
 package com.tistory.dividendcalendar.presentation.calendar
 
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
-import com.tistory.domain.repository.StockWithDividendRepository
-
+/*
 class CalendarViewModelFactory(
     private val stockWithDividendRepository: StockWithDividendRepository
 ) : ViewModelProvider.Factory {
@@ -14,4 +11,4 @@ class CalendarViewModelFactory(
             throw IllegalArgumentException()
         }
     }
-}
+}*/
