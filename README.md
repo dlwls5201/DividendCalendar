@@ -45,6 +45,7 @@
 - Retrofit
 - Okhttp
 - Glide
+- FirebaseAnalytics
 - [BlackJinBase](https://github.com/dlwls5201/BlackjinBase)
 
 ## API
