@@ -11,7 +11,7 @@ import com.tistory.data.source.local.entity.StockEntity
 
 @Database(
     entities = [StockEntity::class, DividendEntity::class],
-    version = 2,
+    version = 3,
     exportSchema = false
 )
 abstract class StockDataBase : RoomDatabase() {
@@ -43,11 +43,20 @@ abstract class StockDataBase : RoomDatabase() {
                     }
                 }
 
+                val MIGRATION_2_3 = object : Migration(2, 3) {
+                    override fun migrate(database: SupportSQLiteDatabase) {
+                        database.execSQL("CREATE TABLE backup_table (symbol TEXT PRIMARY KEY NOT NULL, stockCnt FLOAT NOT NULL, logoUrl TEXT NOT NULL, companyName TEXT NOT NULL)")
+                        database.execSQL("INSERT INTO backup_table(symbol, stockCnt, logoUrl, companyName) SELECT symbol, stockCnt, logoUrl, companyName FROM stocks")
+                        database.execSQL("DROP TABLE stocks")
+                        database.execSQL("ALTER TABLE backup_table RENAME TO stocks")
+                    }
+                }
+
                 synchronized(RoomDatabase::class) {
                     INSTANCE = Room.databaseBuilder(
                         context, StockDataBase::class.java, DB_NAME
                     ).addMigrations(
-                        MIGRATION_1_2
+                        MIGRATION_1_2, MIGRATION_2_3
                     ).build()
                 }
             }

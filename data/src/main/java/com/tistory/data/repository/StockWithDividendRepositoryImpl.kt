@@ -56,7 +56,7 @@ class StockWithDividendRepositoryImpl(
         }
     }
 
-    override suspend fun modifyStockCnt(ticker: String, stockCnt: Int) {
+    override suspend fun modifyStockCnt(ticker: String, stockCnt: Float) {
         val symbol = ticker.toUpperCase()
         val stockEntity = stockDao.getStock(symbol)
         Dlog.d("stockEntity : $stockEntity")
@@ -70,7 +70,7 @@ class StockWithDividendRepositoryImpl(
         }
     }
 
-    override suspend fun fetchAndPutStock(ticker: String, stockCnt: Int) {
+    override suspend fun fetchAndPutStock(ticker: String, stockCnt: Float) {
         val symbol = ticker.toUpperCase()
         val stockEntity = stockDao.getStock(symbol)
         Dlog.d("stockEntity : $stockEntity")

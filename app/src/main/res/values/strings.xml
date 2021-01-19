@@ -29,7 +29,7 @@
     <string name="item_frequency">frequency :</string>
 
     <string name="item_stock_date_format">exDividendDate : %s / payDate : %s</string>
-    <string name="item_my_stock_cnt_format">stock cnt : %d</string>
+    <string name="item_my_stock_cnt_format">stock cnt : %.2f</string>
     <string name="item_frequency_format">frequency : %s</string>
 
     <string name="ex_date_noting_yet">exDividendDate Undetermined</string>
@@ -48,4 +48,5 @@
     <string name="ok">ok</string>
     <string name="total_dividend_explain">This is total dividend of current month\n(stock dividend * stock count)</string>
     <string name="total_dividend_monthly">average monthly dividend : $%.2f</string>
+    <string name="average_dividend_monthly">%s dividend : $%.3f</string>
 </resources>

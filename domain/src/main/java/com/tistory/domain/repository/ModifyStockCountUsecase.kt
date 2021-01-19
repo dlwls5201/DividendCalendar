@@ -7,7 +7,7 @@ import kotlinx.coroutines.withContext
 class ModifyStockCountUsecase(
     private val stockWithDividendRepository: StockWithDividendRepository
 ) {
-    suspend fun build(ticker: String, stockCnt: Int, listener: BaseListener<Any>) {
+    suspend fun build(ticker: String, stockCnt: Float, listener: BaseListener<Any>) {
         withContext(Dispatchers.Main) {
             try {
                 listener.onLoading()

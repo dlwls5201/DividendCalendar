@@ -6,7 +6,7 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class StockWithDividendItem(
     val symbol: String,
-    val stockCnt: Int = 0,
+    val stockCnt: Float = 0f,
     val logoUrl: String = "",
     val companyName: String = "",
     val dividends: List<DividendItem>
