@@ -51,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="0"
-            android:inputType="number"
+            android:inputType="numberDecimal"
             android:singleLine="true"
             android:text="@={modifyStockViewModel.editTickerCnt}" />
 

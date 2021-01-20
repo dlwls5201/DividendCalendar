@@ -50,7 +50,7 @@ class ModifyStockViewModel @ViewModelInject constructor(
     }
 
     private val stockCnt by lazy {
-        savedStateHandle.get(ModifyStockDialogFragment.ARGUMENT_STOCK_CNT) ?: 0
+        savedStateHandle.get(ModifyStockDialogFragment.ARGUMENT_STOCK_CNT) ?: 0f
     }
 
     init {
@@ -113,7 +113,7 @@ class ModifyStockViewModel @ViewModelInject constructor(
 
     fun okStock() {
         val ticker = editTicker.value ?: ""
-        val stockCount = editTickerCnt.value?.toIntOrNull() ?: 0
+        val stockCount = editTickerCnt.value?.toFloatOrNull() ?: 0f
         Dlog.d("ticker : $ticker, stockCount : $stockCount")
 
         if (ticker.isEmpty()) {
@@ -131,7 +131,7 @@ class ModifyStockViewModel @ViewModelInject constructor(
         }
     }
 
-    private fun addStock(ticker: String, stockCnt: Int) {
+    private fun addStock(ticker: String, stockCnt: Float) {
         viewModelScope.launch {
             addStockUsecase.get(ticker, stockCnt, object : BaseListener<Any>() {
                 override fun onSuccess(data: Any) {
@@ -160,7 +160,7 @@ class ModifyStockViewModel @ViewModelInject constructor(
         }
     }
 
-    private fun modifyStockCount(ticker: String, stockCnt: Int) {
+    private fun modifyStockCount(ticker: String, stockCnt: Float) {
         viewModelScope.launch {
             modifyStockCountUsecase.build(ticker, stockCnt, object : BaseListener<Any>() {
                 override fun onSuccess(data: Any) {

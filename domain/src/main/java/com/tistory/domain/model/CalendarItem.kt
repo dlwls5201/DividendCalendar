@@ -8,7 +8,7 @@ data class CalendarItem(
     val ticker: String = "",
     val companyName: String = "",
     val logoUrl: String = "",
-    val stockCnt: Int = 0,
+    val stockCnt: Float = 0f,
 
     val exDate: String = "",
     val paymentDate: String = "",

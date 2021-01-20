@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 data class StockEntity(
     @PrimaryKey
     val symbol: String,
-    val stockCnt: Int = 0,
+    val stockCnt: Float = 0f,
     val logoUrl: String = "",
     val companyName: String = ""
 )
