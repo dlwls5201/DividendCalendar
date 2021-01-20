@@ -1,27 +1,20 @@
 package com.tistory.domain.usecase
 
 import com.tistory.domain.base.BaseListener
+import com.tistory.domain.base.SuspendUseCase
 import com.tistory.domain.repository.StockWithDividendRepository
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
 
 class AddStockUsecase(
     private val stockWithDividendRepository: StockWithDividendRepository
-) {
-    suspend fun build(ticker: String, stockCnt: Int, listener: BaseListener<Any>) {
-        withContext(Dispatchers.Main) {
-            try {
-                listener.onLoading()
-                withContext(Dispatchers.IO) {
-                    stockWithDividendRepository.fetchAndPutStock(ticker, stockCnt)
-                    stockWithDividendRepository.fetchAndPutDividends(ticker)
-                }
-                listener.onSuccess(Any())
-            } catch (e: Exception) {
-                listener.onError(e)
-            }
-            listener.onLoaded()
-        }
+) : SuspendUseCase<Pair<String, Int>, Any>() {
+
+    override suspend fun onSuccess(params: Pair<String, Int>) {
+        val (ticker, stockCnt) = params
+        stockWithDividendRepository.fetchAndPutStock(ticker, stockCnt)
+        stockWithDividendRepository.fetchAndPutDividends(ticker)
     }
 
+    suspend fun get(ticker: String, stockCnt: Int, listener: BaseListener<Any>) {
+        build(Pair(ticker, stockCnt), listener)
+    }
 }

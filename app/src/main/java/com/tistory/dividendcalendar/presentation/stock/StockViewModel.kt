@@ -4,16 +4,13 @@ import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
-import com.tistory.domain.repository.StockWithDividendRepository
+import com.tistory.domain.usecase.GetStockItemsUsecase
 
 class StockViewModel @ViewModelInject constructor(
-    stockWithDividendRepository: StockWithDividendRepository
+    getStockItemsUsecase: GetStockItemsUsecase
 ) : ViewModel() {
 
-    //TODO using debounce make error in test
-    //java.lang.AbstractMethodError: kotlinx.coroutines.test.internal.TestMainDispatcher.invokeOnTimeout
-    //val stockItems = stockWithDividendRepository.getStockItems().debounce(500).asLiveData()
-    val stockItems = stockWithDividendRepository.getStockItems().asLiveData()
+    val stockItems = getStockItemsUsecase.get().asLiveData()
 
     val isVisibleEmptyViewLiveData = MediatorLiveData<Boolean>().apply {
         addSource(stockItems) {

@@ -56,7 +56,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
     private fun syncAllStockWithDividends() {
         lifecycleScope.launch {
-            refreshAllStockDividendUsecase.build(object : BaseListener<Any>() {
+            refreshAllStockDividendUsecase.get(object : BaseListener<Any>() {
                 override fun onSuccess(data: Any) {
                     Dlog.d("onSuccess")
                     val currentTime = System.currentTimeMillis()
