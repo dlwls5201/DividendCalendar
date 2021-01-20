@@ -7,6 +7,7 @@ import androidx.lifecycle.*
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.blackjinbase.util.Event
 import com.tistory.dividendcalendar.R
+import com.tistory.dividendcalendar.utils.CountUtil
 import com.tistory.domain.base.BaseListener
 import com.tistory.domain.repository.ModifyStockCountUsecase
 import com.tistory.domain.usecase.AddStockUsecase
@@ -90,7 +91,7 @@ class ModifyStockViewModel @ViewModelInject constructor(
     private fun setDisableEditTicker() {
         editTicker.postValue(ticker)
         editTickerEnable.postValue(false)
-        editTickerCnt.postValue(stockCnt.toString())
+        editTickerCnt.postValue(CountUtil.getDecimalFormat(stockCnt))
     }
 
     private fun showBtnOkLoading() {

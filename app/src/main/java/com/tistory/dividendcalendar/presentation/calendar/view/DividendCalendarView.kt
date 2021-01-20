@@ -16,9 +16,9 @@ import androidx.core.content.ContextCompat
 import com.bumptech.glide.Glide
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
+import com.tistory.dividendcalendar.utils.CountUtil
 import com.tistory.domain.model.CalendarItem
 import kotlinx.android.synthetic.main.view_calendar.view.*
-import java.text.DecimalFormat
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -232,15 +232,9 @@ class DividendCalendarView : LinearLayout {
         val totalDividend = getTotalCurrentDividend()
         val title =
             "${sdf2.format(currentDate.time)} ${resources.getString(R.string.dividend)} : $${
-                getDecimalFormat(totalDividend)
+                CountUtil.getDecimalFormat(totalDividend)
             }"
         totalCurrentDividendListener?.invoke(title)
-    }
-
-    private val df = DecimalFormat("#.###");
-
-    private fun getDecimalFormat(n: Float): String {
-        return df.format(n)
     }
 
     private val childViewHeight: Float

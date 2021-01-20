@@ -75,11 +75,4 @@ class ModifyStockDialogFragment :
             })
         }
     }
-
-    /*private fun hideKeyboard(editText: EditText) {
-        val imm =
-            requireActivity().getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-        imm.hideSoftInputFromWindow(editText.windowToken, 0)
-        view?.clearFocus()
-    }*/
 }
