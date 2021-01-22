@@ -7,12 +7,11 @@ import androidx.lifecycle.*
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.blackjinbase.util.Event
 import com.tistory.dividendcalendar.R
-import com.tistory.dividendcalendar.firebase.DWFirebaseAnalyticsLogger
 import com.tistory.dividendcalendar.utils.CountUtil
 import com.tistory.domain.base.BaseListener
+import com.tistory.domain.repository.ModifyStockCountUsecase
 import com.tistory.domain.usecase.AddStockUsecase
 import com.tistory.domain.usecase.DeleteStockUsecase
-import com.tistory.domain.usecase.ModifyStockCountUsecase
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.launch
 import retrofit2.HttpException
@@ -138,9 +137,6 @@ class ModifyStockViewModel @ViewModelInject constructor(
             addStockUsecase.get(ticker, stockCnt, object : BaseListener<Any>() {
                 override fun onSuccess(data: Any) {
                     Dlog.d("onSuccess")
-                    DWFirebaseAnalyticsLogger.changeStock(
-                        ModifyStockDialogFragment.DialogType.ADD, ticker, stockCnt
-                    )
                     finishView()
                 }
 
@@ -170,9 +166,6 @@ class ModifyStockViewModel @ViewModelInject constructor(
             modifyStockCountUsecase.build(ticker, stockCnt, object : BaseListener<Any>() {
                 override fun onSuccess(data: Any) {
                     Dlog.d("onSuccess")
-                    DWFirebaseAnalyticsLogger.changeStock(
-                        ModifyStockDialogFragment.DialogType.MODIFY, ticker, stockCnt
-                    )
                     finishView()
                 }
 

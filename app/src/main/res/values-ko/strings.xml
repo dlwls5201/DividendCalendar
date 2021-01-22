@@ -16,7 +16,6 @@
     <string name="delete">삭제</string>
     <string name="question">문의하기</string>
     <string name="setting">설정</string>
-    <string name="notice">공지사항</string>
     <string name="ex_date_day">배당락일</string>
     <string name="payment_date_day">지급일</string>
 
@@ -49,7 +48,4 @@
     <string name="ok">확인</string>
     <string name="total_dividend_explain">해당월의 내가 입력한 모든\n(주식의 배당금 * 보유갯수) 값입니다.</string>
     <string name="total_dividend_monthly">월평균 배당금 : $%s</string>
-
-    <string name="latest_version">최신 버전</string>
-    <string name="need_update">업데이트 필요</string>
 </resources>

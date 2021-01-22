@@ -7,9 +7,9 @@ import com.tistory.dividendcalendar.CoroutineTestRule
 import com.tistory.dividendcalendar.getOrAwaitValue
 import com.tistory.dividendcalendar.presentation.dialog.ModifyStockDialogFragment
 import com.tistory.dividendcalendar.presentation.dialog.ModifyStockViewModel
+import com.tistory.domain.repository.ModifyStockCountUsecase
 import com.tistory.domain.usecase.AddStockUsecase
 import com.tistory.domain.usecase.DeleteStockUsecase
-import com.tistory.domain.usecase.ModifyStockCountUsecase
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import org.junit.Assert
 import org.junit.Before

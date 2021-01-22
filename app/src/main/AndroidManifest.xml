@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.tistory.dividendcalendar">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-    <uses-permission
-        android:name="android.permission.READ_PHONE_STATE"
-        tools:node="remove" />
 
     <application
         android:name=".DividendCalendarApplication"
@@ -18,20 +12,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <!-- targetSDK 28+ Apache Client Registration for UserhabitSDK-->
-        <uses-library
-            android:name="org.apache.http.legacy"
-            android:required="false" />
-
-        <!--해당하는 API KEY 발급 받기-->
-        <meta-data
-            android:name="userhabitApiKey"
-            android:value="dev_52feec35ac35e1c4253457f714045451e8f5361c" />
-
-        <!--유저해빗 서비스 등록하기-->
-        <service android:name="io.userhabit.service.main.service.UserhabitService" />
-
         <activity android:name=".presentation.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
