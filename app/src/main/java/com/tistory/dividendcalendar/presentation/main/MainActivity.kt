@@ -37,8 +37,17 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         super.onCreate(savedInstanceState)
 
         initButton()
+        clearRemainedFragment()
         initStockFragment()
         checkOneDaySync()
+    }
+
+    private fun clearRemainedFragment() {
+        if (supportFragmentManager.fragments.isNotEmpty()) {
+            supportFragmentManager.fragments.forEach {
+                supportFragmentManager.beginTransaction().remove(it).commit()
+            }
+        }
     }
 
     private fun checkOneDaySync() {
