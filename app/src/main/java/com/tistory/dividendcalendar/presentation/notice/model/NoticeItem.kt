@@ -5,7 +5,5 @@ data class NoticeItem(
     val title: String = "",
     val description: String = "",
     val updateDate: String = "",
-
-    //local
     var expandable: Boolean = false
 )

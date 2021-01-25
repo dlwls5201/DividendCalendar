@@ -5,7 +5,6 @@ import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.ItemNoticeBinding
 import com.tistory.dividendcalendar.presentation.notice.model.NoticeItem
@@ -24,7 +23,6 @@ class NoticeAdapter : RecyclerView.Adapter<NoticeAdapter.NoticeViewHolder>() {
 
                 val item = getItem(adapterPosition)
                 val expandable = item.expandable
-                Dlog.d("expandable : $expandable")
 
                 if (expandable) {
                     binding.expandableLayout.collapse()
