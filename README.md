@@ -46,7 +46,7 @@
 - Okhttp
 - Glide
 - FirebaseAnalytics
-- FirebaseRealtimeDatabase
+- FirebaseRemoteConfig
 - [BlackJinBase](https://github.com/dlwls5201/BlackjinBase)
 
 ## API
