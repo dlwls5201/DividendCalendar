@@ -49,4 +49,7 @@
     <string name="ok">확인</string>
     <string name="total_dividend_explain">해당월의 내가 입력한 모든\n(주식의 배당금 * 보유갯수) 값입니다.</string>
     <string name="total_dividend_monthly">월평균 배당금 : $%s</string>
+
+    <string name="latest_version">최신 버전</string>
+    <string name="need_update">업데이트 필요</string>
 </resources>

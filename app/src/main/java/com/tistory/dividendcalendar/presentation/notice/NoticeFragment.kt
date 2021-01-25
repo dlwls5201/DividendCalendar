@@ -1,5 +1,8 @@
 package com.tistory.dividendcalendar.presentation.notice
 
+import android.content.Intent
+import android.content.pm.PackageInfo
+import android.os.Build
 import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.DividerItemDecoration
@@ -9,7 +12,10 @@ import com.google.firebase.remoteconfig.ktx.remoteConfig
 import com.google.firebase.remoteconfig.ktx.remoteConfigSettings
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import com.tistory.blackjinbase.ext.alert
+import com.tistory.blackjinbase.ext.dialog.cancelButton
 import com.tistory.blackjinbase.util.Dlog
+import com.tistory.dividendcalendar.BuildConfig
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.DividendFragment
 import com.tistory.dividendcalendar.constant.Constant
@@ -46,6 +52,7 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initRecyclerView()
+        initButton()
         loadData()
     }
 
@@ -62,6 +69,46 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
         }
     }
 
+    private fun initButton() {
+        binding.fabSendEmail.setOnClickListener {
+            val info: PackageInfo =
+                requireActivity().packageManager.getPackageInfo(requireActivity().packageName, 0)
+            val versionCode = info.versionCode
+            val versionInfo = if (versionCode == versionCodeFromServer) {
+                "(${getString(R.string.latest_version)})"
+            } else {
+                "(${getString(R.string.need_update)})"
+            }
+
+            val versionName = "ver. ${info.versionName} $versionInfo"
+
+            requireContext().alert(title = versionName, message = getString(R.string.app_info)) {
+                positiveButton(getString(R.string.question)) {
+                    sendEmail()
+                }
+                cancelButton {
+                    //..
+                }
+            }.show()
+        }
+    }
+
+    private fun sendEmail() {
+        val email = Intent(Intent.ACTION_SEND).apply {
+            type = "plain/Text"
+            val address = arrayOf("dlwls5201@gmail.com")
+            putExtra(Intent.EXTRA_EMAIL, address)
+            putExtra(Intent.EXTRA_SUBJECT, "<" + getString(R.string.app_name) + ">")
+            putExtra(
+                Intent.EXTRA_TEXT,
+                "AppVersion :${BuildConfig.VERSION_NAME}\nDevice : ${Build.MODEL}\nAndroid OS : ${Build.VERSION.SDK_INT}\n\n Content :\n"
+            )
+        }
+        startActivity(email)
+    }
+
+    private var versionCodeFromServer = -1
+
     private fun loadData() {
         remoteConfig.fetchAndActivate()
             .addOnCompleteListener(requireActivity()) { task ->
@@ -70,7 +117,8 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
                     Dlog.d("Config params updated: $updated")
 
                     val version = remoteConfig.getString("version")
-                    Dlog.d("version : $version")
+                    versionCodeFromServer = version.toIntOrNull() ?: -1
+                    Dlog.d("versionCodeFromServer : $versionCodeFromServer")
 
                     val noticeItemsJsonString = remoteConfig.getString("notice_items")
                     Dlog.d("noticeItemsJsonString : $noticeItemsJsonString")
