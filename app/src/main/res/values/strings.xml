@@ -16,6 +16,7 @@
     <string name="delete">delete</string>
     <string name="question">question</string>
     <string name="setting">setting</string>
+    <string name="notice">notice</string>
     <string name="ex_date_day">exDividendDate</string>
     <string name="payment_date_day">PayDate</string>
 
