@@ -128,7 +128,9 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
 
                         val items = mutableListOf<NoticeItem>()
 
-                        findNoticeForDisplayLanguage(noticeResponse).items.mapTo(items) { it.mapToItem() }
+                        findNoticeForDisplayLanguage(noticeResponse).items.mapTo(items) { itemResponse ->
+                            itemResponse.mapToItem()
+                        }
 
                         noticeAdapter.replaceAll(items)
                     } catch (e: Exception) {
