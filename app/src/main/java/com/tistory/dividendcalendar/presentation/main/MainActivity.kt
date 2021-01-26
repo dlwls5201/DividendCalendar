@@ -101,7 +101,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         }
 
         btnNavSetting.setOnClickListener {
-            initnoticeFragment()
+            initNoticeFragment()
             hideFloatingBtn()
         }
 
@@ -147,7 +147,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         setNavIconEnable(ivNavCalendar)
     }
 
-    private fun initnoticeFragment() {
+    private fun initNoticeFragment() {
         supportFragmentManager.run {
             stockFragment?.let {
                 beginTransaction().hide(it).commit()
@@ -159,7 +159,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
             noticeFragment?.let {
                 beginTransaction().show(it).commit()
-            } ?: addnoticeFragment()
+            } ?: addNoticeFragment()
         }
         setNavIconsUnable()
         setNavIconEnable(ivNavNotice)
@@ -179,7 +179,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         }
     }
 
-    private fun addnoticeFragment() {
+    private fun addNoticeFragment() {
         noticeFragment = NoticeFragment.newInstance().also {
             supportFragmentManager.beginTransaction()
                 .add(R.id.flMainContainer, it).commit()
