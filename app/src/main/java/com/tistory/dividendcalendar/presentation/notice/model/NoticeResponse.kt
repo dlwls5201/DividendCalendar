@@ -9,12 +9,14 @@ data class NoticeResponse(
         val title: String = "",
         val description: String = "",
         val date: String = ""
-    )
-}
+    ) {
 
-fun NoticeResponse.ItemResponse.mapToItem() = NoticeItem(
-    id = id,
-    title = title,
-    description = description,
-    updateDate = date
-)
+        fun mapToItem() = NoticeItem(
+            id = id,
+            title = title,
+            description = description,
+            updateDate = date
+        )
+    }
+
+}

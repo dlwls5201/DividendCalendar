@@ -23,7 +23,6 @@ import com.tistory.dividendcalendar.databinding.FragmentNoticeBinding
 import com.tistory.dividendcalendar.presentation.notice.adapter.NoticeAdapter
 import com.tistory.dividendcalendar.presentation.notice.model.NoticeItem
 import com.tistory.dividendcalendar.presentation.notice.model.NoticeResponse
-import com.tistory.dividendcalendar.presentation.notice.model.mapToItem
 import java.util.*
 import kotlin.collections.ArrayList
 
