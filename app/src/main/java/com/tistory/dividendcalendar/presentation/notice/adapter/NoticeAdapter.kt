@@ -43,14 +43,14 @@ class NoticeAdapter : RecyclerView.Adapter<NoticeAdapter.NoticeViewHolder>() {
                 }
 
                 val updateItem = item.copy(expandable = expandable.not())
-                changeItem(adapterPosition, updateItem)
+                changeData(adapterPosition, updateItem)
             }
         }
     }
 
     private fun getItem(position: Int) = items[position]
 
-    private fun changeItem(position: Int, item: NoticeItem) {
+    private fun changeData(position: Int, item: NoticeItem) {
         items[position] = item
     }
 
