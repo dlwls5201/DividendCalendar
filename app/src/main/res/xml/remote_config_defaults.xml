@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>version</key>
+        <value>-1</value>
+    </entry>
+    <entry>
+        <key>notice_items</key>
+        <value>[]</value>
+    </entry>
+</defaultsMap>
