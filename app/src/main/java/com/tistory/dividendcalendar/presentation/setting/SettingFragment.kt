@@ -11,6 +11,7 @@ import com.tistory.dividendcalendar.base.DividendFragment
 import com.tistory.dividendcalendar.databinding.FragmentSettingBinding
 import kotlinx.android.synthetic.main.fragment_setting.*
 
+@Deprecated("replace NoticeFragment")
 class SettingFragment : DividendFragment<FragmentSettingBinding>(R.layout.fragment_setting) {
 
     companion object {

@@ -27,7 +27,7 @@ buildscript {
         glide_version = '4.11.0'
 
         // blackjinbase
-        black_jin_base = '1.1.1'
+        black_jin_base = '1.1.2'
 
         // hilt
         hilt_version = '2.28-alpha'
