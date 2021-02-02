@@ -60,6 +60,7 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:26.3.0')
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-config-ktx'
+    implementation 'com.google.firebase:firebase-dynamic-links-ktx'
     
     // junit
     testImplementation 'junit:junit:4.12'

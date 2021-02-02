@@ -5,6 +5,7 @@ import android.view.View
 import android.widget.ImageView
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
+import com.google.firebase.dynamiclinks.FirebaseDynamicLinks
 import com.tistory.blackjinbase.base.BaseActivity
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
@@ -40,6 +41,35 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         clearRemainedFragment()
         initStockFragment()
         checkOneDaySync()
+        handleDeepLink()
+    }
+
+    private fun handleDeepLink() {
+        FirebaseDynamicLinks.getInstance()
+            .getDynamicLink(intent)
+            .addOnSuccessListener { pendingDynamicLinkData ->
+                Dlog.d("pendingDynamicLinkData : $pendingDynamicLinkData")
+                if (pendingDynamicLinkData == null) {
+                    return@addOnSuccessListener
+                }
+
+                //https://dividendcalendar.main?test=blackjin
+                val deepLink = pendingDynamicLinkData.link
+                Dlog.d("deepLink : $deepLink")
+
+                val segment = deepLink?.lastPathSegment
+                Dlog.d("segment : $segment")
+
+                val test = deepLink?.getQueryParameter("test")
+                Dlog.d("test : $test")
+
+            }
+            .addOnFailureListener {
+                Dlog.d("addOnFailureListener : ${it.message}")
+            }
+            .addOnCompleteListener {
+                Dlog.d("addOnCompleteListener")
+            }
     }
 
     private fun clearRemainedFragment() {
