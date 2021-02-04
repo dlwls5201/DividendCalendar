@@ -119,6 +119,7 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
                         )
                     }
 
+                    Dlog.d("noticeItems : $noticeItems")
                     noticeAdapter.replaceAll(noticeItems)
                 }
 

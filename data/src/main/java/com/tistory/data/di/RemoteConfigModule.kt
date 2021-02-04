@@ -1,7 +1,7 @@
 package com.tistory.data.di
 
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig
-import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings
+import com.google.firebase.remoteconfig.ktx.remoteConfigSettings
 import com.tistory.data.R
 import dagger.Module
 import dagger.Provides
@@ -16,9 +16,13 @@ object RemoteConfigModule {
 
     @Provides
     fun provideRemoteConfig() = FirebaseRemoteConfig.getInstance().apply {
-        val configSettings = FirebaseRemoteConfigSettings.Builder()
+        /*val configSettings = FirebaseRemoteConfigSettings.Builder()
             .setMinimumFetchIntervalInSeconds(CONFIG_CACHE_EXPIRATION_SECONDS)
-            .build()
+            .build()*/
+
+        val configSettings = remoteConfigSettings {
+            minimumFetchIntervalInSeconds = CONFIG_CACHE_EXPIRATION_SECONDS
+        }
 
         setConfigSettingsAsync(configSettings)
         setDefaultsAsync(R.xml.remote_config_defaults)
