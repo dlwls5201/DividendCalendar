@@ -17,7 +17,7 @@ import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.DividendFragment
 import com.tistory.dividendcalendar.databinding.FragmentNoticeBinding
 import com.tistory.dividendcalendar.presentation.notice.adapter.NoticeAdapter
-import com.tistory.dividendcalendar.presentation.notice.model.NoticeItem
+import com.tistory.dividendcalendar.presentation.notice.model.mapToItem
 import com.tistory.domain.base.BaseListener
 import com.tistory.domain.model.NoticeResponse
 import com.tistory.domain.usecase.GetLatestVersionUsecase
@@ -111,12 +111,7 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
                 override fun onSuccess(data: List<NoticeResponse.ItemResponse>) {
 
                     val noticeItems = data.map { item ->
-                        NoticeItem(
-                            id = item.id,
-                            title = item.title,
-                            description = item.description,
-                            updateDate = item.date
-                        )
+                        item.mapToItem()
                     }
 
                     Dlog.d("noticeItems : $noticeItems")
