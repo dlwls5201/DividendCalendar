@@ -44,8 +44,6 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
 
     private val noticeAdapter by lazy { NoticeAdapter() }
 
-    private var versionCodeFromServer = -1
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initRecyclerView()
@@ -71,14 +69,7 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
         binding.fabSendEmail.setOnClickListener {
             val info: PackageInfo =
                 requireActivity().packageManager.getPackageInfo(requireActivity().packageName, 0)
-            val versionCode = info.versionCode
-            val versionInfo = if (versionCode == versionCodeFromServer) {
-                "(${getString(R.string.latest_version)})"
-            } else {
-                "(${getString(R.string.need_update)})"
-            }
-
-            val versionName = "ver. ${info.versionName} $versionInfo"
+            val versionName = "ver. ${info.versionName}"
 
             requireContext().alert(title = versionName, message = getString(R.string.app_info)) {
                 positiveButton(getString(R.string.question)) {
@@ -147,7 +138,7 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
         lifecycleScope.launch {
             getLatestVersionUsecase.get(object : BaseListener<Int>() {
                 override fun onSuccess(data: Int) {
-                    versionCodeFromServer = data
+                    Dlog.d("version : $data")
                 }
 
                 override fun onLoading() {

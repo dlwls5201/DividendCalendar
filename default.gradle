@@ -24,6 +24,15 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    signingConfigs {
+        release {
+            storeFile file('blackjin.keystore')
+            storePassword "Your Password"
+            keyAlias "Your Alias"
+            keyPassword "Your Password"
+        }
+    }
 }
 
 dependencies {
