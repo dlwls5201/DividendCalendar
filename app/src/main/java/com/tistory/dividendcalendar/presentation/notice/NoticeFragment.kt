@@ -119,7 +119,6 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
                 }
 
                 override fun onLoading() {
-                    Dlog.d("onLoading")
                     showLoading()
                 }
 
@@ -129,7 +128,6 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
                 }
 
                 override fun onLoaded() {
-                    Dlog.d("onLoaded")
                     hideLoading()
                 }
 
@@ -153,7 +151,6 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
                 }
 
                 override fun onLoading() {
-                    Dlog.d("onLoading")
                 }
 
                 override fun onError(error: Throwable) {
@@ -161,7 +158,6 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
                 }
 
                 override fun onLoaded() {
-                    Dlog.d("onLoaded")
                 }
 
             })

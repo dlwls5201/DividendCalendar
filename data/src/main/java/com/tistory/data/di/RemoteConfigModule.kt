@@ -12,13 +12,10 @@ import dagger.hilt.android.components.ApplicationComponent
 @InstallIn(ApplicationComponent::class)
 object RemoteConfigModule {
 
-    private const val CONFIG_CACHE_EXPIRATION_SECONDS = 900L
+    private const val CONFIG_CACHE_EXPIRATION_SECONDS = 3600L
 
     @Provides
     fun provideRemoteConfig() = FirebaseRemoteConfig.getInstance().apply {
-        /*val configSettings = FirebaseRemoteConfigSettings.Builder()
-            .setMinimumFetchIntervalInSeconds(CONFIG_CACHE_EXPIRATION_SECONDS)
-            .build()*/
 
         val configSettings = remoteConfigSettings {
             minimumFetchIntervalInSeconds = CONFIG_CACHE_EXPIRATION_SECONDS
