@@ -1,6 +1,7 @@
-package com.tistory.domain.repository
+package com.tistory.domain.usecase
 
 import com.tistory.domain.base.BaseListener
+import com.tistory.domain.repository.StockWithDividendRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

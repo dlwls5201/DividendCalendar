@@ -4,8 +4,8 @@ import android.view.ViewGroup
 import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.tistory.blackjinbase.base.BaseDiffUtilCallback
 import com.tistory.blackjinbase.base.BaseViewHolder
+import com.tistory.blackjinbase.simplerecyclerview.BaseDiffUtilCallback
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.ItemStockBinding
 import com.tistory.domain.model.StockWithDividendItem
