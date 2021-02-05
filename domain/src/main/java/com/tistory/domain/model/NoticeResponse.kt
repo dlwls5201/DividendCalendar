@@ -1,4 +1,4 @@
-package com.tistory.dividendcalendar.presentation.notice.model
+package com.tistory.domain.model
 
 data class NoticeResponse(
     val country: String = "",
@@ -9,14 +9,5 @@ data class NoticeResponse(
         val title: String = "",
         val description: String = "",
         val date: String = ""
-    ) {
-
-        fun mapToItem() = NoticeItem(
-            id = id,
-            title = title,
-            description = description,
-            updateDate = date
-        )
-    }
-
+    )
 }

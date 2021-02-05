@@ -67,13 +67,11 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         lifecycleScope.launch {
             refreshAllStockDividendUsecase.get(object : BaseListener<Any>() {
                 override fun onSuccess(data: Any) {
-                    Dlog.d("onSuccess")
                     val currentTime = System.currentTimeMillis()
                     PrefUtil.put(PrefUtil.RECENT_LOADING_TIME, currentTime)
                 }
 
                 override fun onLoading() {
-                    Dlog.d("onLoading")
                     showFullProgress()
                 }
 
@@ -82,7 +80,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
                 }
 
                 override fun onLoaded() {
-                    Dlog.d("onLoaded")
                     hideFullProgress()
                 }
             })

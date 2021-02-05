@@ -56,6 +56,11 @@ dependencies {
     implementation "androidx.hilt:hilt-lifecycle-viewmodel:$hilt_android_x_version"
     kapt "androidx.hilt:hilt-compiler:$hilt_android_x_version"
 
+    // Firebase SDK
+    implementation platform('com.google.firebase:firebase-bom:26.3.0')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-config-ktx'
+    
     // junit
     testImplementation 'junit:junit:4.12'
 
