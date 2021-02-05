@@ -1,7 +1,6 @@
 package com.tistory.domain.usecase
 
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig
-import com.tistory.blackjinbase.util.Dlog
 import com.tistory.domain.base.BaseListener
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -17,11 +16,7 @@ class GetLatestVersionUsecase(
             remoteConfig.fetch()
                 .addOnCompleteListener { task ->
                     if (task.isSuccessful) {
-                        val updated = task.result
-                        Dlog.d("Config params updated: $updated")
-
                         val version = remoteConfig.getString("version")
-                        Dlog.d("version : $version")
 
                         try {
                             val versionInt = version.toIntOrNull() ?: -1

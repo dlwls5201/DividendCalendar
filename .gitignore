@@ -240,3 +240,6 @@ Thumbs.db
 !/gradle/wrapper/gradle-wrapper.jar
 
 # End of https://www.toptal.com/developers/gitignore/api/androidstudio,intellij,kotlin
+
+/app/blackjin.keystore
+/data/src/main/java/com/tistory/data/source/remote/ApiKey.kt
