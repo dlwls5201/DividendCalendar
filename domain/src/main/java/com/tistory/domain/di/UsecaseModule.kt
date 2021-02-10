@@ -1,6 +1,5 @@
 package com.tistory.domain.di
 
-import com.google.firebase.remoteconfig.FirebaseRemoteConfig
 import com.tistory.domain.repository.StockWithDividendRepository
 import com.tistory.domain.usecase.*
 import dagger.Module
@@ -31,12 +30,4 @@ object UsecaseModule {
     @Provides
     fun provideModifyStockCountUsecase(stockWithDividendRepository: StockWithDividendRepository) =
         ModifyStockCountUsecase(stockWithDividendRepository)
-
-    @Provides
-    fun provideGetNoticeUsecase(remoteConfig: FirebaseRemoteConfig) =
-        GetNoticeUsecase(remoteConfig)
-
-    @Provides
-    fun provideGetLatestVersionUsecase(remoteConfig: FirebaseRemoteConfig) =
-        GetLatestVersionUsecase(remoteConfig)
 }

@@ -5,9 +5,13 @@ import android.content.pm.PackageInfo
 import android.os.Build
 import android.os.Bundle
 import android.view.View
-import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.firebase.ktx.Firebase
+import com.google.firebase.remoteconfig.ktx.remoteConfig
+import com.google.firebase.remoteconfig.ktx.remoteConfigSettings
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import com.tistory.blackjinbase.ext.alert
 import com.tistory.blackjinbase.ext.dialog.cancelButton
 import com.tistory.blackjinbase.ext.toast
@@ -15,16 +19,14 @@ import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.BuildConfig
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.DividendFragment
+import com.tistory.dividendcalendar.constant.Constant
 import com.tistory.dividendcalendar.databinding.FragmentNoticeBinding
 import com.tistory.dividendcalendar.presentation.notice.adapter.NoticeAdapter
 import com.tistory.dividendcalendar.presentation.notice.model.mapToItem
-import com.tistory.domain.base.BaseListener
 import com.tistory.domain.model.NoticeResponse
-import com.tistory.domain.usecase.GetLatestVersionUsecase
-import com.tistory.domain.usecase.GetNoticeUsecase
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.launch
-import javax.inject.Inject
+import java.util.*
+import kotlin.collections.ArrayList
 
 @AndroidEntryPoint
 class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment_notice) {
@@ -36,20 +38,25 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
 
     override var logTag = "NoticeFragment"
 
-    @Inject
-    lateinit var getNoticeUsecase: GetNoticeUsecase
-
-    @Inject
-    lateinit var getLatestVersionUsecase: GetLatestVersionUsecase
-
     private val noticeAdapter by lazy { NoticeAdapter() }
+
+    private val remoteConfig = Firebase.remoteConfig.apply {
+        val configSettings = remoteConfigSettings {
+            if (BuildConfig.DEBUG) {
+                minimumFetchIntervalInSeconds = 60
+            }
+        }
+        setConfigSettingsAsync(configSettings)
+        setDefaultsAsync(R.xml.remote_config_defaults)
+    }
+
+    private val gson = Gson()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initRecyclerView()
         initButton()
         loadData()
-        loadLatestVersion()
     }
 
     private fun initRecyclerView() {
@@ -97,33 +104,46 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
     }
 
     private fun loadData() {
-        lifecycleScope.launch {
-            getNoticeUsecase.get(object : BaseListener<List<NoticeResponse.ItemResponse>>() {
-                override fun onSuccess(data: List<NoticeResponse.ItemResponse>) {
+        showLoading()
+        remoteConfig.fetchAndActivate()
+            .addOnCompleteListener(requireActivity()) { task ->
+                hideLoading()
+                if (task.isSuccessful) {
 
-                    val noticeItems = data.map { item ->
-                        item.mapToItem()
+                    val noticeItemsJsonString = remoteConfig.getString("notice_items")
+                    Dlog.d("noticeItemsJsonString : $noticeItemsJsonString")
+
+                    try {
+                        val noticeResponse =
+                            convertJsonArrayToList<NoticeResponse>(noticeItemsJsonString)
+
+                        val response = findNoticeForDisplayLanguage(noticeResponse)
+                        noticeAdapter.replaceAll(response.items.map { it.mapToItem() })
+
+                    } catch (e: Exception) {
+                        toast("${e.message}")
                     }
 
-                    Dlog.d("noticeItems : $noticeItems")
-                    noticeAdapter.replaceAll(noticeItems)
+                } else {
+                    toast("Fetch failed")
                 }
+            }
+    }
 
-                override fun onLoading() {
-                    showLoading()
-                }
+    private inline fun <reified T> convertJsonArrayToList(jsonString: String): List<T> {
+        return gson.fromJson(
+            jsonString,
+            TypeToken.getParameterized(ArrayList::class.java, T::class.java).type
+        )
+    }
 
-                override fun onError(error: Throwable) {
-                    Dlog.d("onError error : ${error.message}")
-                    toast(error.message)
-                }
+    private fun findNoticeForDisplayLanguage(notices: List<NoticeResponse>): NoticeResponse {
+        val language = Locale.getDefault().language.toLowerCase(Locale.ROOT)
+        Dlog.d("language : $language")
 
-                override fun onLoaded() {
-                    hideLoading()
-                }
-
-            })
-        }
+        return notices.find { it.country == language }
+            ?: notices.find { it.country == Constant.DEFAULT_LANGUAGE }
+            ?: NoticeResponse()
     }
 
     private fun showLoading() {
@@ -132,26 +152,5 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
 
     private fun hideLoading() {
         binding.pbNotice.visibility = View.GONE
-    }
-
-    private fun loadLatestVersion() {
-        lifecycleScope.launch {
-            getLatestVersionUsecase.get(object : BaseListener<Int>() {
-                override fun onSuccess(data: Int) {
-                    Dlog.d("version : $data")
-                }
-
-                override fun onLoading() {
-                }
-
-                override fun onError(error: Throwable) {
-                    Dlog.d("onError error : ${error.message}")
-                }
-
-                override fun onLoaded() {
-                }
-
-            })
-        }
     }
 }

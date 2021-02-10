@@ -1,4 +1,4 @@
-package com.tistory.domain.constant
+package com.tistory.dividendcalendar.constant
 
 object Constant {
 
