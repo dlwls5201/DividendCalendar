@@ -27,7 +27,7 @@
         <!--해당하는 API KEY 발급 받기-->
         <meta-data
             android:name="userhabitApiKey"
-            android:value="" />
+            android:value="dev_52feec35ac35e1c4253457f714045451e8f5361c" />
 
         <!--유저해빗 서비스 등록하기-->
         <service android:name="io.userhabit.service.main.service.UserhabitService" />
