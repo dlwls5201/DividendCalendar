@@ -37,6 +37,9 @@ buildscript {
     repositories {
         google()
         jcenter()
+
+        // userhabit
+        maven { url 'https://repo.userhabit.io/content/groups/public'}
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.0.1"
@@ -52,6 +55,9 @@ allprojects {
     repositories {
         google()
         jcenter()
+
+        // userhabit
+        maven { url 'https://repo.userhabit.io/content/groups/public'}
     }
 }
 

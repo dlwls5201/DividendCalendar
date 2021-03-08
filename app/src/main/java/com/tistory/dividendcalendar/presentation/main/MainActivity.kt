@@ -17,6 +17,7 @@ import com.tistory.dividendcalendar.utils.PrefUtil
 import com.tistory.domain.base.BaseListener
 import com.tistory.domain.usecase.RefreshAllStockDividendUsecase
 import dagger.hilt.android.AndroidEntryPoint
+import io.userhabit.service.Userhabit
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -88,16 +89,19 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
     private fun initButton() {
         btnNavChart.setOnClickListener {
+            Userhabit.setScreen(this, "StockFragment")
             initStockFragment()
             showFloatingBtn()
         }
 
         btnNavCalendar.setOnClickListener {
+            Userhabit.setScreen(this, "CalendarFragment")
             initCalendarFragment()
             hideFloatingBtn()
         }
 
         btnNavSetting.setOnClickListener {
+            Userhabit.setScreen(this, "NoticeFragment")
             initNoticeFragment()
             hideFloatingBtn()
         }
