@@ -9,6 +9,7 @@ import com.tistory.blackjinbase.base.BaseActivity
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.ActivityMainBinding
+import com.tistory.dividendcalendar.firebase.DWFirebaseAnalyticsLogger
 import com.tistory.dividendcalendar.presentation.calendar.CalendarFragment
 import com.tistory.dividendcalendar.presentation.dialog.ModifyStockDialogFragment
 import com.tistory.dividendcalendar.presentation.notice.NoticeFragment
@@ -90,18 +91,24 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
     private fun initButton() {
         btnNavChart.setOnClickListener {
             Userhabit.setScreen(this, "StockFragment")
+            DWFirebaseAnalyticsLogger.sendScreen("StockFragment")
+
             initStockFragment()
             showFloatingBtn()
         }
 
         btnNavCalendar.setOnClickListener {
             Userhabit.setScreen(this, "CalendarFragment")
+            DWFirebaseAnalyticsLogger.sendScreen("CalendarFragment")
+
             initCalendarFragment()
             hideFloatingBtn()
         }
 
         btnNavSetting.setOnClickListener {
             Userhabit.setScreen(this, "NoticeFragment")
+            DWFirebaseAnalyticsLogger.sendScreen("NoticeFragment")
+
             initNoticeFragment()
             hideFloatingBtn()
         }

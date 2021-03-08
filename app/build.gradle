@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply from: '../default.gradle'
 apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
 
 android {
     defaultConfig {
@@ -28,9 +29,6 @@ dependencies {
 
     implementation 'androidx.core:core-ktx:1.3.1'
     implementation 'androidx.appcompat:appcompat:1.2.0'
-
-    // Userhabit
-    implementation 'io.userhabit.service:userhabitsdk:1.3.0@aar'
 
     // ui
     implementation "androidx.constraintlayout:constraintlayout:$constraint_layout_version"

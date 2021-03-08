@@ -9,6 +9,7 @@ import com.tistory.blackjinbase.ext.toast
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.DividendFragmentDialog
 import com.tistory.dividendcalendar.databinding.DialogModifyStockBinding
+import com.tistory.dividendcalendar.firebase.DWFirebaseAnalyticsLogger
 import dagger.hilt.android.AndroidEntryPoint
 import io.userhabit.service.Userhabit
 
@@ -61,9 +62,11 @@ class ModifyStockDialogFragment :
         when (type) {
             DialogType.ADD -> {
                 Userhabit.setScreen(requireActivity(), "StockAddDialog")
+                DWFirebaseAnalyticsLogger.sendScreen("StockAddDialog")
             }
             DialogType.MODIFY -> {
                 Userhabit.setScreen(requireActivity(), "StockModifyDialog")
+                DWFirebaseAnalyticsLogger.sendScreen("StockModifyDialog")
             }
         }
     }
