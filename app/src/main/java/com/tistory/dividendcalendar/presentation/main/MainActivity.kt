@@ -8,6 +8,7 @@ import androidx.lifecycle.lifecycleScope
 import com.tistory.blackjinbase.base.BaseActivity
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
+import com.tistory.dividendcalendar.constant.Constant
 import com.tistory.dividendcalendar.databinding.ActivityMainBinding
 import com.tistory.dividendcalendar.firebase.DWFirebaseAnalyticsLogger
 import com.tistory.dividendcalendar.presentation.calendar.CalendarFragment
@@ -90,24 +91,24 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
     private fun initButton() {
         btnNavChart.setOnClickListener {
-            Userhabit.setScreen(this, "StockFragment")
-            DWFirebaseAnalyticsLogger.sendScreen("StockFragment")
+            Userhabit.setScreen(this, Constant.VIEW_STOCK_FRAGMENT)
+            DWFirebaseAnalyticsLogger.sendScreen(Constant.VIEW_STOCK_FRAGMENT)
 
             initStockFragment()
             showFloatingBtn()
         }
 
         btnNavCalendar.setOnClickListener {
-            Userhabit.setScreen(this, "CalendarFragment")
-            DWFirebaseAnalyticsLogger.sendScreen("CalendarFragment")
+            Userhabit.setScreen(this, Constant.VIEW_CALENDAR_FRAGMENT)
+            DWFirebaseAnalyticsLogger.sendScreen(Constant.VIEW_CALENDAR_FRAGMENT)
 
             initCalendarFragment()
             hideFloatingBtn()
         }
 
         btnNavSetting.setOnClickListener {
-            Userhabit.setScreen(this, "NoticeFragment")
-            DWFirebaseAnalyticsLogger.sendScreen("NoticeFragment")
+            Userhabit.setScreen(this, Constant.VIEW_NOTICE_FRAGMENT)
+            DWFirebaseAnalyticsLogger.sendScreen(Constant.VIEW_NOTICE_FRAGMENT)
 
             initNoticeFragment()
             hideFloatingBtn()
