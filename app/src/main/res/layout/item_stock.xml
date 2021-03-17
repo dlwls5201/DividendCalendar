@@ -65,14 +65,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:text="@{@string/item_stock_date_format(item.dividends[0].exDate, item.dividends[0].paymentDate)}"
+                android:text="@{@string/item_stock_date_format(item.dividends[0].paymentDate, item.dividends[0].exDate)}"
                 android:textColor="@color/black"
                 android:textSize="13dp"
                 android:visibility="@{item.dividends.size() > 0 ? View.VISIBLE : View.GONE}"
                 app:layout_constraintBottom_toTopOf="@id/tvStockDividendInfo"
                 app:layout_constraintStart_toEndOf="@id/guidelineStartFromImage"
                 app:layout_constraintTop_toBottomOf="@id/tvStockName"
-                tools:text="배당락일 : 2020-04-27 / 지급일 : 2020-04-27" />
+                tools:text="지급일 : 2020-04-27 / 배당락일 : 2020-04-27" />
 
             <TextView
                 android:id="@+id/tvStockDividendInfo"

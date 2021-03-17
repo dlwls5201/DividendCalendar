@@ -92,7 +92,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
     private fun initButton() {
         btnNavChart.setOnClickListener {
             Userhabit.setScreen(this, Constant.VIEW_STOCK_FRAGMENT)
-            DWFirebaseAnalyticsLogger.sendScreen(Constant.VIEW_STOCK_FRAGMENT)
+            DWFirebaseAnalyticsLogger.sendScreen(Constant.FB_VIEW_STOCK_FRAGMENT)
 
             initStockFragment()
             showFloatingBtn()
@@ -100,7 +100,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
         btnNavCalendar.setOnClickListener {
             Userhabit.setScreen(this, Constant.VIEW_CALENDAR_FRAGMENT)
-            DWFirebaseAnalyticsLogger.sendScreen(Constant.VIEW_CALENDAR_FRAGMENT)
+            DWFirebaseAnalyticsLogger.sendScreen(Constant.FB_VIEW_CALENDAR_FRAGMENT)
 
             initCalendarFragment()
             hideFloatingBtn()
@@ -108,7 +108,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
         btnNavSetting.setOnClickListener {
             Userhabit.setScreen(this, Constant.VIEW_NOTICE_FRAGMENT)
-            DWFirebaseAnalyticsLogger.sendScreen(Constant.VIEW_NOTICE_FRAGMENT)
+            DWFirebaseAnalyticsLogger.sendScreen(Constant.FB_VIEW_NOTICE_FRAGMENT)
 
             initNoticeFragment()
             hideFloatingBtn()

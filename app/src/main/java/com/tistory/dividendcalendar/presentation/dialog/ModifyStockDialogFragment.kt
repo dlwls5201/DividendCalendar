@@ -8,6 +8,7 @@ import com.tistory.blackjinbase.ext.hideSoftKeyBoard
 import com.tistory.blackjinbase.ext.toast
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.DividendFragmentDialog
+import com.tistory.dividendcalendar.constant.Constant
 import com.tistory.dividendcalendar.databinding.DialogModifyStockBinding
 import com.tistory.dividendcalendar.firebase.DWFirebaseAnalyticsLogger
 import dagger.hilt.android.AndroidEntryPoint
@@ -61,14 +62,13 @@ class ModifyStockDialogFragment :
         val type = arguments?.getSerializable(ARGUMENT_TYPE) as? DialogType ?: return
         when (type) {
             DialogType.ADD -> {
-                Userhabit.setScreen(requireActivity(), "StockAddDialog")
-                DWFirebaseAnalyticsLogger.sendScreen("StockAddDialog")
+                Userhabit.setScreen(requireActivity(), Constant.VIEW_STOCK_ADD_DIALOG)
             }
             DialogType.MODIFY -> {
-                Userhabit.setScreen(requireActivity(), "StockModifyDialog")
-                DWFirebaseAnalyticsLogger.sendScreen("StockModifyDialog")
+                Userhabit.setScreen(requireActivity(), Constant.VIEW_STOCK_MODIFY_DIALOG)
             }
         }
+        DWFirebaseAnalyticsLogger.sendScreen(Constant.FB_VIEW_STOCK_DIALOG)
     }
 
     override fun onViewModelSetup() {
