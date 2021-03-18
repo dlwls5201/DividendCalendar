@@ -4,17 +4,14 @@ import android.app.Application
 import androidx.core.os.bundleOf
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.crashlytics.FirebaseCrashlytics
+import com.tistory.dividendcalendar.constant.Constant
 import com.tistory.dividendcalendar.presentation.dialog.ModifyStockDialogFragment
 
 object DWFirebaseAnalyticsLogger {
 
     private lateinit var firebaseAnalytics: FirebaseAnalytics
 
-    private const val VIEW_SCREEN = "screen"
-
-    private const val STOCK_DIALOG_TYPE = "stockDialogType"
     private const val STOCK_TICKER = "ticker"
-    private const val STOCK_COUNT = "count"
 
     fun initLogger(application: Application) {
         try {
@@ -29,12 +26,8 @@ object DWFirebaseAnalyticsLogger {
             return
         }
 
-        val bundle = bundleOf(
-            Pair(VIEW_SCREEN, screen)
-        )
-
         try {
-            firebaseAnalytics.logEvent(FirebaseAnalytics.Event.VIEW_ITEM, bundle)
+            firebaseAnalytics.logEvent(screen, null)
         } catch (e: Exception) {
             FirebaseCrashlytics.getInstance().recordException(e)
         }
@@ -45,14 +38,18 @@ object DWFirebaseAnalyticsLogger {
             return
         }
 
+
+        val key = when (type) {
+            ModifyStockDialogFragment.DialogType.ADD -> Constant.FB_VIEW_STOCK_ADD_DIALOG
+            ModifyStockDialogFragment.DialogType.MODIFY -> Constant.FB_VIEW_STOCK_MODIFY_DIALOG
+        }
+
         val bundle = bundleOf(
-            Pair(STOCK_DIALOG_TYPE, type),
-            Pair(STOCK_TICKER, ticker),
-            Pair(STOCK_COUNT, count)
+            Pair(STOCK_TICKER, ticker)
         )
 
         try {
-            firebaseAnalytics.logEvent(FirebaseAnalytics.Event.VIEW_ITEM, bundle)
+            firebaseAnalytics.logEvent(key, bundle)
         } catch (e: Exception) {
             FirebaseCrashlytics.getInstance().recordException(e)
         }

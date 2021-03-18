@@ -8,15 +8,18 @@ import androidx.lifecycle.lifecycleScope
 import com.tistory.blackjinbase.base.BaseActivity
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
+import com.tistory.dividendcalendar.constant.Constant
 import com.tistory.dividendcalendar.databinding.ActivityMainBinding
+import com.tistory.dividendcalendar.firebase.DWFirebaseAnalyticsLogger
 import com.tistory.dividendcalendar.presentation.calendar.CalendarFragment
 import com.tistory.dividendcalendar.presentation.dialog.ModifyStockDialogFragment
-import com.tistory.dividendcalendar.presentation.setting.SettingFragment
+import com.tistory.dividendcalendar.presentation.notice.NoticeFragment
 import com.tistory.dividendcalendar.presentation.stock.StockFragment
 import com.tistory.dividendcalendar.utils.PrefUtil
 import com.tistory.domain.base.BaseListener
 import com.tistory.domain.usecase.RefreshAllStockDividendUsecase
 import dagger.hilt.android.AndroidEntryPoint
+import io.userhabit.service.Userhabit
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -28,7 +31,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
     private var stockFragment: StockFragment? = null
     private var calendarFragment: CalendarFragment? = null
-    private var settingFragment: SettingFragment? = null
+    private var noticeFragment: NoticeFragment? = null
 
     @Inject
     lateinit var refreshAllStockDividendUsecase: RefreshAllStockDividendUsecase
@@ -37,8 +40,17 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         super.onCreate(savedInstanceState)
 
         initButton()
+        clearRemainedFragment()
         initStockFragment()
         checkOneDaySync()
+    }
+
+    private fun clearRemainedFragment() {
+        if (supportFragmentManager.fragments.isNotEmpty()) {
+            supportFragmentManager.fragments.forEach {
+                supportFragmentManager.beginTransaction().remove(it).commit()
+            }
+        }
     }
 
     private fun checkOneDaySync() {
@@ -58,13 +70,11 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         lifecycleScope.launch {
             refreshAllStockDividendUsecase.get(object : BaseListener<Any>() {
                 override fun onSuccess(data: Any) {
-                    Dlog.d("onSuccess")
                     val currentTime = System.currentTimeMillis()
                     PrefUtil.put(PrefUtil.RECENT_LOADING_TIME, currentTime)
                 }
 
                 override fun onLoading() {
-                    Dlog.d("onLoading")
                     showFullProgress()
                 }
 
@@ -73,7 +83,6 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
                 }
 
                 override fun onLoaded() {
-                    Dlog.d("onLoaded")
                     hideFullProgress()
                 }
             })
@@ -82,17 +91,26 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
 
     private fun initButton() {
         btnNavChart.setOnClickListener {
+            Userhabit.setScreen(this, Constant.VIEW_STOCK_FRAGMENT)
+            DWFirebaseAnalyticsLogger.sendScreen(Constant.FB_VIEW_STOCK_FRAGMENT)
+
             initStockFragment()
             showFloatingBtn()
         }
 
         btnNavCalendar.setOnClickListener {
+            Userhabit.setScreen(this, Constant.VIEW_CALENDAR_FRAGMENT)
+            DWFirebaseAnalyticsLogger.sendScreen(Constant.FB_VIEW_CALENDAR_FRAGMENT)
+
             initCalendarFragment()
             hideFloatingBtn()
         }
 
         btnNavSetting.setOnClickListener {
-            initSettingFragment()
+            Userhabit.setScreen(this, Constant.VIEW_NOTICE_FRAGMENT)
+            DWFirebaseAnalyticsLogger.sendScreen(Constant.FB_VIEW_NOTICE_FRAGMENT)
+
+            initNoticeFragment()
             hideFloatingBtn()
         }
 
@@ -112,7 +130,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
                 beginTransaction().hide(it).commit()
             }
 
-            settingFragment?.let {
+            noticeFragment?.let {
                 beginTransaction().hide(it).commit()
             }
         }
@@ -130,7 +148,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
                 beginTransaction().show(it).commit()
             } ?: addCalendarFragment()
 
-            settingFragment?.let {
+            noticeFragment?.let {
                 beginTransaction().hide(it).commit()
             }
         }
@@ -138,7 +156,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         setNavIconEnable(ivNavCalendar)
     }
 
-    private fun initSettingFragment() {
+    private fun initNoticeFragment() {
         supportFragmentManager.run {
             stockFragment?.let {
                 beginTransaction().hide(it).commit()
@@ -148,12 +166,12 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
                 beginTransaction().hide(it).commit()
             }
 
-            settingFragment?.let {
+            noticeFragment?.let {
                 beginTransaction().show(it).commit()
-            } ?: addSettingFragment()
+            } ?: addNoticeFragment()
         }
         setNavIconsUnable()
-        setNavIconEnable(ivNavSetting)
+        setNavIconEnable(ivNavNotice)
     }
 
     private fun addStockFragment() {
@@ -170,8 +188,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         }
     }
 
-    private fun addSettingFragment() {
-        settingFragment = SettingFragment.newInstance().also {
+    private fun addNoticeFragment() {
+        noticeFragment = NoticeFragment.newInstance().also {
             supportFragmentManager.beginTransaction()
                 .add(R.id.flMainContainer, it).commit()
         }
@@ -180,7 +198,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
     private fun setNavIconsUnable() {
         ivNavChart.setColorFilter(ContextCompat.getColor(this, R.color.gray_02))
         ivNavCalendar.setColorFilter(ContextCompat.getColor(this, R.color.gray_02))
-        ivNavSetting.setColorFilter(ContextCompat.getColor(this, R.color.gray_02))
+        ivNavNotice.setColorFilter(ContextCompat.getColor(this, R.color.gray_02))
     }
 
     private fun setNavIconEnable(imageView: ImageView) {

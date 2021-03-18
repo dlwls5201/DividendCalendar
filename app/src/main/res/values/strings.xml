@@ -28,7 +28,7 @@
     <string name="item_price_of_one_stock">price per stock :</string>
     <string name="item_frequency">frequency :</string>
 
-    <string name="item_stock_date_format">exDividendDate : %s / payDate : %s</string>
+    <string name="item_stock_date_format">payDate : %s / exDividendDate : %s</string>
     <string name="item_my_stock_cnt_format">stock cnt : %s</string>
     <string name="item_frequency_format">frequency : %s</string>
 
