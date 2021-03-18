@@ -37,6 +37,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':blackjinbase')
 
     // kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
@@ -55,9 +56,6 @@ dependencies {
     // okhttp3
     implementation "com.squareup.okhttp3:okhttp:$okhttp3_version"
     implementation "com.squareup.okhttp3:logging-interceptor:$okhttp3_version"
-
-    // base
-    implementation "com.blackjin.library:blackjinbase:$black_jin_base"
 
     // Hilt
     implementation "com.google.dagger:hilt-android:$hilt_version"

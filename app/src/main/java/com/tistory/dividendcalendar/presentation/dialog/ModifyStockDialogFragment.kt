@@ -5,6 +5,7 @@ import android.view.View
 import androidx.core.os.bundleOf
 import androidx.fragment.app.viewModels
 import com.tistory.blackjinbase.ext.hideSoftKeyBoard
+import com.tistory.blackjinbase.ext.observeEvent
 import com.tistory.blackjinbase.ext.toast
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.DividendFragmentDialog
@@ -73,22 +74,16 @@ class ModifyStockDialogFragment :
 
     override fun onViewModelSetup() {
         with(viewModel) {
-            eventFinish.observe(viewLifecycleOwner, {
-                it.getContentIfNotHandled()?.let {
-                    dismiss()
-                }
+            eventFinish.observeEvent(viewLifecycleOwner, {
+                dismiss()
             })
 
-            eventToast.observe(viewLifecycleOwner, {
-                it.getContentIfNotHandled()?.let { message ->
-                    requireContext().toast(message)
-                }
+            eventToast.observeEvent(viewLifecycleOwner, {
+                toast(it)
             })
 
-            eventHideKeyboard.observe(viewLifecycleOwner, {
-                it.getContentIfNotHandled()?.let {
-                    requireActivity().hideSoftKeyBoard()
-                }
+            eventHideKeyboard.observeEvent(viewLifecycleOwner, {
+                requireActivity().hideSoftKeyBoard()
             })
         }
     }

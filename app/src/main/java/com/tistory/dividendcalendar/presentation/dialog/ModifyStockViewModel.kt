@@ -4,8 +4,9 @@ import android.content.Context
 import androidx.hilt.Assisted
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.*
+import com.tistory.blackjinbase.ext.EventMutableLiveData
+import com.tistory.blackjinbase.ext.postEvent
 import com.tistory.blackjinbase.util.Dlog
-import com.tistory.blackjinbase.util.Event
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.firebase.DWFirebaseAnalyticsLogger
 import com.tistory.dividendcalendar.utils.CountUtil
@@ -39,9 +40,9 @@ class ModifyStockViewModel @ViewModelInject constructor(
     val editTickerEnable = MutableLiveData<Boolean>(true)
     val editTickerCnt = MutableLiveData<String>()
 
-    val eventFinish = MutableLiveData<Event<Unit>>()
-    val eventToast = MutableLiveData<Event<String>>()
-    val eventHideKeyboard = MutableLiveData<Event<Unit>>()
+    val eventFinish = EventMutableLiveData<Unit>()
+    val eventToast = EventMutableLiveData<String>()
+    val eventHideKeyboard = EventMutableLiveData<Unit>()
 
     private val type by lazy {
         savedStateHandle.get(ModifyStockDialogFragment.ARGUMENT_TYPE) as? ModifyStockDialogFragment.DialogType
@@ -105,12 +106,12 @@ class ModifyStockViewModel @ViewModelInject constructor(
 
     private fun showToastEvent(message: String?) {
         message?.let {
-            eventToast.postValue(Event(it))
+            eventToast.postEvent(it)
         }
     }
 
     private fun hideKeyboardEvent() {
-        eventHideKeyboard.postValue(Event(Unit))
+        eventHideKeyboard.postEvent(Unit)
     }
 
     fun okStock() {
@@ -215,6 +216,6 @@ class ModifyStockViewModel @ViewModelInject constructor(
     }
 
     fun finishView() {
-        eventFinish.postValue(Event(Unit))
+        eventFinish.postEvent(Unit)
     }
 }
