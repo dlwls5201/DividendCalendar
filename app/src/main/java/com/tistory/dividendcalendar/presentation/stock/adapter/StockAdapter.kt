@@ -56,7 +56,5 @@ class StockAdapter :
         override fun bind(data: StockWithDividendItem) {
             binding.item = data
         }
-
-        override fun recycled() {}
     }
 }

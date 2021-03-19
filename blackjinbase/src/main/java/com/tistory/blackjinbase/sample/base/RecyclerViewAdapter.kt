@@ -60,7 +60,5 @@ class RecyclerViewAdapter : RecyclerView.Adapter<BaseViewHolder<ViewDataBinding,
         override fun bind(data: String) {
             binding.model = data
         }
-
-        override fun recycled() {}
     }
 }

@@ -23,4 +23,5 @@
     <color name="gray_05">#2B353E</color>
     <color name="gray_06">#131E29</color>
 
+    <color name="edit_text_hint">#979797</color>
 </resources>

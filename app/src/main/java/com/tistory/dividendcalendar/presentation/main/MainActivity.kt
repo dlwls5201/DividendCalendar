@@ -1,21 +1,25 @@
 package com.tistory.dividendcalendar.presentation.main
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
-import com.tistory.blackjinbase.base.BaseActivity
+import com.google.firebase.crashlytics.FirebaseCrashlytics
 import com.tistory.blackjinbase.util.Dlog
+import com.tistory.data.repository.StockNameRepository
+import com.tistory.dividendcalendar.DividendActivity
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.constant.Constant
 import com.tistory.dividendcalendar.databinding.ActivityMainBinding
 import com.tistory.dividendcalendar.firebase.DWFirebaseAnalyticsLogger
 import com.tistory.dividendcalendar.presentation.calendar.CalendarFragment
-import com.tistory.dividendcalendar.presentation.dialog.ModifyStockDialogFragment
 import com.tistory.dividendcalendar.presentation.notice.NoticeFragment
+import com.tistory.dividendcalendar.presentation.searchstock.SearchStockActivity
 import com.tistory.dividendcalendar.presentation.stock.StockFragment
 import com.tistory.dividendcalendar.utils.PrefUtil
+import com.tistory.dividendcalendar.utils.ReadTextFileUtil
 import com.tistory.domain.base.BaseListener
 import com.tistory.domain.usecase.RefreshAllStockDividendUsecase
 import dagger.hilt.android.AndroidEntryPoint
@@ -25,7 +29,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @AndroidEntryPoint
-class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
+class MainActivity : DividendActivity<ActivityMainBinding>(R.layout.activity_main) {
 
     override var logTag = "MainActivity"
 
@@ -36,6 +40,9 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
     @Inject
     lateinit var refreshAllStockDividendUsecase: RefreshAllStockDividendUsecase
 
+    @Inject
+    lateinit var stockNameRepository: StockNameRepository
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -43,6 +50,26 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         clearRemainedFragment()
         initStockFragment()
         checkOneDaySync()
+        loadStockNamesOnce()
+    }
+
+    private fun loadStockNamesOnce() {
+        val isOnce = PrefUtil.get(PrefUtil.ONCE_LOAD_STOCK_NAME, false)
+        if (isOnce) {
+            return
+        }
+
+        lifecycleScope.launch {
+            try {
+                stockNameRepository.clearStocks()
+                ReadTextFileUtil.insertTickerFromFile(this@MainActivity, stockNameRepository, "amex_name.txt")
+                ReadTextFileUtil.insertTickerFromFile(this@MainActivity, stockNameRepository, "nasdaq_name.txt")
+                ReadTextFileUtil.insertTickerFromFile(this@MainActivity, stockNameRepository, "nyse_name.txt")
+                PrefUtil.put(PrefUtil.ONCE_LOAD_STOCK_NAME, true)
+            } catch (e: Exception) {
+                FirebaseCrashlytics.getInstance().recordException(e)
+            }
+        }
     }
 
     private fun clearRemainedFragment() {
@@ -59,7 +86,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         val diffTime = currentTime - recentLoadingTime
 
         val dayMilliSecond = 24 * 60 * 60 * 1000 // 86400000
-        Dlog.d("diffTime : $diffTime -> dayMilliSecond :$dayMilliSecond")
+        Dlog.d("diffTime : $diffTime -> dayMilliSecond : $dayMilliSecond")
 
         if (diffTime > dayMilliSecond) {
             syncAllStockWithDividends()
@@ -115,8 +142,9 @@ class MainActivity : BaseActivity<ActivityMainBinding>(R.layout.activity_main) {
         }
 
         fabAddStock.setOnClickListener {
-            ModifyStockDialogFragment.newInstanceForAdd()
-                .show(supportFragmentManager, logTag)
+            startActivity(Intent(this, SearchStockActivity::class.java))
+            /*ModifyStockDialogFragment.newInstanceForAdd()
+                .show(supportFragmentManager, logTag)*/
         }
     }
 

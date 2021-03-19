@@ -52,4 +52,6 @@
 
     <string name="latest_version">Latest Version</string>
     <string name="need_update">Need Update</string>
+
+    <string name="hint_input_search_ticker">종목명 혹은 티커명을 입력해주세요.</string>
 </resources>

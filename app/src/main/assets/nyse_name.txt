@@ -1,0 +1,3042 @@
+A,Agilent Technologies Inc. 
+AA,Alcoa Corporation  
+AAIC,Arlington Asset Investment Corp Class A (new)
+AAIC^B,Arlington Asset Investment Corp 7.00%
+AAIC^C,Arlington Asset Investment Corp 8.250% Seies C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+AAN,Aarons Holdings Company Inc.  
+AAP,Advance Auto Parts Inc Advance Auto Parts Inc W/I
+AAT,American Assets Trust Inc. 
+AB,AllianceBernstein Holding L.P.  Units
+ABB,ABB Ltd 
+ABBV,AbbVie Inc. 
+ABC,AmerisourceBergen Corporation 
+ABEV,Ambev S.A. American Depositary Shares (Each representing 1 Common Share)
+ABG,Asbury Automotive Group Inc 
+ABM,ABM Industries Incorporated 
+ABR,Arbor Realty Trust 
+ABR^A,Arbor Realty Trust Preferred Series A
+ABR^B,Arbor Realty Trust Cumulative Redeemable Preferred Series B
+ABR^C,Arbor Realty Trust Cumulative Redeemable Preferred Series C
+ABT,Abbott Laboratories 
+AC,Associated Capital Group Inc. 
+ACA,Arcosa Inc.  
+ACB,Aurora Cannabis Inc. Common Shares
+ACC,American Campus Communities Inc 
+ACCO,Acco Brands Corporation 
+ACEL,Accel Entertainment Inc. 
+ACH,Aluminum Corporation of China Limited American Depositary Shares
+ACI,Albertsons Companies Inc. Class A 
+ACIC,Atlas Crest Investment Corp. Class A 
+ACM,AECOM 
+ACN,Accenture plc Class A Ordinary Shares (Ireland)
+ACND,Ascendant Digital Acquisition Corp. Class A Ordinary Shares
+ACP,Aberdeen Income Credit Strategies Fund Common Shares
+ACR,ACRES Commercial Realty Corp. 
+ACR^C,ACRES Commercial Realty Corp. 8.625% Fixed-to-Floating Series C Cumulative Redeemable Preferred Stock
+ACRE,Ares Commercial Real Estate Corporation 
+ACV,Virtus AllianzGI Diversified Income & Convertible Fund Common Shares of Beneficial Interest
+ADC,Agree Realty Corporation 
+ADCT,ADC Therapeutics SA Common Shares
+ADEX,Adit EdTech Acquisition Corp. 
+ADM,Archer-Daniels-Midland Company 
+ADNT,Adient plc Ordinary Shares 
+ADS,Alliance Data Systems Corporation 
+ADT,ADT Inc. 
+ADX,Adams Diversified Equity Fund Inc.
+AEB,AEGON N.V. Perp. Cap. Secs. Floating Rate (Netherlands)
+AEE,Ameren Corporation 
+AEFC,Aegon Funding Company LLC 5.10% Subordinated Notes due 2049
+AEG,AEGON N.V. 
+AEL,American Equity Investment Life Holding Company 
+AEL^A,American Equity Investment Life Holding Company Depositary Shares each representing a 1/1000th interest in a share of 5.95% Fixed-Rate Reset Non-Cumulative Preferred Stock Series A
+AEL^B,American Equity Investment Life Holding Company Depositary Shares each representing a 1/1000th interest in a share of 6.625% Fixed-Rate Reset Non-Cumulative Preferred Stock Series B
+AEM,Agnico Eagle Mines Limited 
+AENZ,Aenza S.A.A. American Depositary Shares
+AEO,American Eagle Outfitters Inc. 
+AER,AerCap Holdings N.V. Ordinary Shares
+AES,The AES Corporation 
+AESC,The AES Corporation Corporate Units
+AEVA,Aeva Technologies Inc. 
+AFB,AllianceBernstein National Municipal Income Fund Inc
+AFC,Allied Capital Corporation Allied Capital Corporation 6.875% Notes due April 15 2047
+AFG,American Financial Group Inc. 
+AFGB,American Financial Group Inc. 5.875% Subordinated Debentures due 2059
+AFGC,American Financial Group Inc. 5.125% Subordinated Debentures due 2059
+AFGD,American Financial Group Inc. 5.625% Subordinated Debentures due 2060
+AFGE,American Financial Group Inc. 4.500% Subordinated Debentures due 2060
+AFI,Armstrong Flooring Inc. 
+AFL,AFLAC Incorporated 
+AFT,Apollo Senior Floating Rate Fund Inc. 
+AG,First Majestic Silver Corp. Ordinary Shares (Canada)
+AGCB,Altimeter Growth Corp. 2 Class A Ordinary Shares
+AGCO,AGCO Corporation 
+AGD,Aberdeen Global Dynamic Dividend Fund
+AGI,Alamos Gold Inc. Class A Common Shares
+AGM,Federal Agricultural Mortgage Corporation 
+AGM^C,Federal Agricultural Mortgage Corporation Preferred Series C Fixed to Fltg
+AGM^D,Federal Agricultural Mortgage Corporation 5.700% Non-Cumulative Preferred Stock Series D
+AGM^E,Federal Agricultural Mortgage Corporation 5.750% Non-Cumulative Preferred Stock Series E
+AGM^F,Federal Agricultural Mortgage Corporation 5.250% Non-Cumulative Preferred Stock Series F
+AGO,Assured Guaranty Ltd. 
+AGO^B,Assured Guaranty Ltd.
+AGO^E,Assured Guaranty Ltd.
+AGO^F,Assured Guaranty Ltd.
+AGR,Avangrid Inc. 
+AGRO,Adecoagro S.A. Common Shares
+AGS,PlayAGS Inc. 
+AGX,Argan Inc. 
+AHC,A.H. Belo Corporation (TX) 
+AHH,Armada Hoffler Properties Inc. 
+AHH^A,Armada Hoffler Properties Inc. 6.75% Series A Cumulative Redeemable Perpetual Preferred Stock
+AHL^C,Aspen Insurance Holdings Limited 5.95% Fixed-to-Floating Rate Perpetual Non-Cumulative Preference Shares
+AHL^D,Aspen Insurance Holdings Limited 5.625% Perpetual Non-Cumulative Preference Shares
+AHL^E,Aspen Insurance Holdings Limited Depositary Shares each representing a 1/1000th interest in a share of 5.625% Perpetual Non-Cumulative Preference Shares
+AHT,Ashford Hospitality Trust Inc 
+AHT^D,Ashford Hospitality Trust Inc 8.45% Series D Cumulative Preferred Stock
+AHT^F,Ashford Hospitality Trust Inc 7.375% Series F Cumulative Preferred Stock
+AHT^G,Ashford Hospitality Trust Inc 7.375% Series G Cumulative Preferred Stock
+AHT^H,Ashford Hospitality Trust Inc 7.50% Series H Cumulative Preferred Stock
+AHT^I,Ashford Hospitality Trust Inc 7.50% Series I Cumulative Preferred Stock
+AI,C3.ai Inc. Class A 
+AIC,Arlington Asset Investment Corp 6.750% Notes due 2025
+AIF,Apollo Tactical Income Fund Inc. 
+AIG,American International Group Inc. New 
+AIG^A,American International Group Inc. Depositary Shares Each Representing a 1/1000th Interest in a Share of Series A 5.85% Non-Cumulative Perpetual Preferred Stock
+AIN,Albany International Corporation 
+AIO,Virtus AllianzGI Artificial Intelligence & Technology Opportunities Fund Common Shares
+AIR,AAR Corp. 
+AIRC,Apartment Income REIT Corp. 
+AIT,Applied Industrial Technologies Inc. 
+AIV,Apartment Investment and Management Company 
+AIW,Arlington Asset Investment Corp 6.625% Notes due 2023
+AIZ,Assurant Inc. 
+AIZN,Assurant Inc. 5.25% Subordinated Notes due 2061
+AJAX,Ajax I Class A Ordinary Shares
+AJG,Arthur J. Gallagher & Co. 
+AJRD,Aerojet Rocketdyne Holdings Inc. 
+AJX,Great Ajax Corp. 
+AJXA,Great Ajax Corp. 7.25% Convertible Senior Notes due 2024
+AKO/A,Embotelladora Andina S.A.
+AKO/B,Embotelladora Andina S.A.
+AKR,Acadia Realty Trust 
+AL,Air Lease Corporation Class A 
+AL^A,Air Lease Corporation 6.150% Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series A
+ALB,Albemarle Corporation 
+ALC,Alcon Inc. Ordinary Shares
+ALE,Allete Inc.
+ALEX,Alexander & Baldwin Inc.  REIT Holding Company
+ALG,Alamo Group Inc. 
+ALIN^A,Altera Infrastructure L.P. 7.25% Series A
+ALIN^B,Altera Infrastructure L.P. 8.50% Series B
+ALIN^E,Altera Infrastructure L.P. 8.875% Series E
+ALK,Alaska Air Group Inc. 
+ALL,Allstate Corporation (The) 
+ALL^B,Allstate Corporation (The) 5.100% Fixed-to-Floating Rate Subordinated Debentures due 2053
+ALL^G,Allstate Corporation (The) Depositary Shares each representing a 1/1000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock Series G
+ALL^H,Allstate Corporation (The) Depositary Shares each representing a 1/1000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock Series H
+ALL^I,Allstate Corporation (The) Depositary Shares each representing a 1/1000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock Series I
+ALLE,Allegion plc Ordinary Shares
+ALLY,Ally Financial Inc. 
+ALLY^A,GMAC Capital Trust I Fixed Rate Floating Rate Trust Preferred Securities Series 2
+ALP^Q,Alabama Power Company 5.00% Class A Preferred Stock Cumulative Par Value $1 Per Share (Stated Capital $25 Per Share)
+ALSN,Allison Transmission Holdings Inc. 
+ALTG,Alta Equipment Group Inc. Class A 
+ALTG^A,Alta Equipment Group Inc. Depositary Shares (each representing 1/1000th in a share of 10% Series A Cumulative Perpetual Preferred Stock)
+ALUS,Alussa Energy Acquisition Corp. Class A Ordinary Shares
+ALV,Autoliv Inc. 
+ALX,Alexander's Inc. 
+AM,Antero Midstream Corporation 
+AMBC,Ambac Financial Group Inc. 
+AMC,AMC Entertainment Holdings Inc. Class A 
+AMCR,Amcor plc Ordinary Shares
+AME,AMETEK Inc.
+AMG,Affiliated Managers Group Inc. 
+AMH,American Homes 4 Rent Common Shares of Beneficial Interest
+AMH^D,American Homes 4 Rent 6.5% Series D Cumulative Perpetual Preferred Shares of Beneficial Interest
+AMH^E,American Homes 4 Rent 6.35% Series E Cumulative Redeemable Perpetual Preferred Shares of Beneficial Interest
+AMH^F,American Homes 4 Rent 5.875% Series F Cumulative Redeemable Perpetual Preferred Shares
+AMH^G,American Homes 4 Rent Series G cumulative redeemable perpetual preferred shares of beneficial interest
+AMH^H,American Homes 4 Rent Series H cumulative redeemable perpetual Preferred Shares of Beneficial Interest
+AMK,AssetMark Financial Holdings Inc. 
+AMN,AMN Healthcare Services Inc AMN Healthcare Services Inc
+AMOV,America Movil S.A.B. de C.V. Class A American Depositary Shares
+AMP,Ameriprise Financial Inc. 
+AMPY,Amplify Energy Corp. 
+AMR,Alpha Metallurgical Resources Inc. 
+AMRC,Ameresco Inc. Class A 
+AMRX,Amneal Pharmaceuticals Inc. Class A 
+AMT,American Tower Corporation (REIT) 
+AMWL,American Well Corporation Class A 
+AMX,America Movil S.A.B. de C.V. American Depository Receipt Series L
+AN,AutoNation Inc. 
+ANET,Arista Networks Inc. 
+ANF,Abercrombie & Fitch Company 
+ANH,Anworth Mortgage Asset Corporation 
+ANH^A,Anworth Mortgage Asset Corporation Series A Preferred Stock
+ANH^B,Anworth Mortgage Asset  Corporation Preferred Stock Series B 6.25%
+ANH^C,Anworth Mortgage Asset  Corporation 7.625% Series C Cumulative Redeemable  Preferred Stock
+ANTM,Anthem Inc. 
+AOD,Aberdeen Total Dynamic Dividend Fund 
+AON,Aon plc Class A Ordinary Shares (Ireland)
+AONE,one Class A Ordinary Shares
+AOS,A.O. Smith Corporation 
+AP,Ampco-Pittsburgh Corporation 
+APAM,Artisan Partners Asset Management Inc. Class A 
+APD,Air Products and Chemicals Inc. 
+APG,APi Group Corporation 
+APH,Amphenol Corporation 
+APLE,Apple Hospitality REIT Inc. Common Shares
+APO,Apollo Global Management Inc. Class A 
+APO^A,Apollo Global Management Inc. 6.375% Series A Preferred Shares
+APO^B,Apollo Global Management Inc 6.375% Series B Preferred Shares
+APRN,Blue Apron Holdings Inc. Class A 
+APSG,Apollo Strategic Growth Capital Class A Ordinary Shares
+APTS,Preferred Apartment Communities Inc. 
+APTV,Aptiv PLC Ordinary Shares
+APTV^A,Aptiv PLC 5.50% Series A Mandatory Convertible Preferred Shares
+AQN,Algonquin Power & Utilities Corp. Common Shares
+AQNA,Algonquin Power & Utilities Corp. 6.875% Fixed-to-Floating Rate Subordinated Notes Series 2018-A due October 17 2078
+AQNB,Algonquin Power & Utilities Corp. 6.20% Fixed-to-Floating Subordinated Notes Series 2019-A due July 1 2079
+AQUA,Evoqua Water Technologies Corp. 
+AR,Antero Resources Corporation 
+ARC,ARC Document Solutions Inc. 
+ARCH,Arch Resources Inc. Class A 
+ARCO,Arcos Dorados Holdings Inc. Class A Shares
+ARD,Ardagh Group S.A. Common Shares
+ARDC,Ares Dynamic Credit Allocation Fund Inc. Common Shares
+ARE,Alexandria Real Estate Equities Inc. 
+ARES,Ares Management Corporation Class A 
+ARES^A,Ares Management Corporation 7.00% Series A Preferred Stock
+ARGD,Argo Group International Holdings Ltd. 6.5% Senior Notes Due 2042
+ARGO,Argo Group International Holdings Ltd.
+ARGO^A,Argo Group International Holdings Ltd. Depositary Shares Each Representing a 1/1000th Interest in a 7.00% Resettable Fixed Rate Preference Share Series A
+ARI,Apollo Commercial Real Estate Finance Inc
+ARL,American Realty Investors Inc. 
+ARLO,Arlo Technologies Inc. 
+ARMK,Aramark 
+ARNC,Arconic Corporation  
+AROC,Archrock Inc. 
+ARR,ARMOUR Residential REIT Inc.
+ARR^C,ARMOUR Residential REIT Inc. 7% Series C Cumulative Redeemable Preferred Stock (liquidation preference $25.00 per share)
+ARW,Arrow Electronics Inc. 
+ASA,ASA  Gold and Precious Metals Limited
+ASAI,Sendas Distribuidora S.A. ADS
+ASAN,Asana Inc. Class A 
+ASAQ,Atlantic Street Acquisition Corp Class A 
+ASB,Associated Banc-Corp 
+ASB^C,Associated Banc-Corp Depositary shares each representing a 1/40th ownership interest in a share of 6.125% Non-Cumulative Perpetual Preferred Stock Series C
+ASB^D,Associated Banc-Corp Depositary Shares each representing a 1/40th interest in a share of Associated Banc-Corp 5.375% Non-Cumulative Perpetual Preferred Stock Series D
+ASB^E,Associated Banc-Corp Depositary Shares each representing a 1/40th interest in a share of 5.875% Non-Cumulative Perpetual Preferred Stock Series E
+ASB^F,Associated Banc-Corp Depositary Shares each representing a 1/40th interest in a share of Associated Banc-Corp 5.625% Non-Cumulative Perpetual Preferred Stock Series F
+ASC,Ardmore Shipping Corporation 
+ASG,Liberty All-Star Growth Fund Inc.
+ASGI,Aberdeen Standard Global Infrastructure Income Fund Common Shares of Beneficial Interest
+ASGN,ASGN Incorporated 
+ASH,Ashland Global Holdings Inc. 
+ASIX,AdvanSix Inc.  
+ASPL,Aspirational Consumer Lifestyle Corp. Class A Ordinary Shares
+ASPN,Aspen Aerogels Inc. 
+ASR,Grupo Aeroportuario del Sureste S.A. de C.V. 
+ASX,ASE Technology Holding Co. Ltd. American Depositary Shares (each representing Two Common Shares) 
+AT,Atlantic Power Corporation Ordinary Shares (Canada)
+ATA,Americas Technology Acquisition Corp. Ordinary Shares
+ATAC,Altimar Acquisition Corporation Class A Ordinary Shares
+ATC,Atotech Limited Common Shares
+ATCO,Atlas Corp. Common Shares
+ATCO^D,Atlas Corp. 7.95% Series D
+ATCO^E,Atlas Corp. 8.25% Series E
+ATCO^G,Atlas Corp. 8.20% Series G
+ATCO^H,Atlas Corp. 7.875% Series H
+ATCO^I,Atlas Corp. Series I Fixed-to-Floating 
+ATEN,A10 Networks Inc. 
+ATGE,Adtalem Global Education Inc. 
+ATH,Athene Holding Ltd. Class A Common Shares
+ATH^A,Athene Holding Ltd. Depositary Shares Each Representing a 1/1000th Interest in a 6.35% Fixed-to-Floating Rate Perpetual Non-Cumulative Preference Share Series A
+ATH^B,Athene Holding Ltd. Depositary Shares Each Representing a 1/1000th Interest in a 5.625% Fixed Rate Perpetual Non- Cumulative Preference Share Series B par value $1.00 per share
+ATH^C,Athene Holding Ltd. Depositary Shares each representing a 1/1000th Interest in a Share of 6.375% Fixed-Rate Reset Perpetual Non-Cumulative Preference Shares Series C
+ATH^D,Athene Holding Ltd. Depositary Shares Each Representing a 1/1000th Interest in a 4.875% Fixed-Rate Perpetual Non-Cumulative Preference Share Series D
+ATHM,Autohome Inc. American Depositary Shares each representing four class A ordinary shares.
+ATI,Allegheny Technologies Incorporated 
+ATKR,Atkore Inc. 
+ATO,Atmos Energy Corporation 
+ATR,AptarGroup Inc. 
+ATTO,Atento S.A. Ordinary Shares
+ATUS,Altice USA Inc. Class A 
+AU,AngloGold Ashanti Limited 
+AUY,Yamana Gold Inc. Ordinary Shares (Canada)
+AVA,Avista Corporation 
+AVAL,Grupo Aval Acciones y Valores S.A. ADR (Each representing 20 preferred shares)
+AVAN,Avanti Acquisition Corp. Class A Ordinary Shares
+AVB,AvalonBay Communities Inc. 
+AVD,American Vanguard Corporation  ($0.10 Par Value)
+AVK,Advent Convertible and Income Fund
+AVLR,Avalara Inc. 
+AVNS,Avanos Medical Inc. 
+AVNT,Avient Corporation 
+AVTR,Avantor Inc. 
+AVTR^A,Avantor Inc. Series A Mandatory Convertible Preferred Stock
+AVY,Avery Dennison Corporation 
+AVYA,Avaya Holdings Corp. 
+AWF,Alliancebernstein Global High Income Fund
+AWI,Armstrong World Industries Inc 
+AWK,American Water Works Company Inc. 
+AWP,Aberdeen Global Premier Properties Fund Common Shares of Beneficial Interest
+AWR,American States Water Company 
+AX,Axos Financial Inc. 
+AXL,American Axle & Manufacturing Holdings Inc. 
+AXO,Axos Financial Inc. 6.25% Subordinated Notes Due 2026
+AXP,American Express Company 
+AXR,AMREP Corporation 
+AXS,Axis Capital Holdings Limited 
+AXS^E,Axis Capital Holdings Limited Depositary Shares each representing 1/100th interest in a share of a 5.50% Series E Preferred Shares
+AXTA,Axalta Coating Systems Ltd. Common Shares
+AYI,Acuity Brands Inc. 
+AYX,Alteryx Inc. Class A 
+AZEK,The AZEK Company Inc. Class A 
+AZO,AutoZone Inc. 
+AZRE,Azure Power Global Limited Equity Shares
+AZUL,Azul S.A. American Depositary Shares (each representing three preferred shares)
+AZZ,AZZ Inc.
+B,Barnes Group Inc. 
+BA,Boeing Company (The) 
+BABA,Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share
+BAC,Bank of America Corporation 
+BAC^A,Bank of America Corporation Depositary Shares each representing a 1/1000 th interest in a share of Bank of America Corporation 6.000% Non-Cumulative
+BAC^B,Bank of America Corporation Depositary Shares each representing a 1/1000th interest in a share of 6.000% Non-Cumulative Preferred Stock Series GG
+BAC^E,Bank of America Corporation Depositary Sh repstg 1/1000th Perp Pfd Ser E
+BAC^K,Bank of America Corporation Depositary Shares each representing a 1/1000th interest in a share of 5.875% Non- Cumulative Preferred Stock Series HH
+BAC^L,Bank of America Corporation Non Cumulative Perpetual Conv Pfd Ser L
+BAC^M,Bank of America Corporation Depositary Shares each representing a 1/1000th interest in a share of 5.375% Non-Cumulative Preferred Stock Series KK
+BAC^N,Bank of America Corporation Depositary shares each representing 1/1000th interest in a share of 5.000% Non-Cumulative Preferred Stock Series LL
+BAC^O,Bank of America Corporation Depositary shares each representing 1/1000th interest in a share of 4.375% Non-Cumulative Preferred Stock Series NN
+BAC^P,Bank of America Corporation Depositary Shares each representing a 1/1000th interest in a share of 4.125% Non-Cumulative Preferred Stock Series PP
+BAH,Booz Allen Hamilton Holding Corporation 
+BAK,Braskem SA ADR
+BALY,Bally's Corporation 
+BAM,Brookfield Asset Management Inc. 
+BAMH,Brookfield Finance Inc. 4.625% Subordinated Notes due October 16 2080
+BAMI,Brookfield Finance Inc. 4.50% Perpetual Subordinated Notes
+BANC,Banc of California Inc. 
+BANC^E,Banc of California Inc. Depositary Shares Each Representing a 1/40th Interest in a Share of 7.000% Non-Cumulative Perpetual Preferred Stock Series E
+BAP,Credicorp Ltd. 
+BAX,Baxter International Inc. 
+BB,BlackBerry Limited 
+BBAR,Banco BBVA Argentina S.A. ADS
+BBD,Banco Bradesco Sa American Depositary Shares
+BBDC,Barings BDC Inc. 
+BBDO,Banco Bradesco Sa American Depositary Shares (each representing one Common Share)
+BBF,BlackRock Municipal Income Investment Trust
+BBL,BHP Group PlcSponsored ADR
+BBN,BlackRock Taxable Municipal Bond Trust Common Shares of Beneficial Interest
+BBU,Brookfield Business Partners L.P. Limited Partnership Units 
+BBVA,Banco Bilbao Vizcaya Argentaria S.A. 
+BBW,Build-A-Bear Workshop Inc. 
+BBY,Best Buy Co. Inc. 
+BC,Brunswick Corporation 
+BC^A,Brunswick Corporation 6.500% Senior Notes due 2048
+BC^B,Brunswick Corporation 6.625% Senior Notes due 2049
+BC^C,Brunswick Corporation 6.375% Notes due 2049
+BCAT,BlackRock Capital Allocation Trust Common Shares of Beneficial Interest
+BCC,Boise Cascade L.L.C. 
+BCE,BCE Inc. 
+BCEI,Bonanza Creek Energy Inc. 
+BCH,Banco De Chile Banco De Chile ADS
+BCO,Brinks Company (The) 
+BCS,Barclays PLC 
+BCSF,Bain Capital Specialty Finance Inc. 
+BCX,BlackRock Resources Common Shares of Beneficial Interest
+BDC,Belden Inc 
+BDJ,Blackrock Enhanced Equity Dividend Trust
+BDN,Brandywine Realty Trust 
+BDX,Becton Dickinson and Company 
+BDXB,Becton Dickinson and Company Depositary Shares each Representing a 1/20th Interest in a Share of 6.00% Mandatory Convertible Preferred Stock Series B
+BE,Bloom Energy Corporation Class A 
+BEDU,Bright Scholar Education Holdings Limited American Depositary Shares each  representing one Class A Ordinary Share
+BEKE,KE Holdings Inc American Depositary Shares (each representing three Class A Ordinary Shares)
+BEN,Franklin Resources Inc. 
+BEP,Brookfield Renewable Partners L.P. 
+BEP^A,Brookfield Renewable Partners L.P. 5.25% Class A Preferred Limited Partnership Units Series 17
+BEPC,Brookfield Renewable Corporation Class A Subordinate Voting Shares 
+BERY,Berry Global Group Inc. 
+BEST,BEST Inc. American Depositary Shares each representing one Class A Ordinary Share
+BF/A,Brown Forman Corporation
+BF/B,Brown Forman Corporation
+BFAM,Bright Horizons Family Solutions Inc. 
+BFK,BlackRock Municipal Income Trust
+BFLY,Butterfly Network Inc. Class A 
+BFS,Saul Centers Inc. 
+BFS^D,Saul Centers Inc. Depositary Shares each representing 1/100th of a share of 6.125% Series D Cumulative Redeemable Preferred Stock
+BFS^E,Saul Centers Inc. Depositary shares each representing a 1/100th fractional interest in a share of 6.000% Series E Cumulative Redeemable Preferred Stock
+BFT,Foley Trasimene Acquisition Corp. II Class A 
+BFY,BlackRock New York Municipal Income Trust II
+BFZ,BlackRock California Municipal Income Trust
+BG,Bunge Limited Bunge Limited
+BGB,Blackstone Strategic Credit Fund Common Shares
+BGH,Barings Global Short Duration High Yield Fund Common Shares of Beneficial Interests
+BGIO,BlackRock 2022 Global Income Opportunity Trust Common Shares of Beneficial Interest
+BGR,BlackRock Energy and Resources Trust
+BGS,B&G Foods Inc. B&G Foods Inc. 
+BGSF,BGSF Inc. 
+BGT,BlackRock Floating Rate Income Trust
+BGX,Blackstone Long Short Credit Income Fund Common Shares
+BGY,Blackrock Enhanced International Dividend Trust
+BH,Biglari Holdings Inc. Class B 
+BHC,Bausch Health Companies Inc. 
+BHE,Benchmark Electronics Inc. 
+BHK,Blackrock Core Bond Trust Blackrock Core Bond Trust
+BHLB,Berkshire Hills Bancorp Inc. 
+BHP,BHP Group Limited American Depositary Shares (Each representing two Ordinary Shares)
+BHR,Braemar Hotels & Resorts Inc. 
+BHR^B,Braemar Hotels & Resorts Inc. 5.50% Series B Cumulative Convertible Preferred Stock par value $0.01 per share
+BHR^D,Braemar Hotels & Resorts Inc. 8.25% Series D Cumulative Preferred Stock  par value $0.01 per share
+BHV,BlackRock Virginia Municipal Bond Trust
+BHVN,Biohaven Pharmaceutical Holding Company Ltd. Common Shares
+BIF,Boulder Growth & Income Fund Inc.
+BIG,Big Lots Inc. 
+BILL,Bill.com Holdings Inc. 
+BIO,Bio-Rad Laboratories Inc. Class A 
+BIO/B,Bio-Rad Laboratories Inc.
+BIP,Brookfield Infrastructure Partners LP Limited Partnership Units
+BIP^A,Brookfield Infrastructure Partners LP 5.125% Class A Preferred Limited Partnership Units Series 13
+BIP^B,Brookfield Infrastructure Partners LP 5.000% Class A Preferred Limited Partnership Units Series 14
+BIPC,Brookfield Infrastructure Partners LP Class A Subordinate Voting Shares 
+BIT,BlackRock Multi-Sector Income Trust Common Shares of Beneficial Interest
+BJ,BJ's Wholesale Club Holdings Inc. 
+BK,The Bank of New York Mellon Corporation 
+BKD,Brookdale Senior Living Inc. 
+BKE,Buckle Inc. (The) 
+BKH,Black Hills Corporation 
+BKI,Black Knight Inc.  
+BKN,BlackRock Investment Quality Municipal Trust Inc. (The)
+BKR,Baker Hughes Company Class A 
+BKT,BlackRock Income Trust Inc. (The)
+BKU,BankUnited Inc. 
+BLD,TopBuild Corp. 
+BLE,BlackRock Municipal Income Trust II
+BLK,BlackRock Inc. 
+BLL,Ball Corporation 
+BLW,Blackrock Limited Duration Income Trust
+BLX,Banco Latinoamericano de Comercio Exterior S.A.
+BMA,Banco Macro S.A.  ADR (representing Ten Class B Common Shares)
+BME,Blackrock Health Sciences Trust
+BMEZ,BlackRock Health Sciences Trust II Common Shares of Beneficial Interest
+BMI,Badger Meter Inc. 
+BML^G,Bank of America Corporation Bank of America Corporation Depositary Shares (Each representing a 1/1200th interest in a share of Floating Rate Non-Cumulative Preferred Stock  Series 1)
+BML^H,Bank of America Corporation Bank of America Corporation Depositary Shares (Each representing a 1/1200th interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series 2)
+BML^J,Bank of America Corporation Bank of America Corporation Depositary Shares (Each representing a 1/1200th interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series 4)
+BML^L,Bank of America Corporation Bank of America Corporation Depositary Shares (Each representing a 1/1200th Interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series 5)
+BMO,Bank Of Montreal 
+BMY,Bristol-Myers Squibb Company 
+BNED,Barnes & Noble Education Inc 
+BNL,Broadstone Net Lease Inc. Class A 
+BNS,Bank Nova Scotia Halifax Pfd 3 Ordinary Shares
+BNY,BlackRock New York Municipal Income Trust
+BOAC,Bluescape Opportunities Acquisition Corp. Class A Ordinary Shares
+BOE,Blackrock Enhanced Global Dividend Trust Common Shares of Beneficial Interest
+BOH,Bank of Hawaii Corporation 
+BOOT,Boot Barn Holdings Inc. 
+BORR,Borr Drilling Limited Common Shares
+BOX,Box Inc. Class A 
+BP,BP p.l.c. 
+BPMP,BP Midstream Partners LP Common Units representing Limited Partner Interests
+BPT,BP Prudhoe Bay Royalty Trust 
+BQ,Boqii Holding Limited American Depositary Shares representing Class A Ordinary Shares
+BR,Broadridge Financial Solutions Inc.
+BRBR,BellRing Brands Inc. Class A 
+BRC,Brady Corporation 
+BRFS,BRF S.A.
+BRK/A,Berkshire Hathaway Inc.
+BRK/B,Berkshire Hathaway Inc.
+BRMK,Broadmark Realty Capital Inc. 
+BRO,Brown & Brown Inc. 
+BRT,BRT Apartments Corp. (MD) 
+BRX,Brixmor Property Group Inc. 
+BSA,BrightSphere Investment Group Inc. 5.125% Notes due 2031
+BSAC,Banco Santander - Chile ADS
+BSBR,Banco Santander Brasil SA American Depositary Shares each representing one unit
+BSD,BlackRock Strategic Municipal Trust Inc. (The) 
+BSE,Blackrock New York Municipal Income Quality Trust Common Shares of Beneficial Interest
+BSIG,BrightSphere Investment Group Inc. 
+BSL,Blackstone Senior Floating Rate Term Fund Common Shares of Beneficial Interest
+BSM,Black Stone Minerals L.P. Common units representing limited partner interests
+BSMX,Banco Santander Mexico S.A. Institucion de Banca Multiple Grupo Financiero Santander Mexico
+BSN,Broadstone Acquisition Corp. Class A Ordinary Shares
+BST,BlackRock Science and Technology Trust Common Shares of Beneficial Interest
+BSTZ,BlackRock Science and Technology Trust II Common Shares of Beneficial Interest
+BSX,Boston Scientific Corporation 
+BSX^A,Boston Scientific Corporation 5.50% Mandatory Convertible Preferred Stock Series A
+BTA,BlackRock Long-Term Municipal Advantage Trust BlackRock Long-Term Municipal Advantage Trust Common Shares of Beneficial Interest
+BTI,British American Tobacco  Industries p.l.c.  ADR
+BTO,John Hancock Financial Opportunities Fund 
+BTT,BlackRock Municipal 2030 Target Term Trust
+BTU,Peabody Energy Corporation  
+BTZ,BlackRock Credit Allocation Income Trust
+BUD,Anheuser-Busch Inbev SA Sponsored ADR (Belgium)
+BUI,BlackRock Utility Infrastructure & Power Opportunities Trust
+BUR,Burford Capital Limited Ordinary Shares
+BURL,Burlington Stores Inc. 
+BV,BrightView Holdings Inc. 
+BVH,Bluegreen Vacations Holding Corporation Class A 
+BVN,Buenaventura Mining Company Inc.
+BW,Babcock & Wilcox Enterprises Inc. 
+BWA,BorgWarner Inc. 
+BWG,BrandywineGLOBAL Global Income Opportunities Fund Inc.
+BWSN,Babcock & Wilcox Enterprises Inc. 8.125% Senior Notes due 2026
+BWXT,BWX Technologies Inc. 
+BX,The Blackstone Group Inc. 
+BXC,Bluelinx Holdings Inc. 
+BXG,Bluegreen Vacations Corporation 
+BXMT,Blackstone Mortgage Trust Inc. 
+BXMX,Nuveen S&P 500 Buy-Write Income Fund Common Shares of Beneficial Interest
+BXP,Boston Properties Inc. 
+BXP^B,Boston Properties Inc. Depositary Shares each representing 1/100th of a share of the Issuer's 5.25% Sockeries B Cumulative Redeemable Preferred St
+BXS,BancorpSouth Bank 
+BXS^A,BancorpSouth Bank 5.50% Series A Non-Cumulative Perpetual Preferred Stock
+BY,Byline Bancorp Inc. 
+BYD,Boyd Gaming Corporation 
+BYM,Blackrock Municipal Income Quality Trust Common Shares of Beneficial Interest
+BZH,Beazer Homes USA Inc. 
+BZM,BlackRock Maryland Municipal Bond Trust Common shares of beneficial interest
+C,Citigroup Inc. 
+C^J,Citigroup Inc. Dep Shs Repstg 1/1000 Pfd Ser J Fixed/Fltg
+C^K,Citigroup Inc. Dep Shs Repstg 1/1000th Pfd Ser K
+C^N,Citigroup Capital XIII 7.875% Fixed rate Floating Rate trust Preferred Securities (TruPS)
+CAAP,Corporacion America Airports SA Common Shares
+CABO,Cable One Inc. 
+CACI,CACI International Inc. Class A 
+CADE,Cadence Bancorporation Class A 
+CAE,CAE Inc. Ordinary Shares
+CAF,Morgan Stanley China A Share Fund Inc. 
+CAG,ConAgra Brands Inc. 
+CAH,Cardinal Health Inc. 
+CAI,CAI International Inc. 
+CAI^A,CAI International Inc. 8.50% Series A Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Stock
+CAI^B,CAI International Inc. 8.50% Series B Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Stock
+CAJ,Canon Inc. American Depositary Shares
+CAL,Caleres Inc. 
+CALX,Calix Inc 
+CANG,Cango Inc. American Depositary Shares  each representing two (2) Class A Ordinary Shares
+CAP,Capitol Investment Corp. V Class A 
+CAPL,CrossAmerica Partners LP Common Units representing limited partner interests
+CARR,Carrier Global Corporation  
+CARS,Cars.com Inc.  
+CAS,Cascade Acquisition Corp. Class A 
+CAT,Caterpillar Inc. 
+CATO,Cato Corporation (The) Class A 
+CB,Chubb Limited  
+CBAH,CBRE Acquisition Holdings Inc. Class A 
+CBB,Cincinnati Bell Inc. 
+CBB^B,Cincinnati Bell Inc. Preferred Stock
+CBD,Companhia Brasileira de Distribuicao American Depsitary Shares; each representing one Common Share
+CBH,Virtus AllianzGI Convertible & Income 2024 Target Term Fund Common Shares of Beneficial Interest
+CBRE,CBRE Group Inc  Class A
+CBT,Cabot Corporation 
+CBU,Community Bank System Inc. 
+CBZ,CBIZ Inc. 
+CC,Chemours Company (The) 
+CCAC,CITIC Capital Acquisition Corp. Class A Ordinary Shares
+CCEP,Coca-Cola European Partners plc Ordinary Shares
+CCI,Crown Castle International Corp. (REIT) 
+CCIV,Churchill Capital Corp IV Class A 
+CCJ,Cameco Corporation 
+CCK,Crown Holdings Inc.
+CCL,Carnival Corporation 
+CCM,Concord Medical Services Holdings Limited ADS (Each represents three ordinary shares)
+CCO,Clear Channel Outdoor Holdings Inc. 
+CCS,Century Communities Inc. 
+CCU,Compania Cervecerias Unidas S.A. 
+CCV,Churchill Capital Corp V Class A 
+CCX,Churchill Capital Corp II Class A 
+CCZ,Comcast Holdings ZONES
+CDAY,Ceridian HCM Holding Inc. 
+CDE,Coeur Mining Inc. 
+CDR,Cedar Realty Trust Inc. 
+CDR^B,Cedar Realty Trust Inc. 7.25% Series B Cumulative Redeemable Preferred Stock
+CDR^C,Cedar Realty Trust Inc. 6.50% Series C Cumulative Redeemable Preferred Stock
+CE,Celanese Corporation Celanese Corporation 
+CEA,China Eastern Airlines Corporation Ltd. 
+CEE,The Central and Eastern Europe Fund Inc. (The) 
+CEIX,CONSOL Energy Inc.  
+CELP,Cypress Environmental Partners L.P. Common Units representing limited partner interests
+CEM,ClearBridge MLP and Midstream Fund Inc. 
+CEN,Center Coast Brookfield MLP & Energy Infrastructure Fund
+CEPU,Central Puerto S.A. American Depositary Shares (each represents ten Common Shares)
+CEQP,Crestwood Equity Partners LP
+CEQP^,Crestwood Equity Partners LP Preferred Units representing limited partner interests
+CF,CF Industries Holdings Inc. 
+CFG,Citizens Financial Group Inc. 
+CFG^D,Citizens Financial Group Inc. Depositary Shares each representing a 1/40th Interest in a Share of 6.350% Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series D
+CFG^E,Citizens Financial Group Inc. Depositary Shares Each Representing 1/40th Interest in a Share of 5.000% Fixed-Rate Non-Cumulative Perpetual Preferred Stock Series E
+CFR,Cullen/Frost Bankers Inc. 
+CFR^B,Cullen/Frost Bankers Inc. Depositary Shares each representing a 1/40th ownership interest in a share of 4.450% non-cumulative perpetual preferred stock Series B
+CFX,Colfax Corporation 
+CFXA,Colfax Corporation 5.75% Tangible Equity Units
+CGA,China Green Agriculture Inc. 
+CHCT,Community Healthcare Trust Incorporated 
+CHD,Church & Dwight Company Inc. 
+CHE,Chemed Corp
+CHGG,Chegg Inc. 
+CHH,Choice Hotels International Inc. 
+CHMI,Cherry Hill Mortgage Investment Corporation 
+CHMI^A,Cherry Hill Mortgage Investment Corporation 8.20% Series A Cumulative Redeemable Preferred Stock
+CHMI^B,Cherry Hill Mortgage Investment Corporation 8.250% Series B Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+CHN,China Fund Inc. (The) 
+CHPT,ChargePoint Holdings Inc. 
+CHRA,Charah Solutions Inc. 
+CHS,Chico's FAS Inc. 
+CHT,Chunghwa Telecom Co. Ltd.
+CHWY,Chewy Inc. Class A 
+CI,Cigna Corporation 
+CIA,Citizens Inc. Class A  ($1.00 Par)
+CIB,BanColombia S.A. 
+CIEN,Ciena Corporation 
+CIF,MFS Intermediate High Income Fund 
+CIG,Comp En De Mn Cemig ADS American Depositary Shares
+CII,Blackrock Capital and Income Fund Inc.
+CIM,Chimera Investment Corporation 
+CIM^A,Chimera Investment Corporation 8.00% Series A Cumulative Redeemable Preferred Stock
+CIM^B,Chimera Investment Corporation 8.00% Series B Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+CIM^C,Chimera Investment Corporation 7.75% Series C Fixed-to-Floating Rate  Cumulative Redeemable  Preferred Stock
+CIM^D,Chimera Investment Corporation 8.00% Series D Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+CINR,Ciner Resources LP Common Units representing Limited Partner Interests
+CIO,City Office REIT Inc. 
+CIO^A,City Office REIT Inc. 6.625% Series A Cumulative Redeemable Preferred Stock
+CIR,CIRCOR International Inc. 
+CIT,CIT Group Inc (DEL) 
+CIT^B,CIT Group Inc (DEL) 5.625 % Non-Cumulative Perpetual Preferred Stock Series B
+CIXX,CI Financial Corp. Common Shares
+CKH,SEACOR Holdings Inc. 
+CL,Colgate-Palmolive Company 
+CLAS,Class Acceleration Corp. Class A 
+CLB,Core Laboratories N.V. 
+CLDR,Cloudera Inc. 
+CLDT,Chatham Lodging Trust (REIT) Common Shares of Beneficial Interest
+CLF,Cleveland-Cliffs Inc. 
+CLGX,CoreLogic Inc. 
+CLH,Clean Harbors Inc. 
+CLI,Mack-Cali Realty Corporation 
+CLII,Climate Change Crisis Real Impact I Acquisition Corporation Class A 
+CLNC,Colony Credit Real Estate Inc. Class A 
+CLNY,Colony Capital Inc.
+CLNY^G,Colony Capital Inc. 7.50% Series G cumulative redeemable perpetual preferred stock
+CLNY^H,Colony Capital Inc. 7.125% Series H cumulative redeemable perpetual preferred stock
+CLNY^I,Colony Capital Inc. 7.15% Series I Cumulative Redeemable Perpetual Preferred Stock
+CLNY^J,Colony Capital Inc. 7.125% Series J Cumulative Redeemable Perpetual Preferred Stock
+CLPR,Clipper Realty Inc. 
+CLR,Continental Resources Inc. 
+CLS,Celestica Inc. 
+CLVT,Clarivate Plc Ordinary Shares
+CLW,Clearwater Paper Corporation 
+CLX,Clorox Company (The) 
+CM,Canadian Imperial Bank of Commerce 
+CMA,Comerica Incorporated 
+CMC,Commercial Metals Company 
+CMCM,Cheetah Mobile Inc. American Depositary Shares each representing 10 Class Ordinary Shares
+CMD,Cantel Medical Corp. 
+CMG,Chipotle Mexican Grill Inc. 
+CMI,Cummins Inc. 
+CMO,Capstead Mortgage Corporation 
+CMO^E,Capstead Mortgage Corporation Pfd Ser E
+CMP,Compass Minerals Intl Inc 
+CMRE,Costamare Inc.  $0.0001 par value
+CMRE^B,Costamare Inc. Perpetual Preferred Stock Series B (Marshall Islands)
+CMRE^C,Costamare Inc. Perpetual Preferred Series C (Marshall Islands)
+CMRE^D,Costamare Inc. 8.75% Series D Cumulative Redeemable Perpetual Preferred Stock
+CMRE^E,Costamare Inc. 8.875% Series E Cumulative Redeemable Perpetual Preferred Stock par value $0.0001
+CMS,CMS Energy Corporation 
+CMS^B,CMS Energy Corporation Preferred Stock
+CMSA,CMS Energy Corporation 5.625% Junior Subordinated Notes due 2078
+CMSC,CMS Energy Corporation 5.875% Junior Subordinated Notes due 2078
+CMSD,CMS Energy Corporation 5.875% Junior Subordinated Notes due 2079
+CMU,MFS Municipal Income Trust 
+CNA,CNA Financial Corporation 
+CNC,Centene Corporation 
+CND,Concord Acquisition Corp. Class A 
+CNF,CNFinance Holdings Limited American Depositary Shares each representing  twenty (20) Ordinary Shares
+CNHI,CNH Industrial N.V. Common Shares
+CNI,Canadian National Railway Company 
+CNK,Cinemark Holdings Inc Cinemark Holdings Inc. 
+CNMD,CONMED Corporation 
+CNNE,Cannae Holdings Inc. 
+CNO,CNO Financial Group Inc. 
+CNO^A,CNO Financial Group Inc. 5.125% Subordinated Debentures due 2060
+CNP,CenterPoint Energy Inc (Holding Co) 
+CNP^B,CenterPoint Energy Inc. Depositary Shares Each Representing a 1/20th Interest in a Share of 7.00% Series B Mandatory Convertible Preferred Stock
+CNQ,Canadian Natural Resources Limited 
+CNR,Cornerstone Building Brands Inc. 
+CNS,Cohen & Steers Inc 
+CNX,CNX Resources Corporation 
+CO,Global Cord Blood Corporation 
+CODI,D/B/A Compass Diversified Holdings Shares of Beneficial Interest
+CODI^A,Compass Diversified Holdings 7.250% Series A Preferred Shares representing beneficial interest in Compass Diversified Holdings
+CODI^B,Compass Diversified Holdings 7.875% Series B Fixed-to-Floating Rate Cumulative Preferred Shares representing beneficial interests in Compass Diversified Holdings
+CODI^C,Compass Diversified Holdings 7.875% Series C Cumulative Preferred Shares
+COE,China Online Education Group American depositary shares each representing 15 Class A ordinary shares
+COF,Capital One Financial Corporation 
+COF^G,Capital One Financial Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series G
+COF^H,Capital One Financial Corporation Depositary Shares Each Representing 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series H
+COF^I,Capital One Financial Corporation Depositary shares each representing a 1/40th interest in a share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series I of the Issuer
+COF^J,Capital One Financial Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of Fixed Rate Non- Cumulative Perpetual Preferred Stock Series J
+COF^K,Capital One Financial Corporation Depositary Shares Each Representing a 1/40th Ownership Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series K
+COG,Cabot Oil & Gas Corporation 
+COLD,Americold Realty Trust Common Shares
+COO,The Cooper Companies Inc. 
+COP,ConocoPhillips 
+COR,CoreSite Realty Corporation 
+CORR,CorEnergy Infrastructure Trust Inc. 
+CORR^A,CorEnergy Infrastructure Trust Inc. Depositary Shares each representing a 1/100th fractional interest of a share of 7.375% Series A Cumulative Redeemable Preferred Stock
+COTY,Coty Inc. Class A 
+CP,Canadian Pacific Railway Limited 
+CPA,Copa Holdings S.A. Copa Holdings S.A. Class A 
+CPAC,Cementos Pacasmayo S.A.A. American Depositary Shares (Each representing five Common Shares)
+CPB,Campbell Soup Company 
+CPE,Callon Petroleum Company 
+CPF,Central Pacific Financial Corp New
+CPG,Crescent Point Energy Corporation Ordinary Shares (Canada)
+CPK,Chesapeake Utilities Corporation 
+CPLG,CorePoint Lodging Inc.  
+CPNG,Coupang Inc. Class A 
+CPRI,Capri Holdings Limited Ordinary Shares
+CPS,Cooper-Standard Holdings Inc. 
+CPSR,Capstar Special Purpose Acquisition Corp. Class A 
+CPT,Camden Property Trust 
+CR,Crane Co. 
+CRC,California Resources Corporation 
+CRD/A,Crawford & Company
+CRD/B,Crawford & Company
+CRH,CRH PLC American Depositary Shares
+CRHC,Cohn Robbins Holdings Corp. Class A Ordinary Shares
+CRI,Carter's Inc. 
+CRK,Comstock Resources Inc. 
+CRL,Charles River Laboratories International Inc. 
+CRM,Salesforce.com Inc 
+CRS,Carpenter Technology Corporation 
+CRT,Cross Timbers Royalty Trust 
+CRU,Crucible Acquisition Corporation Class A 
+CRY,CryoLife Inc. 
+CS,Credit Suisse Group American Depositary Shares
+CSAN,Cosan S.A. ADR
+CSL,Carlisle Companies Incorporated 
+CSLT,Castlight Health Inc. Class B 
+CSPR,Casper Sleep Inc. 
+CSR,D/B/A Centerspace 
+CSR^C,D/B/A Centerspace 6.625% Series C
+CSTM,Constellium SE Ordinary Shares (France)
+CSU,Capital Senior Living Corporation 
+CSV,Carriage Services Inc. 
+CTA^A,E.I. du Pont de Nemours and Company Preferred Stock
+CTA^B,E.I. du Pont de Nemours and Company Preferred Stock
+CTAC,Cerberus Telecom Acquisition Corp. Class A Ordinary Shares
+CTB,Cooper Tire & Rubber Company 
+CTBB,Qwest Corporation 6.5% Notes due 2056
+CTDD,Qwest Corporation 6.75% Notes due 2057
+CTK,CooTek (Cayman) Inc. American Depositary Shares each representing 50 Class A Ordinary Shares
+CTLT,Catalent Inc. 
+CTO,CTO Realty Growth Inc. 
+CTR,ClearBridge MLP and Midstream Total Return Fund Inc. 
+CTS,CTS Corporation 
+CTT,CatchMark Timber Trust Inc. Class A 
+CTVA,Corteva Inc.  
+CUB,Cubic Corporation 
+CUBB,Customers Bancorp Inc 5.375% Subordinated Notes Due 2034
+CUBE,CubeSmart Common Shares
+CUBI,Customers Bancorp Inc 
+CUBI^C,Customers Bancorp Inc Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series C
+CUBI^D,Customers Bancorp Inc Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series D
+CUBI^E,Customers Bancorp Inc Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series E
+CUBI^F,Customers Bancorp Inc Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series F
+CUK,Carnival Plc ADS ADS
+CULP,Culp Inc. 
+CURO,CURO Group Holdings Corp. 
+CUZ,Cousins Properties Incorporated 
+CVA,Covanta Holding Corporation 
+CVE,Cenovus Energy Inc 
+CVEO,Civeo Corporation (Canada) Common Shares
+CVI,CVR Energy Inc. 
+CVNA,Carvana Co. Class A 
+CVS,CVS Health Corporation 
+CVX,Chevron Corporation 
+CW,Curtiss-Wright Corporation 
+CWEN,Clearway Energy Inc. Class C 
+CWH,Camping World Holdings Inc. Class A Commom Stock
+CWK,Cushman & Wakefield plc Ordinary Shares
+CWT,California Water Service Group 
+CX,Cemex S.A.B. de C.V. Sponsored ADR
+CXE,MFS High Income Municipal Trust 
+CXH,MFS Investment Grade Municipal Trust 
+CXP,Columbia Property Trust Inc. 
+CXW,CoreCivic Inc. 
+CYD,China Yuchai International Limited 
+CYH,Community Health Systems Inc. 
+D,Dominion Energy Inc. 
+DAC,Danaos Corporation 
+DAL,Delta Air Lines Inc. 
+DAN,Dana Incorporated  
+DAO,Youdao Inc. American Depositary Shares each representing one Class A Ordinary Share
+DAR,Darling Ingredients Inc. 
+DASH,DoorDash Inc. Class A 
+DAVA,Endava plc American Depositary Shares (each representing one Class A Ordinary Share)
+DB,Deutsche Bank AG 
+DBD,Diebold Nixdorf Incorporated 
+DBI,Designer Brands Inc. Class A 
+DBL,DoubleLine Opportunistic Credit Fund Common Shares of Beneficial Interest
+DCF,BNY Mellon Alcentra Global Credit Income 2024 Target Term Fund Inc. 
+DCI,Donaldson Company Inc. 
+DCO,Ducommun Incorporated 
+DCP,DCP Midstream  LP Common Units 
+DCP^B,DCP Midstream LP 7.875% Series B Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units
+DCP^C,DCP Midstream LP 7.95% Series C Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units
+DCUE,Dominion Energy Inc. 2019 Series A Corporate Units
+DD,DuPont de Nemours Inc. 
+DDD,3D Systems Corporation 
+DDF,Delaware Investments Dividend & Income Fund Inc. 
+DDS,Dillard's Inc. 
+DDT,Dillard's Capital Trust I
+DE,Deere & Company 
+DEA,Easterly Government Properties Inc. 
+DECK,Deckers Outdoor Corporation 
+DEH,D8 Holdings Corp. Class A Ordinary Shares
+DEI,Douglas Emmett Inc. 
+DELL,Dell Technologies Inc. Class C  
+DEN,Denbury Inc. 
+DEO,Diageo plc 
+DESP,Despegar.com Corp. Ordinary Shares
+DEX,Delaware Enhanced Global Dividend Common Shares of Beneficial Interest
+DFIN,Donnelley Financial Solutions Inc.  
+DFNS,LGL Systems Acquisition Corp. 
+DFP,Flaherty & Crumrine Dynamic Preferred and Income Fund Inc. 
+DFS,Discover Financial Services 
+DG,Dollar General Corporation 
+DGNR,Dragoneer Growth Opportunities Corp. Class A Ordinary Shares
+DGX,Quest Diagnostics Incorporated 
+DHF,BNY Mellon High Yield Strategies Fund 
+DHI,D.R. Horton Inc. 
+DHR,Danaher Corporation 
+DHR^A,Danaher Corporation 4.75% Mandatory Convertible Preferred Stock Series A
+DHR^B,Danaher Corporation 5.00% Mandatory Convertible Preferred Stock Series B
+DHT,DHT Holdings Inc.
+DHX,DHI Group Inc. 
+DIAX,Nuveen Dow 30SM Dynamic Overwrite Fund Common Shares of Beneficial Interest
+DIN,Dine Brands Global Inc. 
+DIS,Walt Disney Company (The) 
+DK,Delek US Holdings Inc. 
+DKL,Delek Logistics Partners L.P. Common Units representing Limited Partner Interests
+DKS,Dick's Sporting Goods Inc 
+DL,China Distance Education Holdings Limited American Depositary Shares
+DLB,Dolby Laboratories 
+DLNG,Dynagas LNG Partners LP Common Units
+DLNG^A,Dynagas LNG Partners LP 9.00% Series A Cumulative Redeemable Preferred Units
+DLNG^B,Dynagas LNG Partners LP 8.75% Series B Fixed to Floating Rate Cumulative Redeemable Perpetual Preferred Units liquidation preference $25.00 per Uni
+DLR,Digital Realty Trust Inc. 
+DLR^C,Digital Realty Trust Inc. 6.625% Series C Cumulative Redeemable Perpetual Preferred Stock
+DLR^J,Digital Realty Trust Inc. 5.250% Series J Cumulative Redeemable Preferred Stock
+DLR^K,Digital Realty Trust Inc. 5.850% Series K Cumulative Redeemable Preferred Stock par value $0.01 per share
+DLR^L,Digital Realty Trust Inc. 5.200% Series L Cumulative Redeemable Preferred Stock
+DLX,Deluxe Corporation 
+DLY,DoubleLine Yield Opportunities Fund Common Shares of Beneficial Interest
+DM,Desktop Metal Inc. Class A 
+DMB,BNY Mellon Municipal Bond Infrastructure Fund Inc. 
+DMO,Western Asset Mortgage Opportunity Fund Inc. 
+DMS,Digital Media Solutions Inc. Class A Ordinary Shares
+DMYD,dMY Technology Group Inc. II Class A 
+DMYI,dMY Technology Group Inc. III Class A 
+DNB,Dun & Bradstreet Holdings Inc. 
+DNMR,Danimer Scientific Inc. 
+DNOW,NOW Inc. 
+DNP,DNP Select Income Fund Inc. 
+DOC,Physicians Realty Trust Common Shares of Beneficial Interest
+DOOR,Masonite International Corporation Ordinary Shares (Canada)
+DOV,Dover Corporation 
+DOW,Dow Inc.  
+DPG,Duff & Phelps Utility and Infrastructure Fund Inc.
+DPZ,Domino's Pizza Inc 
+DQ,DAQO New Energy Corp. American Depositary Shares each representing five ordinary shares
+DRD,DRDGOLD Limited American Depositary Shares
+DRE,Duke Realty Corporation 
+DRH,Diamondrock Hospitality Company 
+DRH^A,Diamondrock Hospitality Company 8.250% Series A Cumulative Redeemable Preferred Stock
+DRI,Darden Restaurants Inc. 
+DRQ,Dril-Quip Inc. 
+DRUA,Dominion Energy Inc. 2016 Series A 5.25% Enhanced Junior Subordinated Notes due 2076
+DS,Drive Shack Inc.
+DS^B,Drive Shack Inc. Preferred Series B
+DS^C,Drive Shack Inc. Preferred Series C
+DS^D,Drive Shack Inc. Pfd Ser D
+DSE,Duff & Phelps Select MLP and Midstream Energy Fund Inc.
+DSL,DoubleLine Income Solutions Fund Common Shares of Beneficial Interests
+DSM,BNY Mellon Strategic Municipal Bond Fund Inc. 
+DSSI,Diamond S Shipping Inc.  
+DSU,Blackrock Debt Strategies Fund Inc. 
+DSX,Diana Shipping inc. 
+DSX^B,Diana Shipping Inc. Perpetual Preferred Shares Series B (Marshall Islands)
+DT,Dynatrace Inc. 
+DTB,DTE Energy Company 2020 Series G 4.375% Junior Subordinated Debentures due 2080
+DTE,DTE Energy Company 
+DTF,DTF Tax-Free Income Inc. 
+DTJ,DTE Energy Company 2016 Series B 5.375% Junior Subordinated Debentures due 2076
+DTLA^,Brookfield DTLA Inc. 7.625% Series A Cumulative Redeemable Preferred Stock
+DTP,DTE Energy Company 6.25% Corporate Units
+DTW,DTE Energy Company 2017 Series E 5.25% Junior Subordinated Debentures due 2077
+DTY,DTE Energy Company 2016 Series F 6.00% Junior Subordinated Debentures due 2076
+DUK,Duke Energy Corporation (Holding Company) 
+DUK^A,Duke Energy Corporation Depositary Shares each representing a 1/1000th interest in a share of 5.75% Series A Cumulative Redeemable Perpetual Preferred Stock
+DUKB,Duke Energy Corporation 5.625% Junior Subordinated Debentures due 2078
+DUKH,Duke Energy Corporation 5.125% Junior Subordinated Debentures due 2073
+DVA,DaVita Inc. 
+DVD,Dover Motorsports Inc. 
+DVN,Devon Energy Corporation 
+DWIN,Delwinds Insurance Acquisition Corp. Class A 
+DX,Dynex Capital Inc. 
+DX^C,Dynex Capital Inc. 6.900% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+DXC,DXC Technology Company  
+DY,Dycom Industries Inc. 
+DYFN,Angel Oak Dynamic Financial Strategies Income Term Trust Common Shares of Beneficial Interest
+E,ENI S.p.A. 
+EAF,GrafTech International Ltd. 
+EAI,Entergy Arkansas LLC First Mortgage Bonds 4.875% Series Due September 1 2066
+EARN,Ellington Residential Mortgage REIT Common Shares of Beneficial Interest
+EAT,Brinker International Inc. 
+EB,Eventbrite Inc. Class A 
+EBF,Ennis Inc. 
+EBR,Centrais Electricas Brasileiras S A American Depositary Shares (Each representing one Common Share)
+EBS,Emergent Biosolutions Inc. 
+EC,Ecopetrol S.A. American Depositary Shares
+ECC           ,Eagle Point Credit Company Inc. 
+ECCB,Eagle Point Credit Company Inc. 7.75% Series B Term Preferred Stock due 2026
+ECCX,Eagle Point Credit Company Inc. 6.6875% Notes due 2028
+ECCY,Eagle Point Credit Company Inc. 6.75% Notes due 2027
+ECL,Ecolab Inc. 
+ECOM          ,ChannelAdvisor Corporation 
+ED,Consolidated Edison Inc. 
+EDD,Morgan Stanley Emerging Markets Domestic Debt Fund Inc. Morgan Stanley Emerging Markets Domestic Debt Fund Inc. 
+EDF,Stone Harbor Emerging Markets Income Fund Common Shares of Beneficial Interest
+EDI,Stone Harbor Emerging Markets Total Income Fund Common Shares of Beneficial Interests
+EDN,Empresa Distribuidora Y Comercializadora Norte S.A. (Edenor) Empresa Distribuidora Y Comercializadora Norte S.A. (Edenor) American Depositary Shares
+EDU,New Oriental Education & Technology Group Inc. Sponsored ADR representing 1 Ordinary Share (Cayman Islands)
+EEA,The European Equity Fund Inc. 
+EEX,Emerald Holding Inc. 
+EFC,Ellington Financial Inc.  
+EFC^A,Ellington Financial Inc. 6.750% Series A Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+EFF,Eaton vance Floating-Rate Income Plus Fund Common Shares of Beneficial Interest
+EFL,Eaton Vance Floating-Rate 2022 Target Term Trust Common Shares of Beneficial Interest
+EFR,Eaton Vance Senior Floating-Rate Fund Common Shares of Beneficial Interest
+EFT,Eaton Vance Floating Rate Income Trust Common Shares of Beneficial Interest
+EFX,Equifax Inc. 
+EGF,Blackrock Enhanced Government Fund Inc. 
+EGHT,8x8 Inc 
+EGO,Eldorado Gold Corporation Ordinary Shares
+EGP,EastGroup Properties Inc. 
+EGY,VAALCO Energy Inc.  
+EHC,Encompass Health Corporation 
+EHI,Western Asset Global High Income Fund Inc 
+EHT,Eaton Vance 2021 Target Term Trust Common Shares of Beneficial Interest
+EIC,Eagle Point Income Company Inc. 
+EIG,Employers Holdings Inc 
+EIX,Edison International 
+EL,Estee Lauder Companies Inc. (The) 
+ELAN,Elanco Animal Health Incorporated 
+ELAT,Elanco Animal Health Incorporated 5.00% Tangible Equity Units
+ELC,Entergy Louisiana Inc. Collateral Trust Mortgage Bonds 4.875 % Series due September 1 2066
+ELF,e.l.f. Beauty Inc. 
+ELP,Companhia Paranaense de Energia (COPEL) 
+ELS,Equity Lifestyle Properties Inc. 
+ELVT,Elevate Credit Inc. 
+ELY,Callaway Golf Company 
+EMD,Western Asset Emerging Markets Debt Fund Inc 
+EME,EMCOR Group Inc. 
+EMF,Templeton Emerging Markets Fund 
+EMN,Eastman Chemical Company 
+EMO,ClearBridge Energy Midstream Opportunity Fund Inc. 
+EMP,Entergy Mississippi LLC First Mortgage Bonds 4.90% Series Due October 1 2066
+EMPW,Empower Ltd. Class A Ordinary Shares
+EMR,Emerson Electric Company 
+ENB,Enbridge Inc 
+ENBA,Enbridge Inc 6.375% Fixed-to-Floating Rate Subordinated Notes Series 2018-B due 2078
+ENBL,Enable Midstream Partners LP Common Units representing limited partner interests
+ENIA,Enel Americas S.A. American Depositary Shares
+ENIC,Enel Chile S.A. American Depositary Shares (Each representing 50 shares of )
+ENJ,Entergy New Orleans LLC First Mortgage Bonds 5.0% Series due December 1 2052
+ENLC,EnLink Midstream LLC Common Units representing Limited Partner Interests
+ENO,Entergy New Orleans LLC First Mortgage Bonds 5.50% Series due April 1 2066
+ENPC,Executive Network Partnering Corporation Class A 
+ENR,Energizer Holdings Inc. 
+ENR^A,Energizer Holdings Inc. 7.50% Series A Mandatory Convertible Preferred Stock
+ENS,EnerSys 
+ENV,Envestnet Inc 
+ENVA,Enova International Inc. 
+ENZ,Enzo Biochem Inc.  ($0.01 Par Value)
+EOD,Wells Fargo Global Dividend Opportunity Fund
+EOG,EOG Resources Inc. 
+EOI,Eaton Vance Enhance Equity Income Fund Eaton Vance Enhanced Equity Income Fund Shares of Beneficial Interest
+EOS,Eaton Vance Enhance Equity Income Fund II 
+EOT,Eaton Vance Municipal Income Trust EATON VANCE NATIONAL MUNICIPAL OPPORTUNITIES TRUST
+EP^C,El Paso Corporation Preferred Stock
+EPAC,Enerpac Tool Group Corp. 
+EPAM,EPAM Systems Inc. 
+EPC,Edgewell Personal Care Company 
+EPD,Enterprise Products Partners L.P. 
+EPR,EPR Properties 
+EPR^C,EPR Properties 5.75% Series C Cumulative Convertible Preferred Shares
+EPR^E,EPR Properties Series E Cumulative Conv Pfd Shs Ser E
+EPR^G,EPR Properties 5.750% Series G Cumulative Redeemable Preferred Shares
+EPRT,Essential Properties Realty Trust Inc. 
+EPWR,Empowerment & Inclusion Capital I Corp. Class A 
+EQC,Equity Commonwealth Common Shares of Beneficial Interest
+EQC^D,Equity Commonwealth 6.50% Pfd Conv Shs Ser D
+EQD,Equity Distribution Acquisition Corp. Class A 
+EQH,Equitable Holdings Inc. 
+EQH^A,Equitable Holdings Inc. Depositary Shares
+EQH^C,Equitable Holdings Inc. Depositary Shares each representing a 1/1000th interest in a share of Fixed Rate Noncumulative Perpetual Preferred Stock Series C
+EQNR,Equinor ASA
+EQR,Equity Residential Common Shares of Beneficial Interest
+EQS,Equus Total Return Inc. 
+EQT,EQT Corporation 
+ERF,Enerplus Corporation 
+ERJ,Embraer S.A. 
+ES,Eversource Energy (D/B/A) 
+ESE,ESCO Technologies Inc. 
+ESGC,Eros STX Global Corporation A Ordinary Shares
+ESI,Element Solutions Inc. 
+ESNT,Essent Group Ltd. Common Shares
+ESRT,Empire State Realty Trust Inc. Class A 
+ESS,Essex Property Trust Inc. 
+ESTC,Elastic N.V. Ordinary Shares
+ESTE,Earthstone Energy Inc. Class A 
+ET,Energy Transfer LP Common Units 
+ETB,Eaton Vance Tax-Managed Buy-Write Income Fund Eaton Vance Tax-Managed Buy-Write Income Fund Common Shares of Beneficial Interest
+ETG,Eaton Vance Tax-Advantaged Global Dividend Income Fund Common Shares of Beneficial Interest
+ETH,Ethan Allen Interiors Inc. 
+ETI^,Entergy Texas Inc 5.375% Series A Preferred Stock Cumulative No Par Value
+ETJ,Eaton Vance Risk-Managed Diversified Equity Income Fund Common Shares of Beneficial Interest
+ETM,Entercom Communications Corp. 
+ETN,Eaton Corporation PLC Ordinary Shares
+ETO,Eaton Vance Tax-Advantage Global Dividend Opp 
+ETP^C,Energy Transfer Operating L.P. Series C Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units
+ETP^D,Energy Transfer Operating L.P. 7.625% Series D Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units
+ETP^E,Energy Transfer Operating L.P. Series E Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units
+ETR,Entergy Corporation 
+ETRN,Equitrans Midstream Corporation  
+ETV,Eaton Vance Corporation Eaton Vance Tax-Managed Buy-Write Opportunities Fund Common Shares of Beneficial Interest
+ETW,Eaton Vance Corporation Eaton Vance Tax-Managed Global Buy-Write Opportunites Fund Common Shares of Beneficial Interest
+ETWO,E2open Parent Holdings Inc.Class A 
+ETX           ,Eaton Vance Municipal Income 2028 Term Trust Common Shares of Beneficial Interest
+ETY,Eaton Vance Tax-Managed Diversified Equity Income Fund Common Shares of Beneficial Interest
+EURN,Euronav NV Ordinary Shares
+EVA,Enviva Partners LP Common units representing limited partner interests
+EVC,Entravision Communications Corporation 
+EVF,Eaton Vance Senior Income Trust 
+EVG,Eaton Vance Short Diversified Income Fund Eaton Vance Short Duration Diversified Income Fund Common Shares of Beneficial Interest
+EVH,Evolent Health Inc Class A 
+EVN,Eaton Vance Municipal Income Trust 
+EVR,Evercore Inc. Class A 
+EVRG,Evergy Inc. 
+EVRI,Everi Holdings Inc. 
+EVT,Eaton Vance Tax Advantaged Dividend Income Fund Common Shares of Beneficial Interest
+EVTC,Evertec Inc. 
+EW,Edwards Lifesciences Corporation 
+EXD,Eaton Vance Tax-Managed Buy-Write Strategy Fund Common Shares of Beneficial Interest
+EXG,Eaton Vance Tax-Managed Global Diversified Equity Income Fund Eaton Vance Tax-Managed Global Diversified Equity Income Fund Common Shares of Beneficial Interest
+EXK,Endeavour Silver Corporation Ordinary Shares (Canada)
+EXP,Eagle Materials Inc 
+EXPR,Express Inc. 
+EXR,Extra Space Storage Inc 
+EXTN,Exterran Corporation 
+F,Ford Motor Company 
+F^B,Ford Motor Company 6.20% Notes due June 1 2059
+F^C,Ford Motor Company 6% Notes due December 1 2059
+FAF,First American Corporation (New) 
+FAII,Fortress Value Acquisition Corp. II Class A 
+FAM,First Trust/Aberdeen Global Opportunity Income Fund First Trust/Aberdeen Global Opportunity Income Fund Common Shares of Beneficial Interest
+FBC,Flagstar Bancorp Inc. 
+FBHS,Fortune Brands Home & Security Inc. 
+FBK,FB Financial Corporation 
+FBP,First BanCorp. New 
+FC,Franklin Covey Company 
+FCAX,Fortress Capital Acquisition Corp. Class A Ordinary Shares
+FCF,First Commonwealth Financial Corporation 
+FCN,FTI Consulting Inc. 
+FCPT,Four Corners Property Trust Inc. 
+FCRW,First Eagle Alternative Capital BDC Inc. 6.125% Notes Due 2023
+FCRZ,First Eagle Alternative Capital BDC Inc. 6.75% Notes due 2022
+FCT,First Trust Senior Floating Rate Income Fund II Common Shares of Beneficial Interest
+FCX,Freeport-McMoRan Inc. 
+FDEU,First Trust Dynamic Europe Equity Income Fund Common Shares of Beneficial Interest
+FDP,Fresh Del Monte Produce Inc. 
+FDX,FedEx Corporation 
+FE,FirstEnergy Corp. 
+FEDU,Four Seasons Education (Cayman) Inc. American Depositary Shares each two ADSs representing one ordinary share
+FEI           ,First Trust MLP and Energy Income Fund Common Shares of Beneficial Interest
+FENG,Phoenix New Media Limited American Depositary Shares each representing 8 Class A ordinary shares.
+FEO,First Trust/Aberdeen Emerging Opportunity Fund Common Shares of Beneficial Interest
+FERG,Ferguson plc Ordinary Shares
+FET,Forum Energy Technologies Inc. 
+FF,FutureFuel Corp.  Common shares
+FFA,First Trust Enhanced Equity Income Fund
+FFC,Flaherty & Crumrine Preferred and Income Securities Fund Incorporated
+FFG,FBL Financial Group Inc. 
+FGB,First Trust Specialty Finance and Financial Opportunities Fund
+FGNA,FG New America Acquisition Corp. Class A 
+FHI,Federated Hermes Inc. 
+FHN,First Horizon Corporation 
+FHN^A,First Horizon Corporation Depositary Shares
+FHN^B,First Horizon Corporation Depositary Shares each representing a 1/400th interest in a share of Non-Cumulative Perpetual Preferred Stock Series B
+FHN^C,First Horizon Corporation Depositary Shares each representing a 1/400th interest in a share of Non-Cumulative Perpetual Preferred Stock Series C
+FHN^D,First Horizon Corporation Depositary Shares each representing a 1/400th interest in a share of Non-Cumulative Perpetual Preferred Stock Series D
+FHN^E,First Horizon Corporation Depositary Shares each representing a 1/4000th interest in a share of Non-Cumulative Perpetual Preferred Stock Series E
+FHS,First High-School Education Group Co. Ltd. American Depositary Shares
+FI,Frank's International N.V. 
+FICO,Fair Isaac Corproation 
+FIF,First Trust Energy Infrastructure Fund Common Shares of Beneficial Interest
+FINS,Angel Oak Financial Strategies Income Term Trust Common Shares of Beneficial Interest
+FINV,FinVolution Group American Depositary Shares
+FIS,Fidelity National Information Services Inc. 
+FIV,First Trust Senior Floating Rate 2022 Target Term Fund Common Shares of Beneficial Interest
+FIX,Comfort Systems USA Inc. 
+FL,Foot Locker Inc.
+FLC,Flaherty & Crumrine Total Return Fund Inc 
+FLNG,FLEX LNG Ltd. Ordinary Shares
+FLO,Flowers Foods Inc. 
+FLOW,SPX FLOW Inc. 
+FLR,Fluor Corporation 
+FLS,Flowserve Corporation 
+FLT,FleetCor Technologies Inc. 
+FLY,Fly Leasing Limited
+FMAC,FirstMark Horizon Acquisition Corp. Class A 
+FMC,FMC Corporation 
+FMN,Federated Hermes Premier Municipal Income Fund
+FMO,Fiduciary/Claymore Energy Infrastructure Fund Common Shares of Beneficial Interest
+FMS,Fresenius Medical Care AG 
+FMX,Fomento Economico Mexicano S.A.B. de C.V. 
+FMY,First Trust Motgage Income Fund Common Shares of Beneficial Interest
+FN,Fabrinet Ordinary Shares
+FNB,F.N.B. Corporation 
+FNB^E,F.N.B. Corporation Depositary Shares each representing a 1/40th interest in a share of Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred  Stock Series E
+FND,Floor & Decor Holdings Inc. 
+FNF,FNF Group of Fidelity National Financial Inc. 
+FNV,Franco-Nevada Corporation
+FOE,Ferro Corporation 
+FOF,Cohen & Steers Closed-End Opportunity Fund Inc. 
+FOR,Forestar Group Inc  
+FOUR,Shift4 Payments Inc. Class A 
+FPAC,Far Peak Acquisition Corporation Class A Ordinary Shares
+FPF,First Trust Intermediate Duration Preferred & Income Fund Common Shares of Beneficial Interest
+FPH,Five Point Holdings LLC Class A Common Shares
+FPI,Farmland Partners Inc. 
+FPI^B,Farmland Partners Inc. Series B Participating Preferred Stock
+FPL,First Trust New Opportunities MLP & Energy Fund Common Shares of Beneficial Interest
+FR,First Industrial Realty Trust Inc. 
+FRA,Blackrock Floating Rate Income Strategies Fund Inc  
+FRC,FIRST REPUBLIC BANK 
+FRC^G,FIRST REPUBLIC BANK Depositary Shares each representing a 1/40th interest in a share of 5.50% Noncumulative Perpetual Series G Preferred Stock
+FRC^H,FIRST REPUBLIC BANK Depositary Shares each representing a 1/40th interest in a share of 5.125% Noncumulative Perpetual Series H Preferred Stock par value $0.01 per share
+FRC^I,FIRST REPUBLIC BANK Depositary Shares each representing a 1/40th interest in a share of 5.50% Noncumulative Perpetual Series I Preferred Stock par value $0.01 per share
+FRC^J,FIRST REPUBLIC BANK Depositary Shares Each Representing a 1/40th Interest in a Share of 4.70% Noncumulative Perpetual Series J Preferred Stock
+FRC^K,FIRST REPUBLIC BANK Depositary Shares Each Representing a 1/40th Interest in a Share of 4.125% Noncumulative Perpetual Series K Preferred Stock
+FRC^L,FIRST REPUBLIC BANK Depositary Shares Each Representing a 1/40th Interest in a Share of 4.250% Noncumulative Perpetual Series L Preferred Stock
+FRO,Frontline Ltd. Ordinary Shares
+FRT,Federal Realty Investment Trust 
+FRT^C,Federal Realty Investment Trust Depositary Shares each representing a 1/1000th interest in a 5.000% Series C Cumulative Redeemable Preferred Share
+FRX,Forest Road Acquisition Corp. Class A 
+FSD,First Trust High Income Long Short Fund Common Shares of Beneficial Interest
+FSK,FS KKR Capital Corp. 
+FSKR,FS KKR Capital Corp. II 
+FSLF,First Eagle Senior Loan Fund 
+FSLY,Fastly Inc. Class A 
+FSM,Fortuna Silver Mines Inc Ordinary Shares (Canada)
+FSR,Fisker Inc. Class A 
+FSS,Federal Signal Corporation 
+FST,FAST Acquisition Corp. Class A 
+FT,Franklin Universal Trust 
+FTAI,Fortress Transportation and Infrastructure Investors LLC Common Shares
+FTAI^A,Fortress Transportation and Infrastructure Investors LLC 8.25% Fixed to Floating Rate Series A Cumulative Perpetual Redeemable Preferred Shares
+FTAI^B,Fortress Transportation and Infrastructure Investors LLC 8.00% Fixed-to-Floating Rate Series B Cumulative Perpetual Redeemable Preferred Shares
+FTCH,Farfetch Limited Class A Ordinary Shares
+FTHY,First Trust High Yield Opportunities 2027 Term Fund 
+FTI,TechnipFMC plc Ordinary Share
+FTK,Flotek Industries Inc. 
+FTS,Fortis Inc. Common Shares
+FTV,Fortive Corporation  
+FTV^A,Fortive Corporation 5.00% Mandatory Convertible Preferred Stock Series A
+FUBO,fuboTV Inc. 
+FUL,H. B. Fuller Company 
+FUN,Cedar Fair L.P. 
+FUSE,Fusion Acquisition Corp. Class A 
+FVRR,Fiverr International Ltd. Ordinary Shares no par value
+FVT,Fortress Value Acquisition Corp. III Class A 
+G,Genpact Limited 
+GAB,Gabelli Equity Trust Inc. (The) 
+GAB^G,Gabelli Equity Trust Inc. (The) Series G Cumulative Preferred Stock
+GAB^H,Gabelli Equity Trust Inc. (The) Pfd Ser H
+GAB^J,Gabelli Equity Trust Inc. (The) 5.45% Series J Cumulative Preferred Stock
+GAB^K,Gabelli Equity Trust Inc. (The) 5.00% Series K Cumulative Preferred Stock
+GAM,General American Investors Inc. 
+GAM^B,General American Investors Company Inc. Cumulative Preferred Stock
+GATO,Gatos Silver Inc. 
+GATX,GATX Corporation 
+GB,Global Blue Group Holding AG Ordinary Shares
+GBAB,Guggenheim Taxable Municipal Bond & Investment Grade Debt Trust Common Shares of Beneficial Interest
+GBL,Gamco Investors Inc. 
+GBX,Greenbrier Companies Inc. (The) 
+GCI,Gannett Co. Inc. 
+GCO,Genesco Inc. 
+GCP,GCP Applied Technologies Inc. 
+GCV,Gabelli Convertible and Income Securities Fund Inc. (The) 
+GD,General Dynamics Corporation 
+GDDY,GoDaddy Inc. Class A 
+GDL,GDL Fund The Common Shares of Beneficial Interest
+GDL^C,The GDL Fund Series C Cumulative Puttable and Callable Preferred Shares
+GDO,Western Asset Global Corporate Defined Opportunity Fund Inc. Western Asset Global Corporate Defined Opportunity Fund Inc.
+GDOT,Green Dot Corporation Class A  $0.001 par value
+GDV,Gabelli Dividend & Income Trust Common Shares of Beneficial Interest
+GDV^G,Gabelli Dividend 5.25% Series G Cumulative Preferred Shares par value $0.001 per share
+GDV^H,The Gabelli Dividend & Income Trust 5.375% Series H Cumulative Preferred Shares
+GE,General Electric Company 
+GEF,Greif Inc. Class A 
+GEL,Genesis Energy L.P. Common Units
+GEN           ,Genesis Healthcare Inc. 
+GEO,Geo Group Inc (The) REIT
+GER,Goldman Sachs MLP Energy Renaissance Fund
+GES,Guess? Inc. 
+GF,New Germany Fund Inc. (The) 
+GFF,Griffon Corporation 
+GFI,Gold Fields Limited American Depositary Shares
+GFL,GFL Environmental Inc. Subordinate voting shares no par value
+GFLU,GFL Environmental Inc. Tangible Equity Units
+GFX,Golden Falcon Acquisition Corp. Class A 
+GGB,Gerdau S.A. 
+GGG,Graco Inc. 
+GGM,Guggenheim Credit Allocation Fund Common Shares of Beneficial Interest
+GGT,Gabelli Multi-Media Trust Inc. (The) 
+GGT^E,Gabelli Multi-Media Trust Inc. (The) 5.125% Series E Cumulative Preferred Stock
+GGT^G,Gabelli Multi-Media Trust Inc. (The) 5.125% Series G Cumulative Preferred Shares
+GGZ,Gabelli Global Small and Mid Cap Value Trust (The) Common Shares of Beneficial Interest
+GGZ^A,Gabelli Global Small and Mid Cap Value Trust (The) 5.450% Series A Cumulative Preferred Shares (Liquidation Preference $25.00 per share)
+GHC,Graham Holdings Company 
+GHG,GreenTree Hospitality Group Ltd. American depositary shares each representing one Class A ordinary share
+GHL,Greenhill & Co. Inc. 
+GHLD,Guild Holdings Company Class A 
+GHM,Graham Corporation 
+GHY,PGIM Global High Yield Fund Inc.
+GIB,CGI Inc. 
+GIK,GigCapital3 Inc. 
+GIL,Gildan Activewear Inc. Class A Sub. Vot. 
+GIM,Templeton Global Income Fund Inc. 
+GIS,General Mills Inc. 
+GIX,GigCapital2 Inc. 
+GJH,Synthetic Fixed-Income Securities Inc 6.375% (STRATS) Cl A-1
+GJO,Synthetic Fixed-Income Securities Inc. Synthetic Fixed-Income Securities Inc. on behalf of STRATS(SM) Trust for Wal-Mart Stores Inc. Securities Series 2004-5
+GJP,Synthetic Fixed-Income Securities Inc. Synthetic Fixed-Income Securities Inc. on behalf of STRATS (SM) Trust for Dominion Resources Inc. Securities Series 2005-6 Floating Rate Structured Repackaged Asset-Backed Trust Securities (STRATS) Certificates
+GJR,Synthetic Fixed-Income Securities Inc. STRATS Trust for Procter&Gamble Securities Series 2006-1
+GJS,Goldman Sachs Group Securities STRATS Trust for Goldman Sachs Group Securities Series 2006-2
+GJT,Synthetic Fixed-Income Securities Inc. Synthetic Fixed-Income Securities Inc. Floating Rate Structured Repackaged Asset-Backed Trust Securities Certificates Series 2006-3
+GKOS,Glaukos Corporation 
+GL,Globe Life Inc. 
+GL^C,Globe Life Inc. 6.125% Junior Subordinated Debentures due 2056
+GLEO,Galileo Acquisition Corp. Ordinary Shares
+GLOB,Globant S.A. Common Shares
+GLOG,GasLog Ltd. Common Shares
+GLOG^A,GasLog LP. 8.75% Series A Cumulative Redeemable Perpetual Preference Shares
+GLOP,GasLog Partners LP Common Units representing limited partnership interests
+GLOP^A,GasLog Partners LP 8.625% Series A Cumulative Redeemable Perpetual Fixed to Floating Rate Preference Units
+GLOP^B,GasLog Partners LP 8.200% Series B Cumulative Redeemable Perpetual Fixed to Floating Rate Preference Units
+GLOP^C,GasLog Partners LP 8.500% Series C Cumulative Redeemable Perpetual Fixed to Floating Rate Preference Units
+GLP,Global Partners LP Global Partners LP Common Units representing Limited Partner Interests
+GLP^A,Global Partners LP 9.75% Series A Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units representing limited partner interests
+GLT,Glatfelter Corporation 
+GLW,Corning Incorporated 
+GM,General Motors Company 
+GME,GameStop Corporation 
+GMED,Globus Medical Inc. Class A 
+GMRE,Global Medical REIT Inc. 
+GMRE^A,Global Medical REIT Inc. Series A Cumulative Redeemable Preferred Stock
+GMS,GMS Inc. 
+GMTA,GATX Corporation 5.625% Senior Notes due 2066
+GNE,Genie Energy Ltd. Class B  Stock
+GNE^A,Genie Energy Ltd. Series 2012 - A Preferred Stock $0.01 par value
+GNK,Genco Shipping & Trading Limited Ordinary Shares New (Marshall Islands)
+GNL,Global Net Lease Inc. 
+GNL^A,Global Net Lease Inc. 7.25% Series A Cumulative Redeemable Preferred Stock $0.01 par value per share
+GNL^B,Global Net Lease Inc. 6.875% Series B Cumulative Redeemable Perpetual Preferred Stock
+GNPK,Genesis Park Acquisition Corp. Class A Ordinary Shares
+GNRC,Generac Holdlings Inc. 
+GNT,GAMCO Natural Resources Gold & Income Trust
+GNT^A,GAMCO Natural Resources Gold & Income Tust  5.20% Series A Cumulative Preferred Shares (Liquidation Preference $25.00 per share)
+GNW,Genworth Financial Inc 
+GOAC,GO Acquisition Corp. Class A 
+GOF,Guggenheim Strategic Opportunities Fund Common Shares of Beneficial Interest
+GOL,Gol Linhas Aereas Inteligentes S.A. Sponsored ADR representing 2 Pfd Shares
+GOLD,Barrick Gold Corporation  (BC)
+GOLF,Acushnet Holdings Corp. 
+GOOS,Canada Goose Holdings Inc. Subordinate Voting Shares
+GPC,Genuine Parts Company 
+GPI,Group 1 Automotive Inc. 
+GPJA,Georgia Power Company Series 2017A 5.00% Junior Subordinated Notes due October 1 2077
+GPK,Graphic Packaging Holding Company
+GPM,Guggenheim Enhanced Equity Income Fund
+GPMT,Granite Point Mortgage Trust Inc. 
+GPN,Global Payments Inc. 
+GPRK,Geopark Ltd Common Shares
+GPS,Gap Inc. (The) 
+GPX,GP Strategies Corporation 
+GRA,W.R. Grace & Co. 
+GRC,Gorman-Rupp Company (The) 
+GRUB,GrubHub Inc. 
+GRX,The Gabelli Healthcare & Wellness Trust Common Shares of Beneficial Interest
+GS,Goldman Sachs Group Inc. (The) 
+GS^A,Goldman Sachs Group Inc. (The) Depositary Shares each representing 1/1000th Interest in a Share of Floating Rate Non-Cumulative Preferred Stock Series A
+GS^C,Goldman Sachs Group Inc. (The) Depositary Share repstg 1/1000th Preferred Series C
+GS^D,Goldman Sachs Group Inc. (The) Dep Shs repstg 1/1000 Pfd Ser D Fltg
+GS^J,Goldman Sachs Group Inc Depositary Shs Repstg 1/1000th Pfd Ser J Fixed to Fltg Rate
+GS^K,Goldman Sachs Group Inc. (The) Dep Shs Repstg 1/1000 Int Sh Fxd/Fltg Non Cum Pfd Stk Ser K
+GS^N,Goldman Sachs Group Inc. (The) Depositary Shares Each Representing 1/1000th Interest in a Share of 6.30% Non-Cumulative Preferred Stock Series N
+GSAH,GS Acquisition Holdings Corp II Class A 
+GSBD,Goldman Sachs BDC Inc. 
+GSK,GlaxoSmithKline PLC 
+GSL,Global Ship Lease Inc New Class A Common Shares
+GSL^B,Global Ship Lease Inc. Depository Shares Representing 1/100th Perpetual Preferred Series B% (Marshall Island)
+GSLD,Global Ship Lease Inc. 8.00% Senior Notes due 2024
+GSX,GSX Techedu Inc. American Depositary Shares three of which representing two Class A Ordinary Shares
+GTES,Gates Industrial Corporation plc Ordinary Shares
+GTLS,Chart Industries Inc. 
+GTN,Gray Television Inc. 
+GTS,Triple-S Management Corporation Class B 
+GTT,GTT Communications Inc. 
+GTY,Getty Realty Corporation 
+GUT,Gabelli Utility Trust (The) 
+GUT^A,Gabelli Utility Trust (The) 5.625% Series A Cumulative Preferred Shares
+GUT^C,Gabelli Utility Trust (The) 5.375% Series C Cumulative Preferred Shares
+GVA,Granite Construction Incorporated 
+GWB,Great Western Bancorp Inc. 
+GWRE,Guidewire Software Inc. 
+GWW,W.W. Grainger Inc. 
+H,Hyatt Hotels Corporation Class A 
+HAE,Haemonetics Corporation 
+HAL,Halliburton Company 
+HASI,Hannon Armstrong Sustainable Infrastructure Capital Inc. 
+HAYW,Hayward Holdings Inc. 
+HBB,Hamilton Beach Brands Holding Company Class A  
+HBI,Hanesbrands Inc. 
+HBM,Hudbay Minerals Inc. Ordinary Shares (Canada)
+HCA,HCA Healthcare Inc. 
+HCC,Warrior Met Coal Inc. 
+HCHC,HC2 Holdings Inc. 
+HCI,HCI Group Inc. 
+HCXY,Hercules Capital Inc. 6.25% Notes due 2033
+HCXZ,Hercules Capital Inc. 5.25% Notes due 2025
+HD,Home Depot Inc. (The) 
+HDB,HDFC Bank Limited 
+HE,Hawaiian Electric Industries Inc. 
+HEI,Heico Corporation 
+HEI/A,Heico Corporation
+HEP,Holly Energy Partners L.P. 
+HEQ,John Hancock Hedged Equity & Income Fund Common Shares of Beneficial Interest
+HES,Hess Corporation 
+HESM,Hess Midstream LP Class A Share
+HEXO,HEXO Corp. Common Shares
+HFC,HollyFrontier Corporation 
+HFRO,Highland Income Fund
+HFRO^A,Highland Income Fund 5.375% Series A Cumulative Preferred Shares
+HGH,Hartford Financial Services Group Inc. (The) 7.875% Fixed to Floating Rate Junior Subordinated Debentures due 2042
+HGLB,Highland Global Allocation Fund 
+HGV,Hilton Grand Vacations Inc.  
+HHC,Howard Hughes Corporation (The) 
+HI,Hillenbrand Inc 
+HIE,Miller/Howard High Income Equity Fund Common Shares of Beneficial Interest
+HIG,Hartford Financial Services Group Inc. (The) 
+HIG^G,Hartford Financial Services Group Inc. (The) Depositary Shares each representing a 1/1000th interest in a share of 6.000% Non-Cumulative Preferred Stock Series G $0.01 par value
+HIGA,H.I.G. Acquisition Corp. Class A Ordinary Shares
+HII,Huntington Ingalls Industries Inc. 
+HIL,Hill International Inc. 
+HIMS,Hims & Hers Health Inc. Class A 
+HIO,Western Asset High Income Opportunity Fund Inc. 
+HIW,Highwoods Properties Inc. 
+HIX,Western Asset High Income Fund II Inc. 
+HKIB,AMTD International Inc. American Depositary Shares each representing one Class A Ordinary Share
+HL,Hecla Mining Company 
+HL^B,Hecla Mining Company Preferred Stock
+HLF,Herbalife Nutrition Ltd. 
+HLI,Houlihan Lokey Inc. Class A 
+HLT,Hilton Worldwide Holdings Inc.  
+HLX,Helix Energy Solutions Group Inc. 
+HMC,Honda Motor Company Ltd. 
+HMLP,Hoegh LNG Partners LP Common Units representing Limited Partner Interests
+HMLP^A,Hoegh LNG Partners LP 8.75% Series A Cumulative Redeemable Preferred Units
+HMN,Horace Mann Educators Corporation 
+HMY,Harmony Gold Mining Company Limited
+HNGR,Hanger Inc. 
+HNI,HNI Corporation 
+HNP,Huaneng Power Intl 
+HOG,Harley-Davidson Inc. 
+HOME,At Home Group Inc. 
+HON,Honeywell International Inc. 
+HOV,Hovnanian Enterprises Inc. Class A 
+HP,Helmerich & Payne Inc. 
+HPE,Hewlett Packard Enterprise Company 
+HPF,John Hancock Pfd Income Fund II Pfd Income Fund II
+HPI,John Hancock Preferred Income Fund Common Shares of Beneficial Interest
+HPP,Hudson Pacific Properties Inc. 
+HPQ,HP Inc. 
+HPR,HighPoint Resources Corporation 
+HPS,John Hancock Preferred Income Fund III Preferred Income Fund III
+HPX,HPX Corp. Class A Ordinary Shares
+HQH,Tekla Healthcare Investors 
+HQL,TeklaLife Sciences Investors 
+HR,Healthcare Realty Trust Incorporated 
+HRB,H&R Block Inc. 
+HRC,Hill-Rom Holdings Inc 
+HRI,Herc Holdings Inc.  
+HRL,Hormel Foods Corporation 
+HRTG,Heritage Insurance Holdings Inc. 
+HSBC,HSBC Holdings plc. 
+HSC,Harsco Corporation 
+HSY,The Hershey Company 
+HT,Hersha Hospitality Trust Class A Common Shares of Beneficial Interest
+HT^C,Hersha Hospitality Trust 6.875% Series C Cumulative Redeemable Preferred Shares of Beneficial Interest
+HT^D,Hersha Hospitality Trust 6.50% Series D Cumulative Redeemable Preferred Shares of Beneficial Interest $0.01 par value per share
+HT^E,Hersha Hospitality Trust 6.50% Series E Cumulative Redeemable Preferred Shares of Beneficial Interest
+HTA,Healthcare Trust of America Inc. Class A 
+HTD,John Hancock Tax Advantaged Dividend Income Fund Common Shares of Beneficial Interest
+HTFA,Horizon Technology Finance Corporation 6.25% Notes due 2022
+HTGC,Hercules Capital Inc. 
+HTH,Hilltop Holdings Inc.
+HTPA,Highland Transcend Partners I Corp. Class A Ordinary Shares
+HTY,John Hancock Tax-Advantaged Global Shareholder Yield Fund Common Shares of Beneficial Interest
+HUBB,Hubbell Inc 
+HUBS,HubSpot Inc. 
+HUM,Humana Inc. 
+HUN,Huntsman Corporation 
+HUYA,HUYA Inc. American depositary shares each  representing one Class A ordinary share
+HVT,Haverty Furniture Companies Inc. 
+HVT/A,Haverty Furniture Companies Inc.
+HWM,Howmet Aerospace Inc. 
+HXL,Hexcel Corporation 
+HY,Hyster-Yale Materials Handling Inc. Class A 
+HYB,New America High Income Fund Inc. (The) 
+HYI,Western Asset High Yield Defined Opportunity Fund Inc. 
+HYLN,Hyliion Holdings Corp. Class A 
+HYT,Blackrock Corporate High Yield Fund Inc. 
+HZAC,Horizon Acquisition Corporation Class A Ordinary Shares
+HZN,Horizon Global Corporation Common Shares
+HZO,MarineMax Inc.  (FL) 
+HZON,Horizon Acquisition Corporation II Class A Ordinary Shares
+IAA,IAA Inc.  
+IACA,ION Acquisition Corp 1 Ltd. Class A Ordinary Shares
+IAE,Voya Asia Pacific High Dividend Equity Income Fund ING Asia Pacific High Dividend Equity Income Fund Common Shares of Beneficial Interest
+IAG,Iamgold Corporation Ordinary Shares
+IBA,Industrias Bachoco S.A.B. de C.V. 
+IBM,International Business Machines Corporation 
+IBN,ICICI Bank Limited 
+IBP,Installed Building Products Inc. 
+ICD,Independence Contract Drilling Inc. 
+ICE,Intercontinental Exchange Inc. 
+ICL,ICL Group Ltd. Ordinary Shares
+IDA,IDACORP Inc. 
+IDE,Voya Infrastructure Industrials and Materials Fund Common Shares of Beneficial Interest
+IDT,IDT Corporation Class B 
+IEX,IDEX Corporation 
+IFF,Internationa Flavors & Fragrances Inc. 
+IFFT,International Flavors & Fragrances Inc. 6.00% Tangible Equity Units
+IFN,India Fund Inc. (The) 
+IFS,Intercorp Financial Services Inc. Common Shares
+IGA,Voya Global Advantage and Premium Opportunity Fund Common Shares of Beneficial Interest
+IGD,Voya Global Equity Dividend and Premium Opportunity Fund
+IGI,Western Asset Investment Grade Defined Opportunity Trust Inc. 
+IGR,CBRE Clarion Global Real Estate Income Fund 
+IGT,International Game Technology Ordinary Shares
+IH,iHuman Inc. American depositary shares each representing five Class A ordinary shares
+IHC,Independence Holding Company 
+IHD,Voya Emerging Markets High Income Dividend Equity Fund Common Shares
+IHG,Intercontinental Hotels Group American Depositary Shares (Each representing one Ordinary Share)
+IHIT,Invesco High Income 2023 Target Term Fund Common Shares of Beneficial Interest
+IHTA,Invesco High Income 2024 Target Term Fund Common Shares of Beneficial Interest No par value per share
+IIAC,Investindustrial Acquisition Corp. Class A Ordinary Shares
+IID,Voya International High Dividend Equity Income Fund Common Shares of Beneficial Interest
+IIF,Morgan Stanley India Investment Fund Inc. 
+IIIN,Insteel Industries Inc. 
+IIM,Invesco Value Municipal Income Trust 
+IIPR,Innovative Industrial Properties Inc. 
+IIPR^A,Innovative Industrial Properties Inc. 9.00% Series A Cumulative Redeemable Preferred Stock
+IMAX,Imax Corporation 
+IMPX,AEA-Bridges Impact Corp. Class A Ordinary Shares
+INFO,IHS Markit Ltd. Common Shares
+INFY,Infosys Limited American Depositary Shares
+ING,ING Group N.V. 
+INGR,Ingredion Incorporated 
+INN,Summit Hotel Properties Inc. 
+INN^D,Summit Hotel Properties Inc. 6.45% Series D Cumulative Redeemable Preferred Stock
+INN^E,Summit Hotel Properties Inc. 6.250% Series E Cumulative Redeemable Preferred Stock
+INSI,Insight Select Income Fund
+INSP,Inspire Medical Systems Inc. 
+INSW,International Seaways Inc.  
+INSW^A,International Seaways Inc. 8.50% Senior Notes due June 30 2023
+INT,World Fuel Services Corporation 
+INVH,Invitation Homes Inc. 
+IO,Ion Geophysical Corporation 
+IP,International Paper Company 
+IPG,Interpublic Group of Companies Inc. (The) 
+IPI,Intrepid Potash Inc 
+IPOD,Social Capital Hedosophia Holdings Corp. IV Class A Ordinary Shares
+IPOE,Social Capital Hedosophia Holdings Corp. V Class A Ordinary Shares
+IPOF,Social Capital Hedosophia Holdings Corp. VI Class A Ordinary Shares
+IQI,Invesco Quality Municipal Income Trust 
+IQV,IQVIA Holdings Inc. 
+IR,Ingersoll Rand Inc. 
+IRL,New Ireland Fund Inc (The) 
+IRM,Iron Mountain Incorporated (Delaware) REIT
+IRR,Voya Natural Resources Equity Income Fund Common Shares of Beneficial Interest
+IRS,IRSA Inversiones Y Representaciones S.A. 
+IRT,Independence Realty Trust Inc. 
+ISD,PGIM High Yield Bond Fund Inc.
+IT,Gartner Inc. 
+ITCB,Itau CorpBanca American Depositary Shares (each representing 1500 shares of  no par value)
+ITGR,Integer Holdings Corporation 
+ITT,ITT Inc.  
+ITUB,Itau Unibanco Banco Holding SA American Depositary Shares (Each repstg 500 Preferred shares)
+ITW,Illinois Tool Works Inc. 
+IVAN,Ivanhoe Capital Acquisition Corp. Class A Ordinary Shares
+IVC,Invacare Corporation 
+IVH,Ivy High Income Opportunities Fund Common Shares of Beneficial Interest
+IVR,INVESCO MORTGAGE CAPITAL INC 
+IVR^A,Invesco Mortgage Capital Inc. Pfd Ser A
+IVR^B,Invesco Mortgage Capital Inc. Preferred Series B Cum Fxd to Fltg
+IVR^C,INVESCO MORTGAGE CAPITAL INC 7.5% Fixed-to-Floating Series C Cumulative Redeemable Preferred Stock Liquation Preference $25.00 per Share
+IVZ,Invesco Ltd 
+IX,Orix Corp Ads 
+J,Jacobs Engineering Group Inc. 
+JAX,J. Alexander's Holdings Inc. 
+JBGS,JBG SMITH Properties Common Shares 
+JBK,Lehman ABS 3.50 3.50% Adjustable Corp Backed Tr Certs GS Cap I
+JBL,Jabil Inc. 
+JBT,John Bean Technologies Corporation 
+JCE,Nuveen Core Equity Alpha Fund Nuveen Core Equity Alpha Fund Common Shares of Beneficial Interest
+JCI,Johnson Controls International plc Ordinary Share
+JCO,Nuveen Credit Opportunities 2022 Target Term Fund Common Shares of Beneficial Interest
+JDD,Nuveen Diversified Dividend and Income Fund Shares of Beneficial Interest
+JE,Just Energy Group Inc. Ordinary Shares (Canada)
+JEF,Jefferies Financial Group Inc. 
+JELD,JELD-WEN Holding Inc. 
+JEMD,Nuveen Emerging Markets Debt 2022 Target Term Fund Common Shares of Beneficial Interest $0.01 par value per share
+JEQ,Aberdeen Japan Equity Fund Inc.  
+JFR,Nuveen Floating Rate Income Fund 
+JGH,Nuveen Global High Income Fund Common Shares of Beneficial Interest
+JHAA,Nuveen Corporate Income 2023 Target Term Fund
+JHB,Nuveen Corporate Income November 2021 Target Term Fund
+JHG,Janus Henderson Group plc Ordinary Shares
+JHI,John Hancock Investors Trust 
+JHS,John Hancock Income Securities Trust 
+JHX,James Hardie Industries plc American Depositary Shares (Ireland)
+JIH,Juniper Industrial Holdings Inc. Class A 
+JILL,J. Jill Inc. 
+JKS,JinkoSolar Holding Company Limited American Depositary Shares (each representing 4 Common Shares)
+JLL,Jones Lang LaSalle Incorporated 
+JLS,Nuveen Mortgage and Income Fund
+JMIA,Jumia Technologies AG American Depositary Shares each representing two Ordinary Shares
+JMM,Nuveen Multi-Market Income Fund (MA)
+JMP,JMP Group LLC Common Shares
+JNJ,Johnson & Johnson 
+JNPR,Juniper Networks Inc. 
+JOE,St. Joe Company (The) 
+JOF,Japan Smaller Capitalization Fund Inc 
+JP,Jupai Holdings Limited American Depositary Shares each representing six ordinary shares
+JPC,Nuveen Preferred & Income Opportunities Fund
+JPI,Nuveen Preferred and Income Term Fund Common Shares of Beneficial Interest
+JPM,JP Morgan Chase & Co. 
+JPM^C,J P Morgan Chase & Co Depositary Shares each representing a 1/400th interest in a share of 6.00% Non-Cumulative  Preferred Stock Series EE
+JPM^D,J P Morgan Chase & Co Depositary Shares each representing a 1/400th  interest in a share of 5.75% Non-Cumulative  Preferred Stock Series DD
+JPM^G,J P Morgan Chase & Co Depositary Shares each representing a 1/400th interest in a share of 6.10% Non-Cumulative Preferred Stock Series AA
+JPM^H,J P Morgan Chase & Co Depositary Shares each representing a 1/400th interest in a share of 6.15% Non-Cumulative Preferred Stock Series BB
+JPM^J,J P Morgan Chase & Co Depositary Shares each representing a 1/400th interest in a share of JPMorgan Chase & Co. 4.75% Non-Cumulative Preferred Stock Series GG
+JPS,Nuveen Preferred & Income Securities Fund
+JPT,Nuveen Preferred and Income 2022 Term Fund Common Shares of Beneficial Interest
+JQC,Nuveen Credit Strategies Income Fund Shares of Beneficial Interest
+JRI,Nuveen Real Asset Income and Growth Fund Common Shares of Beneficial Interest
+JRO,Nuveen Floating Rate Income Opportuntiy Fund Shares of Beneficial Interest
+JRS,Nuveen Real Estate Income Fund Common Shares of Beneficial Interest
+JSD,Nuveen Short Duration Credit Opportunities Fund Common Shares of Beneficial Interest
+JT,Jianpu Technology Inc. American depositary shares
+JTA,Nuveen Tax-Advantaged Total Return Strategy Fund Common Share of Beneficial Interest
+JTD,Nuveen Tax-Advantaged Dividend Growth Fund Common Shares of Beneficial Interest
+JW/A,John Wiley & Sons Inc.
+JW/B,John Wiley & Sons Inc.
+JWN,Nordstrom Inc. 
+JWS,Jaws Acquisition Corp. Class A Ordinary Shares
+K,Kellogg Company 
+KAI,Kadant Inc 
+KAMN,Kaman Corporation 
+KAR,KAR Auction Services Inc 
+KB,KB Financial Group Inc
+KBH,KB Home 
+KBR,KBR Inc. 
+KEN,Kenon Holdings Ltd. Ordinary Shares
+KEP,Korea Electric Power Corporation 
+KEX,Kirby Corporation 
+KEY,KeyCorp 
+KEY^I,KeyCorp Depositary Shares Each Representing a 1/40th Ownership Interest in a Share of Fixed-to-Floating Rate Perpetual Non-Cumulative Preferred Stock Series E
+KEY^J,KeyCorp Depositary Shares each representing a 1/40th ownership interest in a share of Fixed Rate Perpetual Non-Cumulative Preferred Stock Series F
+KEY^K,KeyCorp Depositary Shares each representing a 1/40th ownership interest in a share of Fixed Rate Perpetual Non-Cumulative Preferred Stock Series G
+KEYS,Keysight Technologies Inc. 
+KF,Korea Fund Inc. (The) New 
+KFS,Kingsway Financial Services Inc.  (DE)
+KFY,Korn Ferry 
+KGC,Kinross Gold Corporation 
+KIM,Kimco Realty Corporation 
+KIM^L,Kimco Realty Corporation Class L Depositary Shares each of which represents a one-one thousandth fractional interest in a share of 5.125% Class L Cumulative Redeemable Preferred Stock liquidation preference $25000.00 per share
+KIM^M,Kimco Realty Corporation Class M Depositary Shares each of which represents a one-one thousandth fractional interest in a share of 5.25% Class M Cumulative Redeemable Preferred Stock liquidation preference $25000.00 per share
+KIO,KKR Income Opportunities Fund Common Shares
+KKR,KKR & Co. Inc. 
+KKR^A,KKR & Co. Inc. 6.75% Series A Preferred Stock
+KKR^B,KKR & Co. Inc. 6.50% Series B Preferred Stock
+KKR^C,KKR & Co. Inc. 6.00% Series C Mandatory Convertible Preferred Stock
+KL,Kirkland Lake Gold Ltd. Common Shares
+KMB,Kimberly-Clark Corporation 
+KMF,Kayne Anderson NextGen Energy & Infrastructure Inc.
+KMI,Kinder Morgan Inc. 
+KMPR,Kemper Corporation
+KMT,Kennametal Inc. 
+KMX,CarMax Inc
+KN,Knowles Corporation 
+KNL,Knoll Inc. 
+KNOP,KNOT Offshore Partners LP Common Units representing Limited Partner Interests
+KNX,Knight-Swift Transportation Holdings Inc.
+KO,Coca-Cola Company (The) 
+KODK,Eastman Kodak Company Common New
+KOF,Coca Cola Femsa S.A.B. de C.V.  American Depositary Shares each representing 10 Units (each Unit consists of 3 Series B Shares and 5 Series L Shares)
+KOP,Koppers Holdings Inc. Koppers Holdings Inc. 
+KOS,Kosmos Energy Ltd. Common Shares (DE)
+KR,Kroger Company (The) 
+KRA,Kraton Corporation 
+KRC,Kilroy Realty Corporation 
+KREF,KKR Real Estate Finance Trust Inc. 
+KRG,Kite Realty Group Trust 
+KRO,Kronos Worldwide Inc 
+KRP,Kimbell Royalty Partners Common Units Representing Limited Partner Interests
+KSM,DWS Strategic Municipal Income Trust
+KSS,Kohl's Corporation 
+KSU,Kansas City Southern 
+KSU^,Kansas City Southern Preferred Stock
+KT,KT Corporation 
+KTB,Kontoor Brands Inc.  
+KTF,DWS Municipal Income Trust
+KTH,Structures Products Cp 8% CorTS Issued by Peco Energy Cap Tr II Preferred Stock
+KTN,Structured Products Corp 8.205% CorTS 8.205% Corporate Backed Trust Securities (CorTS)
+KUKE,Kuke Music Holding Limited American Depositary Shares each representing one Ordinary Share
+KW,Kennedy-Wilson Holdings Inc. 
+KWAC,Kingswood Acquisition Corp. Class A 
+KWR,Quaker Chemical Corporation 
+KYN,Kayne Anderson Energy Infrastructure Fund Inc.
+L,Loews Corporation 
+LAC,Lithium Americas Corp. Common Shares
+LAD,Lithia Motors Inc. 
+LADR,Ladder Capital Corp Class A 
+LAIX,LAIX Inc. American Depositary Shares each  representing one Class A Ordinary Share
+LAZ,Lazard LTD. Lazard LTD. Class A 
+LB,L Brands Inc.
+LBRT,Liberty Oilfield Services Inc. Class A 
+LC,LendingClub Corporation 
+LCI,Lannett Co Inc 
+LCII,LCI Industries
+LDI,loanDepot Inc. Class A 
+LDL,Lydall Inc. 
+LDOS,Leidos Holdings Inc. 
+LDP,Cohen & Steers Limited Duration Preferred and Income Fund Inc.
+LEA,Lear Corporation 
+LEAF,Leaf Group Ltd. 
+LEAP,Ribbit LEAP Ltd. Class A Ordinary Shares
+LEE,Lee Enterprises Incorporated 
+LEG,Leggett & Platt Incorporated 
+LEJU,Leju Holdings Limited American Depositary Shares each representing one Ordinary share
+LEN,Lennar Corporation Class A 
+LEO,BNY Mellon Strategic Municipals Inc. 
+LEVI,Levi Strauss & Co Class A 
+LFC,China Life Insurance Company Limited American Depositary Shares
+LFT,Lument Finance Trust Inc. 
+LGI,Lazard Global Total Return and Income Fund 
+LH,Laboratory Corporation of America Holdings 
+LHC,Leo Holdings Corp. II Class A Ordinary Shares
+LHX,L3Harris Technologies Inc. 
+LII,Lennox International Inc. 
+LIN,Linde plc Ordinary Share
+LINX,Linx S.A. American Depositary Shares each representing one common share
+LITB,LightInTheBox Holding Co. Ltd. American Depositary Shares each representing 2 ordinary shares
+LL,Lumber Liquidators Holdings Inc 
+LLY,Eli Lilly and Company 
+LMND,Lemonade Inc. 
+LMT,Lockheed Martin Corporation 
+LNC,Lincoln National Corporation 
+LND,Brasilagro Brazilian Agric Real Estate Co Sponsored ADR (Brazil)
+LNFA,L&amp;F Acquisition Corp. Class A Ordinary Shares
+LNN,Lindsay Corporation 
+LOKB,Live Oak Acquisition Corp. II Class A 
+LOMA,Loma Negra Compania Industrial Argentina Sociedad Anonima ADS
+LOW,Lowe's Companies Inc. 
+LPG,Dorian LPG Ltd. 
+LPI,Laredo Petroleum Inc. 
+LPL,LG Display Co Ltd AMERICAN DEPOSITORY SHARES
+LPX,Louisiana-Pacific Corporation 
+LRN,Stride Inc. 
+LSI,Life Storage Inc. 
+LSPD,Lightspeed POS Inc. Subordinate Voting Shares
+LTC,LTC Properties Inc. 
+LTHM,Livent Corporation 
+LU,Lufax Holding Ltd American Depositary Shares two of which representing one Ordinary Share
+LUB,Luby's Inc. 
+LUMN,Lumen Technologies Inc. 
+LUV,Southwest Airlines Company 
+LVS,Las Vegas Sands Corp. 
+LW,Lamb Weston Holdings Inc.  
+LXP,Lexington Realty Trust 
+LXP^C,Lexington Realty Trust  Preferred Conv. Series C
+LXU,LSB Industries Inc. 
+LYB,LyondellBasell Industries NV Ordinary Shares Class A (Netherlands)
+LYG,Lloyds Banking Group Plc American Depositary Shares
+LYV,Live Nation Entertainment Inc. 
+LZB,La-Z-Boy Incorporated 
+M,Macy's Inc 
+MA,Mastercard Incorporated 
+MAA,Mid-America Apartment Communities Inc. 
+MAA^I,Mid-America Apartment Communities Inc. 8.50% Series I Cumulative Redeemable Preferred Stock
+MAC,Macerich Company (The) 
+MAIN,Main Street Capital Corporation 
+MAN,ManpowerGroup 
+MANU,Manchester United Ltd. Class A Ordinary Shares
+MAS,Masco Corporation 
+MATX,Matson Inc. 
+MAV,Pioneer Municipal High Income Advantage Trust Common Shares of Beneficial Interest
+MAX,MediaAlpha Inc. Class A 
+MAXR,Maxar Technologies Inc.
+MBI,MBIA Inc. 
+MBT,Mobile TeleSystems PJSC
+MC,Moelis & Company Class A 
+MCA,Blackrock MuniYield California Quality Fund Inc. 
+MCB,Metropolitan Bank Holding Corp. 
+MCD,McDonald's Corporation 
+MCI,Barings Corporate Investors 
+MCK,McKesson Corporation 
+MCN,Madison Covered Call & Equity Strategy Fund 
+MCO,Moody's Corporation 
+MCR,MFS Charter Income Trust 
+MCS,Marcus Corporation (The) 
+MCY,Mercury General Corporation 
+MD,Mednax Inc. 
+MDC,M.D.C. Holdings Inc. 
+MDLA,Medallia Inc. 
+MDLQ,Medley LLC 7.25% Notes due 2024
+MDLX,Medley LLC 6.875% Senior Notes due 2026
+MDLY,Medley Management Inc. Class A 
+MDP,Meredith Corporation 
+MDT,Medtronic plc. Ordinary Shares
+MDU,MDU Resources Group Inc.  (Holding Company)
+MEC,Mayville Engineering Company Inc. 
+MED,MEDIFAST INC 
+MEG,Montrose Environmental Group Inc. 
+MEI,Methode Electronics Inc. 
+MEN,Blackrock MuniEnhanced Fund Inc 
+MER^K,Bank of America Corporation Income Capital Obligation Notes initially due December 15 2066
+MET,MetLife Inc. 
+MET^A,MetLife Inc. Preferred Series A Floating Rate
+MET^E,MetLife Inc. Depositary shares each representing a 1/1000th interest in a share of the Issuera??s 5.625% Non-Cumulative Preferred Stock Series E.
+MET^F,MetLife Inc. Depositary Shares each representing a 1/1000th interest in a share of 4.75% Non-Cumulative Preferred Stock Series F
+MFA,MFA Financial Inc.
+MFA^B,MFA Financial Inc. Preferred Series B
+MFA^C,MFA Financial Inc. 6.50% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+MFC,Manulife Financial Corporation 
+MFD,Macquarie First Trust Global 
+MFG,Mizuho Financial Group Inc. Sponosred ADR (Japan)
+MFGP,Micro Focus Intl PLC ADS each representing One Ord Sh
+MFL,Blackrock MuniHoldings Investment Quality Fund Common Shares of Beneficial Interest
+MFM,MFS Municipal Income Trust 
+MFT,Blackrock MuniYield Investment Quality Fund Common Shares of Beneficial Interest
+MFV,MFS Special Value Trust 
+MG,Mistras Group Inc 
+MGA,Magna International Inc. 
+MGF,MFS Government Markets Income Trust 
+MGM,MGM Resorts International 
+MGP,MGM Growth Properties LLC Class A common shares representing limited liability company interests
+MGR,Affiliated Managers Group Inc. 5.875% Junior Subordinated Notes due 2059
+MGRB,Affiliated Managers Group Inc. 4.750% Junior Subordinated Notes due 2060
+MGU,Macquarie Global Infrastructure Total Return Fund Inc. 
+MGY,Magnolia Oil & Gas Corporation Class A 
+MH^A,Maiden Holdings Ltd. Pref Shs Ser A (Bermuda)
+MH^C,Maiden Holdings North America Ltd. 7.125% Non-Cumulative Preference Shares Series C
+MH^D,Maiden Holdings Ltd. 6.700% Non-Cumulative Preference Shares Series D
+MHD,Blackrock MuniHoldings Fund Inc. 
+MHE,BlackRock Massachusetts Tax-Exempt Trust
+MHF,Western Asset Municipal High Income Fund Inc. 
+MHI,Pioneer Municipal High Income Trust Common Shares of Beneficial Interest
+MHK,Mohawk Industries Inc. 
+MHLA,Maiden Holdings Ltd. 6.625% Notes due 2046
+MHN,Blackrock MuniHoldings New York Quality Fund Inc. 
+MHNC,Maiden Holdings North America Ltd. 7.75% Notes due 2043
+MHO,M/I Homes Inc. 
+MIC,Macquarie Infrastructure Corporation 
+MIE,Cohen & Steers MLP Income and Energy Opportunity Fund Inc. 
+MIN,MFS Intermediate Income Trust 
+MITT,AG Mortgage Investment Trust Inc. 
+MITT^A,AG Mortgage Investment Trust Inc. 8.25% Preferred Series A
+MITT^B,AG Mortgage Investment Trust Inc. Preferred Series B
+MITT^C,AG Mortgage Investment Trust Inc. 8.00% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock $0.01 par value per share
+MIXT,MiX Telematics Limited American Depositary Shares each representing 25 Ordinary Shares
+MIY,Blackrock MuniYield Michigan Quality Fund Inc. 
+MKC,McCormick & Company Incorporated 
+MKL,Markel Corporation 
+MLI,Mueller Industries Inc. 
+MLM,Martin Marietta Materials Inc. 
+MLP,Maui Land & Pineapple Company Inc. 
+MLR,Miller Industries Inc. 
+MMC,Marsh & McLennan Companies Inc. 
+MMD,MainStay MacKay DefinedTerm Municipal Opportunities Fund
+MMI,Marcus & Millichap Inc. 
+MMM,3M Company 
+MMP,Magellan Midstream Partners L.P. Limited Partnership
+MMS,Maximus Inc. 
+MMT,MFS Multimarket Income Trust 
+MMU,Western Asset Managed Municipals Fund Inc. 
+MN,Manning & Napier Inc. Class A 
+MNP,Western Asset Municipal Partners Fund Inc. 
+MNR,Monmouth Real Estate Investment Corporation Class A 
+MNR^C,Monmouth Real Estate Investment Corporation 6.125% Series C Cumulative Redeemable Preferred Stock
+MNRL,Brigham Minerals Inc. Class A 
+MNSO,MINISO Group Holding Limited American Depositary Shares each representing four Class A Ordinary Shares
+MO,Altria Group Inc.
+MOD,Modine Manufacturing Company 
+MODN,Model N Inc. 
+MOGU,MOGU Inc. American Depositary Shares (each  representing 25 Class A Ordinary Shares)
+MOH,Molina Healthcare Inc 
+MOS,Mosaic Company (The) 
+MOTV,Motive Capital Corp Class A Ordinary Shares
+MOV,Movado Group Inc. 
+MP,MP Materials Corp. 
+MPA,Blackrock MuniYield Pennsylvania Quality Fund 
+MPC,Marathon Petroleum Corporation 
+MPLN,MultiPlan Corporation Class A 
+MPLX,MPLX LP Common Units Representing Limited Partner Interests
+MPV,Barings Participation Investors 
+MPW,Medical Properties Trust Inc. 
+MPX,Marine Products Corporation 
+MQT,Blackrock MuniYield Quality Fund II Inc. 
+MQY,Blackrock MuniYield Quality Fund Inc. 
+MRC,MRC Global Inc. 
+MRK,Merck & Company Inc.  (new)
+MRO,Marathon Oil Corporation 
+MS,Morgan Stanley 
+MS^A,Morgan Stanley Dep Shs repstg 1/1000 Pfd Ser A
+MS^E,Morgan Stanley DEPOSITARY SHARES REP 1/1000TH SHARES FIXED/FLTG PREFERRED STOCK SERIES E
+MS^F,Morgan Stanley Dep Shs Rpstg 1/1000th Int Prd Ser F Fxd to Flag
+MS^I,Morgan Stanley Depository Shares Representing 1/1000th Preferred Series 1 Fixed to Floating Non (Cum)
+MS^K,Morgan Stanley Depositary Shares each representing 1/1000th of a share of Fixed-to-Floating Rate Non-Cumulative Preferred Stock  Series K
+MS^L,Morgan Stanley Depositary Shares each representing 1/1000th of a share of 4.875% Non-Cumulative Preferred Stock Series L
+MSA,MSA Safety Incorporated 
+MSB,Mesabi Trust 
+MSC,Studio City International Holdings Limited American depositary shares each representing four  Class A ordinary shares
+MSCI,MSCI Inc 
+MSD,Morgan Stanley Emerging Markets Debt Fund Inc. 
+MSGE,Madison Square Garden Entertainment Corp. Class A  
+MSGN,MSG Networks Inc. 
+MSGS,Madison Square Garden Sports Corp. Class A  (New)
+MSI,Motorola Solutions Inc. 
+MSM,MSC Industrial Direct Company Inc. 
+MSP,Datto Holding Corp. 
+MT,Arcelor Mittal NY Registry Shares NEW
+MTB,M&T Bank Corporation 
+MTCN,ArcelorMittal 5.50% Mandatorily Convertible Subordinated Notes due 2023
+MTD,Mettler-Toledo International Inc. 
+MTDR,Matador Resources Company 
+MTG,MGIC Investment Corporation 
+MTH,Meritage Homes Corporation 
+MTL,Mechel PAO American Depositary Shares (Each rep. 1 common shares)
+MTL^,Mechel PAO American Depositary Shares (each representing one-half of a Preferred Share)
+MTN,Vail Resorts Inc. 
+MTOR,Meritor Inc. 
+MTR,Mesa Royalty Trust 
+MTRN,Materion Corporation
+MTT,Western Asset Municipal Defined Opportunity Trust Inc 
+MTW,Manitowoc Company Inc. (The) 
+MTX,Minerals Technologies Inc. 
+MTZ,MasTec Inc. 
+MUA,Blackrock MuniAssets Fund Inc 
+MUC,Blackrock MuniHoldings California Quality Fund Inc.  
+MUE,Blackrock MuniHoldings Quality Fund II Inc. 
+MUFG,Mitsubishi UFJ Financial Group Inc. 
+MUI,Blackrock Muni Intermediate Duration Fund Inc 
+MUJ,Blackrock MuniHoldings New Jersey Quality Fund Inc. 
+MUR,Murphy Oil Corporation 
+MUSA,Murphy USA Inc. 
+MUX,McEwen Mining Inc. 
+MVF,Blackrock MuniVest Fund Inc. 
+MVO,MV Oil Trust Units of Beneficial Interests
+MVT,Blackrock MuniVest Fund II Inc.  
+MWA,MUELLER WATER PRODUCTS 
+MX,Magnachip Semiconductor Corporation 
+MXE,Mexico Equity and Income Fund Inc. (The) 
+MXF,Mexico Fund Inc. (The) 
+MXL,MaxLinear Inc. 
+MYC,Blackrock MuniYield California Fund Inc. 
+MYD,Blackrock MuniYield Fund Inc.  
+MYE,Myers Industries Inc. 
+MYF,Blackrock MuniYield Investment Fund 
+MYI,Blackrock MuniYield Quality Fund III Inc 
+MYJ,Blackrock MuniYield New Jersey Fund Inc 
+MYN,Blackrock MuniYield New York Quality Fund Inc.
+MYOV,Myovant Sciences Ltd. Common Shares
+MYTE,MYT Netherlands Parent B.V. American Depositary Shares each representing one Ordinary Share
+MZA,Blackrock MuniYield Arizona Fund Inc. 
+NAC,Nuveen California Quality Municipal Income Fund
+NAD,Nuveen Quality Municipal Income Fund 
+NAN,Nuveen New York Quality Municipal Income Fund 
+NAT,Nordic American Tankers Limited 
+NAV,Navistar International Corporation 
+NAZ,Nuveen Arizona Quality Municipal Income Fund 
+NBB,Nuveen Taxable Municipal Income Fund Common Shares of Beneficial Interest
+NBHC,National Bank Holdings Corporation 
+NBR,Nabors Industries Ltd.
+NBR^A,Nabors Industries Ltd. 6.00% Mandatory Convertible Preferred Shares Series A
+NC,NACCO Industries Inc. 
+NCA,Nuveen California Municipal Value Fund
+NCLH,Norwegian Cruise Line Holdings Ltd. Ordinary Shares
+NCR,NCR Corporation 
+NCV,Virtus AllianzGI Convertible & Income Fund Common Shares of Beneficial Interest
+NCV^A,Virtus AllianzGI Convertible & Income Fund 5.625% Series A Cumulative Preferred Shares
+NCZ,Virtus AllianzGI Convertible & Income Fund II Common Shares of Beneficial Interest
+NCZ^A,Virtus AllianzGI Convertible & Income Fund II 5.50% Series A Cumulative Preferred Shares
+NDMO,Nuveen Dynamic Municipal Opportunities Fund Common Shares of Beneficial Interest
+NDP,Tortoise Energy Independence Fund Inc. 
+NEA,Nuveen AMT-Free Quality Municipal Income Fund Common Shares of Beneficial Interest Par Value $.01
+NEE,NextEra Energy Inc. 
+NEE^K,NextEra Energy Inc. Series K Junior Subordinated Debentures due June 1 2076
+NEE^N,NextEra Energy Inc. Series N Junior Subordinated Debentures due March 1 2079
+NEE^O,NextEra Energy Inc. 4.872% Corporate Units
+NEE^P,NextEra Energy Inc. 5.279% Corporate Units
+NEE^Q,NextEra Energy Inc. 6.219% Corporate Units
+NEM,Newmont Corporation
+NEP,NextEra Energy Partners LP Common Units representing limited partner interests
+NET,Cloudflare Inc. Class A 
+NETI,Eneti Inc. 
+NEU,NewMarket Corp 
+NEV,Nuveen Enhanced Municipal Value Fund Common Shares of Beneficial Interest
+NEW,Puxin Limited American Depositary Shares each representing two Ordinary Shares
+NEWR,New Relic Inc. 
+NEX,NexTier Oilfield Solutions Inc. 
+NEXA,Nexa Resources S.A. Common Shares
+NFG,National Fuel Gas Company 
+NFH,New Frontier Health Corporation Ordinary Shares
+NFJ,Virtus Dividend Interest & Premium Strategy Fund Common Shares of Beneficial Interest
+NGA,Northern Genesis Acquisition Corp. 
+NGAB,Northern Genesis Acquisition Corp. II 
+NGG,National Grid Transco PLC National Grid PLC (NEW) American Depositary Shares
+NGL,NGL ENERGY PARTNERS LP Common Units representing Limited Partner Interests
+NGL^B,NGL ENERGY PARTNERS LP 9.00% Class B Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units representing limited partnership interests
+NGL^C,NGL ENERGY PARTNERS LP 9.625% Class C Fixed-to-Floating Rate Cumulative  Redeemable Perpetual Preferred Units representing  limited partner interests
+NGS,Natural Gas Services Group Inc. 
+NGVC,Natural Grocers by Vitamin Cottage Inc. 
+NGVT,Ingevity Corporation  
+NHF,NexPoint Strategic Opportunities Fund
+NHF^A,NexPoint Strategic Opportunities Fund 5.50% Series A Cumulative Preferred Shares
+NHI,National Health Investors Inc. 
+NI,NiSource Inc 
+NI^B,NiSource Inc Depositary Shares representing 1/1000th ownership interest in a share of 6.50% Series B Preferred Stock and 1/1000th ownership interest in a share of Series B-1 Preferred Stock
+NID,Nuveen Intermediate Duration Municipal Term Fund Common Shares of Beneficial Interest
+NIE,Virtus AllianzGI Equity & Convertible Income Fund Common Shares of Beneficial Interest
+NIM,Nuveen Select Maturities Municipal Fund 
+NINE,Nine Energy Service Inc. 
+NIO,NIO Inc. American depositary shares each  representing one Class A ordinary share
+NIQ,Nuveenn Intermediate Duration Quality Municipal Term Fund Common Shares of Beneficial Interest
+NJR,NewJersey Resources Corporation 
+NKE,Nike Inc. 
+NKG,Nuveen Georgia Quality Municipal Income Fund 
+NKX,Nuveen California AMT-Free Quality Municipal Income Fund
+NL,NL Industries Inc. 
+NLS,Nautilus Inc. 
+NLSN,Nielsen N.V. Ordinary Shares
+NLY,Annaly Capital Management Inc 
+NLY^F,Annaly Capital Management Inc 6.95% Series F
+NLY^G,Annaly Capital Management Inc 6.50% Series G Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+NLY^I,Annaly Capital Management Inc 6.750% Series I Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+NM,Navios Maritime Holdings Inc. 
+NM^G,Navios Maritime Holdings Inc. Sponsored ADR Representing 1/100th Perpetual Preferred Series G (Marshall Islands)
+NM^H,Navios Maritime Holdings Inc. Sponsored ADR Representing 1/100th Perp. Preferred Series H%
+NMCO,Nuveen Municipal Credit Opportunities Fund Common Shares
+NMI,Nuveen Municipal Income Fund Inc. 
+NMK^B,Niagara Mohawk Holdings Inc. Preferred Stock
+NMK^C,Niagara Mohawk Holdings Inc. Preferred Stock
+NMM,Navios Maritime Partners LP Common Units Representing Limited Partner Interests
+NMR,Nomura Holdings Inc ADR American Depositary Shares
+NMS,Nuveen Minnesota Quality Municipal Income Fund 
+NMT,Nuveen Massachusetts Quality Municipal Income Fund 
+NMY,Nuveen Maryland Quality Municipal Income Fund 
+NMZ,Nuveen Municipal High Income Opportunity Fund  $0.01 par value per share
+NNA,Navios Maritime Acquisition Corporation 
+NNI,Nelnet Inc. 
+NNN,National Retail Properties 
+NNN^F,National Retail Properties Depositary Shares each representing a 1/100th interest in a share of 5.20% Series F Cumulative Redeemable Preferred Stock
+NNY,Nuveen New York Municipal Value Fund Inc. 
+NOA,North American Construction Group Ltd. Common Shares (no par)
+NOAH,Noah Holdings Limited
+NOC,Northrop Grumman Corporation 
+NOK,Nokia Corporation Sponsored American Depositary Shares
+NOM,Nuveen Missouri Quality Municipal Income Fund 
+NOMD,Nomad Foods Limited Ordinary Shares
+NOV,NOV Inc. 
+NOVA,Sunnova Energy International Inc. 
+NOW,ServiceNow Inc. 
+NP,Neenah Inc. 
+NPK,National Presto Industries Inc. 
+NPO,EnPro Industries Inc
+NPTN,NeoPhotonics Corporation 
+NPV,Nuveen Virginia Quality Municipal Income Fund 
+NQP,Nuveen Pennsylvania Quality Municipal Income Fund 
+NR,Newpark Resources Inc. 
+NREF,NexPoint Real Estate Finance Inc. 
+NREF^A,NexPoint Real Estate Finance Inc. 8.50% Series A Cumulative Redeemable Preferred Stock
+NRG,NRG Energy Inc. 
+NRGX,PIMCO Energy and Tactical Credit Opportunities Fund Common Shares of Beneficial Interest
+NRK,Nuveen New York AMT-Free Quality Municipal Income Fund 
+NRP,Natural Resource Partners LP Limited Partnership
+NRT,North European Oil Royality Trust 
+NRUC,National Rural Utilities Cooperative Finance Corporation 5.500% Subordinated Notes due 2064 (Subordinated Deferrable Interest Notes)
+NRZ,New Residential Investment Corp. 
+NRZ^A,New Residential Investment Corp. 7.50% Series A Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+NRZ^B,New Residential Investment Corp. 7.125% Series B Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+NRZ^C,New Residential Investment Corp. 6.375% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+NS,Nustar Energy L.P.  Common Units
+NS^A,Nustar Energy L.P. 8.50% Series A Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units
+NS^B,Nustar Energy L.P. 7.625% Series B Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units representing limited partner interests
+NS^C,Nustar Energy L.P. 9.00% Series C Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units
+NSA,National Storage Affiliates Trust Common Shares of Beneficial Interest
+NSA^A,National Storage Affiliates Trust 6.000% Series A Cumulative Redeemable Preferred Shares of Beneficial Interest (Liquidation Preference $25.00 per share)
+NSC,Norfolk Southern Corporation 
+NSCO,Nesco Holdings Inc. 
+NSH,NavSight Holdings Inc. Class A 
+NSL,Nuveen Senior Income Fund 
+NSP,Insperity Inc. 
+NSS,NuStar Logistics L.P. 7.625% Fixed-to-Floating Rate Subordinated Notes due 2043
+NSTB,Northern Star Investment Corp. II Class A 
+NTB,Bank of N.T. Butterfield & Son Limited (The) Voting Ordinary Shares
+NTCO,Natura &Co Holding S.A. American Depositary Shares 
+NTG,Tortoise Midstream Energy Fund Inc. 
+NTP,Nam Tai Property Inc. 
+NTR,Nutrien Ltd. Common Shares
+NTST,NetSTREIT Corp. 
+NTZ,Natuzzi S.p.A.
+NUE,Nucor Corporation 
+NUO,Nuveen Ohio Quality Municipal Income Fund 
+NUS,Nu Skin Enterprises Inc. 
+NUV,Nuveen Municipal Value Fund Inc. 
+NUVB,Nuvation Bio Inc. Class A 
+NUW,Nuveen AMT-Free Municipal Value Fund
+NVG,Nuveen AMT-Free Municipal Credit Income Fund 
+NVGS,Navigator Holdings Ltd. Ordinary Shares (Marshall Islands)
+NVO,Novo Nordisk A/S 
+NVR,NVR Inc. 
+NVRO,Nevro Corp. 
+NVS,Novartis AG 
+NVST,Envista Holdings Corporation 
+NVT,nVent Electric plc Ordinary Shares 
+NVTA,Invitae Corporation 
+NWG,NatWest Group plc American Depositary Shares
+NWHM,New Home Company Inc. (The) 
+NWN,Northwest Natural Holding Company 
+NX,Quanex Building Products Corporation 
+NXC,Nuveen California Select Tax-Free Income Portfolio 
+NXJ,Nuveen New Jersey Qualified Municipal Fund 
+NXN,Nuveen New York Select Tax-Free Income Portfolio 
+NXP,Nuveen Select Tax Free Income Portfolio 
+NXQ,Nuveen Select Tax Free Income Portfolio II 
+NXR,Nuveen Select Tax Free Income Portfolio III 
+NXRT,NexPoint Residential Trust Inc. 
+NYC,New York City REIT Inc. Class A 
+NYCB,New York Community Bancorp Inc. 
+NYCB^A,New York Community Bancorp Inc. Depositary shares each representing a 1/40th interest in a share of Fixed-to-Floating Rate Series A Noncumulative Perpetual Preferred Stock
+NYCB^U,New York Community Bancorp Inc. New York Community Capital Tr V (BONUSES)
+NYT,New York Times Company (The) 
+NYV,Nuveen New York Municipal Value Fund 2 Common Shares of Beneficial Interest
+NZF,Nuveen Municipal Credit Income Fund 
+O,Realty Income Corporation 
+OACB,Oaktree Acquisition Corp. II Class A Ordinary Shares
+OAK^A,Oaktree Capital Group LLC 6.625% Series A Preferred units
+OAK^B,Oaktree Capital Group LLC 6.550% Series B Preferred Units
+OC,Owens Corning Inc  New
+OCA,Omnichannel Acquisition Corp. Class A 
+OCFT,OneConnect Financial Technology Co. Ltd. American Depositary Shares each representing three ordinary shares
+OCN,Ocwen Financial Corporation NEW 
+ODC,Oil-Dri Corporation Of America 
+OEC,Orion Engineered Carbons S.A Common Shares
+OFC,Corporate Office Properties Trust 
+OFG,OFG Bancorp 
+OFG^A,OFG Bancorp Preferred Stock
+OFG^B,OFG Bancorp 7.0% Non Cumulative Monthly Income Preferred Stock Series B
+OFG^D,OFG Bancorp 7.125% Non-Cumulative Perpetual Preferred Stock. Series D
+OGE,OGE Energy Corp 
+OGS,ONE Gas Inc. 
+OHI,Omega Healthcare Investors Inc. 
+OI,O-I Glass Inc. 
+OIA,Invesco Municipal Income Opportunities Trust 
+OII,Oceaneering International Inc. 
+OIS,Oil States International Inc. 
+OKE,ONEOK Inc. 
+OLN,Olin Corporation 
+OLO,Olo Inc.
+OLP,One Liberty Properties Inc. 
+OMC,Omnicom Group Inc. 
+OMF,OneMain Holdings Inc. 
+OMI,Owens & Minor Inc. 
+ONE,OneSmart International Education Group Limited ADS
+ONTF,ON24 Inc. 
+ONTO,Onto Innovation Inc. 
+OOMA,Ooma Inc. 
+OPP,RiverNorth/DoubleLine Strategic Opportunity Fund Inc. 
+OPP^A,RiverNorth/DoubleLine Strategic Opportunity Fund Inc. 4.375% Series A Cumulative Preferred Stock
+OPY,Oppenheimer Holdings Inc. Class A  (DE)
+OR,Osisko Gold Royalties Ltd Common Shares
+ORA,Ormat Technologies Inc. 
+ORAN,Orange
+ORC,Orchid Island Capital Inc. 
+ORCC,Owl Rock Capital Corporation 
+ORCL,Oracle Corporation 
+ORI,Old Republic International Corporation 
+ORN,Orion Group Holdings Inc. Common
+OSCR,Oscar Health Inc. Class A 
+OSG,Overseas Shipholding Group Inc. Class A 
+OSH,Oak Street Health Inc. 
+OSK,Oshkosh Corporation (Holding Company)
+OTIS,Otis Worldwide Corporation  
+OUST,Ouster Inc. 
+OUT,OUTFRONT Media Inc. 
+OVV,Ovintiv Inc. (DE)
+OXM,Oxford Industries Inc. 
+OXY,Occidental Petroleum Corporation 
+PAC,Grupo Aeroportuario Del Pacifico S.A. B. de C.V. Grupo Aeroportuario Del Pacifico S.A. de C.V. (each representing 10 Series B shares)
+PACE,TPG Pace Tech Opportunities Corp. Class A Ordinary Shares
+PACK,Ranpak Holdings Corp Class A 
+PAG,Penske Automotive Group Inc. 
+PAGS,PagSeguro Digital Ltd. Class A Common Shares
+PAI,Western Asset Investment Grade Income Fund Inc.
+PAM,Pampa Energia S.A. Pampa Energia S.A.
+PANW,Palo Alto Networks Inc. 
+PAR,PAR Technology Corporation 
+PARR,Par Pacific Holdings Inc.  
+PAYC,Paycom Software Inc. 
+PB,Prosperity Bancshares Inc. 
+PBA,Pembina Pipeline Corp. Ordinary Shares (Canada)
+PBC,Prospect Capital Corporation 6.875% Notes due 2029
+PBF,PBF Energy Inc. Class A 
+PBFX,PBF Logistics LP Common Units representing limited partner interests
+PBH,Prestige Consumer Healthcare Inc. 
+PBI,Pitney Bowes Inc. 
+PBI^B,Pitney Bowes Inc 6.70% Notes Due 2043
+PBR,Petroleo Brasileiro S.A.- Petrobras 
+PBT,Permian Basin Royalty Trust 
+PBY,Prospect Capital Corporation 6.25% Notes due 2028
+PCF,High Income Securities Fund 
+PCG,Pacific Gas & Electric Co. 
+PCGU,Pacific Gas & Electric Co. Equity Unit
+PCI,PIMCO Dynamic Credit and Mortgage Income Fund Common Shares of Beneficial Interest
+PCK,Pimco California Municipal Income Fund II Common Shares of Beneficial Interest
+PCM,PCM Fund Inc. 
+PCN,Pimco Corporate & Income Strategy Fund 
+PCPC,Periphas Capital Partnering Corporation Class A 
+PCQ,PIMCO California Municipal Income Fund 
+PD,PagerDuty Inc. 
+PDAC,Peridot Acquisition Corp. Class A Ordinary Shares
+PDI,PIMCO Dynamic Income Fund 
+PDM,Piedmont Office Realty Trust Inc. Class A 
+PDO,PIMCO Dynamic Income Opportunities Fund Common Shares of Beneficial Interest
+PDS,Precision Drilling Corporation 
+PDT,John Hancock Premium Dividend Fund
+PEAK,Healthpeak Properties Inc. 
+PEB,Pebblebrook Hotel Trust Common Shares of Beneficial Interest
+PEB^C,Pebblebrook Hotel Trust 6.50% Series C Cumulative Redeemable Preferred Shares of Beneficial Interest
+PEB^D,Pebblebrook Hotel Trust 6.375% Series D Cumulative Redeemable Preferred Shares of Beneficial Interest
+PEB^E,Pebblebrook Hotel Trust 6.375% Series E Cumulative Redeemable Preferred Shares of Beneficial Interest
+PEB^F,Pebblebrook Hotel Trust 6.3% Series F Cumulative Redeemable Preferred Shares of Beneficial Interest
+PEG,Public Service Enterprise Group Incorporated 
+PEI,Pennsylvania Real Estate Investment Trust 
+PEI^B,Pennsylvania Real Estate Investment Trust Cumulative Redeemable Perpetual Preferred Shares Series B
+PEI^C,Pennsylvania Real Estate Investment Trust 7.20% Series C Cumulative Redeemable Perpetual Preferred Shares
+PEI^D,Pennsylvania Real Estate Investment Trust 6.875% Series D Cumulative Redeemable Perpetual Preferred Shares
+PEN,Penumbra Inc. 
+PEO,Adams Natural Resources Fund Inc. 
+PFD,Flaherty & Crumrine Preferred and Income Fund Incorporated
+PFE,Pfizer Inc. 
+PFGC,Performance Food Group Company 
+PFH,Prudential Financial Inc. 4.125% Junior Subordinated Notes due 2060
+PFL,PIMCO Income Strategy Fund Shares of Beneficial Interest
+PFN,PIMCO Income Strategy Fund II
+PFO,Flaherty & Crumrine Preferred and Income Opportunity Fund Incorporated
+PFS,Provident Financial Services Inc 
+PFSI,PennyMac Financial Services Inc. 
+PG,Procter & Gamble Company (The) 
+PGP,Pimco Global Stocksplus & Income Fund Pimco Global StocksPlus & Income Fund Common Shares of Beneficial Interest
+PGR,Progressive Corporation (The) 
+PGRE,Paramount Group Inc. 
+PGTI,PGT Innovations Inc.
+PGZ,Principal Real Estate Income Fund Common Shares of Beneficial Interest
+PH,Parker-Hannifin Corporation 
+PHD,Pioneer Floating Rate Trust Pioneer Floating Rate Trust Shares of Beneficial Interest
+PHG,Koninklijke Philips N.V. NY Registry Shares
+PHI,PLDT Inc. Sponsored ADR
+PHK,Pimco High Income Fund Pimco High Income Fund
+PHM,PulteGroup Inc. 
+PHR,Phreesia Inc. 
+PHT,Pioneer High Income Trust Common Shares of Beneficial Interest
+PHX,PHX Minerals Inc. 
+PIAI,Prime Impact Acquisition I Class A Ordinary Shares
+PII,Polaris Inc. 
+PIM,Putnam Master Intermediate Income Trust 
+PINE,Alpine Income Property Trust Inc. 
+PING,Ping Identity Holding Corp. 
+PINS,Pinterest Inc. Class A 
+PIPP,Pine Island Acquisition Corp. Class A 
+PIPR,Piper Sandler Companies 
+PJT,PJT Partners Inc. Class A 
+PK,Park Hotels & Resorts Inc.  
+PKE,Park Aerospace Corp. 
+PKG,Packaging Corporation of America 
+PKI,PerkinElmer Inc. 
+PKO,Pimco Income Opportunity Fund Common Shares of Beneficial Interest
+PKX,POSCO 
+PLAN,Anaplan Inc. 
+PLD,Prologis Inc. 
+PLNT,Planet Fitness Inc. 
+PLOW,Douglas Dynamics Inc. 
+PLT,Plantronics Inc. 
+PLTR,Palantir Technologies Inc. Class A 
+PLYM,Plymouth Industrial REIT Inc. 
+PM,Philip Morris International Inc 
+PMF,PIMCO Municipal Income Fund 
+PML,Pimco Municipal Income Fund II Common Shares of Beneficial Interest
+PMM,Putnam Managed Municipal Income Trust 
+PMO,Putnam Municipal Opportunities Trust 
+PMT,PennyMac Mortgage Investment Trust Common Shares of Beneficial Interest
+PMT^A,PennyMac Mortgage Investment Trust 8.125% Series A Fixed-to-Floating Rate Cumulative Redeemable Preferred Shares of Beneficial Interest
+PMT^B,PennyMac Mortgage Investment Trust 8.00% Series B Fixed-to-Floating Rate Cumulative Redeemable Preferred Shares of Beneficial Interest
+PMVC,PMV Consumer Acquisition Corp. Class A 
+PMX,PIMCO Municipal Income Fund III Common Shares of Beneficial Interest
+PNC,PNC Financial Services Group Inc. (The) 
+PNC^P,PNC Financial Services Group Inc. (The) Depositary Shares Representing 1/4000th Perpetual Preferred Series P
+PNF,PIMCO New York Municipal Income Fund 
+PNI,Pimco New York Municipal Income Fund II Common Shares of Beneficial Interest
+PNM,PNM Resources Inc. (Holding Co.) 
+PNR,Pentair plc. Ordinary Share
+PNTM,Pontem Corporation Class A Ordinary Shares
+PNW,Pinnacle West Capital Corporation 
+POR,Portland General Electric Co 
+POST,Post Holdings Inc. 
+PPG,PPG Industries Inc. 
+PPL,PPL Corporation 
+PPR,Voya Prime Rate Trust Shares of Beneficial Interest
+PPT,Putnam Premier Income Trust 
+PPX,PPL Capital Funding Inc. 2013 Series B Junior Subordinated Notes due 2073
+PQG,PQ Group Holdings Inc. 
+PRA,ProAssurance Corporation 
+PRE^G,PartnerRe Ltd. 6.50% Series G Cumulative Redeemable Preferred Shares $1.00 par value
+PRE^H,PartnerRe Ltd. 7.25% Series H Cumulative Redeemable Preferred Shares $1.00 par value
+PRE^I,PartnerRe Ltd. 5.875% Series I Non-Cumulative Redeemable Preferred Shares $1.00 par value
+PRG,PROG Holdings Inc. 
+PRGO,Perrigo Company plc Ordinary Shares
+PRI,Primerica Inc. 
+PRIF^A,Priority Income Fund Inc. 6.375% Series A Term Preferred Stock due 2025
+PRIF^B,Priority Income Fund Inc. 6.25% Series B Term Preferred Stock due 2023  par value $0.01 per share
+PRIF^C,Priority Income Fund Inc. 6.625% Series C Term Preferred Stock due 2024 par value $0.01 per share
+PRIF^D,Priority Income Fund Inc. 7.00% Series D Term Preferred Stock due 2029
+PRIF^E,Priority Income Fund Inc. 6.375% Series E Preferred Stock Due 2024
+PRIF^F,Priority Income Fund Inc. 6.625% Series F Term Preferred Stock due 2027
+PRLB,Proto Labs Inc. 
+PRMW,Primo Water Corporation 
+PRO,PROS Holdings Inc. 
+PROS,ProSight Global Inc. 
+PRPB,CC Neuberger Principal Holdings II Class A Ordinary Shares
+PRS,Prudential Financial Inc. 5.625% Junior Subordinated Notes due 2058
+PRSP,Perspecta Inc.  
+PRT,PermRock Royalty Trust Trust Units
+PRTY,Party City Holdco Inc. 
+PRU,Prudential Financial Inc. 
+PSA,Public Storage 
+PSA^C,Public Storage Depositary Shares Each Representing 1/1000 of a 5.125% Cumulative Preferred Share of Beneficial Interest Series C
+PSA^D,Public Storage Depositary Shares Each Representing 1/1000 of a 4.95% Cumulative Preferred Share of Beneficial Interest Series D
+PSA^E,Public Storage Depositary Shares Each Representing 1/1000 of a 4.90% Cumulative Preferred Share of Beneficial Interest Series E
+PSA^F,Public Storage Depositary Shares Each Representing 1/1000 of a 5.15% Cumulative Preferred Share of Beneficial Interest Series F par value $0.01 per share
+PSA^G,Public Storage Depositary Shares Each Representing 1/1000 of a 5.05% Cumulative Preferred Share of Beneficial Interest Series G
+PSA^H,Public Storage Depositary Shares Each Representing 1/1000 of a  5.60% Cumulative Preferred  Share of Beneficial Interest Series H
+PSA^I,Public Storage Depositary Shares Each Representing 1/1000 of a 4.875% Cumulative Preferred Share of Beneficial Interest Series I par value $0.01 per share
+PSA^J,Public Storage Depositary Shares Each Representing 1/1000 of a 4.700% Cumulative Preferred Share of Beneficial Interest Series J par value $0.01 per share
+PSA^K,Public Storage Depositary Shares Each Representing 1/1000 of a 4.75% Cumulative Preferred Share of Beneficial Interest Series K
+PSA^L,Public Storage Depositary Shares Each Representing 1/1000 of a 4.625% Cumulative Preferred Share of Beneficial Interest Series L par value $0.01 per share
+PSA^M,Public Storage Depositary Shares Each Representing 1/1000 of a 4.125% Cumulative Preferred Share of Beneficial Interest Series M
+PSA^N,Public Storage Depositary Shares Each Representing 1/1000 of a 3.875% Cumulative Preferred Share of Beneficial Interest Series N
+PSA^O,Public Storage Depositary Shares Each Representing 1/1000 of a 3.900% Cumulative Preferred Share of Beneficial Interest Series O
+PSB,PS Business Parks Inc. 
+PSB^W,PS Business Parks Inc. Depositary Shares Each Representing 1/1000 of a Share of 5.20% Cumulative Preferred Stock Series W
+PSB^X,PS Business Parks Inc. Depositary Shares Each Representing 1/1000 of a Share of 5.25% Cumulative Preferred Stock Series X
+PSB^Y,PS Business Parks Inc. 5.20% Cumulative Preferred Stock Series Y
+PSB^Z,PS Business Parks Inc. Depositary Shares Each Representing 1/1000 of a Share of 4.875% Cumulative Preferred Stock Series Z  par value $0.01 per share
+PSF,Cohen & Steers Select Preferred and Income Fund Inc. 
+PSN,Parsons Corporation 
+PSO,Pearson Plc 
+PSTG,Pure Storage Inc. Class A 
+PSTH,Pershing Square Tontine Holdings Ltd. Class A 
+PSTL,Postal Realty Trust Inc. Class A 
+PSX,Phillips 66 
+PSXP,Phillips 66 Partners LP Common Units representing limited partner interest in the Partnership
+PTA,Cohen & Steers Tax-Advantaged Preferred Securities and Income Fund Common Shares of Beneficial Interest
+PTR,PetroChina Company Limited 
+PTY,Pimco Corporate & Income Opportunity Fund
+PUK,Prudential Public Limited Company 
+PUK^,Prudential Public Limited Company 6.75% Perpetual Subordinated Captial Security
+PUK^A,Prudential Public Limited Company 6.50% Perpetual Subordinated Capital Securities Exchangeable at the Issuer's Option Into Non-Cumulative Dollar Denominated Preference Shares
+PUMP,ProPetro Holding Corp. 
+PV,Primavera Capital Acquisition Corporation Class A Ordinary Shares
+PVG,Pretium Resources Inc. Ordinary Shares (Canada)
+PVH,PVH Corp. 
+PVL,Permianville Royalty Trust Trust Units 
+PWR,Quanta Services Inc. 
+PXD,Pioneer Natural Resources Company 
+PYN,PIMCO New York Municipal Income Fund III Common Shares of Beneficial Interest
+PYS,Merrill Lynch Depositor Inc PPlus Tr Ser RRD-1 Tr Ctf Cl A
+PYT,PPlus Tr GSC-2 Tr Ctf Fltg Rate
+PZC,PIMCO California Municipal Income Fund III Common Shares of Beneficial Interest
+PZN,Pzena Investment Management Inc Class A 
+QD,Qudian Inc. American Depositary Shares each representing one Class A Ordinary Share
+QFTA,Quantum FinTech Acquisition Corporation 
+QGEN,Qiagen N.V. Common Shares 
+QS,QuantumScape Corporation Class A 
+QSR,Restaurant Brands International Inc. Common Shares
+QTS,QTS Realty Trust Inc. Class A 
+QTS^A,QTS Realty Trust Inc. 7.125% Series A Cumulative Redeemable Perpetual Preferred Stock
+QTS^B,QTS Realty Trust Inc. 6.50% Series B Cumulative Convertible Perpetual Preferred Stock
+QTWO,Q2 Holdings Inc. 
+QUAD,Quad Graphics Inc Class A 
+QUOT,Quotient Technology Inc. 
+QVCC,QVC Inc. 6.250% Senior Secured Notes due 2068
+QVCD,QVC Inc. 6.375% Senior Secured Notes due 2067
+R,Ryder System Inc. 
+RA,Brookfield Real Assets Income Fund Inc. 
+RAAS,Cloopen Group Holding Limited American Depositary Shares each representing two Class A Ordinary Shares
+RACE,Ferrari N.V. Common Shares
+RAD,Rite Aid Corporation 
+RAMP,LiveRamp Holdings Inc. 
+RBA,Ritchie Bros. Auctioneers Incorporated 
+RBAC,RedBall Acquisition Corp. Class A Ordinary Shares
+RBC,Regal Beloit Corporation 
+RBLX,Roblox Corporation Class A 
+RC,Ready Capital Corproation 
+RCA,Ready Capital Corporation 7.00% Convertible Senior Notes due 2023
+RCB,Ready Capital Corporation 6.20% Senior Notes due 2026
+RCC,Ready Capital Corporation 5.75% Senior Notes due 2026
+RCI,Rogers Communication Inc. 
+RCL,D/B/A Royal Caribbean Cruises Ltd. 
+RCP,Ready Capital Corporation 6.50% Senior Notes due 2021
+RCS,PIMCO Strategic Income Fund Inc.
+RCUS,Arcus Biosciences Inc. 
+RDN,Radian Group Inc. 
+RDS/B,Royal Dutch Shell PLC
+RDY,Dr. Reddy's Laboratories Ltd 
+RE,Everest Re Group Ltd. 
+RELX,RELX PLC PLC American Depositary Shares (Each representing One Ordinary Share)
+RENN,Renren Inc. American Depositary Shares each representing fifteen Class A ordinary shares
+RES,RPC Inc. 
+REV,Revlon Inc. New 
+REVG,REV Group Inc. 
+REX,REX American Resources Corporation
+REXR,Rexford Industrial Realty Inc. 
+REXR^A,Rexford Industrial Realty Inc. 5.875% Series A Cumulative Redeemable Preferred Stock
+REXR^B,Rexford Industrial Realty Inc. 5.875% Series B Cumulative Redeemable Preferred Stock
+REXR^C,Rexford Industrial Realty Inc. 5.625% Series C Cumulative Redeemable Preferred Stock par value $0.01 per share
+REZI,Resideo Technologies Inc.  
+RF,Regions Financial Corporation 
+RF^A,Regions Financial Corporation Depositary Shares Representing 1/40th Perpetual Preferred Series A
+RF^B,Regions Financial Corporation Depositary Shares Representing 1/40th Perpetual Preferred Series B
+RF^C,Regions Financial Corporation Depositary Shares each Representing a 1/40th Interest in a  Share of 5.700% Fixed-to-Floating Rate Non-Cumulative  Perpetual Preferred Stock Series C
+RFI,Cohen & Steers Total Return Realty Fund Inc. 
+RFL,Rafael Holdings Inc. Class B 
+RFM,RiverNorth Flexible Municipal Income Fund Inc. 
+RFMZ,RiverNorth Flexible Municipal Income Fund II Inc. 
+RFP,Resolute Forest Products Inc. 
+RGA,Reinsurance Group of America Incorporated 
+RGR,Sturm Ruger & Company Inc. 
+RGS,Regis Corporation 
+RGT,Royce Global Value Trust Inc. 
+RH,RH 
+RHI,Robert Half International Inc. 
+RHP,Ryman Hospitality Properties Inc. (REIT)
+RICE,Rice Acquisition Corp. Class A 
+RIG,Transocean Ltd (Switzerland) 
+RIO,Rio Tinto Plc 
+RIV,RiverNorth Opportunities Fund Inc. 
+RJF,Raymond James Financial Inc. 
+RKT,Rocket Companies Inc. Class A 
+RL,Ralph Lauren Corporation 
+RLGY,Realogy Holdings Corp. 
+RLH,Red Lions Hotels Corporation 
+RLI,RLI Corp.  (DE)
+RLJ,RLJ Lodging Trust Common Shares of Beneficial Interest $0.01 par value
+RLJ^A,RLJ Lodging Trust $1.95 Series A Cumulative Convertible  Preferred Shares
+RLX,RLX Technology Inc. American Depositary Shares each representing the right to receive one (1) Class A ordinary share
+RM,Regional Management Corp. 
+RMAX,RE/MAX Holdings Inc. Class A 
+RMD,ResMed Inc. 
+RMI,RiverNorth Opportunistic Municipal Income Fund Inc. 
+RMM,RiverNorth Managed Duration Municipal Income Fund Inc. 
+RMO,Romeo Power Inc. Class A 
+RMPL^,RiverNorth Specialty Finance Corporation 5.875%
+RMT,Royce Micro-Cap Trust Inc. 
+RNG,RingCentral Inc. Class A 
+RNGR,Ranger Energy Services Inc. Class A 
+RNP,Cohen & Steers REIT and Preferred and Income Fund Inc. Common Shares
+RNR,RenaissanceRe Holdings Ltd. 
+RNR^E,RenaissanceRe Holdings Ltd. 5.375% Series E Preference Shares
+RNR^F,RenaissanceRe Holdings Ltd. Depositary Shares each Representing a 1/1000th Interest in a 5.750% Series F Preference Share
+ROG,Rogers Corporation 
+ROK,Rockwell Automation Inc. 
+ROL,Rollins Inc. 
+ROP,Roper Technologies Inc. 
+ROT,Rotor Acquisition Corp. Class A 
+RPAI,Retail Properties of America Inc. Class A 
+RPLA,Replay Acquisition Corp. Ordinary Shares
+RPM,RPM International Inc. 
+RPT,RPT Realty 
+RPT^D,RPT Realty 7.25%
+RQI,Cohen & Steers Quality Income Realty Fund Inc Common Shares
+RRC,Range Resources Corporation 
+RRD,R.R. Donnelley & Sons Company 
+RS,Reliance Steel & Aluminum Co.  (DE)
+RSF,RiverNorth Specialty Finance Corporation
+RSG,Republic Services Inc. 
+RSI,Rush Street Interactive Inc. Class A 
+RTP,Reinvent Technology Partners Class A Ordinary Shares
+RTPZ,Reinvent Technology Partners Z Class A Ordinary Shares
+RTX,Raytheon Technologies Corporation 
+RVI,Retail Value Inc.  
+RVLV,Revolve Group Inc. Class A 
+RVT,Royce Value Trust Inc. 
+RWT,Redwood Trust Inc. 
+RXN,Rexnord Corporation 
+RY,Royal Bank Of Canada 
+RY^T,Royal Bank Of Canada 6.750% Fixed Rate/Floating Rate Noncumulative First Preferred Shares Series C-2
+RYAM,Rayonier Advanced Materials Inc. 
+RYB,RYB Education Inc. American depositary shares each representing one Class A ordinary share
+RYI,Ryerson Holding Corporation 
+RYN,Rayonier Inc. REIT 
+RZA,Reinsurance Group of America Incorporated 6.20% Fixed-to-Floating Rate Subordinated Debentures due 2042
+RZB,Reinsurance Group of America Incorporated 5.75% Fixed-To-Floating Rate Subordinated Debentures due 2056
+SA,Seabridge Gold Inc. Ordinary Shares (Canada)
+SAF,Saratoga Investment Corp 6.25% Notes due 2023
+SAFE,Safehold Inc. 
+SAH,Sonic Automotive Inc. 
+SAIC,SCIENCE APPLICATIONS INTERNATIONAL CORPORATION 
+SAIL,SailPoint Technologies Holdings Inc. 
+SAK,Saratoga Investment Corp 7.25% Notes due 2025
+SAM,Boston Beer Company Inc. (The) 
+SAN,Banco Santander S.A. Sponsored ADR (Spain)
+SAND          ,Sandstorm Gold Ltd. Ordinary Shares (Canada)
+SAP,SAP  SE ADS
+SAR,Saratoga Investment Corp New
+SAVE,Spirit Airlines Inc. 
+SB,Safe Bulkers Inc  ($0.001 par value)
+SB^C,Safe Bulkers Inc Cumulative Redeemable Perpetual Preferred Series C (Marshall Islands)
+SB^D,Safe Bulkers Inc Perpetual Preferred Series D (Marshall Islands)
+SBBA,Scorpio Tankers Inc. 7.00% Senior Notes due 2025
+SBG,Sandbridge Acquisition Corporation Class A 
+SBH,Sally Beauty Holdings Inc. (Name to be changed from Sally Holdings Inc.) 
+SBI,Western Asset Intermediate Muni Fund Inc 
+SBOW,SilverBow Resorces Inc. 
+SBR,Sabine Royalty Trust 
+SBS,Companhia de saneamento Basico Do Estado De Sao Paulo - Sabesp American Depositary Shares (Each repstg 250 Common Shares)
+SBSW,D/B/A Sibanye-Stillwater Limited ADS
+SC,Santander Consumer USA Holdings Inc. 
+SCCO,Southern Copper Corporation 
+SCD,LMP Capital and Income Fund Inc. 
+SCE^G,SCE Trust II Trust Preferred Securities
+SCE^H,SCE Trust III Fixed/Floating Rate Trust Preference Securities
+SCE^J,Southern California Edison Company 5.375% Fixed-to-Floating Rate Trust Preference Securities
+SCE^K,Southern California Edison Company 5.45% Fixed-to-Floating Rate Trust Preference Securities
+SCE^L,SCE TRUST VI
+SCHW,Charles Schwab Corporation (The) 
+SCHW^C,The Charles Schwab Corporation Depositary Shares each representing 1/40th interest in a share of 6% Non-Cumulative Perpetual Preferred Stock Series C
+SCHW^D,The Charles Schwab Corporation Depositary Shares each representing 1/40th interest in a share of 5.95% Non-Cumulative Perpetual Preferred Stock Series D
+SCI,Service Corporation International 
+SCL,Stepan Company 
+SCM,Stellus Capital Investment Corporation 
+SCPE,SC Health Corporation Class A Ordinary Shares
+SCS,Steelcase Inc. 
+SCU,Sculptor Capital Management Inc. Class A 
+SCVX,SCVX Corp. Class A Ordinary Shares
+SCX,L.S. Starrett Company (The) 
+SD,SandRidge Energy Inc. 
+SDHY,PGIM Short Duration High Yield Opportunities Fund Common Shares
+SE,Sea Limited American Depositary Shares each representing one Class A Ordinary Share
+SEAH,Sports Entertainment Acquisition Corp. Class A 
+SEAS,SeaWorld Entertainment Inc. 
+SEE,Sealed Air Corporation 
+SEM,Select Medical Holdings Corporation 
+SF,Stifel Financial Corporation 
+SF^A,Stifel Financial Corporation Depositary Shares each representing a 1/1000th interest in a share of 6.25% Non-Cumulative Preferred Stock Series A
+SF^B,Stifel Financial Corporation Depositary Shares Each Representing 1/1000th  Interest in a Share of 6.25% Non-Cumulative  Preferred Stock Series B
+SF^C,Stifel Financial Corporation Depositary Shares Each Representing 1/1000th Interest in a Share of 6.125% Non Cumulative Preferred Stock Series C
+SFB,Stifel Financial Corporation 5.20% Senior Notes due 2047
+SFE,Safeguard Scientifics Inc. New 
+SFL,SFL Corporation Ltd
+SFTW,Osprey Technology Acquisition Corp. Class A 
+SFUN,Fang Holdings Limited American Depositary Shares (Each representing Four Class A Ordinary Shares HK$1.00 par value)
+SGFY,Signify Health Inc. Class A 
+SGU,Star Group L.P. 
+SHAK,Shake Shack Inc. Class A 
+SHG,Shinhan Financial Group Co Ltd American Depositary Shares
+SHI,SINOPEC Shangai Petrochemical Company Ltd. 
+SHLX,Shell Midstream Partners L.P. Common Units representing Limited Partner Interests
+SHO,Sunstone Hotel Investors Inc. Sunstone Hotel Investors Inc. Common Shares
+SHO^E,Sunstone Hotel Investors Inc. 6.950% Series E Cumulative Redeemable Preferred Stock
+SHO^F,Sunstone Hotel Investors Inc. 6.450% Series F Cumulative Redeemable Preferred Stock
+SHOP,Shopify Inc. Class A Subordinate Voting Shares
+SHW,Sherwin-Williams Company (The) 
+SI,Silvergate Capital Corporation Class A 
+SID,Companhia Siderurgica Nacional S.A. 
+SIG,Signet Jewelers Limited Common Shares
+SII,Sprott Inc. Common Shares
+SITC,SITE Centers Corp. 
+SITC^A,SITE Centers Corp. 6.375% Class A Preferred Shares
+SITC^K,SITE Centers Corp. DEPOSITARY SH REPSTG 1/20TH PDF CL K % (United States)
+SITE,SiteOne Landscape Supply Inc. 
+SIX,Six Flags Entertainment Corporation New 
+SJI,South Jersey Industries Inc. 
+SJIJ,South Jersey Industries Inc. 5.625% Junior Subordinated Notes due 2079
+SJIU,South Jersey Industries Inc. Corporate Units
+SJM,J.M. Smucker Company (The) New 
+SJR,Shaw Communications Inc. 
+SJT,San Juan Basin Royalty Trust 
+SJW,SJW Group  (DE)
+SKLZ,Skillz Inc. Class A 
+SKM,SK Telecom Co. Ltd. 
+SKT,Tanger Factory Outlet Centers Inc. 
+SKX,Skechers U.S.A. Inc. 
+SKY,Skyline Champion Corporation 
+SLB,Schlumberger N.V. 
+SLCA,U.S. Silica Holdings Inc. 
+SLF,Sun Life Financial Inc. 
+SLG,SL Green Realty Corp 
+SLG^I,SL Green Realty Corporation Preferred Series I
+SLQT,SelectQuote Inc. 
+SM,SM Energy Company 
+SMAR,Smartsheet Inc. Class A 
+SMFG,Sumitomo Mitsui Financial Group Inc Unsponsored American Depositary Shares (Japan)
+SMG,Scotts Miracle-Gro Company (The) 
+SMHI,SEACOR Marine Holdings Inc.  
+SMLP,Summit Midstream Partners LP Common Units Representing Limited Partner Interests
+SMM,Salient Midstream Common Shares of Beneficial Interest
+SMP,Standard Motor Products Inc. 
+SNA,Snap-On Incorporated 
+SNAP,Snap Inc. Class A 
+SNDR,Schneider National Inc. 
+SNE,Sony Corporation 
+SNN,Smith & Nephew SNATS Inc. 
+SNOW,Snowflake Inc. Class A 
+SNP,China Petroleum & Chemical Corporation 
+SNPR,Tortoise Acquisition Corp. II Class A Ordinary Shares
+SNR,New Senior Investment Group Inc. 
+SNV,Synovus Financial Corp. 
+SNV^D,Synovus Financial Corp. Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series D Liquation Preference $25.00 per Share
+SNV^E,Synovus Financial Corp. 5.875% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series E
+SNX,Synnex Corporation 
+SO,Southern Company (The) 
+SOAC,Sustainable Opportunities Acquisition Corp. Class A Ordinary Shares
+SOGO,Sogou Inc. American Depositary Shares each representing one Class A Ordinary Share
+SOI,Solaris Oilfield Infrastructure Inc. Class A 
+SOJB,Southern Company (The) Series 2016A 5.25% Junior Subordinated Notes due October 1 2076
+SOJC,Southern Company (The) Series 2017B 5.25% Junior Subordinated Notes due December 1 2077
+SOJD,Southern Company (The) Series 2020A 4.95% Junior Subordinated Notes due January 30 2080
+SOJE,Southern Company (The) Series 2020C 4.20% Junior Subordinated Notes due October 15 2060
+SOL,Renesola Ltd. American Depsitary Shares (Each representing 10 shares)
+SOLN,Southern Company (The) 2019 Series A Corporate Units
+SON,Sonoco Products Company 
+SOR,Source Capital Inc. 
+SOS,SOS Limited American Depositary Shares
+SPB,Spectrum Brands Holdings Inc. 
+SPCE,Virgin Galactic Holdings Inc. 
+SPE,Special Opportunities Fund Inc 
+SPE^B,Special Opportunities Fund Inc. 3.50% Convertible Preferred Stock Series B
+SPFR,Jaws Spitfire Acquisition Corporation Class A Ordinary Shares
+SPG,Simon Property Group Inc. 
+SPG^J,Simon Property Group Inc. Simon Property Group 8 3/8% Series J Cumulative Redeemable Preferred Stock
+SPGI,S&P Global Inc. 
+SPH,Suburban Propane Partners L.P. 
+SPLP,Steel Partners Holdings LP LTD PARTNERSHIP UNIT
+SPLP^A,Steel Partners Holdings LP 6.0% Series A Preferred Units no par value
+SPNT,SiriusPoint Ltd. Common Shares
+SPNV,Supernova Partners Acquisition Company Inc. Class A 
+SPOT,Spotify Technology S.A. Ordinary Shares
+SPR,Spirit Aerosystems Holdings Inc. 
+SPRQ,Spartan Acquisition Corp. II Class A 
+SPXC,SPX Corporation 
+SPXX,Nuveen S&P 500 Dynamic Overwrite Fund
+SQ,Square Inc. Class A 
+SQM,Sociedad Quimica y Minera S.A. 
+SQNS,Sequans Communications S.A. American Depositary Shares
+SQZ,SQZ Biotechnologies Company 
+SR,Spire Inc. 
+SR^A,Spire Inc. Depositary Shares each representing a 1/1000th interest in a share of 5.90% Series A Cumulative Redeemable Perpetual Preferred Stock
+SRC,Spirit Realty Capital Inc. 
+SRC^A,Spirit Realty Capital Inc. 6.000% Series A Cumulative Redeemable Preferred Stock
+SRE,Sempra Energy 
+SRE^B,Sempra Energy 6.75% Mandatory Convertible Preferred Stock Series B
+SREA,Sempra Energy 5.750% Junior Subordinated Notes due 2079
+SRG,Seritage Growth Properties Class A 
+SRG^A,Seritage Growth Properties 7.00% Series A Cumulative Redeemable Preferred Shares of Beneficial Interest
+SRI,Stoneridge Inc. 
+SRL,Scully Royalty Ltd.
+SRLP,Sprague Resources LP Common Units representing Limited Partner Interests
+SRT,StarTek Inc. 
+SRV,Cushing MLP & Infrastructure Total Return Fund
+SSD,Simpson Manufacturing Company Inc. 
+SSL,Sasol Ltd. American Depositary Shares
+SSTK,Shutterstock Inc. 
+ST,Sensata Technologies Holding plc Ordinary Shares
+STAG,Stag Industrial Inc. 
+STAG^C,Stag Industrial Inc. 6.875% Series C Cumulative Redeemable Preferred Stock
+STAR          ,iStar Inc. 
+STAR^D,iStar Inc. Series D Cumulative Redeemable Preferred Stock
+STAR^G,iStar Inc. Series G Cumulative Redeemable Preferred Stock
+STAR^I,iStar Inc. Series I Cumulative Redeemable Preferred Stock
+STC,Stewart Information Services Corporation 
+STE,STERIS plc (Ireland) Ordinary Shares
+STG,Sunlands Technology Group American Depositary Shares representing Class A ordinary shares
+STIC,Northern Star Acquisition Corp. Class A 
+STK,Columbia Seligman Premium Technology Growth Fund Inc
+STL,Sterling Bancorp
+STL^A,Sterling Bancorp Depositary Shares each representing ownership of a 1/40th interest in a share of 6.50% Non-Cumulative Perpetual Preferred Stock Series A
+STLA,Stellantis N.V. Common Shares
+STM,STMicroelectronics N.V. 
+STN,Stantec Inc 
+STNG,Scorpio Tankers Inc. Common Shares
+STON,StoneMor Inc. 
+STOR,STORE Capital Corporation 
+STPC,Star Peak Corp II Class A 
+STPK,Star Peak Energy Transition Corp. Class A 
+STT,State Street Corporation 
+STT^D,State Street Corporation Depositary Shares representing 1/4000th Perpetual Preferred Series D
+STT^G,State Street Corporation Depositary shares each representing a 1/4000th ownership interest in a share of Fixed-to-Floating Rate Non-Cumulative
+STWD,STARWOOD PROPERTY TRUST INC. Starwood Property Trust Inc.
+STZ,Constellation Brands Inc. 
+STZ/B,Constellation Brands Inc
+SU,Suncor Energy  Inc. 
+SUI,Sun Communities Inc. 
+SUM,Summit Materials Inc. Class A 
+SUN,Sunoco LP Common Units representing limited partner interests
+SUP,Superior Industries International Inc.  (DE)
+SUPV,Grupo Supervielle S.A. American Depositary Shares each Representing five Class B shares
+SUZ,Suzano S.A. American Depositary Shares (each representing One Ordinary Share)
+SWBK,Switchback II Corporation Class A Ordinary Shares
+SWCH,Switch Inc. Class A 
+SWI,SolarWinds Corporation 
+SWK,Stanley Black & Decker Inc. 
+SWM,Schweitzer-Mauduit International Inc. 
+SWN,Southwestern Energy Company 
+SWT,Stanley Black & Decker Inc. Corporate Unit
+SWX,Southwest Gas Holdings Inc.  (DE)
+SWZ,Swiss Helvetia Fund Inc. (The) 
+SXC,SunCoke Energy Inc. 
+SXI,Standex International Corporation 
+SXT,Sensient Technologies Corporation 
+SYF,Synchrony Financial 
+SYF^A,Synchrony Financial Depositary Shares each Representing a 1/40th Interest in a Share of 5.625% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series A
+SYK,Stryker Corporation 
+SYX,Systemax Inc. 
+SYY,Sysco Corporation 
+SZC,Cushing NextGen Infrastructure Income Fund Common Shares of Beneficial Interest
+T,AT&T Inc.
+T^A,AT&T Inc. Depositary Shares each representing a 1/1000th interest in a share of 5.000% Perpetual Preferred Stock Series A
+T^C,AT&T Inc. Depositary Shares each representing a 1/1000th interest in a share of 4.750% Perpetual Preferred Stock Series C
+TAC,TransAlta Corporation Ordinary Shares
+TACA,Trepont Acquisition Corp I Class A Ordinary Shares
+TAK,Takeda Pharmaceutical Company Limited American Depositary Shares (each representing 1/2 of a share of )
+TAL,TAL Education Group American Depositary Shares
+TALO,Talos Energy Inc. 
+TAP,Molson Coors Beverage Company Class B 
+TARO,Taro Pharmaceutical Industries Ltd. Ordinary Shares
+TBA,Thoma Bravo Advantage Class A Ordinary Shares
+TBB,AT&T Inc. 5.350% Global Notes due 2066
+TBC,AT&T Inc. 5.625% Global Notes due 2067
+TBI,TrueBlue Inc. 
+TCI,Transcontinental Realty Investors Inc. 
+TCS,Container Store (The) 
+TD,Toronto Dominion Bank (The) 
+TDA,Telephone and Data Systems Inc. 5.875% Senior Notes due 2061
+TDC,Teradata Corporation 
+TDE,Telephone and Data Systems Inc. 6.875% Senior Notes due 2059
+TDF,Templeton Dragon Fund Inc. 
+TDG,Transdigm Group Incorporated Transdigm Group Inc. 
+TDI,Telephone and Data Systems Inc. Sr Nt
+TDJ,Telephone and Data Systems Inc. 7% Senior Notes due 2060
+TDOC,Teladoc Health Inc. 
+TDS,Telephone and Data Systems Inc. Common Shares
+TDS^U,Telephone and Data Systems Inc. Depositary Shares Each Representing a 1/1000th Interest in a 6.625% Series UU Cumulative Redeemable Perpetual Preferred Stock
+TDW,Tidewater Inc. 
+TDY,Teledyne Technologies Incorporated 
+TEAF,Tortoise Essential Assets Income Term Fund Common Shares of Beneficial Interest
+TECK,Teck Resources Ltd Ordinary Shares
+TEF,Telefonica SA 
+TEI,Templeton Emerging Markets Income Fund Inc. 
+TEL,TE Connectivity Ltd. New Switzerland Registered Shares
+TEN,Tenneco Inc. Class A Voting 
+TEO,Telecom Argentina SA
+TEVA,Teva Pharmaceutical Industries Limited American Depositary Shares
+TEX,Terex Corporation 
+TFC,Truist Financial Corporation 
+TFC^H,Truist Financial Corporation Series H 
+TFC^I,Truist Financial Corporation Depositary Shares
+TFC^O,Truist Financial Corporation Depositary Shares Each Representing a 1/1000th Interest in a Share of Series O Non-Cumulative Perpetual Preferred Stock
+TFC^R,Truist Financial Corporation Depositary Shares each representing 1/1000th interest in a share of Series R Non-Cumulative Perpetual Preferred Stock
+TFII,TFI International Inc. Common Shares
+TFSA,Terra Income Fund VI 7.00% Notes due 2026
+TFX,Teleflex Incorporated 
+TG,Tredegar Corporation 
+TGH,Textainer Group Holdings Limited Common Shares
+TGI,Triumph Group Inc. 
+TGNA,TEGNA Inc
+TGP,Teekay LNG Partners L.P.
+TGP^A,Teekay LNG Partners L.P. 9.00% Series A Cumulative Redeemable Perpetual Preferred Units representing limited partner interests
+TGP^B,Teekay LNG Partners L.P. 8.50% Series B Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units representing limited partner interests
+TGS,Transportadora de Gas del Sur SA TGS 
+TGT,Target Corporation 
+THC,Tenet Healthcare Corporation 
+THG,Hanover Insurance Group Inc
+THO,Thor Industries Inc. 
+THQ,Tekla Healthcare Opportunies Fund Shares of Beneficial Interest
+THR,Thermon Group Holdings Inc. 
+THS,Treehouse Foods Inc. 
+THW,Tekla World Healthcare Fund Shares of Beneficial Interest
+TIMB,TIM S.A. American Depositary Shares (Each representing 5 Common Shares)
+TINV,Tiga Acquisition Corp. Class A Ordinary Shares
+TISI,Team Inc. 
+TIXT,TELUS International (Cda) Inc. Subordinate Voting Shares
+TJX,TJX Companies Inc. (The) 
+TK,Teekay Corporation 
+TKC,Turkcell Iletisim Hizmetleri AS 
+TKR,Timken Company (The) 
+TLK,PT Telekomunikasi Indonesia Tbk
+TLYS,Tilly's Inc. 
+TM,Toyota Motor Corporation 
+TME,Tencent Music Entertainment Group American Depositary Shares each representing two Class A Ordinary Shares
+TMHC,Taylor Morrison Home Corporation 
+TMO,Thermo Fisher Scientific Inc 
+TMST,TimkenSteel Corporation Common Shares
+TMX,Terminix Global Holdings Inc. 
+TNC,Tennant Company 
+TNET,TriNet Group Inc. 
+TNK,Teekay Tankers Ltd.
+TNL,Travel   Leisure Co. Common  Stock
+TNP,Tsakos Energy Navigation Ltd Common Shares
+TNP^D,Tsakos Energy Navigation Ltd 8.75% Series D Cumulative Redeemable Perpetual Preferred Shares
+TNP^E,Tsakos Energy Navigation Ltd Series E Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Shares par value $1.00
+TNP^F,Tsakos Energy Navigation Ltd Series F Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Shares par value $1.00
+TOL,Toll Brothers Inc. 
+TOT,Total SE
+TPB,Turning Point Brands Inc. 
+TPC,Tutor Perini Corporation 
+TPGY,TPG Pace Beneficial Finance Corp. Class A Ordinary Shares
+TPH,Tri Pointe Homes Inc. 
+TPL,Texas Pacific Land Corporation 
+TPR,Tapestry Inc. 
+TPVG,TriplePoint Venture Growth BDC Corp. 
+TPVY,TriplePoint Venture Growth BDC Corp. 5.75% Notes due 2022
+TPX,Tempur Sealy International Inc. 
+TPZ,Tortoise Power and Energy Infrastructure Fund Inc 
+TR,Tootsie Roll Industries Inc. 
+TRC,Tejon Ranch Co 
+TREB,Trebia Acquisition Corp. Class A Ordinary Shares
+TREC,Trecora Resources 
+TREX,Trex Company Inc. 
+TRGP,Targa Resources Inc. 
+TRI,Thomson Reuters Corp Ordinary Shares
+TRN,Trinity Industries Inc. 
+TRNO,Terreno Realty Corporation 
+TROX,Tronox Holdings plc Ordinary Shares (UK)
+TRP,TC Energy Corporation 
+TRQ,Turquoise Hill Resources Ltd. Ordinary Shares
+TRTN,Triton International Limited Common Shares
+TRTN^A,Triton International Limited 8.50% Series A Cumulative Redeemable Perpetual  Preference Shares
+TRTN^B,Triton International Limited 8.00% Series B Cumulative Redeemable Perpetual Preference Shares
+TRTN^C,Triton International Limited 7.375% Series C Cumulative Redeemable Perpetual Preference Shares
+TRTN^D,Triton International Limited 6.875% Series D Cumulative Redeemable Perpetual Preference Shares
+TRTX,TPG RE Finance Trust Inc. 
+TRU,TransUnion 
+TRV,The Travelers Companies Inc. 
+TS,Tenaris S.A. American Depositary Shares
+TSE,Trinseo S.A. Ordinary Shares
+TSI,TCW Strategic Income Fund Inc. 
+TSLX,Sixth Street Specialty Lending Inc. 
+TSM,Taiwan Semiconductor Manufacturing Company Ltd.
+TSN,Tyson Foods Inc. 
+TSQ,Townsquare Media Inc. Class A 
+TT,Trane Technologies plc
+TTC,Toro Company (The) 
+TTI,Tetra Technologies Inc. 
+TTM,Tata Motors Ltd Tata Motors Limited
+TTP,Tortoise Pipeline & Energy Fund Inc. 
+TU,Telus Corporation Ordinary Shares
+TUFN,Tufin Software Technologies Ltd. Ordinary Shares
+TUP,Tupperware Brands Corporation 
+TV,Grupo Televisa S.A. 
+TVC,Tennessee Valley Authority 
+TVE,Tennessee Valley Authority
+TWI,Titan International Inc. (DE) 
+TWLO,Twilio Inc. Class A 
+TWN,Taiwan Fund Inc. (The) 
+TWND,Tailwind Acquisition Corp. Class A 
+TWO,Two Harbors Investment Corp
+TWO^A,Two Harbors Investments Corp 8.125% Series A Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock ($25.00 liquidation preference per share)
+TWO^B,Two Harbors Investments Corp 7.625% Series B Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+TWO^C,Two Harbors Investments Corp 7.25% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+TWTR,Twitter Inc. 
+TX,Ternium S.A. Ternium S.A. American Depositary Shares (each representing ten shares USD1.00 par value)
+TXT,Textron Inc. 
+TY,Tri Continental Corporation 
+TY^,Tri Continental Corporation Preferred Stock
+TYG,Tortoise Energy Infrastructure Corporation 
+TYL,Tyler Technologies Inc. 
+U,Unity Software Inc. 
+UA,Under Armour Inc. Class C 
+UAA,Under Armour Inc. Class A 
+UAN,CVR Partners LP Common Units representing Limited Partner Interests
+UBA,Urstadt Biddle Properties Inc. 
+UBER,Uber Technologies Inc. 
+UBP,Urstadt Biddle Properties Inc. 
+UBP^H,Urstadt Biddle Properties Inc. 6.250% Series H Cumulative Redeemable Preferred Stock
+UBP^K,Urstadt Biddle Properties Inc. 5.875% Series K Cumulative Redeemable Preferred Stock
+UBS,UBS Group AG Registered Ordinary Shares
+UDR,UDR Inc. 
+UE,Urban Edge Properties Common Shares of Beneficial Interest
+UFI,Unifi Inc. New 
+UFS,Domtar Corporation (NEW) 
+UGI,UGI Corporation 
+UGP,Ultrapar Participacoes S.A. (New) American Depositary Shares (Each representing one Common Share)
+UHS,Universal Health Services Inc. 
+UHT,Universal Health Realty Income Trust 
+UI,Ubiquiti Inc. 
+UIS,Unisys Corporation New 
+UL,Unilever PLC 
+UMC,United Microelectronics Corporation (NEW) 
+UMH,UMH Properties Inc. 
+UMH^C,UMH Properties Inc. 6.75% Series C Cumulative Redeemable Preferred Stock  Liquidation Preference $25 per share
+UMH^D,UMH Properties Inc. 6.375% Series D Cumulative Redeemable Preferred Stock Liquidation Preference $25 per share
+UNF,Unifirst Corporation 
+UNFI,United Natural Foods Inc. 
+UNH,UnitedHealth Group Incorporated  (DE)
+UNM,Unum Group 
+UNMA,Unum Group 6.250% Junior Subordinated Notes due 2058
+UNP,Union Pacific Corporation 
+UNVR,Univar Solutions Inc. 
+UPS,United Parcel Service Inc. 
+URI,United Rentals Inc. 
+USA,Liberty All-Star Equity Fund 
+USAC,USA Compression Partners LP Common Units Representing Limited Partner Interests
+USB,U.S. Bancorp 
+USB^A,U.S. Bancorp Depositary Shares Each representing a 1/100th interest in a share of Series A Non-CumulativePerpetual Pfd Stock
+USB^H,U.S. Bancorp Depositary Shares repstg 1/1000th Pfd Ser B
+USB^M,U.S. Bancorp Depositary Shares Representing 1/1000th Interest in a Shares Series F
+USB^P,U.S. Bancorp Depositary Shares each representing a 1/1000th interest in a share of Series K Non-Cumulative Perpetual Preferred Stock
+USB^Q,U.S. Bancorp Depositary Shares Each Representing a 1/1000th Interest in a Share of Series L Non-Cumulative Perpetual Preferred Stock
+USB^R,U.S. Bancorp Depositary Shares Each Representing a 1/1000th Interest in a Share of Series M Non-Cumulative Perpetual Preferred Stock
+USDP,USD Partners LP Common Units representing limited partner interest
+USFD,US Foods Holding Corp. 
+USM,United States Cellular Corporation 
+USNA,USANA Health Sciences Inc. 
+USPH,U.S. Physical Therapy Inc. 
+USX,U.S. Xpress Enterprises Inc. Class A 
+UTF,Cohen & Steers Infrastructure Fund Inc 
+UTI,Universal Technical Institute Inc 
+UTL,UNITIL Corporation 
+UTZ,Utz Brands Inc Class A  
+UVE,UNIVERSAL INSURANCE HOLDINGS INC 
+UVV,Universal Corporation 
+UWMC,UWM Holdings Corporation Class A 
+UZA,United States Cellular Corporation 6.95% Senior Notes due 2060
+UZB,United States Cellular Corporation 7.25% Senior Notes due 2063
+UZC,United States Cellular Corporation 7.25% Senior Notes due 2064
+UZD,United States Cellular Corporation 6.250% Senior Notes due 2069
+UZE,United States Cellular Corporation 5.500% Senior Notes due 2070
+V,Visa Inc.
+VAC,Marriott Vacations Worldwide Corporation 
+VALE,VALE S.A.  American Depositary Shares Each Representing one common share
+VAPO,Vapotherm Inc. 
+VAR,Varian Medical Systems Inc. 
+VBF,Invesco Bond Fund 
+VCIF,Vertical Capital Income Fund Common Shares of Beneficial Interest
+VCRA,Vocera Communications Inc. 
+VCV,Invesco California Value Municipal Income Trust 
+VEC,Vectrus Inc. 
+VEDL,Vedanta Limited  American Depositary Shares (Each representing four equity shares)
+VEEV,Veeva Systems Inc. Class A 
+VEL,Velocity Financial Inc. 
+VER,VEREIT Inc. 
+VER^F,VEREIT Inc. 6.70% Series F Cumulative Redeemable Preferred Stock
+VET,Vermilion Energy Inc. Common (Canada)
+VFC,V.F. Corporation 
+VGAC,VG Acquisition Corp. Class A Ordinary Shares
+VGI,Virtus Global Multi-Sector Income Fund Common Shares of Beneficial Interest
+VGM,Invesco Trust for Investment Grade Municipals  (DE)
+VGR,Vector Group Ltd. 
+VHC,VirnetX Holding Corp 
+VHI,Valhi Inc. 
+VIAO,VIA optronics AG American Depositary Shares each representing one-fifth of an Ordinary Share
+VICI,VICI Properties Inc. 
+VIPS,Vipshop Holdings Limited American Depositary Shares each representing two ordinary shares
+VIST,Vista Oil & Gas S.A.B. de C.V. American Depositary Shares each representing one series A share with no par value
+VIV,Telefonica Brasil S.A. American Depositary Shares (Each representing One Common Share)
+VKQ,Invesco Municipal Trust 
+VLO,Valero Energy Corporation 
+VLRS,Controladora Vuela Compania de Aviacion S.A.B. de C.V. American Depositary Shares each representing ten (10) Ordinary Participation Certificates
+VLT,Invesco High Income Trust II
+VMC,Vulcan Materials Company (Holding Company) 
+VMI,Valmont Industries Inc. 
+VMO,Invesco Municipal Opportunity Trust 
+VMW,Vmware Inc.  Class A
+VNCE,Vince Holding Corp. 
+VNE,Veoneer Inc.  
+VNO,Vornado Realty Trust 
+VNO^K,Vornado Realty Trust Pfd S K
+VNO^L,Vornado Realty Trust Pfd Ser L %
+VNO^M,Vornado Realty Trust 5.25% Series M Cumulative Redeemable Preferred Shares of Beneficial Interest liquidation preference $25.00 per share no par value per share
+VNO^N,Vornado Realty Trust 5.25% Series N Cumulative Redeemable Preferred Shares of Beneficial Interest liquidation preference $25.00 per share
+VNT,Vontier Corporation  
+VNTR,Venator Materials PLC Ordinary Shares
+VOC,VOC Energy Trust Units of Beneficial Interest
+VOYA,Voya Financial Inc. 
+VOYA^B,Voya Financial Inc. Depositary Shares each representing a 1/40th interest in a share of 5.35% Fixed-Rate Reset Non-Cumulative Preferred Stock Series B
+VPG,Vishay Precision Group Inc. 
+VPV,Invesco Pennsylvania Value Municipal Income Trust  (DE)
+VRS,Verso Corporation 
+VRT,Vertiv Holdings LLC Class A 
+VRTV,Veritiv Corporation 
+VSH,Vishay Intertechnology Inc. 
+VST,Vistra Corp. 
+VSTO,Vista Outdoor Inc. 
+VTA,Invesco Credit Opportunities Fund Common Shares of Beneficial Interest
+VTN,Invesco Trust for Investment Grade New York Municipals 
+VTOL,Bristow Group Inc. 
+VTR,Ventas Inc. 
+VVI,Viad Corp 
+VVNT,Vivint Smart Home Inc. 
+VVR,Invesco Senior Income Trust  (DE)
+VVV,Valvoline Inc. 
+VYGG,Vy Global Growth Class A Ordinary Shares
+W,Wayfair Inc. Class A 
+WAB,Westinghouse Air Brake Technologies Corporation 
+WAL,Western Alliance Bancorporation  (DE)
+WALA,Western Alliance Bancorporation 6.25% Subordinated Debentures due 2056
+WAT,Waters Corporation 
+WBAI,500.com Limited American Depositary Shares each representing 10 Class A shares
+WBK,Westpac Banking Corporation 
+WBS,Webster Financial Corporation 
+WBS^F,Webster Financial Corporation Depositary Shares Each Representing 1/1000th Interest in a Share of 5.25% Series F Non-Cumulative Perpetual Preferred Stock
+WBT,Welbilt Inc. 
+WCC,WESCO International Inc. 
+WCC^A,WESCO International Inc. Depositary Shares each representing 1/1000th interest in a share of Series A Fixed-Rate Reset Cumulative Perpetual Preferred Stock
+WCN,Waste Connections Inc. Common Shares
+WD,Walker & Dunlop Inc 
+WDR,Waddell & Reed Financial Inc. 
+WEA,Western Asset Bond Fund Share of Beneficial Interest
+WEC,WEC Energy Group Inc. 
+WEI,Weidai Ltd. American depositary shares each  representing one (1) Class A ordinary share
+WELL,Welltower Inc. 
+WES,Western Midstream Partners LP Common Units Representing Limited Partner Interests
+WEX,WEX Inc. 
+WF,Woori Financial Group Inc. American Depositary Shares (each representing three (3) shares of )
+WFC,Wells Fargo & Company 
+WFC^A,Wells Fargo & Company Depositary Shares each representing a 1/1000th interest in a share of Non-Cumulative Perpetual Class A Preferred Stock Series AA
+WFC^C,Wells Fargo & Company Depositary Shares each representing a 1/1000th interest in a share of Non-Cumulative Perpetual Class A Preferred Stock Series CC
+WFC^L,Wells Fargo & Company Wells Fargo & Company 7.50% Non-Cumulative Perpetual Convertible Class A Preferred Stock Series L
+WFC^N,Wells Fargo & Company Dep Shs Repstg 1/1000th Perp Pfd Cl A Ser N
+WFC^O,Wells Fargo & Company Depositary Shares Representing 1/1000th Perpetual Preferred Class A Series O
+WFC^Q,Wells Fargo & Company Depositary Shares Representing 1/1000th Interest Perpetual Preferred Class A Series Q Fixed to Floating
+WFC^R,Wells Fargo & Company Dep Shs Repstg 1/1000th Int Perp Pfd Cl A (Ser R Fixed To Flltg)
+WFC^X,Wells Fargo & Company Depositary Shares each representing a 1/1000th interest in a share of Non-Cumulative Perpetual Class A Preferred Stock Series X
+WFC^Y,Wells Fargo & Company Depositary Shares each representing a 1/1000th interest in a share of Non-Cumulative Perpetual Class A Preferred Stock Series Y
+WFC^Z,Wells Fargo & Company Depositary Shares each representing a 1/1000th interest in a share of Non-Cumulative Perpetual Class A Preferred Stock Series Z
+WFG,West Fraser Timber Co. Ltd 
+WGO,Winnebago Industries Inc. 
+WH,Wyndham Hotels & Resorts Inc.  
+WHD,Cactus Inc. Class A 
+WHG,Westwood Holdings Group Inc 
+WHR,Whirlpool Corporation 
+WIA,Western Asset Inflation-Linked Income Fund
+WIT,Wipro Limited 
+WIW,Western Asset Inflation-Linked Opportunities & Income Fund
+WK,Workiva Inc. Class A 
+WLK,Westlake Chemical Corporation 
+WLKP,Westlake Chemical Partners LP Common Units representing limited partner interests
+WLL,Whiting Petroleum Corporation  (New)
+WM,Waste Management Inc. 
+WMB,Williams Companies Inc. (The) 
+WMC,Western Asset Mortgage Capital Corporation 
+WMK,Weis Markets Inc. 
+WMS,Advanced Drainage Systems Inc. 
+WMT,Walmart Inc. 
+WNC,Wabash National Corporation 
+WNS,WNS (Holdings) Limited Sponsored ADR (Jersey)
+WOR,Worthington Industries Inc. 
+WORK,Slack Technologies Inc. Class A 
+WOW,WideOpenWest Inc. 
+WPC,W. P. Carey Inc. REIT
+WPF,Foley Trasimene Acquisition Corp. Class A CommonStock
+WPG,Washington Prime Group Inc. 
+WPG^H,Washington Prime Group Inc. 7.5% Series H Cumulative Redeemable Preferred SBI
+WPG^I,Washington Prime Group Inc. 6.875% Series I Cumulative Redeemable Preferred SBI
+WPM,Wheaton Precious Metals Corp Common Shares (Canada)
+WPP,WPP plc American Depositary Shares
+WRB,W.R. Berkley Corporation 
+WRB^D,W.R. Berkley Corporation 5.75% Subordinated Debentures due 2056
+WRB^E,W.R. Berkley Corporation 5.70% Subordinated Debentures due 2058
+WRB^F,W.R. Berkley Corporation 5.10% Subordinated Debentures due 2059
+WRB^G,W.R. Berkley Corporation 4.25% Subordinated Debentures due 2060
+WRB^H,W.R. Berkley Corporation 4.125% Subordinated Debentures due 2061
+WRE,Washington Real Estate Investment Trust 
+WRI,Weingarten Realty Investors 
+WRK,Westrock Company 
+WSM,Williams-Sonoma Inc.  (DE)
+WSO,Watsco Inc. 
+WSO/B,Watsco Inc.
+WSR,Whitestone REIT Common Shares
+WST,West Pharmaceutical Services Inc. 
+WTI,W&T Offshore Inc. 
+WTM,White Mountains Insurance Group Ltd. 
+WTRG,Essential Utilities Inc. 
+WTRU,Essential Utilities Inc. 6.00% TEU
+WTS,Watts Water Technologies Inc. Class A 
+WTTR,Select Energy Services Inc. Class A 
+WU,Western Union Company (The) 
+WWE,World Wrestling Entertainment Inc. Class A 
+WWW,Wolverine World Wide Inc. 
+WY,Weyerhaeuser Company 
+X,United States Steel Corporation 
+XEC,Cimarex Energy Co 
+XFLT,XAI Octagon Floating Rate & Alternative Income Term Trust Common Shares of Beneficial Interest
+XHR,Xenia Hotels & Resorts Inc. 
+XIN,Xinyuan Real Estate Co Ltd American Depositary Shares
+XL,XL Fleet Corp. Class A 
+XOM,Exxon Mobil Corporation 
+XPEV,XPeng Inc. American depositary shares each representing two Class A ordinary shares
+XPO,XPO Logistics Inc.
+XPOA,DPCM Capital Inc. Class A 
+XRX,Xerox Holdings Corporation 
+XYF,X Financial American Depositary Shares each representing six Class A Ordinary Shares
+XYL,Xylem Inc.  New
+Y,Alleghany Corporation 
+YAC,Yucaipa Acquisition Corporation Class A Ordinary Shares
+YALA,Yalla Group Limited American Depositary Shares each representing one Class A Ordinary Share
+YELP,Yelp Inc. 
+YETI,YETI Holdings Inc. 
+YEXT,Yext Inc. 
+YPF,YPF Sociedad Anonima 
+YRD,Yiren Digital Ltd. American Depositary Shares each representing two ordinary shares
+YSG,Yatsen Holding Limited American Depositary Shares each representing four Class A ordinary shares
+YUM,Yum! Brands Inc.
+YUMC,Yum China Holdings Inc. 
+ZBH,Zimmer Biomet Holdings Inc. 
+ZEN,Zendesk Inc. 
+ZEPP,Zepp Health Corporation American Depositary Shares
+ZIM,ZIM Integrated Shipping Services Ltd. Ordinary Shares
+ZNH,China Southern Airlines Company Limited 
+ZTO,ZTO Express (Cayman) Inc. American Depositary Shares each representing one Class A ordinary share.
+ZTR,Virtus Total Return Fund Inc.
+ZTS,Zoetis Inc. Class A 
+ZUO,Zuora Inc. Class A 
+ZYME,Zymeworks Inc. Common Shares

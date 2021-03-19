@@ -1,0 +1,275 @@
+AAMC,Altisource Asset Management Corp Com
+AAU,Almaden Minerals Ltd. Common Shares
+ACU,Acme United Corporation. 
+ACY,AeroCentury Corp. 
+AE,Adams Resources & Energy Inc. 
+AEF,Aberdeen Emerging Markets Equity Income Fund Inc. 
+AGE,AgeX Therapeutics Inc. 
+AIM,AIM ImmunoTech Inc. 
+AINC,Ashford Inc. (Holding Company) 
+AIRI,Air Industries Group 
+AMBO,Ambow Education Holding Ltd. American Depository Shares each representing two Class A ordinary shares
+AMPE,Ampio Pharmaceuticals Inc.
+AMS,American Shared Hospital Services 
+ANVS,Annovis Bio Inc. 
+APT,Alpha Pro Tech Ltd. 
+ARMP,Armata Pharmaceuticals Inc. 
+ASM,Avino Silver & Gold Mines Ltd. Common Shares (Canada)
+ASXC,Asensus Surgical Inc. 
+ATNM,Actinium Pharmaceuticals Inc. (Delaware) 
+AUMN,Golden Minerals Company 
+AWX,Avalon Holdings Corporation 
+AXU,Alexco Resource Corp Common Shares (Canada)
+BATL,Battalion Oil Corporation 
+BCV,Bancroft Fund Ltd.
+BCV^A,Bancroft Fund Limited 5.375% Series A Cumulative Preferred Shares
+BDL,Flanigan's Enterprises Inc. 
+BDR,Blonder Tongue Laboratories Inc. 
+BGI,Birks Group Inc. 
+BHB,Bar Harbor Bankshares Inc. 
+BIOX,Bioceres Crop Solutions Corp. Ordinary Shares
+BKTI,BK Technologies Corporation 
+BMTX,BM Technologies Inc. 
+BRBS,Blue Ridge Bankshares Inc. 
+BRG,Bluerock Residential Growth REIT Inc. Class A 
+BRG^C,Bluerock Residential Growth REIT Inc. 7.625% Series C Cumulative Redeemable Preferred Stock
+BRG^D,Bluerock Residential Growth REIT Inc. 7.125% Series D Cumulative Preferred Stock ($0.01 par value per share)
+BRN,Barnwell Industries Inc. 
+BTG,B2Gold Corp Common shares (Canada)
+BTN,Ballantyne Strong Inc. 
+BWL/A,Bowl America Inc.
+CANF,Can-Fite Biopharma Ltd Sponsored ADR (Israel)
+CCF,Chase Corporation 
+CDOR,Condor Hospitality Trust Inc. 
+CEI,Camber Energy Inc. 
+CET,Central Securities Corporation 
+CEV,Eaton Vance California Municipal Income Trust Shares of Beneficial Interest
+CHAQ,Chardan Healthcare Acquisition 2 Corp. 
+CHFW,Consonance-HFW Acquisition Corp. Class A Ordinary Shares
+CIK,Credit Suisse Asset Management Income Fund Inc. 
+CIX,CompX International Inc. 
+CKX,CKX Lands Inc. 
+CLM,Cornerstone Strategic Value Fund Inc. New 
+CMCL,Caledonia Mining Corporation Plc Common Shares
+CMT,Core Molding Technologies Inc 
+COHN,Cohen & Company Inc.
+CPHI,China Pharma Holdings Inc. 
+CQP,Cheniere Energy Partners LP Cheniere Energy Partners LP Common Units
+CRF,Cornerstone Total Return Fund Inc. (The) 
+CRHM,CRH Medical Corporation Common Shares of Beneficial Interest
+CTEK,CynergisTek Inc. 
+CVM,Cel-Sci Corporation 
+CVR,Chicago Rivet & Machine Co. 
+CVU,CPI Aerostructures Inc. 
+DHY,Credit Suisse High Yield Bond Fund 
+DIT,AMCON Distributing Company 
+DLA,Delta Apparel Inc. 
+DMF,BNY Mellon Municipal Income Inc. 
+DNN,Denison Mines Corp Ordinary Shares (Canada)
+DPW,Ault Global Holdings Inc. 
+DSS,Document Security Systems Inc. 
+DXF,Dunxin Financial Holdings Limited American Depositary Shares
+DXR,Daxor Corporation 
+EAD,Wells Fargo Income Opportunities Fund Common Shares
+ECF,Ellsworth Growth and Income Fund Ltd.
+ECF^A,Ellsworth Growth and Income Fund Ltd. 5.25% Series A Cumulative Preferred Shares (Liquidation Preference $25.00 per share)
+EIM,Eaton Vance Municipal Bond Fund Common Shares of Beneficial Interest $.01 par value
+ELA,Envela Corporation 
+ELLO,Ellomay Capital Ltd Ordinary Shares (Israel)
+ELMD,Electromed Inc. 
+EMAN,eMagin Corporation 
+EMX,EMX Royalty Corporation Common Shares (Canada)
+ENSV,Enservco Corporation 
+ENX,Eaton Vance New York Municipal Bond Fund Common Shares of Beneficial Interest $.01 par value
+EPM,Evolution Petroleum Corporation Inc. 
+EQX,Equinox Gold Corp. Common Shares
+ERC,Wells Fargo Multi-Sector Income Fund  no par value
+ERH,Wells Fargo Utilities and High Income Fund
+ESP,Espey Mfg. & Electronics Corp. 
+EVBN,Evans Bancorp Inc. 
+EVI,EVI Industries Inc.  
+EVM,Eaton Vance California Municipal Bond Fund Common Shares of Beneficial Interest $.01 par value
+EVV,Eaton Vance Limited Duration Income Fund Common Shares of Beneficial Interest
+EVY,Eaton Vance New York Municipal Income Trust Shares of Beneficial Interest
+EXN,Excellon Resources Inc. Common Shares
+FAX,Aberdeen Asia-Pacific Income Fund Inc 
+FCO,Aberdeen Global Income Fund Inc. 
+FEN,First Trust Energy Income and Growth Fund
+FRD,Friedman Industries Inc. 
+FSI,Flexible Solutions International Inc.  (CDA)
+FSP,Franklin Street Properties Corp. 
+FTF,Franklin Limited Duration Income Trust Common Shares of Beneficial Interest
+FTSI,FTS International Inc. Class A 
+FURY,Fury Gold Mines Limited Common Shares
+GAU,Galiano Gold Inc.
+GBR,New Concept Energy Inc 
+GDP,Goodrich Petroleum Corporation 
+GGN,GAMCO Global Gold Natural Resources & Income Trust
+GGN^B,GAMCO Global Gold Natural Reources & Income Trust 5.00% Series B Cumulative 25.00 Liquidation Preference
+GGO,The Gabelli Go Anywhere Trust Common Shares of Beneficial Interest
+GGO^A,The Gabelli Go Anywhere Trust Series A Cumulative Puttable and Callable Preferred Shares
+GLDG,GoldMining Inc. Common Shares
+GLO,Clough Global Opportunities Fund 
+GLQ,Clough Global Equity Fund Clough Global Equity Fund Common Shares of Beneficial Interest
+GLU,Gabelli Global Utility Common Shares of Beneficial Ownership
+GLU^A,The Gabelli Global Utility and Income Trust Series A Cumulative Puttable and Callable Preferred Shares
+GLU^B,The Gabelli Global Utility and Income Trust Series B Cumulative Puttable and Callable Preferred Shares
+GLV,Clough Global Dividend and Income Fund Common Shares of beneficial interest
+GOED,1847 Goedeker Inc. Commom Stock
+GORO,Gold Resource Corporation 
+GPL,Great Panther Mining Limited Ordinary Shares (Canada)
+GRF,Eagle Capital Growth Fund Inc. 
+GROY,Gold Royalty Corp. Common Shares
+GSAT,Globalstar Inc. 
+GSS,Golden Star Resources Ltd 
+GSV,Gold Standard Ventures Corporation  (Canada)
+GTE,Gran Tierra Energy Inc. 
+HLM^,Hillman Group Capital Trust Preferred Stock
+HMG,HMG/Courtland Properties Inc. 
+HNW,Pioneer Diversified High Income Trust Pioneer Diversified High Income Trust Common Shares of Beneficial Interest
+HUSA,Houston American Energy Corporation 
+HWM^,Howmet Aerospace Inc. $3.75 Preferred Stock
+IAF,Aberdeen Australia Equity Fund Inc 
+IBIO,iBio Inc. 
+ID,PARTS iD Inc. Class A 
+IGC,India Globalization Capital Inc. 
+IHT,InnSuites Hospitality Trust Shares of Beneficial Interest
+IMH,Impac Mortgage Holdings Inc.  
+IMO,Imperial Oil Limited 
+INDO,Indonesia Energy Corporation Limited Ordinary Shares
+INFU,InfuSystems Holdings Inc. 
+INS,Intelligent Systems Corporation 
+INTT,inTest Corporation 
+INUV,Inuvo Inc.
+IOR,Income Opportunity Realty Investors Inc. 
+ISDR,Issuer Direct Corporation 
+ISR,IsoRay Inc.  (DE)
+ITP,IT Tech Packaging Inc. 
+ITRG,Integra Resources Corp. Common Shares
+JOB,GEE Group Inc. 
+KIQ,Kelso Technologies Inc Ordinary Shares
+KLR,Kaleyra Inc. 
+LCTX,Lineage Cell Therapeutics Inc. 
+LEU,Centrus Energy Corp. Class A 
+LGL,LGL Group Inc. (The) 
+LNG,Cheniere Energy Inc. 
+LODE,Comstock Mining Inc. 
+LOV,Spark Networks Inc. American Depositary Shares (each representing one-tenth of an Ordinary Share)
+LSF,Laird Superfood Inc. 
+LXFR,Luxfer Holdings PLC Ordinary Shares
+MAG,MAG Silver Corporation Ordinary Shares
+MCF,Contango Oil & Gas Company  (TX)
+MHH,Mastech Digital Inc 
+MLSS,Milestone Scientific Inc. 
+MMX,Maverix Metals Inc. Common Shares
+MSN,Emerson Radio Corporation 
+MTA,Metalla Royalty & Streaming Ltd. Common Shares
+MTNB,Matinas Biopharma Holdings Inc. 
+MXC,Mexco Energy Corporation 
+MYO,Myomo Inc. 
+NAK,Northern Dynasty Minerals Ltd. 
+NAVB,Navidea Biopharmaceuticals Inc. 
+NBA,New Beginnings Acquisition Corp. 
+NBH,Neuberger Berman Municipal Fund Inc. 
+NBO,Neuberger Berman New York Municipal Fund Inc. 
+NBW,Neuberger Berman California Municipal Fund Inc 
+NBY,NovaBay Pharmaceuticals Inc. 
+NEN,New England Realty Associates Limited Partnership Class A Depositary Receipts Evidencing Units of Limited Partnership
+NES,Nuverra Environmental Solutions Inc. 
+NG,Novagold Resources Inc.
+NGD,New Gold Inc.
+NHC,National HealthCare Corporation 
+NHS,Neuberger Berman High Yield Strategies Fund
+NML,Neuberger Berman MLP and Energy Income Fund Inc. 
+NNVC,NanoViricides Inc. 
+NOG,Northern Oil and Gas Inc. 
+NRO,Neuberger Berman Real Estate Securities Income Fund Inc. Neuberger Berman Real Estate Securities Income Fund Inc.
+NSPR,InspireMD Inc. 
+NTIP,Network-1 Technologies Inc. 
+NTN,NTN Buzztime Inc. 
+NXE,Nexgen Energy Ltd. Common Shares
+OGEN,Oragenics Inc. 
+ORLA,Orla Mining Ltd. Common Shares
+PCG^A,Pacific Gas & Electric Co. 6% Preferred Stock
+PCG^B,Pacific Gas & Electric Co. 5 1/2% Preferred Stock
+PCG^C,Pacific Gas & Electric Co. 5% 1st Preferred Stock
+PCG^D,Pacific Gas & Electric Co. 5% 1st  Red. Preferred Stock
+PCG^E,Pacific Gas & Electric Co. 5% 1st A Preferred Stock
+PCG^G,Pacific Gas & Electric Co. 4.80% 1st Preferred Stock
+PCG^H,Pacific Gas & Electric Co. 4.50% 1st Preferred Stock
+PCG^I,Pacific Gas & Electric Co. 4.36% 1st Preferred Stock
+PED,Pedevco Corp. 
+PHGE,BiomX Inc. 
+PLAG,Planet Green Holdings Corp. 
+PLG,Platinum Group Metals Ltd. Ordinary Shares (Canada)
+PLM,Polymet Mining Corporation Ordinary Shares (Canada)
+PLX,Protalix BioTherapeutics Inc. (DE) 
+PLYM^A,Plymouth Industrial REIT Inc. 7.50% Series A Cumulative Redeemable Preferred Stock
+PRK,Park National Corporation 
+PTK,PTK Acquisition Corp. 
+PTN,Palatin Technologies Inc. 
+PW,Power REIT (MD) 
+PW^A,Power REIT 7.75% Series A Cumulative Perpetual Preferred Stock
+PZG,Paramount Gold Nevada Corp. 
+RCG,RENN Fund Inc 
+REI,Ring Energy Inc. 
+REPX,Riley Exploration Permian Inc. 
+RHE,Regional Health Properties Inc. 
+RHE^A,Regional Health Properties Inc. 10.875% Series A Cumulative Redeemable Preferred Stock
+RLGT,Radiant Logistics Inc. 
+RMED,Ra Medical Systems Inc. 
+RVP,Retractable Technologies Inc. 
+SACC,Sachem Capital Corp. 6.875% Notes due 2024
+SACH,Sachem Capital Corp. Common Shares
+SCCB,Sachem Capital Corp. 7.125% Notes due 2024
+SCCC,Sachem Capital Corp. 7.75% Notes due 2025
+SDPI,Superior Drilling Products Inc. 
+SEB,Seaboard Corporation 
+SENS,Senseonics Holdings Inc. 
+SIF,SIFCO Industries Inc. 
+SILV,SilverCrest Metals Inc. Common Shares
+SIM,Grupo Simec S.A.B. de C.V. American Depositary Shares
+SMTS,Sierra Metals Inc. 
+SNMP,Evolve Transition Infrastructure LP 
+SSY,SunLink Health Systems Inc. 
+STXS,Stereotaxis Inc. 
+SVM,Silvercorp Metals Inc. Common Shares
+SVT,Servotronics Inc. 
+SYN,Synthetic Biologics Inc. 
+TGB,Taseko Mines Ltd. 
+THM,International Tower Hill Mines Ltd. Ordinary Shares (Canada)
+TKAT,Takung Art Co. Ltd. 
+TMBR,Timber Pharmaceuticals Inc. 
+TMP,Tompkins Financial Corporation 
+TMQ,Trilogy Metals Inc. 
+TPHS,Trinity Place Holdings Inc. 
+TRT,Trio-Tech International 
+TRX,Tanzanian Gold Corporation 
+UAMY,United States Antimony Corporation 
+UAVS,AgEagle Aerial Systems Inc. 
+UEC,Uranium Energy Corp. 
+UFAB,Unique Fabricating Inc. 
+URG,Ur Energy Inc Common Shares (Canada)
+USAS,Americas Gold and Silver Corporation Common Shares no par value
+UTG,Reaves Utility Income Fund Common Shares of Beneficial Interest
+UUU,Universal Security Instruments Inc. 
+UUUU,Energy Fuels Inc Ordinary Shares (Canada)
+VCF,Delaware Investments Colorado Municipal Income Fund Inc  
+VFL,Delaware Investments National Municipal Income Fund 
+VGZ,Vista Gold Corp 
+VHAQ,Viveon Health Acquisition Corp. 
+VKI,Invesco Advantage Municipal Income Trust II Common Shares of Beneficial Interest (DE)
+VMM,Delaware Investments Minnesota Municipal Income Fund II Inc. 
+VNRX,VolitionRX Limited 
+VOLT,Volt Information Sciences Inc. 
+WLMS,Williams Industrial Services Group Inc. 
+WRN,Western Copper and Gold Corporation 
+WTT,Wireless Telecom Group  Inc. 
+WYY,WidePoint Corporation 
+XPL,Solitario Zinc Corp. 
+XTNT,Xtant Medical Holdings Inc. 
+XXII,22nd Century Group Inc. 
+YCBD,cbdMD Inc. 
+YCBD^A,cbdMD Inc. 8.0% Series A Cumulative Convertible Preferred Stock
+ZDGE,Zedge Inc. Class B  
+ZOM,Zomedica Corp. Common Shares

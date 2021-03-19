@@ -9,6 +9,8 @@ object PrefUtil {
 
     const val RECENT_LOADING_TIME = "recent_loading_time"
 
+    const val ONCE_LOAD_STOCK_NAME = "once_load_stock_name"
+
     private lateinit var pref: SharedPreferences
 
     fun init(context: Context) {

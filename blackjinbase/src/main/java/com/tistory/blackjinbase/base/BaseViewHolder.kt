@@ -20,8 +20,4 @@ abstract class BaseViewHolder<out B : ViewDataBinding, in D>(
     protected val binding: B = DataBindingUtil.bind(itemView)!!
 
     abstract fun bind(data: D)
-
-    open fun recycled() {
-
-    }
 }

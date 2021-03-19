@@ -1,7 +1,10 @@
 package com.tistory.data.di
 
+import com.tistory.data.repository.StockNameRepository
+import com.tistory.data.repository.StockNameRepositoryImpl
 import com.tistory.data.repository.StockWithDividendRepositoryImpl
 import com.tistory.data.source.local.StockDao
+import com.tistory.data.source.local.StockNameDao
 import com.tistory.data.source.remote.api.StockApi
 import com.tistory.domain.repository.StockWithDividendRepository
 import dagger.Module
@@ -21,5 +24,12 @@ object RepositoryModule {
         return StockWithDividendRepositoryImpl(
             stockDao, stockApi
         )
+    }
+
+    @Provides
+    fun provideStockNameRepo(
+        tickerDao: StockNameDao
+    ): StockNameRepository {
+        return StockNameRepositoryImpl(tickerDao)
     }
 }

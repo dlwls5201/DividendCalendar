@@ -1,0 +1,3913 @@
+AACG,ATA Creativity Global American Depositary Shares
+AACQ,Artius Acquisition Inc. Class A 
+AACQU,Artius Acquisition Inc. Unit 
+AACQW,Artius Acquisition Inc Warrant
+AAL,American Airlines Group Inc. 
+AAME,Atlantic American Corporation 
+AAOI,Applied Optoelectronics Inc. 
+AAON,AAON Inc. 
+AAPL,Apple Inc. 
+AAWW,Atlas Air Worldwide Holdings NEW 
+ABCB,Ameris Bancorp 
+ABCL,AbCellera Biologics Inc. Common Shares
+ABCM,Abcam plc American Depositary Shares
+ABEO,Abeona Therapeutics Inc. 
+ABGI,ABG Acquisition Corp. I Class A Ordinary Shares
+ABIO,ARCA biopharma Inc. 
+ABMD,ABIOMED Inc. 
+ABNB,Airbnb Inc. Class A 
+ABST,Absolute Software Corporation 
+ABTX,Allegiance Bancshares Inc. 
+ABUS,Arbutus Biopharma Corporation 
+ACAC,Acies Acquisition Corp. Class A Ordinary Share
+ACACU,Acies Acquisition Corp. Unit
+ACACW,Acies Acquisition Corp. Warrant
+ACAD,ACADIA Pharmaceuticals Inc. 
+ACAHU,Atlantic Coastal Acquisition Corp. Unit
+ACBI,Atlantic Capital Bancshares Inc. 
+ACCD,Accolade Inc. 
+ACER,Acer Therapeutics Inc.  (DE)
+ACET,Adicet Bio Inc.  
+ACEV,ACE Convergence Acquisition Corp. Class A Ordinary Shares
+ACEVU,ACE Convergence Acquisition Corp. Unit
+ACEVW,ACE Convergence Acquisition Corp. Warrant
+ACGL,Arch Capital Group Ltd. 
+ACGLO,Arch Capital Group Ltd. Depositary Shares Each Representing 1/1000th Interest in a Share of 5.45% Non-Cumulative Preferred Shares Series F
+ACGLP,Arch Capital Group Ltd. Depositary Shares Representing Interest in 5.25% Non-Cumulative Preferred Series E Shrs
+ACHC,Acadia Healthcare Company Inc. 
+ACHV,Achieve Life Sciences Inc. Common Shares
+ACIU,AC Immune SA 
+ACIW,ACI Worldwide Inc. 
+ACKIT,Ackrell SPAC Partners I Co. Subunits
+ACKIU,Ackrell SPAC Partners I Co. Units
+ACKIW,Ackrell SPAC Partners I Co. Warrants
+ACLS,Axcelis Technologies Inc. 
+ACMR,ACM Research Inc. Class A 
+ACNB,ACNB Corporation 
+ACOR,Acorda Therapeutics Inc. 
+ACQRU,Independence Holdings Corp. Units
+ACRS,Aclaris Therapeutics Inc. 
+ACRX,AcelRx Pharmaceuticals Inc. 
+ACST,Acasti Pharma Inc. Class A 
+ACTC,ArcLight Clean Transition Corp. Class A Ordinary Shares
+ACTCU,ArcLight Clean Transition Corp. Unit
+ACTCW,ArcLight Clean Transition Corp. Warrant
+ACTG,Acacia Research Corporation (Acacia Tech) 
+ADAG,Adagene Inc. American Depositary Shares
+ADAP,Adaptimmune Therapeutics plc American Depositary Shares
+ADBE,Adobe Inc. 
+ADER,26 Capital Acquisition Corp. Class A 
+ADERU,26 Capital Acquisition Corp. Unit
+ADERW,26 Capital Acquisition Corp. Warrant
+ADES,Advanced Emissions Solutions Inc. 
+ADI,Analog Devices Inc. 
+ADIL,Adial Pharmaceuticals Inc 
+ADILW,Adial Pharmaceuticals Inc Warrant
+ADMA,ADMA Biologics Inc 
+ADMP,Adamis Pharmaceuticals Corporation 
+ADMS,Adamas Pharmaceuticals Inc. 
+ADN,Advent Technologies Holdings Inc. Class A 
+ADNWW,Advent Technologies Holdings Inc. Warrant
+ADOC,Edoc Acquisition Corp. Class A Ordinary Share
+ADOCR,Edoc Acquisition Corp. Right
+ADOCW,Edoc Acquisition Corp. Warrant
+ADP,Automatic Data Processing Inc. 
+ADPT,Adaptive Biotechnologies Corporation 
+ADSK,Autodesk Inc. 
+ADTN,ADTRAN Inc. 
+ADTX,ADiTx Therapeutics Inc. 
+ADUS,Addus HomeCare Corporation 
+ADV,Advantage Solutions Inc. Class A 
+ADVM,Adverum Biotechnologies Inc. 
+ADVWW,Advantage Solutions Inc. Warrant
+ADXN,Addex Therapeutics Ltd American Depositary Shares
+ADXS,Advaxis Inc. 
+AEAC,Authentic Equity Acquisition Corp. Class A ordinary share
+AEACU,Authentic Equity Acquisition Corp. Unit
+AEACW,Authentic Equity Acquisition Corp. Warrant
+AEGN,Aegion Corp 
+AEHL,Antelope Enterprise Holdings Limited  (0.024 par)
+AEHR,Aehr Test Systems 
+AEI,Alset EHome International Inc. 
+AEIS,Advanced Energy Industries Inc. 
+AEMD,Aethlon Medical Inc. 
+AEP,American Electric Power Company Inc. 
+AEPPL,American Electric Power Company Inc. Corporate Unit
+AEPPZ,American Electric Power Company Inc. Corporate Units
+AERI,Aerie Pharmaceuticals Inc. 
+AESE,Allied Esports Entertainment Inc. 
+AEY,ADDvantage Technologies Group Inc. 
+AEYE,AudioEye Inc. 
+AEZS,Aeterna Zentaris Inc. 
+AFBI,Affinity Bancshares Inc.  (MD)
+AFIB,Acutus Medical Inc. 
+AFIN,American Finance Trust Inc. Class A 
+AFINO,American Finance Trust Inc. 7.375% Series C Cumulative Redeemable Preferred Stock
+AFINP,American Finance Trust Inc. 7.50% Series A Cumulative Redeemable Perpetual Preferred Stock
+AFMD,Affimed N.V.
+AFRM,Affirm Holdings Inc. Class A 
+AFYA,Afya Limited Class A Common Shares
+AGBA,AGBA Acquisition Limited Ordinary Share
+AGBAR,AGBA Acquisition Limited Right
+AGBAW,AGBA Acquisition Limited Warrant
+AGC,Altimeter Growth Corp. Class A Ordinary Shares
+AGCUU,Altimeter Growth Corp. Unit
+AGCWW,Altimeter Growth Corp. Warrant
+AGEN,Agenus Inc. 
+AGFS,AgroFresh Solutions Inc. 
+AGFY,Agrify Corporation 
+AGGRU,Agile Growth Corp. Units
+AGIO,Agios Pharmaceuticals Inc. 
+AGLE,Aeglea BioTherapeutics Inc. 
+AGMH,AGM Group Holdings Inc. Class A Ordinary Shares
+AGNC,AGNC Investment Corp. 
+AGNCM,AGNC Investment Corp. Depositary Shares rep 6.875% Series D Fixed-to-Floating Cumulative Redeemable Preferred Stock
+AGNCN,AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 7.00% Series C Fixed-To-Floating Rate Cumulative Redeemable Preferred Stock
+AGNCO,AGNC Investment Corp. Depositary Shares each representing a 1/1000th interest in a share of 6.50% Series E Fixed-to-Floating Cumulative Redeemable Preferred Stock
+AGNCP,AGNC Investment Corp. Depositary Shares Each Representing a 1/1000th Interest in a Share of 6.125% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+AGRX,Agile Therapeutics Inc. 
+AGTC,Applied Genetic Technologies Corporation 
+AGYS,Agilysys Inc. 
+AHAC,Alpha Healthcare Acquisition Corp. Class A 
+AHACU,Alpha Healthcare Acquisition Corp. Unit
+AHACW,Alpha Healthcare Acquisition Corp. Warrant
+AHCO,AdaptHealth Corp. Class A 
+AHPI,Allied Healthcare Products Inc. 
+AIH,Aesthetic Medical International Holdings Group Ltd. American Depositary Shares
+AIHS,Senmiao Technology Limited 
+AIKI,AIkido Pharma Inc. 
+AIMC,Altra Industrial Motion Corp. 
+AINV,Apollo Investment Corporation 
+AIRG,Airgain Inc. 
+AIRT,Air T Inc. 
+AIRTP,Air T Inc. Air T Funding Alpha Income Trust Preferred Securities
+AIRTW,Air T Inc. Air T Funding Warrants to Purchase Alpha Income Trust Preferred Expiring 08/30/2021
+AKAM,Akamai Technologies Inc. 
+AKBA,Akebia Therapeutics Inc. 
+AKER,Akers Biosciences Inc. 
+AKIC,Sports Ventures Acquisition Corp. Class A Ordinary Shares
+AKICU,Sports Ventures Acquisition Corp. Unit
+AKICW,Sports Ventures Acquisition Corp. Warrant
+AKRO,Akero Therapeutics Inc. 
+AKTS,Akoustis Technologies Inc. 
+AKTX,Akari Therapeutics plc ADR (0.01 USD)
+AKU,Akumin Inc. Common Shares
+AKUS,Akouos Inc. 
+ALAC,Alberton Acquisition Corporation Ordinary Shares
+ALACR,Alberton Acquisition Corporation Rights exp April 26 2021
+ALACW,Alberton Acquisition Corporation Warrant
+ALBO,Albireo Pharma Inc. 
+ALCO,Alico Inc. 
+ALDX,Aldeyra Therapeutics Inc. 
+ALEC,Alector Inc. 
+ALGM,Allegro MicroSystems Inc. 
+ALGN,Align Technology Inc. 
+ALGS,Aligos Therapeutics Inc. 
+ALGT,Allegiant Travel Company 
+ALIM,Alimera Sciences Inc. 
+ALJJ,ALJ Regional Holdings Inc. 
+ALKS,Alkermes plc Ordinary Shares
+ALLK,Allakos Inc. 
+ALLO,Allogene Therapeutics Inc. 
+ALLT,Allot Ltd. Ordinary Shares
+ALNA,Allena Pharmaceuticals Inc. 
+ALNY,Alnylam Pharmaceuticals Inc. 
+ALOT,AstroNova Inc. 
+ALPN,Alpine Immune Sciences Inc. 
+ALRM,Alarm.com Holdings Inc. 
+ALRN,Aileron Therapeutics Inc. 
+ALRS,Alerus Financial Corporation 
+ALSK,Alaska Communications Systems Group Inc. 
+ALT,Altimmune Inc. 
+ALTA,Altabancorp 
+ALTM,Altus Midstream Company Class A 
+ALTO,Alto Ingredients Inc. 
+ALTR,Altair Engineering Inc. Class A 
+ALTU,Altitude Acquisition Corp. Class A 
+ALTUU,Altitude Acquisition Corp. Unit
+ALTUW,Altitude Acquisition Corp. Warrant
+ALVR,AlloVir Inc. 
+ALXN,Alexion Pharmaceuticals Inc. 
+ALXO,ALX Oncology Holdings Inc. 
+ALYA,Alithya Group inc. Class A Subordinate Voting Shares
+AMAL,Amalgamated Financial Corp.  (DE)
+AMAT,Applied Materials Inc. 
+AMBA,Ambarella Inc. Ordinary Shares
+AMCX,AMC Networks Inc. Class A 
+AMD,Advanced Micro Devices Inc. 
+AMED,Amedisys Inc 
+AMEH,Apollo Medical Holdings Inc. 
+AMGN,Amgen Inc. 
+AMHC,Amplitude Healthcare Acquisition Corporation Class A 
+AMHCU,Amplitude Healthcare Acquisition Corporation Unit
+AMHCW,Amplitude Healthcare Acquisition Corporation Warrants
+AMKR,Amkor Technology Inc. 
+AMNB,American National Bankshares Inc. 
+AMOT,Allied Motion Technologies Inc.
+AMPG,Amplitech Group Inc. 
+AMPGW,Amplitech Group Inc. Warrants
+AMPH,Amphastar Pharmaceuticals Inc. 
+AMRB,American River Bankshares 
+AMRK,A-Mark Precious Metals Inc. 
+AMRN,Amarin Corporation plc
+AMRS,Amyris Inc. 
+AMSC,American Superconductor Corporation 
+AMSF,AMERISAFE Inc. 
+AMST,Amesite Inc. 
+AMSWA,American Software Inc. Class A 
+AMTB,Amerant Bancorp Inc. Class A 
+AMTBB,Amerant Bancorp Inc. Class B 
+AMTI,Applied Molecular Transport Inc. 
+AMTX,Aemetis Inc. 
+AMWD,American Woodmark Corporation 
+AMYT,Amryt Pharma plc American Depositary Shares
+AMZN,Amazon.com Inc. 
+ANAB,AnaptysBio Inc. 
+ANAT,American National Group Inc. 
+ANDA,Andina Acquisition Corp. III Ordinary Shares
+ANDAR,Andina Acquisition Corp. III Right
+ANDAW,Andina Acquisition Corp. III Warrant
+ANDE,Andersons Inc. (The) 
+ANGI,ANGI Homeservices Inc. Class A 
+ANGN,Angion Biomedica Corp. 
+ANGO,AngioDynamics Inc. 
+ANIK,Anika Therapeutics Inc. 
+ANIP,ANI Pharmaceuticals Inc.
+ANIX,Anixa Biosciences Inc. 
+ANNX,Annexon Inc. 
+ANPC,AnPac Bio-Medical Science Co. Ltd. American Depositary Shares
+ANSS,ANSYS Inc. 
+ANTE,AirNet Technology Inc. American Depositary Shares
+ANY,Sphere 3D Corp. Common Shares
+ANZUU,Anzu Special Acquisition Corp I Units
+AOSL,Alpha and Omega Semiconductor Limited Common Shares
+AOUT,American Outdoor Brands Inc.  
+APA,APA Corporation 
+APDN,Applied DNA Sciences Inc. 
+APEI,American Public Education Inc. 
+APEN,Apollo Endosurgery Inc. 
+APHA,Aphria Inc. Common Shares
+API,Agora Inc. American Depositary Shares
+APLS,Apellis Pharmaceuticals Inc. 
+APLT,Applied Therapeutics Inc. 
+APM,Aptorum Group Limited Class A Ordinary Shares
+APOG,Apogee Enterprises Inc. 
+APOP,Cellect Biotechnology Ltd. American Depositary Shares
+APOPW,Cellect Biotechnology Ltd. Warrants to Purchase ADRs
+APPF,AppFolio Inc. Class A 
+APPH,AppHarvest Inc. 
+APPHW,AppHarvest Inc. Warrants
+APPN,Appian Corporation Class A 
+APPS,Digital Turbine Inc. 
+APR,Apria Inc. 
+APRE,Aprea Therapeutics Inc. 
+APTO,Aptose Biosciences Inc. Common Shares
+APTX,Aptinyx Inc. 
+APVO,Aptevo Therapeutics Inc. 
+APWC,Asia Pacific Wire & Cable Corporation Ltd. Ordinary Shares (Bermuda)
+APXT,Apex Technology Acquisition Corporation Class A 
+APXTU,Apex Technology Acquisition Corporation Unit
+APXTW,Apex Technology Acquisition Corporation Warrant
+APYX,Apyx Medical Corporation 
+AQB,AquaBounty Technologies Inc. 
+AQMS,Aqua Metals Inc. 
+AQST,Aquestive Therapeutics Inc. 
+ARAV,Aravive Inc. 
+ARAY,Accuray Incorporated 
+ARBG,Aequi Acquisition Corp. Class A 
+ARBGU,Aequi Acquisition Corp. Unit
+ARBGW,Aequi Acquisition Corp. warrants
+ARCB,ArcBest Corporation 
+ARCC,Ares Capital Corporation 
+ARCE,Arco Platform Limited Class A Common Shares
+ARCT,Arcturus Therapeutics Holdings Inc. 
+ARDS,Aridis Pharmaceuticals Inc. 
+ARDX,Ardelyx Inc. 
+AREC,American Resources Corporation Class A 
+ARGX,argenx SE American Depositary Shares
+ARKO,ARKO Corp. 
+ARKOW,ARKO Corp. Warrant
+ARKR,Ark Restaurants Corp. 
+ARLP,Alliance Resource Partners L.P. Common Units representing Limited Partners Interests
+ARNA,Arena Pharmaceuticals Inc. 
+AROW,Arrow Financial Corporation 
+ARPO,Aerpio Pharmaceuticals Inc. 
+ARQT,Arcutis Biotherapeutics Inc. 
+ARRWU,Arrowroot Acquisition Corp. Unit
+ARRY,Array Technologies Inc. 
+ARTL,Artelo Biosciences Inc. 
+ARTLW,Artelo Biosciences Inc. Warrant
+ARTNA,Artesian Resources Corporation Class A 
+ARTW,Art's-Way Manufacturing Co. Inc. 
+ARVN,Arvinas Inc. 
+ARWR,Arrowhead Pharmaceuticals Inc. 
+ARYA,ARYA Sciences Acquisition Corp III Class A Ordinary Shares
+ARYD,ARYA Sciences Acquisition Corp IV Class A Odinary Shares
+ASAX,Astrea Acquisition Corp. Class A 
+ASAXU,Astrea Acquisition Corp. Unit
+ASAXW,Astrea Acquisition Corp. Warrant
+ASLE,AerSale Corporation 
+ASLEW,AerSale Corporation Warrants
+ASLN,ASLAN Pharmaceuticals Limited American Depositary Shares
+ASMB,Assembly Biosciences Inc. 
+ASML,ASML Holding N.V. New York Registry Shares
+ASND,Ascendis Pharma A/S American Depositary Shares
+ASO,Academy Sports and Outdoors Inc. 
+ASPCU,Alpha Capital Acquisition Company Unit
+ASPS,Altisource Portfolio Solutions S.A. 
+ASPU,Aspen Group Inc. 
+ASRT,Assertio Holdings Inc. 
+ASRV,AmeriServ Financial Inc. 
+ASRVP,AmeriServ Financial Inc. AmeriServ Financial Trust I - 8.45% Beneficial Unsecured Securities Series A
+ASTC,Astrotech Corporation (DE) 
+ASTE,Astec Industries Inc. 
+ASUR,Asure Software Inc 
+ASYS,Amtech Systems Inc. 
+ATAX,America First Multifamily Investors L.P. Beneficial Unit Certificates (BUCs) representing Limited Partnership Interests
+ATCX,Atlas Technical Consultants Inc. Class A 
+ATEC,Alphatec Holdings Inc. 
+ATEX,Anterix Inc. 
+ATHA,Athira Pharma Inc. 
+ATHE,Alterity Therapeutics Limited American Depositary Shares
+ATHX,Athersys Inc. 
+ATIF,ATIF Holdings Limited Ordinary Shares
+ATLC,Atlanticus Holdings Corporation 
+ATLO,Ames National Corporation 
+ATNF,180 Life Sciences Corp. 
+ATNFW,180 Life Sciences Corp. Warrant
+ATNI,ATN International Inc. 
+ATNX,Athenex Inc. 
+ATOM,Atomera Incorporated 
+ATOS,Atossa Therapeutics Inc. 
+ATRA,Atara Biotherapeutics Inc. 
+ATRC,AtriCure Inc. 
+ATRI,Atrion Corporation 
+ATRO,Astronics Corporation 
+ATRS,Antares Pharma Inc. 
+ATSG,Air Transport Services Group Inc
+ATSPU,Archimedes Tech SPAC Partners Co. Unit
+ATVCU,Tribe Capital Growth Corp I Units
+ATVI,Activision Blizzard Inc. 
+ATXI,Avenue Therapeutics Inc. 
+AUB,Atlantic Union Bankshares Corporation 
+AUBAP,Atlantic Union Bankshares Corporation Depositary Shares each representing a 1/400th ownership interest in a share of 6.875% Perpetual Non-Cumulative Preferred Stock Series A
+AUBN,Auburn National Bancorporation Inc. 
+AUDC,AudioCodes Ltd. 
+AUPH,Aurinia Pharmaceuticals Inc Ordinary Shares
+AURCU,Aurora Acquisition Corp. Unit
+AUTL,Autolus Therapeutics plc American Depositary Share
+AUTO,AutoWeb Inc. 
+AUUD,Auddia Inc. 
+AUUDW,Auddia Inc. Warrants
+AUVI,Applied UV Inc. 
+AVAV,AeroVironment Inc. 
+AVCO,Avalon GloboCare Corp. 
+AVCT,American Virtual Cloud Technologies Inc.  
+AVCTW,American Virtual Cloud Technologies Inc. Warrant expiring 4/7/2025
+AVDL,Avadel Pharmaceuticals plc American Depositary Shares
+AVEO,AVEO Pharmaceuticals Inc. 
+AVGO,Broadcom Inc. 
+AVGOP,Broadcom Inc. 8.00% Mandatory Convertible Preferred Stock Series A
+AVGR,Avinger Inc. 
+AVID,Avid Technology Inc. 
+AVIR,Atea Pharmaceuticals Inc. 
+AVNW,Aviat Networks Inc. 
+AVO,Mission Produce Inc. 
+AVRO,AVROBIO Inc. 
+AVT,Avnet Inc. 
+AVXL,Anavex Life Sciences Corp. 
+AWH,Aspira Women's Health Inc. 
+AWRE,Aware Inc. 
+AXAS,Abraxas Petroleum Corporation 
+AXDX,Accelerate Diagnostics Inc. 
+AXGN,Axogen Inc. 
+AXLA,Axcella Health Inc. 
+AXNX,Axonics Modulation Technologies Inc. 
+AXON,Axon Enterprise Inc. 
+AXSM,Axsome Therapeutics Inc. 
+AXTI,AXT Inc 
+AY,Atlantica Sustainable Infrastructure plc Ordinary Shares
+AYLA,Ayala Pharmaceuticals Inc. 
+AYRO,AYRO Inc. 
+AYTU,Aytu BioScience Inc. 
+AZN,AstraZeneca PLC American Depositary Shares
+AZPN,Aspen Technology Inc. 
+AZRX,AzurRx BioPharma Inc. 
+AZYO,Aziyo Biologics Inc. Class A 
+BAND,Bandwidth Inc. Class A 
+BANF,BancFirst Corporation 
+BANFP,BancFirst Corporation - BFC Capital Trust II Cumulative Trust Preferred Securities
+BANR,Banner Corporation 
+BANX,StoneCastle Financial Corp 
+BAOS,Baosheng Media Group Holdings Limited Ordinary shares
+BASI,Bioanalytical Systems Inc. 
+BATRA,Liberty Media Corporation Series A Liberty Braves 
+BATRK,Liberty Media Corporation Series C Liberty Braves 
+BBBY,Bed Bath & Beyond Inc. 
+BBCP,Concrete Pumping Holdings Inc. 
+BBGI,Beasley Broadcast Group Inc. Class A 
+BBI,Brickell Biotech Inc. 
+BBIG,Vinco Ventures Inc. 
+BBIO,BridgeBio Pharma Inc. 
+BBQ,BBQ Holdings Inc. 
+BBSI,Barrett Business Services Inc. 
+BCAB,BioAtla Inc. 
+BCAC,Brookline Capital Acquisition Corp. 
+BCACU,Brookline Capital Acquisition Corp. Units
+BCACW,Brookline Capital Acquisition Corp. Warrant
+BCBP,BCB Bancorp Inc. (NJ) 
+BCDA,BioCardia Inc. 
+BCDAW,BioCardia Inc. Warrant
+BCEL,Atreca Inc. Class A 
+BCLI,Brainstorm Cell Therapeutics Inc. 
+BCML,BayCom Corp 
+BCOR,Blucora Inc. 
+BCOV,Brightcove Inc. 
+BCOW,1895 Bancorp of Wisconsin Inc. 
+BCPC,Balchem Corporation 
+BCRX,BioCryst Pharmaceuticals Inc. 
+BCTG,BCTG Acquisition Corp. 
+BCTX,BriaCell Therapeutics Corp. Common Shares
+BCTXW,BriaCell Therapeutics Corp. Warrant
+BCYC,Bicycle Therapeutics plc American Depositary Shares
+BCYP,Big Cypress Acquisition Corp. 
+BCYPU,Big Cypress Acquisition Corp. Unit
+BCYPW,Big Cypress Acquisition Corp. Warrant
+BDSI,BioDelivery Sciences International Inc. 
+BDSX,Biodesix Inc. 
+BDTX,Black Diamond Therapeutics Inc. 
+BEAM,Beam Therapeutics Inc. 
+BECN,Beacon Roofing Supply Inc. 
+BEEM,Beam Global 
+BEEMW,Beam Global Warrant
+BELFA,Bel Fuse Inc. Class A 
+BELFB,Bel Fuse Inc. Class B 
+BENE,Benessere Capital Acquisition Corp. Class A 
+BENER,Benessere Capital Acquisition Corp. Right
+BENEU,Benessere Capital Acquisition Corp. Unit
+BENEW,Benessere Capital Acquisition Corp. Warrant
+BFC,Bank First Corporation 
+BFI,BurgerFi International Inc.  
+BFIIW,BurgerFi International Inc. Warrant 
+BFIN,BankFinancial Corporation 
+BFRA,Biofrontera AG American Depositary Shares
+BFST,Business First Bancshares Inc. 
+BGCP,BGC Partners Inc Class A 
+BGFV,Big 5 Sporting Goods Corporation 
+BGNE,BeiGene Ltd. American Depositary Shares
+BHAT,Blue Hat Interactive Entertainment Technology Ordinary Shares
+BHF,Brighthouse Financial Inc. 
+BHFAL,Brighthouse Financial Inc. 6.25% Junior Subordinated Debentures due 2058
+BHFAN,Brighthouse Financial Inc. Depositary shares each representing a 1/1000th interest in a share of 5.375% Non-Cumulative Preferred Stock Series C
+BHFAO,Brighthouse Financial Inc. Depositary Shares 6.75% Non-Cumulative Preferred Stock Series B
+BHFAP,Brighthouse Financial Inc. Depositary Shares 6.6% Non-Cumulative Preferred Stock Series A
+BHSE,Bull Horn Holdings Corp. Ordinary Shares
+BHSEU,Bull Horn Holdings Corp. Unit
+BHSEW,Bull Horn Holdings Corp. Warrants
+BHTG,BioHiTech Global Inc. 
+BIDU,Baidu Inc. ADS
+BIGC,BigCommerce Holdings Inc. Series 1 
+BIIB,Biogen Inc. 
+BILI,Bilibili Inc. American Depositary Shares
+BIMI,BOQI International Medical Inc. 
+BIOC,Biocept Inc. 
+BIOL,Biolase Inc. 
+BIOTU,Biotech Acquisition Company Unit
+BIVI,BioVie Inc. Class A 
+BJRI,BJ's Restaurants Inc. 
+BKCC,BlackRock Capital Investment Corporation 
+BKEP,Blueknight Energy Partners L.P. Common Units
+BKEPP,Blueknight Energy Partners L.P. L.L.C. Series A Preferred Units
+BKNG,Booking Holdings Inc. 
+BKSC,Bank of South Carolina Corp. 
+BKYI,BIO-key International Inc. 
+BL,BlackLine Inc. 
+BLBD,Blue Bird Corporation 
+BLCM,Bellicum Pharmaceuticals Inc. 
+BLCT,BlueCity Holdings Limited American Depositary Shares
+BLDP,Ballard Power Systems Inc. Common Shares
+BLDR,Builders FirstSource Inc. 
+BLFS,BioLife Solutions Inc. 
+BLI,Berkeley Lights Inc. 
+BLIN,Bridgeline Digital Inc. 
+BLKB,Blackbaud Inc. 
+BLMN,Bloomin' Brands Inc. 
+BLNK,Blink Charging Co. 
+BLNKW,Blink Charging Co. Warrant
+BLPH,Bellerophon Therapeutics Inc. 
+BLRX,BioLineRx Ltd. American Depositary Shares
+BLSA,BCLS Acquisition Corp. Class A Ordinary Shares
+BLTS,Bright Lights Acquisition Corp. Class A 
+BLTSU,Bright Lights Acquisition Corp. Unit
+BLTSW,Bright Lights Acquisition Corp. Warrant
+BLU,BELLUS Health Inc. Common Shares
+BLUE,bluebird bio Inc. 
+BLUW,Blue Water Acquisition Corp. Class A 
+BLUWU,Blue Water Acquisition Corp. Unit
+BLUWW,Blue Water Acquisition Corp. Warrant
+BMBL,Bumble Inc. Class A 
+BMRA,Biomerica Inc. 
+BMRC,Bank of Marin Bancorp 
+BMRN,BioMarin Pharmaceutical Inc. 
+BMTC,Bryn Mawr Bank Corporation 
+BNFT,Benefitfocus Inc. 
+BNGO,Bionano Genomics Inc. 
+BNGOW,Bionano Genomics Inc. Warrant
+BNR,Burning Rock Biotech Limited American Depositary Shares
+BNSO,Bonso Electronics International Inc. 
+BNTC,Benitec Biopharma Inc. 
+BNTX,BioNTech SE American Depositary Share
+BOCH,Bank of Commerce Holdings (CA) 
+BOKF,BOK Financial Corporation 
+BOKFL,BOK Financial Corporation 5.375% Subordinated Notes due 2056
+BOLT,Bolt Biotherapeutics Inc. 
+BOMN,Boston Omaha Corporation Class A 
+BOOM,DMC Global Inc. 
+BOSC,B.O.S. Better Online Solutions 
+BOTJ,Bank of the James Financial Group Inc. 
+BOWX,BowX Acquisition Corp. Class A 
+BOWXU,BowX Acquisition Corp. Unit
+BOWXW,BowX Acquisition Corp. Warrant
+BOXL,Boxlight Corporation Class A 
+BPFH,Boston Private Financial Holdings Inc. 
+BPMC,Blueprint Medicines Corporation 
+BPOP,Popular Inc. 
+BPOPM,Popular Inc. Popular Capital Trust II - 6.125% Cumulative Monthly Income Trust Preferred Securities
+BPOPN,Popular Inc. 6.70% Cumulative Monthly Income Trust Preferred Securities
+BPRN,The Bank of Princeton 
+BPTH,Bio-Path Holdings Inc. 
+BPTS,Biophytis SA American Depositary Share
+BPY,Brookfield Property Partners L.P. Limited Partnership Units
+BPYPN,Brookfield Property Partners L.P. 5.750% Class A Cumulative Redeemable Perpetual Preferred Units Series 3
+BPYPO,Brookfield Property Partners L.P. 6.375% Class A Cumulative Redeemable Perpetual Preferred Units Series 2
+BPYPP,Brookfield Property Partners L.P. 6.50% Class A Cumulative Redeemable Perpetual Preferred Units
+BPYU,Brookfield Property REIT Inc. Class A 
+BPYUP,Brookfield Property REIT Inc. 6.375% Series A Preferred Stock
+BREZ,Breeze Holdings Acquisition Corp. 
+BREZR,Breeze Holdings Acquisition Corp. Right
+BREZW,Breeze Holdings Acquisition Corp. Warrant
+BRID,Bridgford Foods Corporation 
+BRKL,Brookline Bancorp Inc. 
+BRKR,Bruker Corporation 
+BRKS,Brooks Automation Inc.
+BRLI,Brilliant Acquisition Corporation Ordinary Shares
+BRLIR,Brilliant Acquisition Corporation Rights
+BRLIU,Brilliant Acquisition Corporation Unit
+BRLIW,Brilliant Acquisition Corporation Warrants
+BROG,Brooge Energy Limited Ordinary Shares
+BROGW,Brooge Holdings Limited Warrant expiring 12/20/2024
+BRP,BRP Group Inc. (Insurance Company) Class A 
+BRPA,Big Rock Partners Acquisition Corp. 
+BRPAR,Big Rock Partners Acquisition Corp. Right
+BRPAW,Big Rock Partners Acquisition Corp. Warrant
+BRPMU,B. Riley Principal 150 Merger Corp. Unit
+BRQS,Borqs Technologies Inc. Ordinary Shares
+BRY,Berry Corporation (bry) 
+BSBK,Bogota Financial Corp. 
+BSET,Bassett Furniture Industries Incorporated 
+BSGM,BioSig Technologies Inc. 
+BSPE,Bespoke Capital Acquisition Corp. Class A Restricted Voting Shares
+BSQR,BSQUARE Corporation 
+BSRR,Sierra Bancorp 
+BSVN,Bank7 Corp. 
+BSY,Bentley Systems Incorporated Class B 
+BTAI,BioXcel Therapeutics Inc. 
+BTAQ,Burgundy Technology Acquisition Corporation Class A Ordinary shares
+BTAQU,Burgundy Technology Acquisition Corporation Unit
+BTAQW,Burgundy Technology Acquisition Corporation Warrant
+BTBT,Bit Digital Inc. Ordinary Shares
+BTNB,Bridgetown 2 Holdings Limited Class A Ordinary Shares
+BTRS,BTRS Holdings Inc. Class 1 
+BTRSW,BTRS Holdings Inc. Warrants
+BTWN,Bridgetown Holdings Limited Class A Ordinary Shares
+BTWNU,Bridgetown Holdings Limited Units
+BTWNW,Bridgetown Holdings Limited Warrants
+BUSE,First Busey Corporation Class A 
+BVS,Bioventus Inc. Class A 
+BVXV,BiondVax Pharmaceuticals Ltd. American Depositary Shares
+BWAC,Better World Acquisition Corp. 
+BWACU,Better World Acquisition Corp. Unit
+BWACW,Better World Acquisition Corp. Warrants
+BWAY,Brainsway Ltd. American Depositary Shares
+BWB,Bridgewater Bancshares Inc. 
+BWEN,Broadwind Inc. 
+BWFG,Bankwell Financial Group Inc. 
+BWMX,Betterware de Mexico S.A.B. de C.V. Ordinary Shares
+BXRX,Baudax Bio Inc. 
+BYFC,Broadway Financial Corporation 
+BYND,Beyond Meat Inc. 
+BYSI,BeyondSpring Inc. Ordinary Shares
+BZUN,Baozun Inc. American Depositary Shares
+CAAS,China Automotive Systems Inc. 
+CABA,Cabaletta Bio Inc. 
+CAC,Camden National Corporation 
+CACC,Credit Acceptance Corporation 
+CAHCU,CA Healthcare Acquisition Corp. Unit
+CAHCW,CA Healthcare Acquisition Corp. Warrant
+CAKE,Cheesecake Factory Incorporated (The) 
+CALA,Calithera Biosciences Inc. 
+CALB,California BanCorp 
+CALM,Cal-Maine Foods Inc. 
+CALT,Calliditas Therapeutics AB American Depositary Shares
+CAMP,CalAmp Corp. 
+CAMT,Camtek Ltd. Ordinary Shares
+CAN,Canaan Inc. American Depositary Shares
+CAPA,HighCape Capital Acquisition Corp. Class A 
+CAPAU,HighCape Capital Acquisition Corp. Unit
+CAPAW,HighCape Capital Acquisition Corp. Warrant
+CAPR,Capricor Therapeutics Inc. 
+CAR,Avis Budget Group Inc. 
+CARA,Cara Therapeutics Inc. 
+CARE,Carter Bankshares Inc. 
+CARG,CarGurus Inc. Class A  
+CARV,Carver Bancorp Inc. 
+CASA,Casa Systems Inc. 
+CASH,Meta Financial Group Inc. 
+CASI,CASI Pharmaceuticals Inc. 
+CASS,Cass Information Systems Inc 
+CASY,Casey's General Stores Inc. 
+CATB,Catabasis Pharmaceuticals Inc. 
+CATC,Cambridge Bancorp 
+CATM,Cardtronics plc Class A Ordinary Shares (UK)
+CATY,Cathay General Bancorp 
+CBAN,Colony Bankcorp Inc. 
+CBAT,CBAK Energy Technology Inc. 
+CBAY,CymaBay Therapeutics Inc. 
+CBFV,CB Financial Services Inc. 
+CBIO,Catalyst Biosciences Inc. 
+CBLI,Cleveland BioLabs Inc. 
+CBMB,CBM Bancorp Inc. 
+CBNK,Capital Bancorp Inc. 
+CBPO,China Biologic Products Holdings Inc. Ordinary Shares
+CBRL,Cracker Barrel Old Country Store Inc 
+CBSH,Commerce Bancshares Inc. 
+CBTX,CBTX Inc. 
+CCAP,Crescent Capital BDC Inc. 
+CCB,Coastal Financial Corporation 
+CCBG,Capital City Bank Group 
+CCCC,C4 Therapeutics Inc. 
+CCD,Calamos Dynamic Convertible & Income Fund 
+CCLP,CSI Compressco LP Common Units
+CCMP,CMC Materials Inc. 
+CCNC,Code Chain New Continent Limited 
+CCNE,CNB Financial Corporation 
+CCNEP,CNB Financial Corporation Depositary Shares each representing a 1/40th ownership interest in a share of 7.125% Series A Fixed-Rate Non-Cumulative Perpetual Preferred Stock
+CCOI,Cogent Communications Holdings Inc.
+CCRC,China Customer Relations Centers Inc. Ordinary Shares
+CCRN,Cross Country Healthcare Inc.  $0.0001 Par Value
+CCXI,ChemoCentryx Inc. 
+CD,Chindata Group Holdings Limited American Depositary Shares
+CDAK,Codiak BioSciences Inc. 
+CDEV,Centennial Resource Development Inc. Class A 
+CDK,CDK Global Inc. 
+CDLX,Cardlytics Inc. 
+CDMO,Avid Bioservices Inc. 
+CDMOP,Avid Bioservices Inc. 10.50% Series E Convertible Preferred Stock
+CDNA,CareDx Inc. 
+CDNS,Cadence Design Systems Inc. 
+CDTX,Cidara Therapeutics Inc. 
+CDW,CDW Corporation 
+CDXC,ChromaDex Corporation 
+CDXS,Codexis Inc. 
+CDZI,CADIZ Inc. 
+CECE,CECO Environmental Corp. 
+CELC,Celcuity Inc. 
+CELH,Celsius Holdings Inc. 
+CEMI,Chembio Diagnostics Inc. 
+CENHU,Centricus Acquisition Corp. Unit
+CENT,Central Garden & Pet Company 
+CENTA,Central Garden & Pet Company Class A  Nonvoting
+CENX,Century Aluminum Company 
+CERC,Cerecor Inc. 
+CERE,Cerevel Therapeutics Holdings Inc. 
+CEREW,Cerevel Therapeutics Holdings Inc. Warrant
+CERN,Cerner Corporation 
+CERS,Cerus Corporation 
+CERT,Certara Inc. 
+CETX,Cemtrex Inc. 
+CETXP,Cemtrex Inc. Series 1 Preferred Stock
+CETXW,Cemtrex Inc. Series 1 Warrant
+CEVA,CEVA Inc. 
+CFAC,CF Finance Acquisition Corp. III 
+CFACU,CF Finance Acquisition Corp. III Unit
+CFACW,CF Finance Acquisition Corp. III Warrant
+CFB,CrossFirst Bankshares Inc. 
+CFBK,CF Bankshares Inc. 
+CFFEU,CF Acquisition Corp. VIII Unit
+CFFI,C&F Financial Corporation 
+CFFN,Capitol Federal Financial Inc. 
+CFFVU,CF Acquisition Corp. V Unit
+CFIV,CF Acquisition Corp. IV Class A 
+CFIVU,CF Acquisition Corp. IV Unit
+CFIVW,CF Acquisition Corp. IV Warrant
+CFMS,Conformis Inc. 
+CFRX,ContraFect Corporation 
+CFVIU,CF Acquisition Corp. VI Unit
+CG,The Carlyle Group Inc. 
+CGBD,TCG BDC Inc. 
+CGC,Canopy Growth Corporation Common Shares
+CGEM,Cullinan Oncology Inc. 
+CGEN,Compugen Ltd. Ordinary Shares
+CGIX,Cancer Genetics Inc. 
+CGNT,Cognyte Software Ltd. Ordinary Shares
+CGNX,Cognex Corporation 
+CGO,Calamos Global Total Return Fund 
+CGRO,Collective Growth Corporation Class A 
+CGROU,Collective Growth Corporation Unit
+CGROW,Collective Growth Corporation Warrant
+CHCI,Comstock Holding Companies Inc. Class A 
+CHCO,City Holding Company 
+CHDN,Churchill Downs Incorporated 
+CHEF,The Chefs' Warehouse Inc. 
+CHEK,Check-Cap Ltd. Ordinary Share
+CHEKZ,Check-Cap Ltd. Series C Warrant
+CHFS,CHF Solutions Inc. 
+CHI,Calamos Convertible Opportunities and Income Fund 
+CHK,Chesapeake Energy Corporation 
+CHKEL,Chesapeake Energy Corporation Class C Warrants
+CHKEW,Chesapeake Energy Corporation Class A Warrants
+CHKEZ,Chesapeake Energy Corporation Class B Warrants
+CHKP,Check Point Software Technologies Ltd. Ordinary Shares
+CHMA,Chiasma Inc. 
+CHMG,Chemung Financial Corp 
+CHNG,Change Healthcare Inc. 
+CHNGU,Change Healthcare Inc. Tangible Equity Units
+CHNR,China Natural Resources Inc. 
+CHPM,CHP Merger Corp. Class A 
+CHPMU,CHP Merger Corp. Unit
+CHPMW,CHP Merger Corp. Warrant
+CHRS,Coherus BioSciences Inc. 
+CHRW,C.H. Robinson Worldwide Inc. 
+CHSCL,CHS Inc Class B Cumulative Redeemable Preferred Stock Series 4
+CHSCM,CHS Inc Class B Reset Rate Cumulative Redeemable Preferred Stock Series 3
+CHSCN,CHS Inc Preferred Class B Series 2 Reset Rate
+CHSCO,CHS Inc. Class B Cumulative Redeemable Preferred Stock
+CHSCP,CHS Inc. 8%  Cumulative Redeemable Preferred Stock
+CHTR,Charter Communications Inc. Class A  New
+CHUY,Chuy's Holdings Inc. 
+CHW,Calamos Global Dynamic Income Fund 
+CHX,ChampionX Corporation  
+CHY,Calamos Convertible and High Income Fund 
+CIDM,Cinedigm Corp. Class A 
+CIGI,Colliers International Group Inc. Subordinate Voting Shares
+CIH,China Index Holdings Limited American Depository Shares
+CIIC,CIIG Merger Corp. Class A 
+CIICU,CIIG Merger Corp. Units
+CIICW,CIIG Merger Corp. Warrants
+CINF,Cincinnati Financial Corporation 
+CIVB,Civista Bancshares Inc. 
+CIZN,Citizens Holding Company 
+CJJD,China Jo-Jo Drugstores Inc. 
+CKPT,Checkpoint Therapeutics Inc. 
+CLAR,Clarus Corporation 
+CLBK,Columbia Financial Inc. 
+CLBS,Caladrius Biosciences Inc. 
+CLDB,Cortland Bancorp 
+CLDX,Celldex Therapeutics Inc.
+CLEU,China Liberal Education Holdings Limited Ordinary Shares
+CLFD,Clearfield Inc. 
+CLGN,CollPlant Biotechnologies Ltd American Depositary Shares
+CLIR,ClearSign Technologies Corporation 
+CLLS,Cellectis S.A. American Depositary Shares
+CLMT,Calumet Specialty Products Partners L.P. Common Units
+CLNE,Clean Energy Fuels Corp. 
+CLNN,Clene Inc. 
+CLNNW,Clene Inc. Warrant
+CLOV,Clover Health Investments Corp. Class A 
+CLOVW,Clover Health Investments Corp. Warrants
+CLPS,CLPS Incorporation 
+CLPT,ClearPoint Neuro Inc. 
+CLRB,Cellectar Biosciences Inc.  
+CLRBZ,Cellectar Biosciences Inc. Series A Warrants
+CLRMU,Clarim Acquisition Corp. Unit
+CLRO,ClearOne Inc. (DE) 
+CLSD,Clearside Biomedical Inc. 
+CLSK,CleanSpark Inc. 
+CLSN,Celsion Corporation 
+CLVR,Clever Leaves Holdings Inc. Common Shares
+CLVRW,Clever Leaves Holdings Inc. Warrant
+CLVS,Clovis Oncology Inc. 
+CLWT,Euro Tech Holdings Company Limited 
+CLXT,Calyxt Inc. 
+CMBM,Cambium Networks Corporation Ordinary Shares
+CMCO,Columbus McKinnon Corporation 
+CMCSA,Comcast Corporation Class A 
+CMCT,CIM Commercial Trust Corporation 
+CME,CME Group Inc. Class A 
+CMFNL,CM Finance Inc 6.125% Notes due 2023
+CMIIU,CM Life Sciences II Inc. Unit
+CMLF,CM Life Sciences Inc. Class A 
+CMLFU,CM Life Sciences Inc. Unit
+CMLFW,CM Life Sciences Inc. Warrant
+CMLS,Cumulus Media Inc. Class A 
+CMMB,Chemomab Therapeutics Ltd. American Depositary Share
+CMPI,Checkmate Pharmaceuticals Inc. 
+CMPR,Cimpress plc Ordinary Shares (Ireland)
+CMPS,COMPASS Pathways Plc American Depository Shares
+CMRX,Chimerix Inc. 
+CMTL,Comtech Telecommunications Corp. 
+CNBKA,Century Bancorp Inc. Class A 
+CNCE,Concert Pharmaceuticals Inc. 
+CNDT,Conduent Incorporated  
+CNET,ZW Data Action Technologies Inc. 
+CNEY,CN Energy Group Inc. Ordinary Shares
+CNFR,Conifer Holdings Inc. 
+CNFRL,Conifer Holdings Inc. 6.75% Senior Unsecured Notes due 2023
+CNNB,Cincinnati Bancorp Inc. 
+CNOB,ConnectOne Bancorp Inc. 
+CNSL,Consolidated Communications Holdings Inc. 
+CNSP,CNS Pharmaceuticals Inc. 
+CNST,Constellation Pharmaceuticals Inc. 
+CNTG,Centogene N.V. Common Shares
+CNTY,Century Casinos Inc. 
+CNXC,Concentrix Corporation 
+CNXN,PC Connection Inc. 
+COCP,Cocrystal Pharma Inc. 
+CODA,Coda Octopus Group Inc. 
+CODX,Co-Diagnostics Inc. 
+COFS,ChoiceOne Financial Services Inc. 
+COGT,Cogent Biosciences Inc. 
+COHR,Coherent Inc. 
+COHU,Cohu Inc. 
+COKE,Coca-Cola Consolidated Inc. 
+COLB,Columbia Banking System Inc. 
+COLIU,Colicity Inc. Units
+COLL,Collegium Pharmaceutical Inc. 
+COLM,Columbia Sportswear Company 
+COMM,CommScope Holding Company Inc. 
+COMS,ComSovereign Holding Corp. 
+COMSW,ComSovereign Holding Corp. Warrants
+CONE,CyrusOne Inc 
+CONN,Conn's Inc. 
+CONX,CONX Corp. Class A 
+CONXU,CONX Corp. Unit
+CONXW,CONX Corp. Warrant
+COOL,Corner Growth Acquisition Corp. Class A Ordinary Shares
+COOLU,Corner Growth Acquisition Corp. Unit
+COOLW,Corner Growth Acquisition Corp. Warrant
+COOP,Mr. Cooper Group Inc. 
+CORE,Core Mark Holding Co Inc 
+CORT,Corcept Therapeutics Incorporated 
+COST,Costco Wholesale Corporation 
+COUP,Coupa Software Incorporated 
+COVAU,COVA Acquisition Corp. Unit
+COWN,Cowen Inc. Class A 
+COWNL,Cowen Inc. 7.75% Senior Notes due 2033
+COWNZ,Cowen Inc. 7.35% Senior Notes Due 2027
+CPHC,Canterbury Park Holding Corporation 'New' 
+CPIX,Cumberland Pharmaceuticals Inc. 
+CPLP,Capital Product Partners L.P. Common Units
+CPRT,Copart Inc. (DE) 
+CPRX,Catalyst Pharmaceuticals Inc. 
+CPSH,CPS Technologies Corp. 
+CPSI,Computer Programs and Systems Inc. 
+CPSS,Consumer Portfolio Services Inc. 
+CPST,Capstone Turbine Corporation 
+CPTA,Capitala Finance Corp. 
+CPTAG,Capitala Finance Corp. 5.75% Convertible Notes Due 2022
+CPTAL,Capitala Finance Corp. 6% Notes Due 2022
+CPZ,Calamos Long/Short Equity & Dynamic Income Trust 
+CRAI,CRA International Inc. 
+CRBP,Corbus Pharmaceuticals Holdings Inc. 
+CRDF,Cardiff Oncology Inc. 
+CREE,Cree Inc. 
+CREG,China Recycling Energy Corporation 
+CRESY,Cresud S.A.C.I.F. y A. American Depositary Shares
+CREX,Creative Realities Inc. 
+CREXW,Creative Realities Inc. Warrant
+CRIS,Curis Inc. 
+CRKN,Crown Electrokinetics Corp. 
+CRMD,CorMedix Inc. 
+CRMT,America's Car-Mart Inc 
+CRNC,Cerence Inc. 
+CRNT,Ceragon Networks Ltd. Ordinary Shares
+CRNX,Crinetics Pharmaceuticals Inc. 
+CRON,Cronos Group Inc. Common Share
+CROX,Crocs Inc. 
+CRSA,Crescent Acquisition Corp Class A 
+CRSAU,Crescent Acquisition Corp Unit
+CRSAW,Crescent Acquisition Corp Warrant
+CRSP,CRISPR Therapeutics AG Common Shares
+CRSR,Corsair Gaming Inc. 
+CRTD,Creatd Inc. 
+CRTDW,Creatd Inc. Warrant
+CRTO,Criteo S.A. American Depositary Shares
+CRTX,Cortexyme Inc. 
+CRUS,Cirrus Logic Inc. 
+CRVL,CorVel Corp. 
+CRVS,Corvus Pharmaceuticals Inc. 
+CRWD,CrowdStrike Holdings Inc. Class A 
+CRWS,Crown Crafts Inc 
+CSBR,Champions Oncology Inc. 
+CSCO,Cisco Systems Inc.  (DE)
+CSCW,Color Star Technology Co. Ltd. Ordinary Shares
+CSGP,CoStar Group Inc. 
+CSGS,CSG Systems International Inc. 
+CSII,Cardiovascular Systems Inc. 
+CSIQ,Canadian Solar Inc. Common Shares (BC)
+CSOD,Cornerstone OnDemand Inc. 
+CSPI,CSP Inc. 
+CSQ,Calamos Strategic Total Return 
+CSSE,Chicken Soup for the Soul Entertainment Inc. Class A 
+CSSEN,Chicken Soup for the Soul Entertainment Inc. 9.50% Notes due 2025
+CSSEP,Chicken Soup for the Soul Entertainment Inc. 9.75% Series A Cumulative Redeemable Perpetual Preferred Stock
+CSTE,Caesarstone Ltd. Ordinary Shares
+CSTL,Castle Biosciences Inc. 
+CSTR,CapStar Financial Holdings Inc. 
+CSWC,Capital Southwest Corporation 
+CSWI,CSW Industrials Inc. 
+CSX,CSX Corporation 
+CTAQ,Carney Technology Acquisition Corp. II Class A 
+CTAQU,Carney Technology Acquisition Corp. II Units
+CTAQW,Carney Technology Acquisition Corp. II Warrant
+CTAS,Cintas Corporation 
+CTBI,Community Trust Bancorp Inc. 
+CTG,Computer Task Group Inc. 
+CTHR,Charles & Colvard Ltd 
+CTIB,Yunhong CTI Ltd. 
+CTIC,CTI BioPharma Corp. (DE) 
+CTMX,CytomX Therapeutics Inc. 
+CTRE,CareTrust REIT Inc. 
+CTRM,Castor Maritime Inc. Common Shares
+CTRN,Citi Trends Inc. 
+CTSH,Cognizant Technology Solutions Corporation Class A 
+CTSO,Cytosorbents Corporation 
+CTXR,Citius Pharmaceuticals Inc. 
+CTXRW,Citius Pharmaceuticals Inc. Warrant
+CTXS,Citrix Systems Inc. 
+CUBA,Herzfeld Caribbean Basin Fund Inc. (The) 
+CUE,Cue Biopharma Inc. 
+CUEN,Cuentas Inc. 
+CUENW,Cuentas Inc. Warrant
+CURI,CuriosityStream Inc. Class A 
+CURIW,CuriosityStream Inc. Warrant
+CUTR,Cutera Inc. 
+CVAC,CureVac N.V. Ordinary Shares
+CVBF,CVB Financial Corporation 
+CVCO,Cavco Industries Inc.  When Issued
+CVCY,Central Valley Community Bancorp 
+CVET,Covetrus Inc. 
+CVGI,Commercial Vehicle Group Inc. 
+CVGW,Calavo Growers Inc. 
+CVLG,Covenant Logistics Group Inc. Class A 
+CVLT,Commvault Systems Inc. 
+CVLY,Codorus Valley Bancorp Inc 
+CVV,CVD Equipment Corporation 
+CWBC,Community West Bancshares 
+CWBR,CohBar Inc. 
+CWCO,Consolidated Water Co. Ltd. Ordinary Shares
+CWST,Casella Waste Systems Inc. Class A 
+CXDC,China XD Plastics Company Limited 
+CXDO,Crexendo Inc. 
+CYAD,Celyad Oncology SA American Depositary Shares
+CYAN,Cyanotech Corporation 
+CYBE,CyberOptics Corporation 
+CYBR,CyberArk Software Ltd. Ordinary Shares
+CYCC,Cyclacel Pharmaceuticals Inc. 
+CYCCP,Cyclacel Pharmaceuticals Inc. 6% Convertible Preferred Stock
+CYCN,Cyclerion Therapeutics Inc. 
+CYRN,CYREN Ltd. Ordinary Shares
+CYRX,CryoPort Inc. 
+CYTH,Cyclo Therapeutics Inc. 
+CYTHW,Cyclo Therapeutics Inc. Warrant
+CYTK,Cytokinetics Incorporated 
+CZNC,Citizens & Northern Corp 
+CZR,Caesars Entertainment Inc. 
+CZWI,Citizens Community Bancorp Inc. 
+DADA,Dada Nexus Limited American Depositary Shares
+DAIO,Data I/O Corporation 
+DAKT,Daktronics Inc. 
+DARE,Dare Bioscience Inc. 
+DBDR,Roman DBDR Tech Acquisition Corp. Class A 
+DBDRU,Roman DBDR Tech Acquisition Corp. Unit
+DBDRW,Roman DBDR Tech Acquisition Corp. Warrant
+DBTX,Decibel Therapeutics Inc. 
+DBVT,DBV Technologies S.A. American Depositary Shares
+DBX,Dropbox Inc. Class A 
+DCBO,Docebo Inc. Common Shares
+DCOM,Dime Community Bancshares Inc. 
+DCOMP,Dime Community Bancshares Inc. Fixed-Rate Non-Cumulative Perpetual Preferred Stock Series A
+DCPH,Deciphera Pharmaceuticals Inc. 
+DCRB,Decarbonization Plus Acquisition Corporation Class A 
+DCRBU,Decarbonization Plus Acquisition Corporation Unit
+DCRBW,Decarbonization Plus Acquisition Corporation Warrant
+DCRNU,Decarbonization Plus Acquisition Corporation II Unit
+DCT,Duck Creek Technologies Inc. 
+DCTH,Delcath Systems Inc. 
+DDMX,DD3 Acquisition Corp. II Class A 
+DDMXU,DD3 Acquisition Corp. II Unit
+DDMXW,DD3 Acquisition Corp. II Warrant
+DDOG,Datadog Inc. Class A 
+DENN,Denny's Corporation 
+DFFN,Diffusion Pharmaceuticals Inc. 
+DFH,Dream Finders Homes Inc. Class A 
+DFHT,Deerfield Healthcare Technology Acquisitions Corp. Class A 
+DFHTU,Deerfield Healthcare Technology Acquisitions Corp. Unit
+DFHTW,Deerfield Healthcare Technology Acquisitions Corp. Warrant
+DFPH,DFP Healthcare Acquisitions Corp. Class A 
+DFPHU,DFP Healthcare Acquisitions Corp. Unit
+DFPHW,DFP Healthcare Acquisitions Corp. Warrant
+DGICA,Donegal Group Inc. Class A 
+DGICB,Donegal Group Inc. Class B 
+DGII,Digi International Inc. 
+DGLY,Digital Ally Inc. 
+DGNS,Dragoneer Growth Opportunities Corp. II Class A Ordinary Shares
+DHBCU,DHB Capital Corp. Unit
+DHC,Diversified Healthcare Trust Common Shares of Beneficial Interest
+DHCAU,DHC Acquisition Corp. Unit
+DHCNI,Diversified Healthcare Trust 5.625% Senior Notes due 2042
+DHCNL,Diversified Healthcare Trust 6.25% Senior Notes Due 2046
+DHHCU,DiamondHead Holdings Corp. Unit
+DHIL,Diamond Hill Investment Group Inc. Class A 
+DIOD,Diodes Incorporated 
+DISCA,Discovery Inc. Series A 
+DISCB,Discovery Inc. Series B 
+DISCK,Discovery Inc. Series C 
+DISH,DISH Network Corporation Class A 
+DJCO,Daily Journal Corp. (S.C.) 
+DKNG,DraftKings Inc. Class A 
+DLCA,Deep Lake Capital Acquisition Corp. Class A Ordinary Shares
+DLCAU,Deep Lake Capital Acquisition Corp. Unit
+DLCAW,Deep Lake Capital Acquisition Corp. Warrant
+DLHC,DLH Holdings Corp.
+DLPN,Dolphin Entertainment Inc. 
+DLTH,Duluth Holdings Inc. Class B 
+DLTR,Dollar Tree Inc. 
+DMAC,DiaMedica Therapeutics Inc. 
+DMLP,Dorchester Minerals L.P. Common Units Representing Limited Partnership Interests
+DMRC,Digimarc Corporation 
+DMTK,DermTech Inc. 
+DNLI,Denali Therapeutics Inc. 
+DOCU,DocuSign Inc. 
+DOGZ,Dogness (International) Corporation Class A 
+DOMO,Domo Inc. Class B 
+DOOO,BRP Inc. (Recreational Products) Common Subordinate Voting Shares
+DORM,Dorman Products Inc. 
+DOX,Amdocs Limited Ordinary Shares
+DOYU,DouYu International Holdings Limited ADS
+DRIO,DarioHealth Corp. 
+DRNA,Dicerna Pharmaceuticals Inc. 
+DRRX,DURECT Corporation 
+DRTT,DIRTT Environmental Solutions Ltd. Common Shares
+DRVN,Driven Brands Holdings Inc. 
+DSAC,Duddell Street Acquisition Corp. Class A Ordinary Shares
+DSACU,Duddell Street Acquisition Corp. Unit
+DSACW,Duddell Street Acquisition Corp. Warrant
+DSGX,Descartes Systems Group Inc. (The) 
+DSKE,Daseke Inc. 
+DSKEW,Daseke Inc. Warrant
+DSP,Viant Technology Inc. Class A 
+DSPG,DSP Group Inc. 
+DSWL,Deswell Industries Inc. Common Shares
+DTEA,DAVIDsTEA Inc. 
+DTIL,Precision BioSciences Inc. 
+DTOCU,Digital Transformation Opportunities Corp. Units
+DTSS,Datasea Inc. 
+DUNE,Dune Acquisition Corporation Class A 
+DUNEU,Dune Acquisition Corporation Unit
+DUNEW,Dune Acquisition Corporation Warrant
+DUO,Fangdd Network Group Ltd. American Depositary Shares
+DUOT,Duos Technologies Group Inc. 
+DVAX,Dynavax Technologies Corporation 
+DWSN,Dawson Geophysical Company 
+DXCM,DexCom Inc. 
+DXPE,DXP Enterprises Inc. 
+DXYN,Dixie Group Inc. (The) 
+DYAI,Dyadic International Inc. 
+DYN,Dyne Therapeutics Inc. 
+DYNT,Dynatronics Corporation 
+DZSI,DZS Inc. 
+EA,Electronic Arts Inc. 
+EAC,Edify Acquisition Corp. Class A 
+EACPU,Edify Acquisition Corp. Units
+EACPW,Edify Acquisition Corp. Warrant
+EAR,Eargo Inc. 
+EARS,Auris Medical Holding Ltd. Common Shares 0.01 SF (Bermuda)
+EAST,Eastside Distilling Inc. 
+EBACU,European Biotech Acquisition Corp. Units
+EBAY,eBay Inc. 
+EBC,Eastern Bankshares Inc. 
+EBIX,Ebix Inc. 
+EBMT,Eagle Bancorp Montana Inc. 
+EBON,Ebang International Holdings Inc. Class A Ordinary Shares
+EBSB,Meridian Bancorp Inc. 
+EBTC,Enterprise Bancorp Inc 
+ECHO,Echo Global Logistics Inc. 
+ECOL,US Ecology Inc 
+ECOLW,US Ecology Inc. Warrant
+ECOR,electroCore Inc. 
+ECPG,Encore Capital Group Inc 
+EDAP,EDAP TMS S.A. American Depositary Shares
+EDIT,Editas Medicine Inc. 
+EDRY,EuroDry Ltd. Common Shares 
+EDSA,Edesa Biotech Inc. Common Shares
+EDTK,Skillful Craftsman Education Technology Limited Ordinary Share
+EDTX,EdtechX Holdings Acquisition Corp. II Class A 
+EDTXU,EdtechX Holdings Acquisition Corp. II Unit
+EDTXW,EdtechX Holdings Acquisition Corp. II Warrant
+EDUC,Educational Development Corporation 
+EEFT,Euronet Worldwide Inc. 
+EFOI,Energy Focus Inc. 
+EFSC,Enterprise Financial Services Corporation 
+EGAN,eGain Corporation 
+EGBN,Eagle Bancorp Inc. 
+EGLE,Eagle Bulk Shipping Inc. 
+EGOV,NIC Inc 
+EGRX,Eagle Pharmaceuticals Inc. 
+EH,EHang Holdings Limited ADS
+EHTH,eHealth Inc. 
+EIGR,Eiger BioPharmaceuticals Inc. 
+EJFAU,EJF Acquisition Corp. Unit
+EKSO,Ekso Bionics Holdings Inc. 
+ELDN,Eledon Pharmaceuticals Inc. 
+ELOX,Eloxx Pharmaceuticals Inc. 
+ELSE,Electro-Sensors Inc. 
+ELTK,Eltek Ltd. Ordinary Shares
+ELYS,Elys Game Technology Corp. 
+EMCF,Emclaire Financial Corp 
+EMKR,EMCORE Corporation 
+EML,Eastern Company (The) 
+ENDP,Endo International plc Ordinary Shares
+ENFA,890 5th Avenue Partners Inc. Class A 
+ENFAU,890 5th Avenue Partners Inc. Unit
+ENFAW,890 5th Avenue Partners Inc. Warrant
+ENG,ENGlobal Corporation 
+ENLV,Enlivex Therapeutics Ltd. Ordinary Shares
+ENNVU,ECP Environmental Growth Opportunities Corp. Unit
+ENOB,Enochian Biosciences Inc. 
+ENPH,Enphase Energy Inc. 
+ENSG,The Ensign Group Inc. 
+ENTA,Enanta Pharmaceuticals Inc. 
+ENTG,Entegris Inc. 
+ENTX,Entera Bio Ltd. Ordinary Shares
+ENTXW,Entera Bio Ltd. Warrant
+ENVB,Enveric Biosciences Inc. 
+ENVI,Environmental Impact Acquisition Corp. Class A 
+ENVIU,Environmental Impact Acquisition Corp. Unit
+ENVIW,Environmental Impact Acquisition Corp. Warrant
+EOLS,Evolus Inc. 
+EOSE,Eos Energy Enterprises Inc. Class A 
+EOSEW,Eos Energy Enterprises Inc. Warrant
+EPAY,Bottomline Technologies Inc. 
+EPHY,Epiphany Technology Acquisition Corp. Class A 
+EPHYU,Epiphany Technology Acquisition Corp. Unit
+EPHYW,Epiphany Technology Acquisition Corp. Warrant
+EPIX,ESSA Pharma Inc. 
+EPSN,Epsilon Energy Ltd. Common Share
+EPZM,Epizyme Inc. 
+EQ,Equillium Inc. 
+EQBK,Equity Bancshares Inc. Class A 
+EQIX,Equinix Inc.  REIT
+EQOS,Diginex Limited Ordinary Shares
+EQOSW,Diginex Limited Warrant
+ERES,East Resources Acquisition Company Class A 
+ERESU,East Resources Acquisition Company Unit
+ERESW,East Resources Acquisition Company Warrant
+ERIC,Ericsson American Depositary Shares
+ERIE,Erie Indemnity Company Class A 
+ERII,Energy Recovery Inc. 
+ERYP,Erytech Pharma S.A. American Depositary Shares
+ESBK,Elmira Savings Bank Elmira NY 
+ESCA,Escalade Incorporated 
+ESEA,Euroseas Ltd.  (Marshall Islands)
+ESGR,Enstar Group Limited Ordinary Shares
+ESGRO,Enstar Group Limited Depository Shares 7.00% Perpetual Non-Cumulative Preference Shares Series E
+ESGRP,Enstar Group Limited Depositary Shares Each Representing 1/1000th of an interest in Preference Shares
+ESLT,Elbit Systems Ltd. Ordinary Shares
+ESPR,Esperion Therapeutics Inc. 
+ESQ,Esquire Financial Holdings Inc. 
+ESSA,ESSA Bancorp Inc. 
+ESSC,East Stone Acquisition Corporation Ordinary Shares
+ESSCR,East Stone Acquisition Corporation Right
+ESSCU,East Stone Acquisition Corporation Unit
+ESSCW,East Stone Acquisition Corporation Warrant
+ESTA,Establishment Labs Holdings Inc. Common Shares
+ESXB,Community Bankers Trust Corporation  (VA)
+ETAC,E.Merge Technology Acquisition Corp. Class A 
+ETACU,E.Merge Technology Acquisition Corp. Unit
+ETACW,E.Merge Technology Acquisition Corp. Warrant
+ETNB,89bio Inc. 
+ETON,Eton Pharmaceuticals Inc. 
+ETSY,Etsy Inc. 
+ETTX,Entasis Therapeutics Holdings Inc. 
+EUCR,Eucrates Biomedical Acquisition Corp. Ordinary Shares
+EUCRU,Eucrates Biomedical Acquisition Corp. Unit
+EUCRW,Eucrates Biomedical Acquisition Corp. Warrant
+EUSG,European Sustainable Growth Acquisition Corp. Class A Ordinary Shares
+EUSGU,European Sustainable Growth Acquisition Corp. Unit
+EUSGW,European Sustainable Growth Acquisition Corp. Warrant
+EVAX,Evaxion Biotech A/S American Depositary Share
+EVBG,Everbridge Inc. 
+EVER,EverQuote Inc. Class A 
+EVFM,Evofem Biosciences Inc. 
+EVGN,Evogene Ltd Ordinary Shares
+EVK,Ever-Glory International Group Inc. 
+EVLMC,Eaton Vance NextShares Trust II Eaton Vance TABS 5-to-15 Year Laddered Municipal Bond NextShares
+EVLO,Evelo Biosciences Inc. 
+EVOJU,Evo Acquisition Corp. Unit
+EVOK,Evoke Pharma Inc. 
+EVOL,Evolving Systems Inc. 
+EVOP,EVO Payments Inc. Class A 
+EWBC,East West Bancorp Inc. 
+EXAS,Exact Sciences Corporation 
+EXC,Exelon Corporation 
+EXEL,Exelixis Inc. 
+EXFO,EXFO Inc
+EXLS,ExlService Holdings Inc. 
+EXPC,Experience Investment Corp. Class A 
+EXPCU,Experience Investment Corp. Unit
+EXPCW,Experience Investment Corp. Warrants
+EXPD,Expeditors International of Washington Inc. 
+EXPE,Expedia Group Inc. 
+EXPI,eXp World Holdings Inc. 
+EXPO,Exponent Inc. 
+EXTR,Extreme Networks Inc. 
+EYE,National Vision Holdings Inc. 
+EYEG,Eyegate Pharmaceuticals Inc. 
+EYEN,Eyenovia Inc. 
+EYES,Second Sight Medical Products Inc. 
+EYESW,Second Sight Medical Products Inc. Warrants expiring 03/14/2024
+EYPT,EyePoint Pharmaceuticals Inc. 
+EZGO,EZGO Technologies Ltd. Ordinary Shares
+EZPW,EZCORP Inc. Class A Non Voting 
+FAMI,Farmmi Inc. Ordinary Shares
+FANG,Diamondback Energy Inc. Commmon Stock
+FANH,Fanhua Inc. American Depositary Shares
+FARM,Farmer Brothers Company 
+FARO,FARO Technologies Inc. 
+FAST,Fastenal Company 
+FAT,FAT Brands Inc. 
+FATBP,FAT Brands Inc. 8.25% Series B Cumulative Preferred Stock
+FATBW,FAT Brands Inc. Warrant
+FATE,Fate Therapeutics Inc. 
+FB,Facebook Inc. Class A 
+FBIO,Fortress Biotech Inc. 
+FBIOP,Fortress Biotech Inc. 9.375% Series A Cumulative Redeemable Perpetual Preferred Stock
+FBIZ,First Business Financial Services Inc. 
+FBMS,First Bancshares Inc.
+FBNC,First Bancorp 
+FBRX,Forte Biosciences Inc. 
+FBSS,Fauquier Bankshares Inc. 
+FCAC,Falcon Capital Acquisition Corp. Class A 
+FCACU,Falcon Capital Acquisition Corp. Unit
+FCACW,Falcon Capital Acquisition Corp. Warrant
+FCAP,First Capital Inc. 
+FCBC,First Community Bankshares Inc. (VA) 
+FCBP,First Choice Bancorp 
+FCCO,First Community Corporation 
+FCCY,1st Constitution Bancorp (NJ) 
+FCEL,FuelCell Energy Inc. 
+FCFS,FirstCash Inc. 
+FCNCA,First Citizens BancShares Inc. Class A 
+FCNCP,First Citizens BancShares Inc. Depositary Shares
+FCRD,First Eagle Alternative Capital BDC Inc. 
+FDBC,Fidelity D & D Bancorp Inc. 
+FDMT,4D Molecular Therapeutics Inc. 
+FDUS,Fidus Investment Corporation 
+FDUSG,Fidus Investment Corporation 5.375% Notes Due 2024
+FDUSZ,Fidus Investment Corporation 6% Notes due 2024
+FEIM,Frequency Electronics Inc. 
+FELE,Franklin Electric Co. Inc. 
+FENC,Fennec Pharmaceuticals Inc. 
+FEYE,FireEye Inc. 
+FFBC,First Financial Bancorp. 
+FFBW,FFBW Inc.  (MD)
+FFHL,Fuwei Films (Holdings) Co. Ltd. Ordinary Shares
+FFIC,Flushing Financial Corporation 
+FFIN,First Financial Bankshares Inc. 
+FFIV,F5 Networks Inc. 
+FFNW,First Financial Northwest Inc. 
+FFWM,First Foundation Inc. 
+FGBI,First Guaranty Bancshares Inc. 
+FGEN,FibroGen Inc 
+FGF,FG Financial Group Inc. 
+FGFPP,FG Financial Group Inc. 8.00% Cumulative Preferred Stock
+FHB,First Hawaiian Inc. 
+FHTX,Foghorn Therapeutics Inc. 
+FIBK,First Interstate BancSystem Inc. Class A 
+FIII,Forum Merger III Corporation Class A 
+FIIIU,Forum Merger III Corporation Units
+FIIIW,Forum Merger III Corporation Warrant
+FINM,Marlin Technology Corporation Class A Ordinary Share
+FINMU,Marlin Technology Corporation Unit
+FINMW,Marlin Technology Corporation Warrant
+FISI,Financial Institutions Inc. 
+FISV,Fiserv Inc. 
+FITB,Fifth Third Bancorp 
+FITBI,Fifth Third Bancorp Depositary Shares
+FITBO,Fifth Third Bancorp Depositary Shares each representing a 1/1000th ownership interest in a share of Non-Cumulative Perpetual Preferred Stock Series K
+FITBP,Fifth Third Bancorp Depositary Shares each representing 1/40th share of Fifth Third 6.00% Non-Cumulative Perpetual Class B Preferred Stock Series A
+FIVE,Five Below Inc. 
+FIVN,Five9 Inc. 
+FIXX,Homology Medicines Inc. 
+FIZZ,National Beverage Corp. 
+FLAC,Frazier Lifesciences Acquisition Corporation Class A Ordinary Shares
+FLACU,Frazier Lifesciences Acquisition Corporation Unit
+FLACW,Frazier Lifesciences Acquisition Corporation Warrant
+FLDM,Fluidigm Corporation 
+FLEX,Flex Ltd. Ordinary Shares
+FLGT,Fulgent Genetics Inc. 
+FLIC,First of Long Island Corporation (The) 
+FLIR,FLIR Systems Inc. (DE) 
+FLL,Full House Resorts Inc. 
+FLMN,Falcon Minerals Corporation Class A 
+FLMNW,Falcon Minerals Corporation Warrant
+FLNT,Fluent Inc. 
+FLUX,Flux Power Holdings Inc. 
+FLWS,1-800-FLOWERS.COM Inc. 
+FLXN,Flexion Therapeutics Inc. 
+FLXS,Flexsteel Industries Inc. 
+FMAO,Farmers & Merchants Bancorp Inc. 
+FMBH,First Mid Bancshares Inc. 
+FMBI,First Midwest Bancorp Inc. 
+FMBIO,First Midwest Bancorp Inc. Depositary Shares Each Representing a 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series C
+FMBIP,First Midwest Bancorp Inc. Depositary Shares Each Representing a 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series A
+FMNB,Farmers National Banc Corp. 
+FMTX,Forma Therapeutics Holdings Inc. 
+FNCB,FNCB Bancorp Inc. 
+FNHC,FedNat Holding Company 
+FNKO,Funko Inc. Class A 
+FNLC,First Bancorp Inc  (ME) 
+FNWB,First Northwest Bancorp 
+FOCS,Focus Financial Partners Inc. Class A 
+FOLD,Amicus Therapeutics Inc. 
+FONR,Fonar Corporation 
+FORA,Forian Inc. 
+FORD,Forward Industries Inc. 
+FOREU,Foresight Acquisition Corp. Units
+FORM,FormFactor Inc. FormFactor Inc. 
+FORR,Forrester Research Inc. 
+FORTY,Formula Systems (1985) Ltd. American Depositary Shares
+FOSL,Fossil Group Inc. 
+FOX,Fox Corporation Class B 
+FOXA,Fox Corporation Class A 
+FOXF,Fox Factory Holding Corp. 
+FOXW,FoxWayne Enterprises Acquisition Corp. Class A 
+FOXWU,FoxWayne Enterprises Acquisition Corp. Unit
+FOXWW,FoxWayne Enterprises Acquisition Corp. Warrant
+FPAY,FlexShopper Inc. 
+FPRX,Five Prime Therapeutics Inc. 
+FRAF,Franklin Financial Services Corporation 
+FRBA,First Bank 
+FRBK,Republic First Bancorp Inc. 
+FREE,Whole Earth Brands Inc. Class A 
+FREEW,Whole Earth Brands Inc. Warrant
+FREQ,Frequency Therapeutics Inc. 
+FRG,Franchise Group Inc. 
+FRGAP,Franchise Group Inc. 7.50% Series A Cumulative Perpetual Preferred Stock
+FRGI,Fiesta Restaurant Group Inc. 
+FRHC,Freedom Holding Corp. 
+FRLN,Freeline Therapeutics Holdings plc American Depositary Shares
+FRME,First Merchants Corporation 
+FROG,JFrog Ltd. Ordinary Shares
+FRONU,Frontier Acquisition Corp. Units
+FRPH,FRP Holdings Inc. 
+FRPT,Freshpet Inc. 
+FRSGU,First Reserve Sustainable Growth Corp. Unit
+FRSX,Foresight Autonomous Holdings Ltd. American Depositary Shares
+FRTA,Forterra Inc. 
+FRWAU,PWP Forward Acquisition Corp. I Units
+FSBW,FS Bancorp Inc. 
+FSEA,First Seacoast Bancorp 
+FSFG,First Savings Financial Group Inc. 
+FSII,FS Development Corp. II Class A 
+FSLR,First Solar Inc. 
+FSRV,FinServ Acquisition Corp. Class A 
+FSRVU,FinServ Acquisition Corp. Unit
+FSRVW,FinServ Acquisition Corp. Warrant
+FSRXU,FinServ Acquisition Corp. II Unit
+FSSIU,Fortistar Sustainable Solutions Corp. Unit
+FSTR,L.B. Foster Company 
+FSTX,F-star Therapeutics Inc. 
+FSV,FirstService Corporation Common Shares
+FTAAU,FTAC Athena Acquisition Corp. Unit
+FTCV,FinTech Acquisition Corp. V Class A 
+FTCVU,FinTech Acquisition Corp. V Unit
+FTCVW,FinTech Acquisition Corp. V Warrant
+FTDR,frontdoor inc. 
+FTEK,Fuel Tech Inc. 
+FTFT,Future FinTech Group Inc. 
+FTHM,Fathom Holdings Inc. 
+FTIV,FinTech Acquisition Corp. IV Class A 
+FTIVU,FinTech Acquisition Corp. IV Unit
+FTIVW,FinTech Acquisition Corp. IV Warrant
+FTNT,Fortinet Inc. 
+FTOC,FTAC Olympus Acquisition Corp. Class A Ordinary Shares
+FTOCU,FTAC Olympus Acquisition Corp. Unit
+FTOCW,FTAC Olympus Acquisition Corp. Warrant
+FTPAU,FTAC Parnassus Acquisition Corp. Unit
+FULC,Fulcrum Therapeutics Inc. 
+FULT,Fulton Financial Corporation 
+FULTP,Fulton Financial Corporation Depositary Shares Each Representing a 1/40th Interest in a Share of Fixed Rate Non-Cumulative Perpetual Preferred Stock Series A
+FUNC,First United Corporation 
+FUND,Sprott Focus Trust Inc. 
+FUSB,First US Bancshares Inc. 
+FUSN,Fusion Pharmaceuticals Inc. Common Shares
+FUTU,Futu Holdings Limited American Depositary Shares
+FUV,Arcimoto Inc. 
+FVAM,5:01 Acquisition Corp. Class A 
+FVCB,FVCBankcorp Inc. 
+FVE,Five Star Senior Living Inc. 
+FWAA,Fifth Wall Acquisition Corp. I Class A 
+FWONA,Liberty Media Corporation Series A Liberty Formula One 
+FWONK,Liberty Media Corporation Series C Liberty Formula One 
+FWP,Forward Pharma A/S American Depositary Shares
+FWRD,Forward Air Corporation 
+FXNC,First National Corporation 
+GABC,German American Bancorp Inc. 
+GAIA,Gaia Inc. Class A 
+GAIN,Gladstone Investment Corporation Business Development Company
+GAINL,Gladstone Investment Corporation 6.375% Series E Cumulative Term Preferred Stock due 2025
+GAINN,Gladstone Investment Corporation 5.00% Notes Due 2026
+GALT,Galectin Therapeutics Inc. 
+GAMCU,Golden Arrow Merger Corp. Unit
+GAN,GAN Limited Ordinary Shares
+GASS,StealthGas Inc. 
+GBCI,Glacier Bancorp Inc. 
+GBDC,Golub Capital BDC Inc. 
+GBIO,Generation Bio Co. 
+GBLI,Global Indemnity Group LLC Class A  (DE)
+GBLIL,Global Indemnity Group LLC 7.875% Subordinated Notes due 2047
+GBNH,Greenbrook TMS Inc. Common Shares
+GBNY,Generations Bancorp NY Inc. 
+GBOX,Greenbox POS 
+GBRGU,Goldenbridge Acquisition Limited Unit
+GBS,GBS Inc. 
+GBT,Global Blood Therapeutics Inc. 
+GCACU,Growth Capital Acquisition Corp. Unit
+GCBC,Greene County Bancorp Inc. 
+GCMG,GCM Grosvenor Inc. Class A 
+GCMGW,GCM Grosvenor Inc. Warrant
+GDEN,Golden Entertainment Inc. 
+GDRX,GoodRx Holdings Inc. Class A 
+GDS,GDS Holdings Limited ADS
+GDYN,Grid Dynamics Holdings Inc. Class A 
+GDYNW,Grid Dynamics Holdings Inc. Warrant
+GECC,Great Elm Capital Corp. 
+GECCL,Great Elm Capital Corp. 6.50% Notes due 2022
+GECCM,Great Elm Capital Corp. 6.75% Notes Due 2025
+GECCN,Great Elm Capital Corp. 6.5% Notes due 2024
+GEG,Great Elm Group Inc. 
+GENC,Gencor Industries Inc. 
+GENE,Genetic Technologies Ltd  Sponsored ADR
+GEOS,Geospace Technologies Corporation  (Texas)
+GERN,Geron Corporation 
+GEVO,Gevo Inc. 
+GFED,Guaranty Federal Bancshares Inc. 
+GFN,General Finance Corporation General Finance Corporation 
+GFNCP,General Finance Corporation Cumulative Redeemable Perpetual Preferred Series C
+GFNSZ,General Finance Corporation 7.875% Senior Notes due 2025
+GGAL,Grupo Financiero Galicia S.A. American Depositary Shares
+GH,Guardant Health Inc. 
+GHACU,Gaming & Hospitality Acquisition Corp. Unit
+GHSI,Guardion Health Sciences Inc. 
+GHVI,Gores Holdings VI Inc. Class A 
+GHVIU,Gores Holdings VI Inc. Unit
+GHVIW,Gores Holdings VI Inc. Warrant
+GIFI,Gulf Island Fabrication Inc. 
+GIGGU,GigCapital4 Inc. Unit
+GIGM,GigaMedia Limited Ordinary Shares
+GIII,G-III Apparel Group LTD. 
+GIIXU,Gores Holdings VIII Inc. Unit
+GILD,Gilead Sciences Inc. 
+GILT,Gilat Satellite Networks Ltd. Ordinary Shares
+GLAD,Gladstone Capital Corporation 
+GLADL,Gladstone Capital Corporation 5.375% Notes due 2024
+GLAQ,Globis Acquisition Corp. 
+GLAQU,Globis Acquisition Corp. Unit
+GLAQW,Globis Acquisition Corp. Warrant
+GLBLU,Cartesian Growth Corporation Unit
+GLBS,Globus Maritime Limited 
+GLBZ,Glen Burnie Bancorp 
+GLDD,Great Lakes Dredge & Dock Corporation 
+GLG,TD Holdings Inc. 
+GLMD,Galmed Pharmaceuticals Ltd. Ordinary Shares
+GLNG,Golar Lng Ltd
+GLPG,Galapagos NV American Depositary Shares
+GLPI,Gaming and Leisure Properties Inc. 
+GLRE,Greenlight Capital Re Ltd. Class A Ordinary Shares
+GLSI,Greenwich LifeSciences Inc. 
+GLTO,Galecto Inc. 
+GLUU,Glu Mobile Inc. 
+GLYC,GlycoMimetics Inc. 
+GMAB,Genmab A/S ADS
+GMBL,Esports Entertainment Group Inc. 
+GMBLW,Esports Entertainment Group Inc. Warrant
+GMBT,Queen's Gambit Growth Capital Class A Ordinary Share
+GMBTU,Queen's Gambit Growth Capital Unit
+GMBTW,Queen's Gambit Growth Capital Warrant
+GMDA,Gamida Cell Ltd. Ordinary Shares
+GMII,Gores Metropoulos II Inc. Class A 
+GMIIU,Gores Metropoulos II Inc. Unit
+GMIIW,Gores Metropoulos II Inc. Warrants
+GMLP,Golar LNG Partners LP Common Units Representing Limited Partnership
+GMLPP,Golar LNG Partners LP 8.75% Series A Cumulative Redeemable Preferred Units
+GMTX,Gemini Therapeutics Inc. 
+GNAC,Group Nine Acquisition Corp. Class A 
+GNACU,Group Nine Acquisition Corp. Unit
+GNACW,Group Nine Acquisition Corp. Warrant
+GNCA,Genocea Biosciences Inc. 
+GNFT,GENFIT S.A. American Depositary Shares
+GNLN,Greenlane Holdings Inc. Class A 
+GNMK,GenMark Diagnostics Inc. 
+GNOG,Golden Nugget Online Gaming Inc. Class A 
+GNPX,Genprex Inc. 
+GNRS,Greenrose Acquisition Corp. 
+GNRSU,Greenrose Acquisition Corp. Unit
+GNRSW,Greenrose Acquisition Corp. Warrant
+GNSS,Genasys Inc. 
+GNTX,Gentex Corporation 
+GNTY,Guaranty Bancshares Inc. 
+GNUS,Genius Brands International Inc. 
+GO,Grocery Outlet Holding Corp. 
+GOCO,GoHealth Inc. Class A 
+GOEV,Canoo Inc. Class A 
+GOEVW,Canoo Inc. Warrant
+GOGL,Golden Ocean Group Limited 
+GOGO,Gogo Inc. 
+GOOD,Gladstone Commercial Corporation Real Estate Investment Trust
+GOODM,Gladstone Commercial Corporation Series D Cumulative Redeemable Preferred Stock
+GOODN,Gladstone Commercial Corporation 6.625% Series E Cumulative Redeemable Preferred Stock
+GOOG,Alphabet Inc. Class C Capital Stock
+GOOGL,Alphabet Inc. Class A 
+GOSS,Gossamer Bio Inc. 
+GOVX,GeoVax Labs Inc. 
+GOVXW,GeoVax Labs Inc. Warrants
+GP,GreenPower Motor Company Inc. Common Shares
+GPAC,Global Partner Acquisition Corp II Class A Ordinary Share
+GPACU,Global Partner Acquisition Corp II Unit
+GPACW,Global Partner Acquisition Corp II Warrant
+GPP,Green Plains Partners LP Common Units
+GPRE,Green Plains Inc. 
+GPRO,GoPro Inc. Class A 
+GRAY,Graybug Vision Inc. 
+GRBK,Green Brick Partners Inc. 
+GRCL,Gracell Biotechnologies Inc. American Depositary Shares
+GRCY,Greencity Acquisition Corporation Ordinary Shares
+GRCYU,Greencity Acquisition Corporation Unit
+GRCYW,Greencity Acquisition Corporation Warrants
+GRFS,Grifols S.A. American Depositary Shares
+GRIL,Muscle Maker Inc 
+GRIN,Grindrod Shipping Holdings Ltd. Ordinary Shares
+GRMN,Garmin Ltd.  (Switzerland)
+GRNQ,Greenpro Capital Corp. 
+GRNV,GreenVision Acquisition Corp 
+GRNVR,GreenVision Acquisition Corp Rights
+GRNVU,GreenVision Acquisition Corp Unit 
+GRNVW,GreenVision Acquisition Corp Warrant
+GROW,U.S. Global Investors Inc. Class A 
+GRPN,Groupon Inc. 
+GRSV,Gores Holdings V Inc. 
+GRSVU,Gores Holdings V Inc. Unit
+GRSVW,Gores Holdings V Inc. Warrant
+GRTS,Gritstone Oncology Inc. 
+GRTX,Galera Therapeutics Inc. 
+GRVY,GRAVITY Co. Ltd. American Depository Shares
+GRWG,GrowGeneration Corp. 
+GSAQ,Global Synergy Acquisition Corp. Class A Ordinary Shares
+GSAQU,Global Synergy Acquisition Corp. Units
+GSAQW,Global Synergy Acquisition Corp. Warrant
+GSBC,Great Southern Bancorp Inc. 
+GSEVU,Gores Holdings VII Inc. Units
+GSHD,Goosehead Insurance Inc. Class A 
+GSIT,GSI Technology 
+GSKY,GreenSky Inc. Class A 
+GSM,Ferroglobe PLC Ordinary Shares
+GSMG,Glory Star New Media Group Holdings Limited Ordinary Share
+GSMGW,Glory Star New Media Group Holdings Limited Warrant expiring 2/13/2025
+GSUM,Gridsum Holding Inc. American Depositary Shares
+GT,The Goodyear Tire & Rubber Company 
+GTBP,GT Biopharma Inc. 
+GTEC,Greenland Technologies Holding Corporation Ordinary Shares
+GTH,Genetron Holdings Limited ADS
+GTHX,G1 Therapeutics Inc. 
+GTIM,Good Times Restaurants Inc. 
+GTPAU,Gores Technology Partners Inc. Units
+GTPBU,Gores Technology Partners II Inc. Units
+GTYH,GTY Technology Holdings Inc. 
+GURE,Gulf Resources Inc. (NV) 
+GVP,GSE Systems Inc. 
+GWAC,Good Works Acquisition Corp. 
+GWACW,Good Works Acquisition Corp. Warrant
+GWGH,GWG Holdings Inc 
+GWPH,GW Pharmaceuticals Plc American Depositary Shares
+GWRS,Global Water Resources Inc. 
+GXGX,GX Acquisiton Corp. Class A 
+GXGXW,GX Acquisiton Corp. Warrant
+GYRO,Gyrodyne LLC 
+HA,Hawaiian Holdings Inc. 
+HAAC,Health Assurance Acquisition Corp. Class A 
+HAACU,Health Assurance Acquisition Corp. SAIL Securities
+HAACW,Health Assurance Acquisition Corp. Warrants
+HAFC,Hanmi Financial Corporation 
+HAIN,Hain Celestial Group Inc. (The) 
+HALL,Hallmark Financial Services Inc. 
+HALO,Halozyme Therapeutics Inc. 
+HAPP,Happiness Biotech Group Limited Ordinary Shares
+HARP,Harpoon Therapeutics Inc. 
+HAS,Hasbro Inc. 
+HAYN,Haynes International Inc. 
+HBAN,Huntington Bancshares Incorporated 
+HBANN,Huntington Bancshares Incorporated Depositary Shares each representing a 1/40th interest in a share of 5.875% Series C Non-Cumulative Perpetual Preferred Stock
+HBANO,Huntington Bancshares Incorporated Depositary Shares
+HBANP,Huntington Bancshares Incorporated Depositary Shares 4.500% Series H Non-Cumulative Perpetual Preferred Stock
+HBCP,Home Bancorp Inc. 
+HBIO,Harvard Bioscience Inc. 
+HBMD,Howard Bancorp Inc. 
+HBNC,Horizon Bancorp Inc. 
+HBP,Huttig Building Products Inc. 
+HBT,HBT Financial Inc. 
+HCAP,Harvest Capital Credit Corporation 
+HCAPZ,Harvest Capital Credit Corporation 6.125% Notes due 2022
+HCAQ,HealthCor Catalio Acquisition Corp. Class A Ordinary Shares
+HCAR,Healthcare Services Acquisition Corporation Class A 
+HCARU,Healthcare Services Acquisition Corporation Unit
+HCARW,Healthcare Services Acquisition Corporation Warrant
+HCAT,Health Catalyst Inc 
+HCCC,Healthcare Capital Corp. Class A 
+HCCCU,Healthcare Capital Corp. Unit
+HCCCW,Healthcare Capital Corp. Warrant
+HCCI,Heritage-Crystal Clean Inc. 
+HCDI,Harbor Custom Development Inc. 
+HCIC,Hennessy Capital Investment Corp. V Class A 
+HCICU,Hennessy Capital Investment Corp. V Units 
+HCICW,Hennessy Capital Investment Corp. V Warrant
+HCIIU,Hudson Executive Investment Corp. II Unit
+HCKT,Hackett Group Inc (The). 
+HCM,Hutchison China MediTech Limited American Depositary Shares
+HCSG,Healthcare Services Group Inc. 
+HDSN,Hudson Technologies Inc. 
+HEAR,Turtle Beach Corporation 
+HEC,Hudson Executive Investment Corp. Class A 
+HECCU,Hudson Executive Investment Corp. Units
+HECCW,Hudson Executive Investment Corp. Warrant
+HEES,H&E Equipment Services Inc. 
+HELE,Helen of Troy Limited 
+HEPA,Hepion Pharmaceuticals Inc. 
+HERAU,FTAC Hera Acquisition Corp. Units
+HFBL,Home Federal Bancorp Inc. of Louisiana 
+HFFG,HF Foods Group Inc. 
+HFWA,Heritage Financial Corporation 
+HGBL,Heritage Global Inc. 
+HGEN,Humanigen Inc. 
+HGSH,China HGS Real Estate Inc. 
+HHR,HeadHunter Group PLC American Depositary Shares
+HIBB,Hibbett Sports Inc. 
+HIFS,Hingham Institution for Savings 
+HIHO,Highway Holdings Limited 
+HIIIU,Hudson Executive Investment Corp. III Unit
+HIMX,Himax Technologies Inc. American Depositary Shares
+HJLI,Hancock Jaffe Laboratories Inc. 
+HJLIW,Hancock Jaffe Laboratories Inc. Warrants
+HLAHU,Hamilton Lane Alliance Holdings I Inc. Unit
+HLAHW,Hamilton Lane Alliance Holdings I Inc. Warrant
+HLG,Hailiang Education Group Inc. American Depositary Shares
+HLIO,Helios Technologies Inc. 
+HLIT,Harmonic Inc. 
+HLNE,Hamilton Lane Incorporated Class A 
+HLXA,Helix Acquisition Corp. Class A Ordinary Shares
+HMCO,HumanCo Acquisition Corp. Class A 
+HMCOU,HumanCo Acquisition Corp. Unit
+HMCOW,HumanCo Acquisition Corp. Warrant
+HMHC,Houghton Mifflin Harcourt Company 
+HMNF,HMN Financial Inc. 
+HMPT,Home Point Capital Inc 
+HMST,HomeStreet Inc. 
+HMSY,HMS Holdings Corp (DE)
+HMTV,Hemisphere Media Group Inc. Class A 
+HNNA,Hennessy Advisors Inc. 
+HNRG,Hallador Energy Company 
+HOFT,Hooker Furniture Corporation 
+HOFV,Hall of Fame Resort & Entertainment Company 
+HOFVW,Hall of Fame Resort &amp; Entertainment Company Warrant
+HOL,Holicity Inc. Class A 
+HOLI,Hollysys Automation Technologies Ltd. Common Shares (British Virgin Islands)
+HOLUU,Holicity Inc. Unit
+HOLUW,Holicity Inc. Warrant
+HOLX,Hologic Inc. 
+HOMB,Home BancShares Inc. 
+HONE,HarborOne Bancorp Inc. 
+HOOK,HOOKIPA Pharma Inc. 
+HOPE,Hope Bancorp Inc. 
+HOTH,Hoth Therapeutics Inc. 
+HOVNP,Hovnanian Enterprises Inc Dep Shr Srs A Pfd
+HPK,HighPeak Energy Inc. 
+HPKEW,HighPeak Energy Inc. Warrant
+HQI,HireQuest Inc.  (DE)
+HQY,HealthEquity Inc. 
+HRMY,Harmony Biosciences Holdings Inc. 
+HROW,Harrow Health Inc. 
+HRTX,Heron Therapeutics Inc. 
+HRZN,Horizon Technology Finance Corporation 
+HSAQ,Health Sciences Acquisitions Corporation 2 Ordinary Shares
+HSDT,Helius Medical Technologies Inc. Class A  (DE)
+HSIC,Henry Schein Inc. 
+HSII,Heidrick & Struggles International Inc. 
+HSKA,Heska Corporation 
+HSON,Hudson Global Inc. 
+HST,Host Hotels & Resorts Inc. 
+HSTM,HealthStream Inc. 
+HSTO,Histogen Inc. 
+HTBI,HomeTrust Bancshares Inc. 
+HTBK,Heritage Commerce Corp 
+HTBX,Heat Biologics Inc. 
+HTGM,HTG Molecular Diagnostics Inc. 
+HTHT,Huazhu Group Limited American Depositary Shares
+HTIA,Healthcare Trust Inc. 7.375% Series A Cumulative Redeemable Perpetual Preferred Stock
+HTLD,Heartland Express Inc. 
+HTLF,Heartland Financial USA Inc. 
+HTLFP,Heartland Financial USA Inc. Depositary Shares each representing a 1/400th ownership interest in a share of 7.00% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series E
+HTOO,Fusion Fuel Green PLC Class A Ordinary Shares
+HTOOW,Fusion Fuel Green PLC Warrant
+HUBG,Hub Group Inc. Class A 
+HUDI,Huadi International Group Co. Ltd. Ordinary Shares
+HUGE,FSD Pharma Inc. Class B Subordinate Voting Shares
+HUIZ,Huize Holding Limited American Depositary Shares
+HURC,Hurco Companies Inc. 
+HURN,Huron Consulting Group Inc. 
+HUSN,Hudson Capital Inc. Ordinary Shares
+HVBC,HV Bancorp Inc. 
+HWBK,Hawthorn Bancshares Inc. 
+HWC,Hancock Whitney Corporation 
+HWCC,Houston Wire & Cable Company 
+HWCPL,Hancock Whitney Corporation 5.95% Subordinated Notes due 2045
+HWCPZ,Hancock Whitney Corporation 6.25% Subordinated Notes due 2060
+HWKN,Hawkins Inc. 
+HX,Xiaobai Maimai Inc. ADR
+HYACU,Haymaker Acquisition Corp. III Unit
+HYFM,Hydrofarm Holdings Group Inc. 
+HYMC,Hycroft Mining Holding Corporation Class A 
+HYMCL,Hycroft Mining Holding Corporation Warrants
+HYMCW,Hycroft Mining Holding Corporation  Warrant
+HYMCZ,Hycroft Mining Holding Corporation Warrant
+HYRE,HyreCar Inc. 
+HZNP,Horizon Therapeutics Public Limited Company Ordinary Shares
+IAC,IAC/InterActiveCorp 
+IART,Integra LifeSciences Holdings Corporation 
+IBCP,Independent Bank Corporation 
+IBEX,IBEX Limited Common Shares
+IBKR,Interactive Brokers Group Inc. Class A 
+IBOC,International Bancshares Corporation 
+IBRX,ImmunityBio Inc. 
+IBTX,Independent Bank Group Inc 
+ICAD,iCAD Inc. 
+ICBK,County Bancorp Inc. 
+ICCC,ImmuCell Corporation 
+ICCH,ICC Holdings Inc. 
+ICFI,ICF International Inc. 
+ICHR,Ichor Holdings Ordinary Shares
+ICLK,iClick Interactive Asia Group Limited American Depositary Shares
+ICLR,ICON plc Ordinary Shares
+ICMB,Investcorp Credit Management BDC Inc. 
+ICON,Iconix Brand Group Inc. 
+ICPT,Intercept Pharmaceuticals Inc. 
+ICUI,ICU Medical Inc. 
+IDBA,IDEX Biometrics ASA American Depositary Shares
+IDCC,InterDigital Inc. 
+IDEX,Ideanomics Inc. 
+IDN,Intellicheck Inc. 
+IDRA,Idera Pharmaceuticals Inc. 
+IDXX,IDEXX Laboratories Inc. 
+IDYA,IDEAYA Biosciences Inc. 
+IEA,Infrastructure and Energy Alternatives Inc. 
+IEAWW,Infrastructure and Energy Alternatives Inc. Warrant
+IEC,IEC Electronics Corp. 
+IEP,Icahn Enterprises L.P. 
+IESC,IES Holdings Inc. 
+IFMK,iFresh Inc. 
+IFRX,InflaRx N.V. 
+IGAC,IG Acquisition Corp. Class A 
+IGACU,IG Acquisition Corp. Unit
+IGACW,IG Acquisition Corp. Warrant
+IGIC,International General Insurance Holdings Ltd. Ordinary Share
+IGICW,International General Insurance Holdings Ltd. Warrants expiring 03/17/2025
+IGMS,IGM Biosciences Inc. 
+IGNY,Ignyte Acquisition Corp. 
+IGNYU,Ignyte Acquisition Corp. Unit
+IGNYW,Ignyte Acquisition Corp. Warrant
+IHRT,iHeartMedia Inc. Class A 
+III,Information Services Group Inc. Information Services Group Inc. 
+IIII,INSU Acquisition Corp. III Class A 
+IIIIU,INSU Acquisition Corp. III Unit
+IIIIW,INSU Acquisition Corp. III Warrant
+IIIV,i3 Verticals Inc. Class A 
+IIN,Intricon Corporation 
+IIVI,II-VI Incorporated 
+IIVIP,II-VI Incorporated 6.00% Series A Mandatory Convertible Preferred Stock
+IKNX,Ikonics Corporation
+IKT,Inhibikase Therapeutics Inc. 
+ILMN,Illumina Inc. 
+ILPT,Industrial Logistics Properties Trust Common Shares of Beneficial Interest
+IMAB,I-MAB American Depositary Shares
+IMAC,IMAC Holdings Inc. 
+IMACW,IMAC Holdings Inc. Warrant
+IMBI,iMedia Brands Inc. Class A 
+IMCC,IM Cannabis Corp. Common Shares
+IMCR,Immunocore Holdings plc American Depositary Shares
+IMGN,ImmunoGen Inc. 
+IMKTA,Ingles Markets Incorporated Class A 
+IMMP,Immutep Limited American Depositary Shares
+IMMR,Immersion Corporation 
+IMNM,Immunome Inc. 
+IMOS,ChipMOS TECHNOLOGIES INC. American Depositary Shares
+IMRA,IMARA Inc. 
+IMRN,Immuron Limited American Depositary Shares
+IMRNW,Immuron Limited Warrants
+IMTE,Integrated Media Technology Limited Ordinary Shares
+IMTX,Immatics N.V. Ordinary Shares
+IMTXW,Immatics N.V. Warrants
+IMUX,Immunic Inc. 
+IMV,IMV Inc. Common Shares
+IMVT,Immunovant Inc. 
+IMXI,International Money Express Inc. 
+INBK,First Internet Bancorp 
+INBKL,First Internet Bancorp 6.0% Fixed-to-Floating Rate Subordinated Notes due 2026
+INBKZ,First Internet Bancorp 6.0% Fixed-to-Floating Rate Subordinated Notes Due 2029
+INBX,Inhibrx Inc. 
+INCY,Incyte Corp. 
+INDB,Independent Bank Corp. 
+INDT,INDUS Realty Trust Inc. (MD) 
+INFI,Infinity Pharmaceuticals Inc. 
+INFN,Infinera Corporation 
+INGN,Inogen Inc 
+INKA,KludeIn I Acquisition Corp. Class A 
+INKAU,KludeIn I Acquisition Corp. Unit
+INKAW,KludeIn I Acquisition Corp. Warrant
+INM,InMed Pharmaceuticals Inc. Common Shares
+INMB,INmune Bio Inc. 
+INMD,InMode Ltd. Ordinary Shares
+INNV,InnovAge Holding Corp. 
+INO,Inovio Pharmaceuticals Inc. 
+INOD,Innodata Inc. 
+INOV,Inovalon Holdings Inc. Class A 
+INPX,Inpixon 
+INSE,Inspired Entertainment Inc. 
+INSG,Inseego Corp. 
+INSM,Insmed Inc. 
+INTC,Intel Corporation 
+INTG,Intergroup Corporation (The) 
+INTU,Intuit Inc. 
+INTZ,Intrusion Inc. 
+INVA,Innoviva Inc. 
+INVE,Identiv Inc. 
+INVO,INVO BioScience Inc. 
+INZY,Inozyme Pharma Inc. 
+IONS,Ionis Pharmaceuticals Inc. 
+IOSP,Innospec Inc. 
+IOVA,Iovance Biotherapeutics Inc. 
+IPA,ImmunoPrecise Antibodies Ltd. 
+IPAR,Inter Parfums Inc. 
+IPDN,Professional Diversity Network Inc. 
+IPGP,IPG Photonics Corporation 
+IPHA,Innate Pharma S.A. ADS
+IPHI,Inphi Corporation 
+IPLDP,Interstate Power & Light Company Perp Prd Ser D
+IPVIU,InterPrivate IV InfraTech Partners Inc. Units
+IPWR,Ideal Power Inc. 
+IQ,iQIYI Inc. American Depositary Shares
+IRBT,iRobot Corporation 
+IRCP,IRSA Propiedades Comerciales S.A. American Depositary Shares
+IRDM,Iridium Communications Inc 
+IRIX,IRIDEX Corporation 
+IRMD,iRadimed Corporation 
+IROQ,IF Bancorp Inc. 
+IRTC,iRhythm Technologies Inc. 
+IRWD,Ironwood Pharmaceuticals Inc. Class A 
+ISBC,Investors Bancorp Inc. 
+ISEE,IVERIC bio Inc. 
+ISIG,Insignia Systems Inc. 
+ISLEU,Isleworth Healthcare Acquisition Corporation Unit
+ISNS,Image Sensing Systems Inc. 
+ISRG,Intuitive Surgical Inc. 
+ISSC,Innovative Solutions and Support Inc. 
+ISTR,Investar Holding Corporation 
+ISUN,iSun Inc. 
+ITAC,Industrial Tech Acquisitions Inc. Class A 
+ITACU,Industrial Tech Acquisitions Inc. Unit
+ITACW,Industrial Tech Acquisitions Inc. Warrant
+ITCI,Intra-Cellular Therapies Inc. 
+ITHXU,ITHAX Acquisition Corp. Unit
+ITI,Iteris Inc. 
+ITIC,Investors Title Company 
+ITMR,Itamar Medical Ltd. American Depository Shares
+ITOS,iTeos Therapeutics Inc. 
+ITQRU,Itiquira Acquisition Corp. Unit
+ITRI,Itron Inc. 
+ITRM,Iterum Therapeutics plc Ordinary Share
+ITRN,Ituran Location and Control Ltd. Ordinary Shares
+IVA,Inventiva S.A. American Depository Shares
+IVAC,Intevac Inc. 
+IZEA,IZEA Worldwide Inc. 
+JACK,Jack In The Box Inc. 
+JAGX,Jaguar Health Inc. 
+JAKK,JAKKS Pacific Inc. 
+JAMF,Jamf Holding Corp. 
+JAN,JanOne Inc.  (NV)
+JAZZ,Jazz Pharmaceuticals plc  (Ireland)
+JBHT,J.B. Hunt Transport Services Inc. 
+JBLU,JetBlue Airways Corporation 
+JBSS,John B. Sanfilippo & Son Inc. 
+JCIC,Jack Creek Investment Corp. Class A Ordinary Shares
+JCICU,Jack Creek Investment Corp. Units
+JCICW,Jack Creek Investment Corp. Warrants
+JCOM,j2 Global Inc. 
+JCS,Communications Systems Inc. 
+JCTCF,Jewett-Cameron Trading Company Common Shares
+JD,JD.com Inc. American Depositary Shares
+JFIN,Jiayin Group Inc. American Depositary Shares
+JFU,9F Inc. American Depositary Shares
+JG,Aurora Mobile Limited American Depositary Shares
+JJSF,J & J Snack Foods Corp. 
+JKHY,Jack Henry & Associates Inc. 
+JMPNL,JMP Group LLC 7.25% Senior Notes due 2027
+JMPNZ,JMP Group LLC 6.875% Senior Notes due 2029
+JNCE,Jounce Therapeutics Inc. 
+JOAN,JOANN Inc. 
+JOBS,51job Inc. American Depositary Shares
+JOFFU,JOFF Fintech Acquisition Corp. Unit
+JOUT,Johnson Outdoors Inc. Class A 
+JRJC,China Finance Online Co. Limited American Depositary Shares
+JRSH,Jerash Holdings (US) Inc. 
+JRVR,James River Group Holdings Ltd. Common Shares
+JSM,Navient Corporation 6% Senior Notes due December 15 2043
+JUPW,Jupiter Wellness Inc. 
+JUPWW,Jupiter Wellness Inc. Warrant
+JVA,Coffee Holding Co. Inc. 
+JWEL,Jowell Global Ltd. Ordinary Shares
+JYAC,Jiya Acquisition Corp. Class A 
+JYNT,The Joint Corp. 
+KAIIU,Kismet Acquisition Two Corp. Unit
+KAIR,Kairos Acquisition Corp. Class A Ordinary Shares
+KAIRU,Kairos Acquisition Corp. Unit
+KAIRW,Kairos Acquisition Corp. Warrant
+KALA,Kala Pharmaceuticals Inc. 
+KALU,Kaiser Aluminum Corporation 
+KALV,KalVista Pharmaceuticals Inc. 
+KBAL,Kimball International Inc. Class B 
+KBNT,Kubient Inc. 
+KBNTW,Kubient Inc. Warrant
+KBSF,KBS Fashion Group Limited 
+KC,Kingsoft Cloud Holdings Limited American Depositary Shares
+KCAPL,KCAP Financial Inc. 6.125% Notes due 2022
+KDMN,Kadmon Holdings Inc. 
+KDNY,Chinook Therapeutics Inc. 
+KDP,Keurig Dr Pepper Inc. 
+KE,Kimball Electronics Inc. 
+KELYA,Kelly Services Inc. Class A 
+KELYB,Kelly Services Inc. Class B 
+KEQU,Kewaunee Scientific Corporation 
+KERN,Akerna Corp. 
+KERNW,Akerna Corp Warrant
+KFFB,Kentucky First Federal Bancorp 
+KFRC,Kforce Inc. 
+KHC,The Kraft Heinz Company 
+KIDS,OrthoPediatrics Corp. 
+KIIIU,Kismet Acquisition Three Corp. Unit
+KIN,Kindred Biosciences Inc. 
+KINS,Kingstone Companies Inc. 
+KINZ,KINS Technology Group Inc. Class A 
+KINZU,KINS Technology Group Inc. Unit
+KINZW,KINS Technology Group Inc. Warrant
+KIRK,Kirkland's Inc. COMMONSTOCK
+KLAC,KLA Corporation 
+KLAQ,KL Acquisition Corp Class A 
+KLAQU,KL Acquisition Corp Unit
+KLAQW,KL Acquisition Corp Warrant
+KLDO,Kaleido Biosciences Inc. 
+KLIC,Kulicke and Soffa Industries Inc. 
+KLXE,KLX Energy Services Holdings Inc. 
+KMDA,Kamada Ltd. Ordinary Shares
+KMPH,KemPharm Inc. 
+KNDI,Kandi Technologies Group Inc 
+KNSA,Kiniksa Pharmaceuticals Ltd. Class A 
+KNSL,Kinsale Capital Group Inc. 
+KNTE,Kinnate Biopharma Inc. 
+KOD,Kodiak Sciences Inc 
+KOPN,Kopin Corporation 
+KOR,Corvus Gold Inc. Common Shares
+KOSS,Koss Corporation 
+KPTI,Karyopharm Therapeutics Inc. 
+KRBP,Kiromic BioPharma Inc. 
+KRKR,36Kr Holdings Inc. American Depositary Shares
+KRMD,Repro Med Systems Inc. 
+KRNLU,Kernel Group Holdings Inc. Units
+KRNT,Kornit Digital Ltd. Ordinary Shares
+KRNY,Kearny Financial Corp 
+KRON,Kronos Bio Inc. 
+KROS,Keros Therapeutics Inc. 
+KRTX,Karuna Therapeutics Inc. 
+KRUS,Kura Sushi USA Inc. Class A 
+KRYS,Krystal Biotech Inc. 
+KSICU,Kadem Sustainable Impact Corporation Unit
+KSMT,Kismet Acquisition One Corp Ordinary Shares
+KSMTU,Kismet Acquisition One Corp Unit
+KSMTW,Kismet Acquisition One Corp Warrant
+KSPN,Kaspien Holdings Inc. 
+KTCC,Key Tronic Corporation 
+KTOS,Kratos Defense & Security Solutions Inc. 
+KTRA,Kintara Therapeutics Inc. 
+KURA,Kura Oncology Inc. 
+KURIU,Alkuri Global Acquisition Corp. Unit
+KVHI,KVH Industries Inc. 
+KVSA,Khosla Ventures Acquisition Co. Class A 
+KXIN,Kaixin Auto Holdings Ordinary Share
+KYMR,Kymera Therapeutics Inc. 
+KZIA,Kazia Therapeutics Limited American Depositary Shares
+KZR,Kezar Life Sciences Inc. 
+LABP,Landos Biopharma Inc. 
+LACQ,Leisure Acquisition Corp. 
+LACQW,Leisure Acquisition Corp. Warrant
+LAKE,Lakeland Industries Inc. 
+LAMR,Lamar Advertising Company Class A 
+LANC,Lancaster Colony Corporation 
+LAND,Gladstone Land Corporation 
+LANDM,Gladstone Land Corporation 5.00% Series D Cumulative Term Preferred Stock
+LANDO,Gladstone Land Corporation 6.00% Series B Cumulative Redeemable Preferred Stock
+LARK,Landmark Bancorp Inc. 
+LASR,nLIGHT Inc. 
+LATN,Union Acquisition Corp. II Ordinary Shares
+LATNU,Union Acquisition Corp. II Units containing one ordinary share and one redeemable warrant
+LATNW,Union Acquisition Corp. II Warrant
+LAUR,Laureate Education Inc. Class A 
+LAWS,Lawson Products Inc. 
+LAZR,Luminar Technologies Inc.  Class A 
+LAZY,Lazydays Holdings Inc. 
+LBAI,Lakeland Bancorp Inc. 
+LBC,Luther Burbank Corporation 
+LBPH,Longboard Pharmaceuticals Inc. 
+LBRDA,Liberty Broadband Corporation Class A 
+LBRDK,Liberty Broadband Corporation Class C 
+LBRDP,Liberty Broadband Corporation Series A Cumulative Redeemable Preferred Stock
+LBTYA,Liberty Global plc Class A Ordinary Shares
+LBTYB,Liberty Global plc Class B Ordinary Shares
+LBTYK,Liberty Global plc Class C Ordinary Shares
+LCAAU,L Catterton Asia Acquisition Corp Units
+LCAP,Lionheart Acquisition Corp. II Class A 
+LCAPU,Lionheart Acquisition Corp. II Unit
+LCAPW,Lionheart Acquisition Corp. II Warrant
+LCNB,LCNB Corporation 
+LCUT,Lifetime Brands Inc. 
+LCY,Landcadia Holdings III Inc. Class A 
+LCYAU,Landcadia Holdings III Inc. Unit 
+LCYAW,Landcadia Holdings III Inc. Warrant
+LE,Lands' End Inc. 
+LECO,Lincoln Electric Holdings Inc. Common Shares
+LEDS,SemiLEDS Corporation 
+LEGH,Legacy Housing Corporation  (TX)
+LEGN,Legend Biotech Corporation American Depositary Shares
+LEGO,Legato Merger Corp. 
+LEGOU,Legato Merger Corp. Units
+LEGOW,Legato Merger Corp. Warrant
+LESL,Leslie's Inc. 
+LEVL,Level One Bancorp Inc. 
+LEVLP,Level One Bancorp Inc. Depositary Shares Each Representing a 1/100th Interest in a Share of 7.50% Non-Cumulative Perpetual Preferred Stock Series B
+LEXX,Lexaria Bioscience Corp. 
+LEXXW,Lexaria Bioscience Corp. Warrant
+LFMD,LifeMD Inc. 
+LFTR,Lefteris Acquisition Corp. Class A 
+LFTRU,Lefteris Acquisition Corp. Unit
+LFTRW,Lefteris Acquisition Corp. Warrant
+LFUS,Littelfuse Inc. 
+LFVN,Lifevantage Corporation  (Delaware)
+LGACU,Lazard Growth Acquisition Corp. I Units
+LGHL,Lion Group Holding Ltd. American Depositary Share
+LGHLW,Lion Group Holding Ltd. Warrant
+LGIH,LGI Homes Inc. 
+LGND,Ligand Pharmaceuticals Incorporated 
+LGVN,Longeveron Inc. Class A 
+LHAA,Lerer Hippeau Acquisition Corp. Class A 
+LHCG,LHC Group 
+LHDX,Lucira Health Inc. 
+LI,Li Auto Inc. American Depositary Shares
+LIFE,aTyr Pharma Inc. 
+LILA,Liberty Latin America Ltd. Class A 
+LILAK,Liberty Latin America Ltd. Class C 
+LINC,Lincoln Educational Services Corporation 
+LIND,Lindblad Expeditions Holdings Inc. 
+LIQT,LiqTech International Inc. 
+LITE,Lumentum Holdings Inc. 
+LIVE,Live Ventures Incorporated 
+LIVK,LIV Capital Acquisition Corp. Class A Ordinary Shares
+LIVKU,LIV Capital Acquisition Corp. Unit
+LIVKW,LIV Capital Acquisition Corp. Warrant
+LIVN,LivaNova PLC Ordinary Shares
+LIVX,LiveXLive Media Inc. 
+LIXT,Lixte Biotechnology Holdings Inc. 
+LIXTW,Lixte Biotechnology Holdings Inc. Warrants
+LIZI,LIZHI INC. American Depositary Shares
+LJAQ,LightJump Acquisition Corporation 
+LJAQU,LightJump Acquisition Corporation Unit
+LJAQW,LightJump Acquisition Corporation Warrant
+LJPC,La Jolla Pharmaceutical Company 
+LKCO,Luokung Technology Corp Ordinary Shares
+LKFN,Lakeland Financial Corporation 
+LKQ,LKQ Corporation 
+LLIT,Lianluo Smart Limited Class A 
+LLNW,Limelight Networks Inc. 
+LMACA,Liberty Media Acquisition Corporation Series A 
+LMACU,Liberty Media Acquisition Corporation Unit
+LMACW,Liberty Media Acquisition Corporation Warrants
+LMAOU,LMF Acquisition Opportunities Inc. Unit
+LMAT,LeMaitre Vascular Inc. 
+LMB,Limbach Holdings Inc. 
+LMFA,LM Funding America Inc. 
+LMNL,Liminal BioSciences Inc. Common Shares
+LMNR,Limoneira Co 
+LMNX,Luminex Corporation 
+LMPX,LMP Automotive Holdings Inc. 
+LMRK,Landmark Infrastructure Partners LP Common Units
+LMRKN,Landmark Infrastructure Partners LP 7% Series C Fltg/Fxd Perpetual Conv Preferred Stock
+LMRKO,Landmark Infrastructure Partners LP Perpetual Preferred Units Series B 7.90%
+LMRKP,Landmark Infrastructure Partners LP 8.00% Series A Cumulative Redeemable Perpetual Preferred Units
+LMST,Limestone Bancorp Inc. 
+LNDC,Landec Corporation  (DE)
+LNSR,LENSAR Inc. 
+LNT,Alliant Energy Corporation 
+LNTH,Lantheus Holdings Inc. 
+LOAC,Longevity Acquisition Corporation Ordinary Shares
+LOACR,Longevity Acquisition Corporation Right
+LOACW,Longevity Acquisition Corporation Warrant
+LOAN,Manhattan Bridge Capital Inc
+LOB,Live Oak Bancshares Inc. 
+LOCO,El Pollo Loco Holdings Inc. 
+LOGC,LogicBio Therapeutics Inc. 
+LOGI,Logitech International S.A. Ordinary Shares
+LOOP,Loop Industries Inc. 
+LOPE,Grand Canyon Education Inc. 
+LORL,Loral Space and Communications Inc. 
+LOTZ,CarLotz Inc. Class A 
+LOTZW,CarLotz Inc. Warrant
+LOVE,The Lovesac Company 
+LPCN,Lipocine Inc. 
+LPLA,LPL Financial Holdings Inc. 
+LPRO,Open Lending Corporation Class A 
+LPSN,LivePerson Inc. 
+LPTH,LightPath Technologies Inc. Class A 
+LPTX,Leap Therapeutics Inc. 
+LQDA,Liquidia Corporation 
+LQDT,Liquidity Services Inc. 
+LRCX,Lam Research Corporation 
+LRMR,Larimar Therapeutics Inc. 
+LSAQ,LifeSci Acquisition II Corp. 
+LSBK,Lake Shore Bancorp Inc. 
+LSCC,Lattice Semiconductor Corporation 
+LSEA,Landsea Homes Corporation 
+LSEAW,Landsea Homes Corporation Warrant
+LSTR,Landstar System Inc. 
+LSXMA,Liberty Media Corporation Series A Liberty SiriusXM 
+LSXMK,Liberty Media Corporation Series C Liberty SiriusXM 
+LTBR,Lightbridge Corporation 
+LTRN,Lantern Pharma Inc. 
+LTRPA,Liberty TripAdvisor Holdings Inc. Series A 
+LTRPB,Liberty TripAdvisor Holdings Inc. Series B 
+LTRX,Lantronix Inc. 
+LULU,lululemon athletica inc. 
+LUMO,Lumos Pharma Inc. 
+LUNA,Luna Innovations Incorporated 
+LUNG,Pulmonx Corporation 
+LUXA,Lux Health Tech Acquisition Corp. Class A 
+LUXAU,Lux Health Tech Acquisition Corp. Units
+LUXAW,Lux Health Tech Acquisition Corp. Warrants
+LWAC,Locust Walk Acquisition Corp. Class A 
+LWACU,Locust Walk Acquisition Corp. Unit
+LWACW,Locust Walk Acquisition Corp. Warrant
+LWAY,Lifeway Foods Inc. 
+LX,LexinFintech Holdings Ltd. American Depositary Shares
+LXEH,Lixiang Education Holding Co. Ltd. American Depositary Shares
+LXRX,Lexicon Pharmaceuticals Inc. 
+LYFT,Lyft Inc. Class A 
+LYL,Dragon Victory International Limited Ordinary Shares
+LYRA,Lyra Therapeutics Inc. 
+LYTS,LSI Industries Inc. 
+MAAC,Montes Archimedes Acquisition Corp. Class A 
+MAACU,Montes Archimedes Acquisition Corp. Unit
+MAACW,Montes Archimedes Acquisition Corp. Warrant
+MACAU,Moringa Acquisition Corp Units
+MACK,Merrimack Pharmaceuticals Inc. 
+MACQU,MCAP Acquisition Corporation Unit
+MACU,Mallard Acquisition Corp. 
+MACUU,Mallard Acquisition Corp. Unit
+MACUW,Mallard Acquisition Corp. Warrant
+MAGS,Magal Security Systems Ltd. Ordinary Shares
+MANH,Manhattan Associates Inc. 
+MANT,ManTech International Corporation  $0.01 Par Value
+MAR,Marriott International Class A 
+MARA,Marathon Digital Holdings Inc. 
+MARK,Remark Holdings Inc. 
+MARPS,Marine Petroleum Trust Units of Beneficial Interest
+MASI,Masimo Corporation 
+MASS,908 Devices Inc. 
+MAT,Mattel Inc. 
+MATW,Matthews International Corporation Class A 
+MAXN,Maxeon Solar Technologies Ltd. Ordinary Shares
+MAYS,J. W. Mays Inc. 
+MBCN,Middlefield Banc Corp. 
+MBII,Marrone Bio Innovations Inc. 
+MBIN,Merchants Bancorp 
+MBINO,Merchants Bancorp Depositary Shares Each Representing a 1/40th Interest in a Share of Series B  Fixed-to-Floating Rate
+MBINP,Merchants Bancorp 7.00% Fixed-to-Floating Rate Series A Non-Cumulative Perpetual Preferred Stock
+MBIO,Mustang Bio Inc. 
+MBNKP,Medallion Bank Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series F
+MBOT,Microbot Medical Inc. 
+MBRX,Moleculin Biotech Inc. 
+MBUU,Malibu Boats Inc. Class A 
+MBWM,Mercantile Bank Corporation 
+MCAD,Mountain Crest Acquisition Corp. II 
+MCADU,Mountain Crest Acquisition Corp. II Unit
+MCBC,Macatawa Bank Corporation 
+MCBS,MetroCity Bankshares Inc. 
+MCFE,McAfee Corp. Class A 
+MCFT,MasterCraft Boat Holdings Inc. 
+MCHP,Microchip Technology Incorporated 
+MCHX,Marchex Inc. Class B 
+MCMJ,Merida Merger Corp. I 
+MCMJW,Merida Merger Corp. I Warrant
+MCRB,Seres Therapeutics Inc. 
+MCRI,Monarch Casino & Resort Inc. 
+MDB,MongoDB Inc. Class A 
+MDCA,MDC Partners Inc. CL A Subordinate Voting Shares
+MDGL,Madrigal Pharmaceuticals Inc. 
+MDGS,Medigus Ltd. American Depositary Shares
+MDGSW,Medigus Ltd. Series C Warrant
+MDIA,Mediaco Holding Inc. Class A  
+MDJH,MDJM LTD Ordinary Share
+MDLZ,Mondelez International Inc. Class A 
+MDNA,Medicenna Therapeutics Corp. Common Shares
+MDRR,Medalist Diversified REIT Inc. 
+MDRRP,Medalist Diversified REIT Inc. Series A Cumulative Redeemable Preferred Stock
+MDRX,Allscripts Healthcare Solutions Inc. 
+MDVL,MedAvail Holdings Inc. 
+MDWD,MediWound Ltd. Ordinary Shares
+MDWT,Midwest Holding Inc. 
+MDXG,MiMedx Group Inc 
+MEDP,Medpace Holdings Inc. 
+MEDS,Trxade Group Inc. 
+MEIP,MEI Pharma Inc. 
+MELI,MercadoLibre Inc. 
+MEOH,Methanex Corporation 
+MERC,Mercer International Inc. 
+MESA,Mesa Air Group Inc. 
+MESO,Mesoblast Limited American Depositary Shares
+METC,Ramaco Resources Inc. 
+METX,Meten EdtechX Education Group Ltd. Ordinary Shares
+METXW,Meten EdtechX Education Group Ltd. Warrant
+MFH,Mercurity Fintech Holding Inc. ADS
+MFIN,Medallion Financial Corp. 
+MFINL,Medallion Financial Corp. 9.000% Notes due 2021
+MFNC,Mackinac Financial Corporation 
+MGEE,MGE Energy Inc
+MGI,Moneygram International Inc. 
+MGIC,Magic Software Enterprises Ltd. Ordinary Shares
+MGLN,Magellan Health Inc. 
+MGNI,Magnite Inc. 
+MGNX,MacroGenics Inc. 
+MGPI,MGP Ingredients Inc.
+MGRC,McGrath RentCorp 
+MGTA,Magenta Therapeutics Inc. 
+MGTX,MeiraGTx Holdings plc Ordinary Shares
+MGYR,Magyar Bancorp Inc. 
+MHLD,Maiden Holdings Ltd.
+MICT,MICT Inc. 
+MIDD,Middleby Corporation (The) 
+MIK,The Michaels Companies Inc. 
+MILE,Metromile Inc. 
+MILEW,Metromile Inc. Warrant 
+MIME,Mimecast Limited Ordinary Shares
+MIND,MIND Technology Inc.  (DE)
+MINDP,MIND Technology Inc. Series A 9.00% Series A Cumulative Preferred Stock (DE)
+MIRM,Mirum Pharmaceuticals Inc. 
+MIST,Milestone Pharmaceuticals Inc. Common Shares
+MITC,MeaTech 3D Ltd. American Depositary Shares
+MITK,Mitek Systems Inc. 
+MITO,Stealth BioTherapeutics Corp. ADS
+MKD,Molecular Data Inc. American Depositary Shares
+MKGI,Monaker Group Inc. 
+MKSI,MKS Instruments Inc. 
+MKTX,MarketAxess Holdings Inc. 
+MLAB,Mesa Laboratories Inc. 
+MLAC,Malacca Straits Acquisition Company Limited Class A Ordinary Shares
+MLACU,Malacca Straits Acquisition Company Limited Units
+MLACW,Malacca Straits Acquisition Company Limited Warrants
+MLCO,Melco Resorts & Entertainment Limited American Depositary Shares
+MLHR,Herman Miller Inc. 
+MLND,Millendo Therapeutics Inc. 
+MLVF,Malvern Bancorp Inc. 
+MMAC,MMA Capital Holdings Inc. 
+MMLP,Martin Midstream Partners L.P. Limited Partnership
+MMSI,Merit Medical Systems Inc. 
+MMYT,MakeMyTrip Limited Ordinary Shares
+MNDO,MIND C.T.I. Ltd. Ordinary Shares
+MNKD,MannKind Corporation 
+MNOV,Medicinova Inc 
+MNPR,Monopar Therapeutics Inc. 
+MNRO,Monro Inc. 
+MNSB,MainStreet Bancshares Inc. 
+MNSBP,MainStreet Bancshares Inc. Depositary Shares
+MNST,Monster Beverage Corporation
+MNTK,Montauk Renewables Inc. 
+MNTX,Manitex International Inc. 
+MODV,ModivCare Inc. 
+MOFG,MidWestOne Financial Gp 
+MOGO,Mogo Inc. Common Shares
+MOHO,ECMOHO Limited American Depositary Shares
+MOMO,Momo Inc. American Depositary Shares
+MON,Monument Circle Acquisition Corp. Class A 
+MONCU,Monument Circle Acquisition Corp. Unit
+MONCW,Monument Circle Acquisition Corp. Warrant
+MOR,MorphoSys AG American Depositary Shares
+MORF,Morphic Holding Inc. 
+MORN,Morningstar Inc. 
+MOSY,MoSys Inc. 
+MOTN,Motion Acquisition Corp. Class A 
+MOTNU,Motion Acquisition Corp. Unit
+MOTNW,Motion Acquisition Corp. Warrants to purchase one Class A common
+MOTS,Motus GI Holdings Inc. 
+MOXC,Moxian Inc. 
+MPAA,Motorcar Parts  of America Inc. 
+MPB,Mid Penn Bancorp 
+MPWR,Monolithic Power Systems Inc. 
+MRAC,Marquee Raine Acquisition Corp. Class A Ordinary Shares
+MRACU,Marquee Raine Acquisition Corp. Unit
+MRACW,Marquee Raine Acquisition Corp. Warrant
+MRAM,Everspin Technologies Inc. 
+MRBK,Meridian Corporation 
+MRCC,Monroe Capital Corporation 
+MRCY,Mercury Systems Inc 
+MREO,Mereo BioPharma Group plc American Depositary Shares
+MRIN,Marin Software Incorporated 
+MRKR,Marker Therapeutics Inc. 
+MRLN,Marlin Business Services Corp. 
+MRM,MEDIROM Healthcare Technologies Inc. American Depositary Share
+MRNA,Moderna Inc. 
+MRNS,Marinus Pharmaceuticals Inc. 
+MRSN,Mersana Therapeutics Inc. 
+MRTN,Marten Transport Ltd. 
+MRTX,Mirati Therapeutics Inc. 
+MRUS,Merus N.V. Common Shares
+MRVI,Maravai LifeSciences Holdings Inc. Class A 
+MRVL,Marvell Technology Group Ltd. 
+MSACU,Medicus Sciences Acquisition Corp. Unit
+MSBI,Midland States Bancorp Inc. 
+MSEX,Middlesex Water Company 
+MSFT,Microsoft Corporation 
+MSGM,Motorsport Games Inc. Class A 
+MSON,MISONIX Inc.  (DE)
+MSTR,MicroStrategy Incorporated  Class A
+MSVB,Mid-Southern Bancorp Inc. 
+MTAC,MedTech Acquisition Corporation Class A 
+MTACU,MedTech Acquisition Corporation Unit
+MTACW,MedTech Acquisition Corporation Warrant
+MTBC,MTBC Inc. 
+MTBCP,MTBC Inc. 11% Series A Cumulative Redeemable Perpetual Preferred Stock
+MTC,MMTec Inc. Common Shares
+MTCH,Match Group Inc. 
+MTCR,Metacrine Inc. 
+MTEM,Molecular Templates Inc. 
+MTEX,Mannatech Incorporated 
+MTLS,Materialise NV American Depositary Shares
+MTP,Midatech Pharma PLC American Depositary Shs
+MTRX,Matrix Service Company 
+MTSC,MTS Systems Corporation 
+MTSI,MACOM Technology Solutions Holdings Inc. 
+MTSL,MER Telemanagement Solutions Ltd. Common Shares
+MU,Micron Technology Inc. 
+MUDS,Mudrick Capital Acquisition Corporation II Class A 
+MUDSU,Mudrick Capital Acquisition Corporation II Unit
+MUDSW,Mudrick Capital Acquisition Corporation II Warrant
+MVBF,MVB Financial Corp. 
+MVIS,MicroVision Inc. 
+MWK,Mohawk Group Holdings Inc. 
+MXIM,Maxim Integrated Products Inc. 
+MYFW,First Western Financial Inc. 
+MYGN,Myriad Genetics Inc. 
+MYRG,MYR Group Inc. 
+MYSZ,My Size Inc. 
+MYT,Urban Tea Inc. Ordinary Shares
+NAACU,North Atlantic Acquisition Corporation Unit
+NAACW,North Atlantic Acquisition Corporation Warrant
+NAII,Natural Alternatives International Inc. 
+NAKD,Naked Brand Group Limited Ordinary Shares
+NAOV,NanoVibronix Inc. 
+NARI,Inari Medical Inc. 
+NATH,Nathan's Famous Inc. 
+NATI,National Instruments Corporation 
+NATR,Nature's Sunshine Products Inc. 
+NAVI,Navient Corporation 
+NBAC,Newborn Acquisition Corp. Ordinary Shares
+NBACR,Newborn Acquisition Corp. Right
+NBACU,Newborn Acquisition Corp. Unit
+NBACW,Newborn Acquisition Corp. Warrant
+NBEV,NewAge Inc. 
+NBIX,Neurocrine Biosciences Inc. 
+NBLX,Noble Midstream Partners LP Common Units Representing Limited Partner Interests
+NBN,Northeast Bank 
+NBRV,Nabriva Therapeutics plc Ordinary Shares Ireland
+NBSE,NeuBase Therapeutics Inc.  
+NBTB,NBT Bancorp Inc. 
+NBTX,Nanobiotix S.A. American Depositary Shares
+NCBS,Nicolet Bankshares Inc. 
+NCMI,National CineMedia Inc. 
+NCNA,NuCana plc American Depositary Share
+NCNO,nCino Inc. 
+NCSM,NCS Multistage Holdings Inc. 
+NCTY,The9 Limited American Depository Shares
+NDACU,NightDragon Acquisition Corp. SCALE Units
+NDAQ,Nasdaq Inc. 
+NDLS,Noodles & Company Class A 
+NDRA,ENDRA Life Sciences Inc. 
+NDRAW,ENDRA Life Sciences Inc. Warrants
+NDSN,Nordson Corporation 
+NEBC,Nebula Caravel Acquisition Corp. Class A 
+NEBCU,Nebula Caravel Acquisition Corp. Unit
+NEBCW,Nebula Caravel Acquisition Corp. Warrant
+NEO,NeoGenomics Inc. 
+NEOG,Neogen Corporation 
+NEON,Neonode Inc. 
+NEOS,Neos Therapeutics Inc. 
+NEPH,Nephros Inc. 
+NEPT,Neptune Wellness Solutions Inc. Ordinary Shares
+NERV,Minerva Neurosciences Inc 
+NESR,National Energy Services Reunited Corp. Ordinary Shares
+NESRW,National Energy Services Reunited Corp. Warrant
+NETE,Net Element Inc. 
+NEWA,Newater Technology Inc. Ordinary Shares
+NEWT,Newtek Business Services Corp.  (Maryland)
+NEWTL,Newtek Business Services Corp. 5.75% Notes due 2024
+NEWTZ,Newtek Business Services Corp. 5.50% Notes Due 2026
+NEXI,NexImmune Inc. 
+NEXT,NextDecade Corporation 
+NFBK,Northfield Bancorp Inc.  (Delaware)
+NFE,New Fortress Energy Inc. Class A 
+NFLX,Netflix Inc. 
+NGAC,NextGen Acquisition Corporation Class A Ordinary Shares
+NGACU,NextGen Acquisition Corporation Units
+NGACW,NextGen Acquisition Corporation Warrants
+NGM,NGM Biopharmaceuticals Inc. 
+NGMS,NeoGames S.A. Ordinary Shares
+NH,NantHealth Inc. 
+NHIC,NewHold Investment Corp. Class A 
+NHICU,NewHold Investment Corp. Unit
+NHICW,NewHold Investment Corp. Warrant
+NHTC,Natural Health Trends Corp. 
+NICE,NICE Ltd American Depositary Shares
+NICK,Nicholas Financial Inc. 
+NISN,NiSun International Enterprise Development Group Co. Ltd. Class A Common Shares
+NIU,Niu Technologies American Depositary Shares
+NKLA,Nikola Corporation 
+NKSH,National Bankshares Inc. 
+NKTR,Nektar Therapeutics  
+NKTX,Nkarta Inc. 
+NLOK,NortonLifeLock Inc. 
+NLSP,NLS Pharmaceutics Ltd. Ordinary Shares
+NLSPW,NLS Pharmaceutics Ltd. Warrant
+NLTX,Neoleukin Therapeutics Inc. 
+NMCI,Navios Maritime Containers L.P. Common Units
+NMFC,New Mountain Finance Corporation 
+NMIH,NMI Holdings Inc. Class A 
+NMMC,North Mountain Merger Corp. Class A 
+NMMCU,North Mountain Merger Corp. Unit
+NMMCW,North Mountain Merger Corp. Warrant
+NMRD,Nemaura Medical Inc. 
+NMRK,Newmark Group Inc. Class A 
+NMTR,9 Meters Biopharma Inc. 
+NNBR,NN Inc. 
+NNDM,Nano Dimension Ltd. American Depositary Shares
+NNOX,NANO-X IMAGING LTD Ordinary Shares
+NOAC,Natural Order Acquisition Corp. 
+NOACU,Natural Order Acquisition Corp. Unit
+NOACW,Natural Order Acquisition Corp. Warrant
+NODK,NI Holdings Inc. 
+NOVN,Novan Inc. 
+NOVT,Novanta Inc. 
+NPA,New Providence Acquisition Corp. Class A 
+NPAUU,New Providence Acquisition Corp. Unit
+NPAWW,New Providence Acquisition Corp. Warrant
+NRACU,Noble Rock Acquisition Corporation Unit
+NRBO,NeuroBo Pharmaceuticals Inc. 
+NRC,National Research Corporation 
+NRIM,Northrim BanCorp Inc 
+NRIX,Nurix Therapeutics Inc. 
+NSEC,National Security Group Inc. 
+NSIT,Insight Enterprises Inc. 
+NSSC,NAPCO Security Technologies Inc. 
+NSTG,NanoString Technologies Inc. 
+NSYS,Nortech Systems Incorporated 
+NTAP,NetApp Inc. 
+NTCT,NetScout Systems Inc. 
+NTEC,Intec Pharma Ltd. Ordinary Shares
+NTES,NetEase Inc. American Depositary Shares
+NTGR,NETGEAR Inc. 
+NTIC,Northern Technologies International Corporation 
+NTLA,Intellia Therapeutics Inc. 
+NTNX,Nutanix Inc. Class A 
+NTRA,Natera Inc. 
+NTRS,Northern Trust Corporation 
+NTRSO,Northern Trust Corporation Depositary Shares Each Representing a 1/1000th Interest in a Share of Series E Non-Cumulative Perpetual Preferred Stock
+NTUS,Natus Medical Incorporated 
+NTWK,NetSol Technologies Inc. Common  Stock
+NUAN,Nuance Communications Inc. 
+NURO,NeuroMetrix Inc. 
+NUVA,NuVasive Inc. 
+NUZE,NuZee Inc. 
+NVAX,Novavax Inc. 
+NVCN,Neovasc Inc. Common Shares
+NVCR,NovoCure Limited Ordinary Shares
+NVDA,NVIDIA Corporation 
+NVEC,NVE Corporation 
+NVEE,NV5 Global Inc. 
+NVFY,Nova Lifestyle Inc. 
+NVIV,InVivo Therapeutics Holdings Corp 
+NVMI,Nova Measuring Instruments Ltd. Ordinary Shares
+NVOS,Novo Integrated Sciences Inc. 
+NVSAU,New Vista Acquisition Corp Unit
+NWBI,Northwest Bancshares Inc. 
+NWE,NorthWestern Corporation 
+NWFL,Norwood Financial Corp. 
+NWL,Newell Brands Inc. 
+NWLI,National Western Life Group Inc. Class A 
+NWPX,Northwest Pipe Company 
+NWS,News Corporation Class B 
+NWSA,News Corporation Class A 
+NXGN,NextGen Healthcare Inc. 
+NXPI,NXP Semiconductors N.V. 
+NXST,Nexstar Media Group Inc. Class A 
+NXTC,NextCure Inc. 
+NXTD,Nxt-ID Inc. 
+NYMT,New York Mortgage Trust Inc. 
+NYMTM,New York Mortgage Trust Inc. 7.875% Series E Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+NYMTN,New York Mortgage Trust Inc. 8.00% Series D Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock
+NYMTO,New York Mortgage Trust Inc. 7.875% Series C Cumulative Redeemable Preferred Stock
+NYMTP,New York Mortgage Trust Inc. 7.75% Series B Cumulative Redeemable Preferred Stock
+NYMX,Nymox Pharmaceutical Corporation  (Bahamas)
+OAS,Oasis Petroleum Inc. 
+OBAS,Optibase Ltd. Ordinary Shares
+OBCI,Ocean Bio-Chem Inc. 
+OBLG,Oblong Inc. 
+OBLN,Obalon Therapeutics Inc. 
+OBNK,Origin Bancorp Inc. 
+OBSV,ObsEva SA Ordinary Shares
+OCAX,OCA Acquisition Corp. Class A 
+OCAXU,OCA Acquisition Corp. Unit
+OCAXW,OCA Acquisition Corp. Warrant
+OCC,Optical Cable Corporation 
+OCCI,OFS Credit Company Inc. 
+OCCIP,OFS Credit Company Inc. 6.875% Series A Term Preferred Stock
+OCDX,Ortho Clinical Diagnostics plc Ordinary Shares
+OCFC,OceanFirst Financial Corp. 
+OCFCP,OceanFirst Financial Corp. Depositary Shares
+OCG,Oriental Culture Holding LTD Ordinary Shares
+OCGN,Ocugen Inc. 
+OCSI,Oaktree Strategic Income Corporation 
+OCSL,Oaktree Specialty Lending Corporation 
+OCUL,Ocular Therapeutix Inc. 
+OCUP,Ocuphire Pharma Inc. 
+OCX,OncoCyte Corporation 
+ODFL,Old Dominion Freight Line Inc. 
+ODP,The ODP Corporation 
+ODT,Odonate Therapeutics Inc. 
+OEG,Orbital Energy Group Inc. 
+OEPWU,One Equity Partners Open Water I Corp. Unit
+OEPWW,One Equity Partners Open Water I Corp. Warrant
+OESX,Orion Energy Systems Inc. 
+OFED,Oconee Federal Financial Corp. 
+OFIX,Orthofix Medical Inc.  (DE)
+OFLX,Omega Flex Inc. 
+OFS,OFS Capital Corporation 
+OFSSG,OFS Capital Corporation 6.25% Notes Due 2023
+OFSSI,OFS Capital Corporation 5.95% Notes due 2026
+OGI,Organigram Holdings Inc. Common Shares
+OHPAU,Orion Acquisition Corp. Unit
+OIIM,O2Micro International Limited American Depositary Shares
+OKTA,Okta Inc. Class A 
+OLB,The OLB Group Inc. 
+OLED,Universal Display Corporation 
+OLLI,Ollie's Bargain Outlet Holdings Inc. 
+OLMA,Olema Pharmaceuticals Inc. 
+OM,Outset Medical Inc. 
+OMAB,Grupo Aeroportuario del Centro Norte S.A.B. de C.V. ADS
+OMCL,Omnicell Inc.  ($0.001 par value)
+OMEG,Omega Alpha SPAC Class A Ordinary Shares
+OMER,Omeros Corporation 
+OMEX,Odyssey Marine Exploration Inc. 
+OMP,Oasis Midstream Partners LP Common Units Representing Limited Partner Interests
+ON,ON Semiconductor Corporation 
+ONB,Old National Bancorp 
+ONCR,Oncorus Inc. 
+ONCS,OncoSec Medical Incorporated 
+ONCT,Oncternal Therapeutics Inc. 
+ONCY,Oncolytics Biotech Inc. Common Shares
+ONDS,Ondas Holdings Inc. 
+ONEM,1Life Healthcare Inc. 
+ONEW,OneWater Marine Inc. Class A 
+ONTX,Onconova Therapeutics Inc. 
+ONTXW,Onconova Therapeutics Inc. Warrants
+ONVO,Organovo Holdings Inc. 
+OPBK,OP Bancorp 
+OPCH,Option Care Health Inc. 
+OPEN,Opendoor Technologies Inc 
+OPENW,Opendoor Technologies Inc Warrants expiring 12/18/2025
+OPGN,OpGen Inc. 
+OPHC,OptimumBank Holdings Inc. 
+OPI,Office Properties Income Trust Common Shares of Beneficial Interest
+OPINI,Office Properties Income Trust 5.875% Senior Notes due 2046
+OPINL,Office Properties Income Trust 6.375% Senior Notes due 2050
+OPK,OPKO Health Inc. 
+OPNT,Opiant Pharmaceuticals Inc. 
+OPOF,Old Point Financial Corporation 
+OPRA,Opera Limited American Depositary Shares
+OPRT,Oportun Financial Corporation 
+OPRX,OptimizeRx Corporation 
+OPT,Opthea Limited American Depositary Shares
+OPTN,OptiNose Inc. 
+OPTT,Ocean Power Technologies Inc. 
+ORBC,ORBCOMM Inc. 
+ORGO,Organogenesis Holdings Inc. Class A 
+ORGS,Orgenesis Inc. 
+ORIC,Oric Pharmaceuticals Inc. 
+ORLY,O'Reilly Automotive Inc. 
+ORMP,Oramed Pharmaceuticals Inc. 
+ORPH,Orphazyme A/S American Depositary Shares
+ORRF,Orrstown Financial Services Inc 
+ORTX,Orchard Therapeutics plc American Depositary Shares
+OSBC,Old Second Bancorp Inc. 
+OSIS,OSI Systems Inc.  (DE)
+OSMT,Osmotica Pharmaceuticals plc Ordinary Shares
+OSN,Ossen Innovation Co. Ltd. American Depositary Shares
+OSPN,OneSpan Inc. 
+OSS,One Stop Systems Inc. 
+OSTK,Overstock.com Inc. 
+OSTR,Oyster Enterprises Acquisition Corp. Class A 
+OSTRU,Oyster Enterprises Acquisition Corp. Unit
+OSTRW,Oyster Enterprises Acquisition Corp. Warrant
+OSUR,OraSure Technologies Inc. 
+OSW,OneSpaWorld Holdings Limited Common Shares
+OTEL,Otelco Inc. Class A 
+OTEX,Open Text Corporation Common Shares
+OTIC,Otonomy Inc. 
+OTLK,Outlook Therapeutics Inc. 
+OTLKW,Outlook Therapeutics Inc. Series A Warrant Expiring 02/18/2022
+OTRA,OTR Acquisition Corp. Class A 
+OTRAU,OTR Acquisition Corp. Unit
+OTRAW,OTR Acquisition Corp. Warrant
+OTRK,Ontrak Inc. 
+OTRKP,Ontrak Inc. 9.50% Series A Cumulative Perpetual Preferred Stock
+OTTR,Otter Tail Corporation 
+OVBC,Ohio Valley Banc Corp. 
+OVID,Ovid Therapeutics Inc. 
+OVLY,Oak Valley Bancorp (CA) 
+OXBR,Oxbridge Re Holdings Limited Ordinary Shares
+OXBRW,Oxbridge Re Holdings Limited Warrant expiring 3/26/2024
+OXLC,Oxford Lane Capital Corp. 
+OXLCM,Oxford Lane Capital Corp. 6.75% Series 2024 Term Preferred Stock
+OXLCO,Oxford Lane Capital Corp. Term Preferred Shares 7.50% Series 2023
+OXLCP,Oxford Lane Capital Corp. 6.25% Series 2027 Term Preferred Shares
+OXSQ,Oxford Square Capital Corp. 
+OXSQL,Oxford Square Capital Corp. 6.50% Notes due 2024
+OXSQZ,Oxford Square Capital Corp. 6.25% Notes due 2026
+OYST,Oyster Point Pharma Inc. 
+OZK,Bank OZK 
+OZON,Ozon Holdings PLC American Depositary Shares each ADS representing one ordinary share
+PAA,Plains All American Pipeline L.P. Common Units representing Limited Partner Interests
+PAAS,Pan American Silver Corp. 
+PACB,Pacific Biosciences of California Inc. 
+PACW,PacWest Bancorp 
+PACX,Pioneer Merger Corp. Class A Ordinary Share
+PACXU,Pioneer Merger Corp. Unit
+PACXW,Pioneer Merger Corp. Warrant
+PAE,PAE Incorporated Class A 
+PAEWW,PAE Incorporated Warrants
+PAGP,Plains GP Holdings L.P. Class A Units representing Limited Partner Interests
+PAHC,Phibro Animal Health Corporation Class A 
+PAIC,Petra Acquisition Inc. 
+PAICU,Petra Acquisition Inc. Units
+PAICW,Petra Acquisition Inc. Warrant
+PAND,Pandion Therapeutics Inc. 
+PANL,Pangaea Logistics Solutions Ltd. Common Shares
+PAQC,Provident Acquisition Corp. Class A Ordinary Shares
+PAQCU,Provident Acquisition Corp. Units
+PAQCW,Provident Acquisition Corp. Warrant
+PASG,Passage Bio Inc. 
+PATI,Patriot Transportation Holding Inc. 
+PATK,Patrick Industries Inc. 
+PAVM,PAVmed Inc. 
+PAVMW,PAVmed Inc. Warrant
+PAVMZ,PAVmed Inc. Series Z Warrant
+PAX,Patria Investments Limited Class A Common Shares
+PAYA,Paya Holdings Inc. Class A 
+PAYAW,Paya Holdings Inc. Warrant
+PAYS,Paysign Inc. 
+PAYX,Paychex Inc. 
+PBCT,People's United Financial Inc. 
+PBCTP,People's United Financial Inc. Perpetual Preferred Series A Fixed-to-floating Rate
+PBFS,Pioneer Bancorp Inc. 
+PBHC,Pathfinder Bancorp Inc.  (MD)
+PBIP,Prudential Bancorp Inc. 
+PBLA,Panbela Therapeutics Inc. 
+PBPB,Potbelly Corporation 
+PBTS,Powerbridge Technologies Co. Ltd. Ordinary Shares
+PBYI,Puma Biotechnology Inc 
+PCAR,PACCAR Inc. 
+PCB,PCB Bancorp 
+PCH,PotlatchDeltic Corporation 
+PCOM,Points International Ltd. Common Shares
+PCRX,Pacira BioSciences Inc. 
+PCSA,Processa Pharmaceuticals Inc. 
+PCSB,PCSB Financial Corporation 
+PCTI,PCTEL Inc. 
+PCTY,Paylocity Holding Corporation 
+PCVX,Vaxcyte Inc. 
+PCYG,Park City Group Inc. 
+PCYO,Pure Cycle Corporation 
+PDCE,PDC Energy Inc.  (Delaware)
+PDCO,Patterson Companies Inc. 
+PDD,Pinduoduo Inc. American Depositary Shares
+PDEX,Pro-Dex Inc. 
+PDFS,PDF Solutions Inc. 
+PDLB,PDL Community Bancorp 
+PDSB,PDS Biotechnology Corporation 
+PEBK,Peoples Bancorp of North Carolina Inc. 
+PEBO,Peoples Bancorp Inc. 
+PEGA,Pegasystems Inc. 
+PENN,Penn National Gaming Inc. 
+PEP,PepsiCo Inc. 
+PERI,Perion Network Ltd. Ordinary Shares
+PESI,Perma-Fix Environmental Services Inc. 
+PETQ,PetIQ Inc. Class A 
+PETS,PetMed Express Inc. 
+PETZ,TDH Holdings Inc. Common Shares
+PFBC,Preferred Bank 
+PFBI,Premier Financial Bancorp Inc. 
+PFC,Premier Financial Corp. 
+PFDRU,Pathfinder Acquisition Corporation Unit
+PFG,Principal Financial Group Inc 
+PFHD,Professional Holding Corp. Class A 
+PFIE,Profire Energy Inc. 
+PFIN,P & F Industries Inc. Class A 
+PFIS,Peoples Financial Services Corp. 
+PFLT,PennantPark Floating Rate Capital Ltd. 
+PFMT,Performant Financial Corporation 
+PFPT,Proofpoint Inc. 
+PFSW,PFSweb Inc. 
+PFX,PhenixFIN Corporation 
+PFXNL,PhenixFIN Corporation 6.125% Senior Notes due 2023
+PGC,Peapack-Gladstone Financial Corporation 
+PGEN,Precigen Inc. 
+PGNY,Progyny Inc. 
+PGRW,Progress Acquisition Corp. Class A 
+PGRWU,Progress Acquisition Corp. Units
+PHAR,Pharming Group N.V. ADS each representing 10 ordinary shares
+PHAS,PhaseBio Pharmaceuticals Inc. 
+PHAT,Phathom Pharmaceuticals Inc. 
+PHCF,Puhui Wealth Investment Management Co. Ltd. Ordinary Shares
+PHIC,Population Health Investment Co. Inc. Class A Ordinary Share
+PHICU,Population Health Investment Co. Inc. Unit
+PHICW,Population Health Investment Co. Inc. Warrant
+PHIO,Phio Pharmaceuticals Corp. 
+PHIOW,Phio Pharmaceuticals Corp. Warrants expiring 12/21/2021
+PHUN,Phunware Inc. 
+PHUNW,Phunware Inc. Warrants
+PHVS,Pharvaris N.V. Ordinary Shares
+PI,Impinj Inc. 
+PINC,Premier Inc. Class A 
+PIRS,Pieris Pharmaceuticals Inc. 
+PIXY,ShiftPixy Inc. 
+PKBK,Parke Bancorp Inc. 
+PKOH,Park-Ohio Holdings Corp. 
+PLAB,Photronics Inc. 
+PLAY,Dave & Buster's Entertainment Inc. 
+PLBC,Plumas Bancorp
+PLBY,PLBY Group Inc. 
+PLCE,Children's Place Inc. (The) 
+PLIN,China Xiangtai Food Co. Ltd. Ordinary Shares
+PLL,Piedmont Lithium Limited American Depositary Receipts
+PLMIU,Plum Acquisition Corp. I Units
+PLMR,Palomar Holdings Inc. 
+PLPC,Preformed Line Products Company 
+PLRX,Pliant Therapeutics Inc. 
+PLSE,Pulse Biosciences Inc  (DE)
+PLTK,Playtika Holding Corp. 
+PLUG,Plug Power Inc. 
+PLUS,ePlus inc. 
+PLXP,PLx Pharma Inc. 
+PLXS,Plexus Corp. 
+PLYA,Playa Hotels & Resorts N.V. Ordinary Shares
+PMBC,Pacific Mercantile Bancorp 
+PMD,Psychemedics Corporation
+PME,Pingtan Marine Enterprise Ltd.
+PMGMU,Priveterra Acquisition Corp. Units
+PMVP,PMV Pharmaceuticals Inc. 
+PNBK,Patriot National Bancorp Inc. 
+PNFP,Pinnacle Financial Partners Inc. 
+PNFPP,Pinnacle Financial Partners Inc. Depositary shares of Pinnacle Financial Partners Inc. each representing a 1/40th Interest in a share of its 6.75% Fixed-Rate Non-Cumulative Perpetual Preferred Stock Series B
+PNNT,PennantPark Investment Corporation 
+PNNTG,PennantPark Investment Corporation 5.50% Notes Due 2024
+PNRG,PrimeEnergy Resources Corporation 
+PNTG,The Pennant Group Inc.  
+POAI,Predictive Oncology Inc. 
+PODD,Insulet Corporation 
+POLA,Polar Power Inc. 
+POOL,Pool Corporation 
+POSH,Poshmark Inc. Class A 
+POW,Powered Brands Class A Ordinary Shares
+POWI,Power Integrations Inc. 
+POWL,Powell Industries Inc. 
+POWRU,Powered Brands Units
+POWRW,Powered Brands Warrants
+POWW,AMMO Inc. 
+PPBI,Pacific Premier Bancorp Inc
+PPBT,Purple Biotech Ltd. American Depositary Shares
+PPC,Pilgrim's Pride Corporation 
+PPD,PPD Inc. 
+PPGH,Poema Global Holdings Corp. Class A Ordinary Share
+PPGHU,Poema Global Holdings Corp. Unit
+PPGHW,Poema Global Holdings Corp. Warrant
+PPIH,Perma-Pipe International Holdings Inc. 
+PPSI,Pioneer Power Solutions Inc. 
+PPTA,Perpetua Resources Corp. Common Shares
+PRAA,PRA Group Inc. 
+PRAH,PRA Health Sciences Inc. 
+PRAX,Praxis Precision Medicines Inc. 
+PRCH,Porch Group Inc. 
+PRCHW,Porch Group Inc. Warrant
+PRDO,Perdoceo Education Corporation 
+PRFT,Perficient Inc. 
+PRFX,PainReform Ltd. Ordinary Shares
+PRGS,Progress Software Corporation  (DE)
+PRIM,Primoris Services Corporation 
+PRLD,Prelude Therapeutics Incorporated 
+PROF,Profound Medical Corp. 
+PROG,Progenity Inc. 
+PROV,Provident Financial Holdings Inc. 
+PRPH,ProPhase Labs Inc.  (DE)
+PRPL,Purple Innovation Inc. 
+PRPO,Precipio Inc.  
+PRQR,ProQR Therapeutics N.V. Ordinary Shares
+PRSR,Prospector Capital Corp. Class A Ordinary Shares
+PRSRU,Prospector Capital Corp. Unit
+PRSRW,Prospector Capital Corp. Warrants
+PRTA,Prothena Corporation plc Ordinary Shares
+PRTC,PureTech Health plc American Depositary Shares
+PRTG,Portage Biotech Inc. 
+PRTH,Priority Technology Holdings Inc. 
+PRTK,Paratek Pharmaceuticals Inc. 
+PRTS,CarParts.com Inc. 
+PRVB,Provention Bio Inc. 
+PS,Pluralsight Inc. Class A 
+PSAC,Property Solutions Acquisition Corp. 
+PSACU,Property Solutions Acquisition Corp. Unit
+PSACW,Property Solutions Acquisition Corp. Warrant
+PSAGU,Property Solutions Acquisition Corporation II Units
+PSEC,Prospect Capital Corporation 
+PSHG,Performance Shipping Inc. Common Shares
+PSMT,PriceSmart Inc. 
+PSNL,Personalis Inc. 
+PSTI,Pluristem Therapeutics Inc. 
+PSTV,PLUS THERAPEUTICS Inc.  
+PSTX,Poseida Therapeutics Inc. 
+PT,Pintec Technology Holdings Limited American Depositary Shares
+PTC,PTC Inc. 
+PTCT,PTC Therapeutics Inc. 
+PTE,PolarityTE Inc. 
+PTEN,Patterson-UTI Energy Inc. 
+PTGX,Protagonist Therapeutics Inc. 
+PTIC,PropTech Investment Corporation II Class A 
+PTICU,PropTech Investment Corporation II Unit
+PTICW,PropTech Investment Corporation II Warrant
+PTMN,Portman Ridge Finance Corporation 
+PTNR,Partner Communications Company Ltd. American Depositary Shares
+PTOCU,Pine Technology Acquisition Corp. Unit
+PTON,Peloton Interactive Inc. Class A 
+PTPI,Petros Pharmaceuticals Inc. 
+PTRS,Partners Bancorp 
+PTSI,P.A.M. Transportation Services Inc. 
+PTVCA,Protective Insurance Corporation Class A 
+PTVCB,Protective Insurance Corporation Class B 
+PTVE,Pactiv Evergreen Inc. 
+PUBM,PubMatic Inc. Class A 
+PUCKU,Goal Acquisitions Corp. Unit
+PULM,Pulmatrix Inc. 
+PUYI,Puyi Inc. American Depository Shares
+PVAC,Penn Virginia Corporation 
+PVBC,Provident Bancorp Inc. (MD) 
+PWFL,PowerFleet Inc. 
+PWOD,Penns Woods Bancorp Inc. 
+PXLW,Pixelworks Inc.  
+PXS,Pyxis Tankers Inc. 
+PXSAP,Pyxis Tankers Inc. 7.75% Series A Cumulative Convertible Preferred Shares
+PXSAW,Pyxis Tankers Inc. Warrant
+PYPD,PolyPid Ltd. Ordinary Shares
+PYPL,PayPal Holdings Inc. 
+PYR,PyroGenesis Canada Inc. Common Shares
+PZZA,Papa John's International Inc. 
+QADA,QAD Inc. Class A 
+QADB,QAD Inc. Class B 
+QCOM,QUALCOMM Incorporated 
+QCRH,QCR Holdings Inc. 
+QDEL,Quidel Corporation 
+QELL,Qell Acquisition Corp. Class A Ordinary Shares
+QELLU,Qell Acquisition Corp. Unit
+QELLW,Qell Acquisition Corp. Warrant
+QFIN,360 DigiTech Inc. American Depositary Shares
+QH,Quhuo Limited American Depository Shares
+QIWI,QIWI plc American Depositary Shares
+QK,Q&K International Group Limited American Depositary Shares
+QLGN,Qualigen Therapeutics Inc. 
+QLI,Qilian International Holding Group Ltd. Ordinary Shares
+QLYS,Qualys Inc. 
+QMCO,Quantum Corporation 
+QNST,QuinStreet Inc. 
+QQQX,Nuveen NASDAQ 100 Dynamic Overwrite Fund Shares of Beneficial Interest
+QRHC,Quest Resource Holding Corporation 
+QRTEA,Qurate Retail Inc. Series A  
+QRTEB,Qurate Retail Inc. Series B  
+QRTEP,Qurate Retail Inc. 8.0% Fixed Rate Cumulative Redeemable Preferred Stock
+QRVO,Qorvo Inc. 
+QTNT,Quotient Limited Ordinary Shares
+QTRX,Quanterix Corporation 
+QTT,Qutoutiao Inc. American Depositary Shares
+QUIK,QuickLogic Corporation 
+QUMU,Qumu Corporation 
+QURE,uniQure N.V. Ordinary Shares
+RAAC,Revolution Acceleration Acquisition Corp Class A 
+RAACU,Revolution Acceleration Acquisition Corp Unit
+RAACW,Revolution Acceleration Acquisition Corp Warrant
+RACA,Therapeutics Acquisition Corp. Class A 
+RADA,RADA Electronic Industries Ltd. Ordinary Shares
+RADI,Radius Global Infrastructure Inc. Class A 
+RAIL,FreightCar America Inc. 
+RAND,Rand Capital Corporation 
+RAPT,RAPT Therapeutics Inc. 
+RARE,Ultragenyx Pharmaceutical Inc. 
+RAVE,Rave Restaurant Group Inc. 
+RAVN,Raven Industries Inc. 
+RBB,RBB Bancorp 
+RBBN,Ribbon Communications Inc. 
+RBCAA,Republic Bancorp Inc. Class A 
+RBCN,Rubicon Technology Inc. 
+RBKB,Rhinebeck Bancorp Inc. 
+RBNC,Reliant Bancorp Inc. 
+RCEL,Avita Therapeutics Inc. 
+RCHG,Recharge Acquisition Corp. Class A 
+RCHGU,Recharge Acquisition Corp. Unit
+RCHGW,Recharge Acquisition Corp. Warrant
+RCII,Rent-A-Center Inc. 
+RCKT,Rocket Pharmaceuticals Inc. 
+RCKY,Rocky Brands Inc. 
+RCLFU,Rosecliff Acquisition Corp I Unit
+RCM,R1 RCM Inc. 
+RCMT,RCM Technologies Inc. 
+RCON,Recon Technology Ltd. Ordinary Shares
+RDCM,Radcom Ltd. Ordinary Shares
+RDFN,Redfin Corporation 
+RDHL,Redhill Biopharma Ltd. American Depositary Shares
+RDI,Reading International Inc Class A 
+RDIB,Reading International Inc Class B 
+RDNT,RadNet Inc. 
+RDUS,Radius Health Inc. 
+RDVT,Red Violet Inc.  
+RDWR,Radware Ltd. Ordinary Shares
+REAL,The RealReal Inc. 
+REDU,RISE Education Cayman Ltd American Depositary Shares
+REED,Reeds Inc. 
+REFR,Research Frontiers Incorporated 
+REG,Regency Centers Corporation 
+REGI,Renewable Energy Group Inc. 
+REGN,Regeneron Pharmaceuticals Inc. 
+REKR,Rekor Systems Inc. 
+RELI,Reliance Global Group Inc. 
+RELIW,Reliance Global Group Inc. Series A Warrants
+RELL,Richardson Electronics Ltd. 
+REPH,Recro Pharma Inc. 
+REPL,Replimune Group Inc. 
+RESN,Resonant Inc. 
+RETA,Reata Pharmaceuticals Inc. Class A 
+RETO,ReTo Eco-Solutions Inc. Common Shares
+REYN,Reynolds Consumer Products Inc. 
+RFIL,RF Industries Ltd. 
+RGCO,RGC Resources Inc. 
+RGEN,Repligen Corporation 
+RGLD,Royal Gold Inc. 
+RGLS,Regulus Therapeutics Inc. 
+RGNX,REGENXBIO Inc. 
+RGP,Resources Connection Inc. 
+RIBT,RiceBran Technologies 
+RICK,RCI Hospitality Holdings Inc. 
+RIDE,Lordstown Motors Corp. Class A 
+RIGL,Rigel Pharmaceuticals Inc. 
+RILY,B. Riley Financial Inc. 
+RILYG,B. Riley Financial Inc. 7.25% Senior Notes due 2027
+RILYH,B. Riley Financial Inc. 7.375% Senior Notes due 2023
+RILYI,B. Riley Financial Inc. 6.875% Senior Notes due 2023
+RILYL,B. Riley Financial Inc. Depositary Shares each representing 1/1000th in a share of 7.375% Series B Cumulative Perpetual Preferred Stock par value $0.0001
+RILYM,B. Riley Financial Inc. 6.375% Senior Notes due 2025
+RILYN,B. Riley Financial Inc. 6.50% Senior Notes Due 2026
+RILYO,B. Riley Financial Inc. 6.75% Senior Notes due 2024
+RILYP,B. Riley Financial Inc. Depositary Shares each representing a 1/1000th fractional interest in a share of Series A Cumulative Perpetual Preferred Stock
+RILYT,B. Riley Financial Inc. 6.00% Senior Notes Due 2028
+RILYZ,B. Riley Financial Inc. 7.50% Senior Notes Due 2027
+RIOT,Riot Blockchain Inc.   
+RIVE,Riverview Financial Corporation 
+RKDA,Arcadia Biosciences Inc. 
+RLAY,Relay Therapeutics Inc. 
+RLMD,Relmada Therapeutics Inc. 
+RMBI,Richmond Mutual Bancorporation Inc. 
+RMBL,RumbleOn Inc. Class B 
+RMBS,Rambus Inc. 
+RMCF,Rocky Mountain Chocolate Factory Inc. 
+RMGB,RMG Acquisition Corp. II Class A Ordinary Shares
+RMGBU,RMG Acquisition Corp. II Unit
+RMGBW,RMG Acquisition Corp. II Warrant
+RMGCU,RMG Acquisition Corp. III Unit
+RMNI,Rimini Street Inc. (DE) 
+RMR,The RMR Group Inc. Class A 
+RMRM,RMR Mortgage Trust 
+RMTI,Rockwell Medical Inc. (DE) 
+RNA,Avidity Biosciences Inc. 
+RNDB,Randolph Bancorp Inc. 
+RNET,RigNet Inc. 
+RNLX,Renalytix AI plc American Depositary Shares
+RNST,Renasant Corporation 
+RNWK,RealNetworks Inc. 
+ROAD,Construction Partners Inc. Class A 
+ROCC,Roth CH Acquisition II Co. 
+ROCCU,Roth CH Acquisition II Co. Unit
+ROCCW,Roth CH Acquisition II Co. Warrant
+ROCH,Roth CH Acquisition I Co. 
+ROCHU,Roth CH Acquisition I Co. Unit
+ROCHW,Roth CH Acquisition I Co. Warrant
+ROCK,Gibraltar Industries Inc. 
+ROCRU,Roth CH Acquisition III Co. Unit
+ROIC,Retail Opportunity Investments Corp.  (MD)
+ROKU,Roku Inc. Class A 
+ROLL,RBC Bearings Incorporated 
+ROOT,Root Inc. Class A 
+ROST,Ross Stores Inc. 
+RP,RealPage Inc. 
+RPAY,Repay Holdings Corporation Class A 
+RPD,Rapid7 Inc. 
+RPRX,Royalty Pharma plc Class A Ordinary Shares 
+RPTX,Repare Therapeutics Inc. Common Shares
+RRBI,Red River Bancshares Inc. 
+RRGB,Red Robin Gourmet Burgers Inc. 
+RRR,Red Rock Resorts Inc. Class A 
+RSSS,Research Solutions Inc 
+RSVA,Rodgers Silicon Valley Acquisition Corp. 
+RSVAU,Rodgers Silicon Valley Acquisition Corp. Unit
+RSVAW,Rodgers Silicon Valley Acquisition Corp. Warrant
+RTLR,Rattler Midstream LP Common Units
+RTPYU,Reinvent Technology Partners Y Unit
+RUBY,Rubius Therapeutics Inc. 
+RUHN,Ruhnn Holding Limited American Depositary Shares
+RUN,Sunrun Inc. 
+RUSHA,Rush Enterprises Inc.  Cl A
+RUSHB,Rush Enterprises Inc. Class B
+RUTH,Ruth's Hospitality Group Inc. 
+RVMD,Revolution Medicines Inc. 
+RVNC,Revance Therapeutics Inc. 
+RVPH,Reviva Pharmaceuticals Holdings Inc.  
+RVPHW,Reviva Pharmaceuticals Holdings Inc. Warrants
+RVSB,Riverview Bancorp Inc 
+RWLK,ReWalk Robotics Ltd. Ordinary Shares
+RXDX,Prometheus Biosciences Inc. 
+RXRAU,RXR Acquisition Corp. Units
+RXT,Rackspace Technology Inc. 
+RYAAY,Ryanair Holdings plc American Depositary Shares
+RYTM,Rhythm Pharmaceuticals Inc. 
+RZLT,Rezolute Inc. 
+SABR,Sabre Corporation 
+SABRP,Sabre Corporation 6.50% Series A Mandatory Convertible Preferred Stock
+SAFM,Sanderson Farms Inc. 
+SAFT,Safety Insurance Group Inc. 
+SAGE,Sage Therapeutics Inc. 
+SAIA,Saia Inc. 
+SAII,Software Acquisition Group Inc. II Class A 
+SAIIU,Software Acquisition Group Inc. II Unit
+SAIIW,Software Acquisition Group Inc. II Warrant
+SAL,Salisbury Bancorp Inc. 
+SALM,Salem Media Group Inc. Class A 
+SAMG,Silvercrest Asset Management Group Inc. Class A 
+SANA,Sana Biotechnology Inc. 
+SANM,Sanmina Corporation 
+SANW,S&W Seed Company  (NV)
+SASR,Sandy Spring Bancorp Inc. 
+SATS,EchoStar  Corporation 
+SAVA,Cassava Sciences Inc. 
+SBAC,SBA Communications Corporation Class A 
+SBBP,Strongbridge Biopharma plc Ordinary Shares
+SBCF,Seacoast Banking Corporation of Florida 
+SBEAU,SilverBox Engaged Merger Corp I Units
+SBFG,SB Financial Group Inc. 
+SBGI,Sinclair Broadcast Group Inc. Class A 
+SBLK,Star Bulk Carriers Corp. Common Shares
+SBLKZ,Star Bulk Carriers Corp. 8.30% Senior Notes due 2022
+SBNY,Signature Bank 
+SBNYP,Signature Bank Depositary shares each representing a 1/40th ownership interest in a share of 5.000% Noncumulative Perpetual Series A Preferred Stock
+SBRA,Sabra Health Care REIT Inc. 
+SBSI,Southside Bancshares Inc. 
+SBT,Sterling Bancorp Inc. 
+SBTX,Silverback Therapeutics Inc. 
+SBUX,Starbucks Corporation 
+SCAQU,Stratim Cloud Acquisition Corp. Unit
+SCHL,Scholastic Corporation 
+SCHN,Schnitzer Steel Industries Inc. Class A 
+SCKT,Socket Mobile Inc. 
+SCLEU,Broadscale Acquisition Corp. Units
+SCOA,ScION Tech Growth I Class A Ordinary Shares
+SCOAU,ScION Tech Growth I Unit
+SCOAW,ScION Tech Growth I Warrant
+SCOBU,ScION Tech Growth II Units
+SCOR,comScore Inc. 
+SCPH,scPharmaceuticals Inc. 
+SCPL,SciPlay Corporation Class A 
+SCPS,Scopus BioPharma Inc. 
+SCR,Score Media and Gaming Inc. Class A Subordinate Voting Shares
+SCSC,ScanSource Inc. 
+SCVL,Shoe Carnival Inc. 
+SCWX,SecureWorks Corp. Class A 
+SCYX,SCYNEXIS Inc. 
+SDACU,Sustainable Development Acquisition I Corp. Unit
+SDC,SmileDirectClub Inc. Class A 
+SDGR,Schrodinger Inc. 
+SDH,Global Internet of People Inc. Ordinary Shares
+SEAC,SeaChange International Inc. 
+SECO,Secoo Holding Limited ADR
+SEDG,SolarEdge Technologies Inc. 
+SEED,Origin Agritech Limited 
+SEEL,Seelos Therapeutics Inc. 
+SEER,Seer Inc. Class A 
+SEIC,SEI Investments Company 
+SELB,Selecta Biosciences Inc. 
+SELF,Global Self Storage Inc. 
+SENEA,Seneca Foods Corp. Class A 
+SENEB,Seneca Foods Corp. Class B 
+SESN,Sesen Bio Inc. 
+SFBC,Sound Financial Bancorp Inc. 
+SFBS,ServisFirst Bancshares Inc. 
+SFET,Safe-T Group Ltd. American Depositary Share
+SFIX,Stitch Fix Inc. Class A 
+SFM,Sprouts Farmers Market Inc. 
+SFNC,Simmons First National Corporation Class A 
+SFST,Southern First Bancshares Inc. 
+SFT,Shift Technologies Inc. Class A 
+SGA,Saga Communications Inc. Class A  (FL)
+SGAM,Seaport Global Acquisition Corp. Class A 
+SGAMU,Seaport Global Acquisition Corp. Unit
+SGAMW,Seaport Global Acquisition Corp. Warrant
+SGBX,SG Blocks Inc. 
+SGC,Superior Group of Companies Inc. 
+SGEN,Seagen Inc. 
+SGH,SMART Global Holdings Inc. Ordinary Shares
+SGLB,Sigma Labs Inc. 
+SGLBW,Sigma Labs Inc. Warrant
+SGMA,SigmaTron International Inc. 
+SGMO,Sangamo Therapeutics Inc. 
+SGMS,Scientific Games Corp 
+SGOC,SGOCO Group Ltd Ordinary Shares (Cayman Islands)
+SGRP,SPAR Group Inc. 
+SGRY,Surgery Partners Inc. 
+SGTX,Sigilon Therapeutics Inc. 
+SHAC,SCP & CO Healthcare Acquisition Company Class A 
+SHACU,SCP & CO Healthcare Acquisition Company Unit
+SHACW,SCP & CO Healthcare Acquisition Company Warrant
+SHBI,Shore Bancshares Inc 
+SHC,Sotera Health Company 
+SHEN,Shenandoah Telecommunications Co 
+SHIP,Seanergy Maritime Holdings Corp 
+SHIPW,Seanergy Maritime Holdings Corp Class A Warrants
+SHIPZ,Seanergy Maritime Holdings Corp Class B Warrant
+SHLS,Shoals Technologies Group Inc. Class A 
+SHOO,Steven Madden Ltd. 
+SHSP,SharpSpring Inc. 
+SHYF,The Shyft Group Inc. 
+SIBN,SI-BONE Inc. 
+SIC,Select Interior Concepts Inc. Class A 
+SIEB,Siebert Financial Corp. 
+SIEN,Sientra Inc. 
+SIFY,Sify Technologies Limited American Depositary Shares
+SIGA,SIGA Technologies Inc. 
+SIGI,Selective Insurance Group Inc. 
+SIGIP,Selective Insurance Group Inc. Depositary Shares each representing a 1/1000th interest in a share of 4.60% Non-Cumulative Preferred Stock Series B
+SILC,Silicom Ltd Ordinary Shares
+SILK,Silk Road Medical Inc. 
+SIMO,Silicon Motion Technology Corporation American Depositary Shares
+SINA,SINA Corporation Ordinary Shares
+SINO,Sino-Global Shipping America Ltd. 
+SINT,SiNtx Technologies Inc. 
+SIOX,Sio Gene Therapies Inc. 
+SIRI,Sirius XM Holdings Inc. 
+SITM,SiTime Corporation 
+SIVB,SVB Financial Group 
+SIVBP,SVB Financial Group Depositary Shs each representing a 1/40th interest in a share of 5.25% Fixed-Rate Non-Cumulative Perpetual Preferred Stock Series A
+SJ,Scienjoy Holding Corporation Ordinary Shares
+SKYW,SkyWest Inc. 
+SLAB,Silicon Laboratories Inc. 
+SLAMU,Slam Corp. Unit
+SLCR,Silver Crest Acquisition Corporation Class A Ordinary Share
+SLCRU,Silver Crest Acquisition Corporation Unit
+SLCRW,Silver Crest Acquisition Corporation Warrant
+SLCT,Select Bancorp Inc. 
+SLDB,Solid Biosciences Inc. 
+SLGG,Super League Gaming Inc. 
+SLGL,Sol-Gel Technologies Ltd. Ordinary Shares
+SLGN,Silgan Holdings Inc. 
+SLM,SLM Corporation 
+SLMBP,SLM Corporation Floating Rate Non-Cumulative Preferred Stock Series B
+SLN,Silence Therapeutics Plc American Depository Share
+SLNO,Soleno Therapeutics Inc. 
+SLP,Simulations Plus Inc. 
+SLRC,SLR Investment Corp. 
+SLRX,Salarius Pharmaceuticals Inc. 
+SLS,SELLAS Life Sciences Group Inc. 
+SMBC,Southern Missouri Bancorp Inc. 
+SMBK,SmartFinancial Inc. 
+SMCI,Super Micro Computer Inc. 
+SMED,Sharps Compliance Corp. 
+SMID,Smith-Midland Corporation 
+SMIT,Schmitt Industries Inc. 
+SMMF,Summit Financial Group Inc. 
+SMMT,Summit Therapeutics Inc.  
+SMPL,The Simply Good Foods Company 
+SMSI,Smith Micro Software Inc. 
+SMTC,Semtech Corporation 
+SMTI,Sanara MedTech Inc. 
+SMTX,SMTC Corporation 
+SNBR,Sleep Number Corporation 
+SNCA,Seneca Biopharma Inc. 
+SNCR,Synchronoss Technologies Inc. 
+SNCY,Sun Country Airlines Holdings Inc. 
+SND,Smart Sand Inc. 
+SNDE,Sundance Energy Inc.  
+SNDL,Sundial Growers Inc. Common Shares
+SNDX,Syndax Pharmaceuticals Inc. 
+SNES,SenesTech Inc. 
+SNEX,StoneX Group Inc. 
+SNFCA,Security National Financial Corporation Class A 
+SNGX,Soligenix Inc. 
+SNGXW,Soligenix Inc. Warrant
+SNOA,Sonoma Pharmaceuticals Inc. 
+SNPS,Synopsys Inc. 
+SNRH,Senior Connect Acquisition Corp. I Class A 
+SNRHU,Senior Connect Acquisition Corp. I Unit
+SNRHW,Senior Connect Acquisition Corp. I Warrant
+SNSE,Sensei Biotherapeutics Inc. 
+SNY,Sanofi ADR
+SOHO,Sotherly Hotels Inc. 
+SOHOB,Sotherly Hotels Inc. 8.0% Series B Cumulative Redeemable Perpetual Preferred Stock
+SOHON,Sotherly Hotels Inc. 8.25% Series D Cumulative Redeemable Perpetual Preferred Stock
+SOHOO,Sotherly Hotels Inc. 7.875% Series C Cumulative Redeemable Perpetual Preferred Stock
+SOHU,Sohu.com Limited American Depositary Shares
+SOLO,Electrameccanica Vehicles Corp. Ltd. 
+SOLOW,Electrameccanica Vehicles Corp. Ltd. Warrants
+SOLY,Soliton Inc. 
+SONA,Southern National Bancorp of Virginia Inc. 
+SONM,Sonim Technologies Inc. 
+SONN,Sonnet BioTherapeutics Holdings Inc. 
+SONO,Sonos Inc. 
+SP,SP Plus Corporation 
+SPCB,SuperCom Ltd. Ordinary Shares (Israel)
+SPFI,South Plains Financial Inc. 
+SPI,SPI Energy Co. Ltd. Ordinary Shares
+SPKBU,Silver Spike Acquisition Corp II Units
+SPKE,Spark Energy Inc. Class A 
+SPKEP,Spark Energy Inc. 8.75% Series A Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Stock
+SPLK,Splunk Inc. 
+SPNE,SeaSpine Holdings Corporation 
+SPNS,Sapiens International Corporation N.V. Common Shares (Cayman Islands)
+SPOK,Spok Holdings Inc. 
+SPPI,Spectrum Pharmaceuticals Inc.
+SPRB,Spruce Biosciences Inc. 
+SPRO,Spero Therapeutics Inc. 
+SPRT,Support.com Inc. 
+SPSC,SPS Commerce Inc. 
+SPT,Sprout Social Inc Class A 
+SPTKU,SportsTek Acquisition Corp. Unit
+SPTN,SpartanNash Company 
+SPWH,Sportsman's Warehouse Holdings Inc. 
+SPWR,SunPower Corporation 
+SQBG,Sequential Brands Group Inc. 
+SQFT,Presidio Property Trust Inc. Class A 
+SRAC,Stable Road Acquisition Corp. Class A 
+SRACU,Stable Road Acquisition Corp. Unit
+SRACW,Stable Road Acquisition Corp. Warrant
+SRAX,SRAX Inc. Class A 
+SRCE,1st Source Corporation 
+SRCL,Stericycle Inc. 
+SRDX,Surmodics Inc. 
+SREV,ServiceSource International Inc. 
+SRGA,Surgalign Holdings Inc. 
+SRNE,Sorrento Therapeutics Inc.  
+SRNGU,Soaring Eagle Acquisition Corp. Unit
+SRPT,Sarepta Therapeutics Inc.  (DE)
+SRRA,Sierra Oncology Inc. 
+SRRK,Scholar Rock Holding Corporation 
+SRSA,Sarissa Capital Acquisition Corp. Class A Ordinary Shares
+SRSAU,Sarissa Capital Acquisition Corp. Unit
+SRSAW,Sarissa Capital Acquisition Corp. Warrants
+SRTS,Sensus Healthcare Inc. 
+SSAAU,Science Strategic Acquisition Corp. Alpha Unit
+SSB,South State Corporation 
+SSBI,Summit State Bank 
+SSKN,Strata Skin Sciences Inc. 
+SSNC,SS&C Technologies Holdings Inc. 
+SSNT,SilverSun Technologies Inc. 
+SSP,E.W. Scripps Company (The) Class A 
+SSPK,Silver Spike Acquisition Corp. Class A Ordinary Shares
+SSPKU,Silver Spike Acquisition Corp. Units
+SSPKW,Silver Spike Acquisition Corp. Warrants
+SSRM,SSR Mining Inc. 
+SSSS,SuRo Capital Corp. 
+SSTI,ShotSpotter Inc. 
+SSYS,Stratasys Ltd. Ordinary Shares (Israel)
+STAA,STAAR Surgical Company 
+STAF,Staffing 360 Solutions Inc.  (DE)
+STAY,Extended Stay America Inc. Paired Shares
+STBA,S&T Bancorp Inc. 
+STCN,Steel Connect Inc. 
+STEP,StepStone Group Inc. Class A 
+STFC,State Auto Financial Corporation 
+STIM,Neuronetics Inc. 
+STKL,SunOpta Inc. 
+STKS,The ONE Group Hospitality Inc. 
+STLD,Steel Dynamics Inc.
+STMP,Stamps.com Inc.   ($0.001 Par Value)
+STND,Standard AVB Financial Corp. 
+STNE,StoneCo Ltd. Class A Common Shares
+STOK,Stoke Therapeutics Inc. 
+STRA,Strategic Education Inc. 
+STRL,Sterling Construction Company Inc 
+STRM,Streamline Health Solutions Inc. 
+STRO,Sutro Biopharma Inc. 
+STRR,Star Equity Holdings Inc. 
+STRRP,Star Equity Holdings Inc. Series A Cumulative Perpetual Preferred Stock
+STRS,Stratus Properties Inc. 
+STRT,STRATTEC SECURITY CORPORATION 
+STSA,Satsuma Pharmaceuticals Inc. 
+STTK,Shattuck Labs Inc. 
+STWO,ACON S2 Acquisition Corp. Class A Ordinary Shares
+STWOU,ACON S2 Acquisition Corp. Unit
+STWOW,ACON S2 Acquisition Corp. Warrant
+STX,Seagate Technology PLC Ordinary Shares (Ireland)
+STXB,Spirit of Texas Bancshares Inc. 
+SUMO,Sumo Logic Inc. 
+SUMR,Summer Infant Inc. 
+SUNS,SLR Senior Investment Corp. 
+SUNW,Sunworks Inc. 
+SUPN,Supernus Pharmaceuticals Inc. 
+SURF,Surface Oncology Inc. 
+SV,Spring Valley Acquisition Corp. Class A Ordinary Share
+SVAC,Starboard Value Acquisition Corp. Class A 
+SVACU,Starboard Value Acquisition Corp. Unit
+SVACW,Starboard Value Acquisition Corp. Warrant
+SVBI,Severn Bancorp Inc
+SVC,Service Properties Trust 
+SVFA,SVF Investment Corp. Class A Ordinary Shares
+SVFAU,SVF Investment Corp. Unit
+SVFAW,SVF Investment Corp. Warrant
+SVFB,SVF Investment Corp. 2 Class A Ordinary Shares
+SVFC,SVF Investment Corp. 3 Class A Ordinary Shares
+SVMK,SVMK Inc. 
+SVOK,Seven Oaks Acquisition Corp. Class A 
+SVOKU,Seven Oaks Acquisition Corp. Unit
+SVOKW,Seven Oaks Acquisition Corp. Warrant
+SVRA,Savara Inc. 
+SVSVU,Spring Valley Acquisition Corp. Unit
+SVSVW,Spring Valley Acquisition Corp. Warrant
+SVVC,Firsthand Technology Value Fund Inc. 
+SWAV,ShockWave Medical Inc. 
+SWBI,Smith & Wesson Brands Inc. 
+SWET,Athlon Acquisition Corp. Class A 
+SWETU,Athlon Acquisition Corp. Unit
+SWETW,Athlon Acquisition Corp. Warrant
+SWIR,Sierra Wireless Inc. 
+SWKH,SWK Holdings Corporation 
+SWKS,Skyworks Solutions Inc. 
+SWTX,SpringWorks Therapeutics Inc. 
+SXTC,China SXT Pharmaceuticals Inc. Ordinary Shares
+SY,So-Young International Inc. American Depository Shares
+SYBT,Stock Yards Bancorp Inc. 
+SYBX,Synlogic Inc. 
+SYKE,Sykes Enterprises Incorporated 
+SYNA,Synaptics Incorporated  $0.001 Par Value
+SYNC,Synacor Inc. 
+SYNH,Syneos Health Inc. Class A 
+SYNL,Synalloy Corporation 
+SYPR,Sypris Solutions Inc. 
+SYRS,Syros Pharmaceuticals Inc. 
+SYTA,Siyata Mobile Inc. Common Shares
+SYTAW,Siyata Mobile Inc. Warrant
+TA,TravelCenters of America Inc. 
+TACO,Del Taco Restaurants Inc. 
+TACT,TransAct Technologies Incorporated 
+TAIT,Taitron Components Incorporated Class A 
+TANH,Tantech Holdings Ltd. 
+TANNI,TravelCenters of America Inc. 8.25% Senior Notes due 2028
+TANNL,TravelCenters of America Inc. 8.00% Senior Notes due 2029
+TANNZ,TravelCenters of America Inc. 8.00% Senior Notes due 2030
+TAOP,Taoping Inc. Ordinary Shares 
+TARA,Protara Therapeutics Inc.  
+TARS,Tarsus Pharmaceuticals Inc. 
+TAST,Carrols Restaurant Group Inc. 
+TATT,TAT Technologies Ltd. Ordinary Shares
+TAYD,Taylor Devices Inc. 
+TBBK,The Bancorp Inc 
+TBCPU,Thunder Bridge Capital Partners III Inc. Units
+TBIO,Translate Bio Inc. 
+TBK,Triumph Bancorp Inc. 
+TBKCP,Triumph Bancorp Inc. Depositary Shares Each Representing a 1/40th Interest in a Share of 7.125% Series C Fixed-Rate Non-Cumulative Perpetual Preferred Stock
+TBLT,ToughBuilt Industries Inc. 
+TBLTW,ToughBuilt Industries Inc. Warrant
+TBNK,Territorial Bancorp Inc. 
+TBPH,Theravance Biopharma Inc. Ordinary Shares
+TC,TuanChe Limited American Depositary Shares
+TCACU,Tuatara Capital Acquisition Corporation Unit
+TCBI,Texas Capital Bancshares Inc. 
+TCBIL,Texas Capital Bancshares Inc. 6.50% Subordinated Notes due 2042
+TCBIP,Texas Capital Bancshares Inc. Non Cumulative Preferred Perpetual Stock Series A
+TCBK,TriCo Bancshares 
+TCDA,Tricida Inc. 
+TCF,TCF Financial Corporation 
+TCFC,The Community Financial Corporation 
+TCFCP,TCF Financial Corporation Depositary Shares representing 5.70% Series C Non-Cumulative Preferred Stock
+TCMD,Tactile Systems Technology Inc. 
+TCOM,Trip.com Group Limited American Depositary Shares
+TCON,TRACON Pharmaceuticals Inc. 
+TCPC,BlackRock TCP Capital Corp. 
+TCRR,TCR2 Therapeutics Inc. 
+TCX,Tucows Inc. Class A 
+TDAC,Trident Acquisitions Corp. 
+TDACU,Trident Acquisitions Corp. Units
+TDACW,Trident Acquisitions Corp. Warrants
+TEAM,Atlassian Corporation Plc Class A Ordinary Shares
+TECH,Bio-Techne Corp 
+TECTP,Tectonic Financial Inc. 9.00% Fixed-to-Floating Rate Series B Non-Cumulative Perpetual Preferred Stock
+TEDU,Tarena International Inc. American Depositary Shares
+TEKK,Tekkorp Digital Acquisition Corp. Class A Ordinary Shares
+TEKKU,Tekkorp Digital Acquisition Corp. Unit
+TEKKW,Tekkorp Digital Acquisition Corp. Warrant
+TELA,TELA Bio Inc. 
+TELL,Tellurian Inc. 
+TENB,Tenable Holdings Inc. 
+TENX,Tenax Therapeutics Inc. 
+TER,Teradyne Inc. 
+TERN,Terns Pharmaceuticals Inc. 
+TESS,TESSCO Technologies Incorporated 
+TETCU,Tech and Energy Transition Corporation Unit
+TFFP,TFF Pharmaceuticals Inc. 
+TFSL,TFS Financial Corporation 
+TGA,TransGlobe Energy Corporation Ordinary Shares (Canada)
+TGLS,Tecnoglass Inc. Ordinary Shares
+TGTX,TG Therapeutics Inc. 
+TH,Target Hospitality Corp. 
+THBR,Thunder Bridge Acquisition II Ltd. Class A Ordinary Shares
+THBRU,Thunder Bridge Acquisition II Ltd. Units
+THBRW,Thunder Bridge Acquisition II Ltd. Warrants
+THCA,Tuscan Holdings Corp. II 
+THCAW,Tuscan Holdings Corp. II Warrant
+THCB,Tuscan Holdings Corp. 
+THCBU,Tuscan Holdings Corp. Unit
+THCBW,Tuscan Holdings Corp. Warrant
+THFF,First Financial Corporation Indiana 
+THMAU,Thimble Point Acquisition Corp. Unit
+THMO,ThermoGenesis Holdings Inc. 
+THRM,Gentherm Inc 
+THRY,Thryv Holdings Inc. 
+THTX,Theratechnologies Inc. Common Shares
+THWWW,Target Hospitality Corp. Warrant expiring 3/15/2024
+TIG,Trean Insurance Group Inc. 
+TIGO,Millicom International Cellular S.A. 
+TIGR,UP Fintech Holding Ltd American Depositary Share representing fifteen Class A Ordinary Shares
+TILE,Interface Inc. 
+TIPT,Tiptree Inc. 
+TIRX,TIAN RUIXIANG Holdings Ltd Class A Ordinary Shares
+TITN,Titan Machinery Inc. 
+TLC,Taiwan Liposome Company Ltd. American Depository Shares
+TLGT,Teligent Inc. 
+TLIS,Talis Biomedical Corporation 
+TLMD,SOC Telemed Inc. Class A 
+TLMDW,SOC Telemed Inc. Warrants
+TLND,Talend S.A. American Depositary Shares
+TLRY,Tilray Inc. Class 2 
+TLS,Telos Corporation 
+TLSA,Tiziana Life Sciences plc American Depository Share
+TMDI,Titan Medical Inc. Ordinary Shares
+TMDX,TransMedics Group Inc. 
+TMKR,Tastemaker Acquisition Corp. Class A 
+TMKRU,Tastemaker Acquisition Corp. Unit
+TMKRW,Tastemaker Acquisition Corp. Warrant to purchase Class A 
+TMPM,Turmeric Acquisition Corp. Class A Ordinary Shares
+TMPMU,Turmeric Acquisition Corp. Unit
+TMPMW,Turmeric Acquisition Corp. Warrant
+TMTS,Spartacus Acquisition Corporation Class A 
+TMTSU,Spartacus Acquisition Corporation Unit
+TMTSW,Spartacus Acquisition Corporation Warrant
+TMUS,T-Mobile US Inc. 
+TNDM,Tandem Diabetes Care Inc. 
+TNXP,Tonix Pharmaceuticals Holding Corp. 
+TOMZ,TOMI Environmental Solutions Inc. 
+TOPS,TOP Ships Inc. 
+TOUR,Tuniu Corporation American Depositary Shares
+TOWN,TowneBank 
+TPCO,Tribune Publishing Company 
+TPIC,TPI Composites Inc. 
+TPTX,Turning Point Therapeutics Inc. 
+TRCH,Torchlight Energy Resources Inc. 
+TREE,LendingTree Inc. 
+TRHC,Tabula Rasa HealthCare Inc. 
+TRIB,Trinity Biotech plc American Depositary Shares
+TRIL,Trillium Therapeutics Inc. Common Shares
+TRIN,Trinity Capital Inc. 
+TRIP,TripAdvisor Inc. 
+TRIT,Triterras Inc. Class A Ordinary Shares
+TRITW,Triterras Inc. Warrant
+TRMB,Trimble Inc. 
+TRMD,TORM plc Class A 
+TRMK,Trustmark Corporation 
+TRMT,Tremont Mortgage Trust Common Shares of Beneficial Interest
+TRNS,Transcat Inc. 
+TROW,T. Rowe Price Group Inc. 
+TRS,TriMas Corporation 
+TRST,TrustCo Bank Corp NY 
+TRUE,TrueCar Inc. 
+TRUP,Trupanion Inc. 
+TRVG,trivago N.V. American Depositary Shares
+TRVI,Trevi Therapeutics Inc. 
+TRVN,Trevena Inc. 
+TSBK,Timberland Bancorp Inc. 
+TSC,TriState Capital Holdings Inc. 
+TSCAP,TriState Capital Holdings Inc. Dep Shs Rep 1/40th Int 6.75% Srs A Non-Cum Pfd Stock
+TSCBP,TriState Capital Holdings Inc. Depositary Share representing a 1/40th Interest in a Share of 6.375% Fixed-to-Floating Rate Series B Non-Cumulative Perpetual Preferred Stock
+TSCO,Tractor Supply Company 
+TSEM,Tower Semiconductor Ltd. Ordinary Shares
+TSHA,Taysha Gene Therapies Inc. 
+TSIA,TS Innovation Acquisitions Corp. Class A 
+TSIAU,TS Innovation Acquisitions Corp. Unit
+TSIAW,TS Innovation Acquisitions Corp. Warrant
+TSIBU,Tishman Speyer Innovation Corp. II Unit
+TSLA,Tesla Inc. 
+TSRI,TSR Inc. 
+TTCF,Tattooed Chef Inc Class A 
+TTD,The Trade Desk Inc. Class A 
+TTEC,TTEC Holdings Inc. 
+TTEK,Tetra Tech Inc. 
+TTGT,TechTarget Inc. 
+TTMI,TTM Technologies Inc. 
+TTNP,Titan Pharmaceuticals Inc. 
+TTOO,T2 Biosystems Inc. 
+TTWO,Take-Two Interactive Software Inc. 
+TURN,180 Degree Capital Corp. 
+TUSK,Mammoth Energy Services Inc. 
+TVAC,Thayer Ventures Acquisition Corporation Class A 
+TVACU,Thayer Ventures Acquisition Corporation Units
+TVACW,Thayer Ventures Acquisition Corporation Warrant
+TVTX,Travere Therapeutics Inc. 
+TVTY,Tivity Health Inc. 
+TW,Tradeweb Markets Inc. Class A 
+TWCT,TWC Tech Holdings II Corp. Class A 
+TWCTU,TWC Tech Holdings II Corp. Unit
+TWCTW,TWC Tech Holdings II Corp. Warrant
+TWIN,Twin Disc Incorporated 
+TWLVU,Twelve Seas Investment Company II Unit
+TWNK,Hostess Brands Inc. Class A 
+TWNKW,Hostess Brands Inc. Warrants
+TWOU,2U Inc. 
+TWST,Twist Bioscience Corporation 
+TXG,10x Genomics Inc. Class A 
+TXMD,TherapeuticsMD Inc. 
+TXN,Texas Instruments Incorporated 
+TXRH,Texas Roadhouse Inc. 
+TYHT,Shineco Inc. 
+TYME,Tyme Technologies Inc. 
+TZOO,Travelzoo 
+TZPS,TZP Strategies Acquisition Corp. Class A Ordinary Share
+TZPSU,TZP Strategies Acquisition Corp. Unit
+TZPSW,TZP Strategies Acquisition Corp. Warrant
+UAL,United Airlines Holdings Inc. 
+UBCP,United Bancorp Inc. 
+UBFO,United Security Bancshares 
+UBOH,United Bancshares Inc. 
+UBSI,United Bankshares Inc. 
+UBX,Unity Biotechnology Inc. 
+UCBI,United Community Banks Inc. 
+UCBIO,United Community Banks Inc. Depositary Shares each representing 1/1000th interest in a share of Series I Non-CumulativePreferred Stock
+UCL,uCloudlink Group Inc. American Depositary Shares
+UCTT,Ultra Clean Holdings Inc. 
+UEIC,Universal Electronics Inc. 
+UEPS,Net 1 UEPS Technologies Inc. 
+UFCS,United Fire Group Inc. 
+UFPI,UFP Industries Inc. 
+UFPT,UFP Technologies Inc. 
+UG,United-Guardian Inc. 
+UGRO,urban-gro Inc. 
+UHAL,Amerco 
+UIHC,United Insurance Holdings Corp. 
+UK,Ucommune International Ltd Ordinary Shares
+UKOMW,Ucommune International Ltd Warrant expiring 11/17/2025
+ULBI,Ultralife Corporation 
+ULH,Universal Logistics Holdings Inc. 
+ULTA,Ulta Beauty Inc. 
+UMBF,UMB Financial Corporation 
+UMPQ,Umpqua Holdings Corporation 
+UNAM,Unico American Corporation 
+UNB,Union Bankshares Inc. 
+UNIT,Uniti Group Inc. 
+UNTY,Unity Bancorp Inc. 
+UONE,Urban One Inc. Class A 
+UONEK,Urban One Inc. Class D 
+UPLD,Upland Software Inc. 
+UPST,Upstart Holdings Inc. 
+UPWK,Upwork Inc. 
+URBN,Urban Outfitters Inc. 
+URGN,UroGen Pharma Ltd. Ordinary Shares
+UROV,Urovant Sciences Ltd. 
+USAK,USA Truck Inc. 
+USAP,Universal Stainless & Alloy Products Inc. 
+USAT,USA Technologies Inc. 
+USAU,U.S. Gold Corp. 
+USCR,U.S. Concrete Inc. 
+USEG,U.S. Energy Corp. 
+USIO,Usio Inc. 
+USLM,United States Lime & Minerals Inc. 
+USWS,U.S. Well Services Inc. Class A 
+USWSW,U.S. Well Services Inc. Warrants
+UTHR,United Therapeutics Corporation 
+UTMD,Utah Medical Products Inc. 
+UTSI,UTStarcom Holdings Corp.
+UVSP,Univest Financial Corporation 
+UXIN,Uxin Limited ADS
+VACQ,Vector Acquisition Corporation Class A 
+VACQU,Vector Acquisition Corporation Unit
+VACQW,Vector Acquisition Corporation Warrant
+VALU,Value Line Inc. 
+VAQC,Vector Acquisition Corporation II Class A Ordinary Shares
+VBFC,Village Bank and Trust Financial Corp. 
+VBIV,VBI Vaccines Inc. New  (Canada)
+VBLT,Vascular Biogenics Ltd. Ordinary Shares
+VBTX,Veritex Holdings Inc. 
+VC,Visteon Corporation 
+VCEL,Vericel Corporation 
+VCKA,Vickers Vantage Corp. I Ordinary Shares
+VCKAU,Vickers Vantage Corp. I Unit
+VCKAW,Vickers Vantage Corp. I Warrant
+VCNX,Vaccinex Inc. 
+VCTR,Victory Capital Holdings Inc. Class A 
+VCVC,10X Capital Venture Acquisition Corp Class A 
+VCVCU,10X Capital Venture Acquisition Corp Unit
+VCVCW,10X Capital Venture Acquisition Corp Warrant
+VCYT,Veracyte Inc. 
+VECO,Veeco Instruments Inc. 
+VELOU,Velocity Acquisition Corp. Units
+VENAU,Venus Acquisition Corporation Units
+VEON,VEON Ltd. ADS
+VERB,Verb Technology Company Inc. 
+VERBW,Verb Technology Company Inc. Warrant
+VERI,Veritone Inc. 
+VERO,Venus Concept Inc. 
+VERU,Veru Inc. 
+VERX,Vertex Inc. Class A 
+VERY,Vericity Inc. 
+VFF,Village Farms International Inc. Common Shares
+VG,Vonage Holdings Corp. 
+VIAC,ViacomCBS Inc. Class B 
+VIACA,ViacomCBS Inc. Class A 
+VIAV,Viavi Solutions Inc. 
+VICR,Vicor Corporation 
+VIEW,View Inc. Class A 
+VIEWW,View Inc. Warrant
+VIH,VPC Impact Acquisition Holdings Class A Ordinary Shares
+VIHAU,VPC Impact Acquisition Holdings Unit
+VIHAW,VPC Impact Acquisition Holdings Warrant
+VII,7GC & Co. Holdings Inc. Class A 
+VIIAU,7GC & Co. Holdings Inc. Unit
+VIIAW,7GC & Co. Holdings Inc. Warrant
+VINC,Vincerx Pharma Inc. 
+VINCU,Vincerx Pharma Inc. Unit 
+VINCW,Vincerx Pharma Inc. Warrant
+VINO,Gaucho Group Holdings Inc. 
+VINP,Vinci Partners Investments Ltd. Class A Common Shares
+VIOT,Viomi Technology Co. Ltd American Depositary Shares
+VIR,Vir Biotechnology Inc. 
+VIRC,Virco Manufacturing Corporation 
+VIRI,Virios Therapeutics Inc. 
+VIRT,Virtu Financial Inc. Class A 
+VIRX,Viracta Therapeutics Inc. 
+VISL,Vislink Technologies Inc. 
+VITL,Vital Farms Inc. 
+VIVE,Viveve Medical Inc. 
+VIVO,Meridian Bioscience Inc. 
+VJET,voxeljet AG American Depositary Shares
+VKTX,Viking Therapeutics Inc. 
+VKTXW,Viking Therapeutics Inc. Warrants
+VLDR,Velodyne Lidar Inc. 
+VLDRW,Velodyne Lidar Inc. Warrants 
+VLGEA,Village Super Market Inc. Class A 
+VLON,Vallon Pharmaceuticals Inc. 
+VLY,Valley National Bancorp 
+VLYPO,Valley National Bancorp 5.50% Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series B
+VLYPP,Valley National Bancorp 6.25% Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series A
+VMAC,Vistas Media Acquisition Company Inc. Class A 
+VMACU,Vistas Media Acquisition Company Inc. Unit
+VMACW,Vistas Media Acquisition Company Inc. Warrant
+VMAR,Vision Marine Technologies Inc. Common Shares
+VMD,Viemed Healthcare Inc. Common Shares
+VNDA,Vanda Pharmaceuticals Inc. 
+VNET,21Vianet Group Inc. American Depositary Shares
+VNOM,Viper Energy Partners LP Common Unit
+VOD,Vodafone Group Plc American Depositary Shares
+VOR,Vor Biopharma Inc. 
+VOSO,Virtuoso Acquisition Corp. Class A 
+VOSOU,Virtuoso Acquisition Corp. Unit
+VOSOW,Virtuoso Acquisition Corp. Warrant
+VOXX,VOXX International Corporation Class A 
+VPCBU,VPC Impact Acquisition Holdings II Unit
+VRA,Vera Bradley Inc. 
+VRAY,ViewRay Inc. 
+VRCA,Verrica Pharmaceuticals Inc. 
+VRDN,Viridian Therapeutics Inc. 
+VREX,Varex Imaging Corporation 
+VRM,Vroom Inc. 
+VRME,VerifyMe Inc. 
+VRMEW,VerifyMe Inc. Warrant
+VRNA,Verona Pharma plc American Depositary Share
+VRNS,Varonis Systems Inc. 
+VRNT,Verint Systems Inc. 
+VRPX,Virpax Pharmaceuticals Inc. 
+VRRM,Verra Mobility Corporation Class A 
+VRSK,Verisk Analytics Inc. 
+VRSN,VeriSign Inc. 
+VRTS,Virtus Investment Partners Inc. 
+VRTX,Vertex Pharmaceuticals Incorporated 
+VS,Versus Systems Inc. Common Shares
+VSAT,ViaSat Inc. 
+VSEC,VSE Corporation 
+VSPR,Vesper Healthcare Acquisition Corp. Class A 
+VSPRU,Vesper Healthcare Acquisition Corp. Unit
+VSPRW,Vesper Healthcare Acquisition Corp. Warrant
+VSSYW,Versus Systems Inc. Class A Warrants
+VSTA,Vasta Platform Limited Class A Ordinary Shares
+VSTM,Verastem Inc. 
+VTAQ,Ventoux CCM Acquisition Corp. 
+VTAQR,Ventoux CCM Acquisition Corp. Right
+VTAQU,Ventoux CCM Acquisition Corp. Unit
+VTAQW,Ventoux CCM Acquisition Corp. Warrant
+VTGN,VistaGen Therapeutics Inc. 
+VTIQ,VectoIQ Acquisition Corp. II Class A 
+VTIQU,VectoIQ Acquisition Corp. II Unit
+VTIQW,VectoIQ Acquisition Corp. II Warrant
+VTNR,Vertex Energy Inc 
+VTRS,Viatris Inc. 
+VTRU,Vitru Limited Common Shares
+VTSI,VirTra Inc. 
+VTVT,vTv Therapeutics Inc. Class A 
+VUZI,Vuzix Corporation 
+VVOS,Vivos Therapeutics Inc. 
+VVPR,VivoPower International PLC Ordinary Shares
+VWTR,Vidler Water Resources Inc. 
+VXRT,Vaxart Inc 
+VYGR,Voyager Therapeutics Inc. 
+VYNE,VYNE Therapeutics Inc. 
+WABC,Westamerica Bancorporation 
+WAFD,Washington Federal Inc. 
+WAFDP,Washington Federal Inc. Depositary Shares
+WAFU,Wah Fu Education Group Limited Ordinary Shares
+WALDU,Waldencast Acquisition Corp. Units
+WASH,Washington Trust Bancorp Inc. 
+WATT,Energous Corporation 
+WB,Weibo Corporation American Depositary Share
+WBA,Walgreens Boots Alliance Inc. 
+WDAY,Workday Inc. Class A 
+WDC,Western Digital Corporation 
+WDFC,WD-40 Company 
+WEN,Wendy's Company (The) 
+WERN,Werner Enterprises Inc. 
+WETF,WisdomTree Investments Inc. 
+WEYS,Weyco Group Inc. 
+WHF,WhiteHorse Finance Inc. 
+WHFBZ,WhiteHorse Finance Inc. 6.50% Notes due 2025
+WHLM,Wilhelmina International Inc. 
+WHLR,Wheeler Real Estate Investment Trust Inc. 
+WHLRD,Wheeler Real Estate Investment Trust Inc. Series D Cumulative Preferred Stock
+WHLRP,Wheeler Real Estate Investment Trust Inc. Class B Preferred Stock
+WIFI,Boingo Wireless Inc. 
+WILC,G. Willi-Food International  Ltd. Ordinary Shares
+WIMI,WiMi Hologram Cloud Inc. American Depositary Share
+WINA,Winmark Corporation 
+WING,Wingstop Inc. 
+WINT,Windtree Therapeutics Inc. 
+WIRE,Encore Wire Corporation 
+WISA,Summit Wireless Technologies Inc. 
+WISH,ContextLogic Inc. Class A 
+WIX,Wix.com Ltd. Ordinary Shares
+WKEY,WISeKey International Holding AG American Depositary Shares
+WKHS,Workhorse Group Inc. 
+WLDN,Willdan Group Inc. 
+WLFC,Willis Lease Finance Corporation 
+WLTW,Willis Towers Watson Public Limited Company Ordinary Shares
+WMG,Warner Music Group Corp. Class A 
+WNEB,Western New England Bancorp Inc. 
+WNW,Wunong Net Technology Company Limited Ordinary Shares
+WOOF,Petco Health and Wellness Company Inc. Class A 
+WORX,SCWorx Corp. 
+WPRT,Westport Fuel Systems Inc Common Shares
+WRAP,Wrap Technologies Inc. 
+WRLD,World Acceptance Corporation 
+WSBC,WesBanco Inc. 
+WSBCP,WesBanco Inc. Depositary Shares Each Representing a 1/40th Interest in a Share of 6.75% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series A
+WSBF,Waterstone Financial Inc.  (MD)
+WSC,WillScot Mobile Mini Holdings Corp. Class A 
+WSFS,WSFS Financial Corporation 
+WSTG,Wayside Technology Group Inc. 
+WTBA,West Bancorporation 
+WTER,The Alkaline Water Company Inc. 
+WTFC,Wintrust Financial Corporation 
+WTFCM,Wintrust Financial Corporation Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series D
+WTFCP,Wintrust Financial Corporation Depositary Shares Each Representing a 1/1000th Interest in a Share of 6.875% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock Series E
+WTRE,Watford Holdings Ltd. Common Shares
+WTREP,Watford Holdings Ltd. 8.5% Cumulative Redeemable Preference Shares
+WTRH,Waitr Holdings Inc. 
+WVE,Wave Life Sciences Ltd. Ordinary Shares
+WVFC,WVS Financial Corp. 
+WVVI,Willamette Valley Vineyards Inc. 
+WVVIP,Willamette Valley Vineyards Inc. Series A Redeemable Preferred Stock
+WW,WW International Inc. 
+WWD,Woodward Inc. 
+WWR,Westwater Resources Inc. 
+WYNN,Wynn Resorts Limited 
+XAIR,Beyond Air Inc. 
+XBIO,Xenetic Biosciences Inc. 
+XBIOW,Xenetic Biosciences Inc. Warrants
+XBIT,XBiotech Inc. 
+XCUR,Exicure Inc. 
+XEL,Xcel Energy Inc. 
+XELA,Exela Technologies Inc. 
+XELB,Xcel Brands Inc. 
+XENE,Xenon Pharmaceuticals Inc. Common Shares
+XENT,Intersect ENT Inc. 
+XERS,Xeris Pharmaceuticals Inc. 
+XFOR,X4 Pharmaceuticals Inc. 
+XGN,Exagen Inc. 
+XLNX,Xilinx Inc. 
+XLRN,Acceleron Pharma Inc. 
+XM,Qualtrics International Inc. Class A 
+XNCR,Xencor Inc. 
+XNET,Xunlei Limited American Depositary Receipts
+XOG,Extraction Oil & Gas Inc. 
+XOMA,XOMA Corporation 
+XOMAP,XOMA Corporation 8.625% Series A Cumulative Perpetual Preferred Stock
+XONE,The ExOne Company 
+XP,XP Inc. Class A 
+XPDIU,Power & Digital Infrastructure Acquisition Corp. Unit
+XPEL,XPEL Inc. 
+XPER,Xperi Holding Corporation 
+XRAY,DENTSPLY SIRONA Inc. 
+XSPA,XpresSpa Group Inc. 
+XTLB,XTL Biopharmaceuticals Ltd. American Depositary Shares
+YELL,Yellow Corporation 
+YGMZ,MingZhu Logistics Holdings Limited Ordinary Shares
+YI,111 Inc. American Depositary Shares
+YJ,Yunji Inc. American Depository Shares
+YMAB,Y-mAbs Therapeutics Inc. 
+YMTX,Yumanity Therapeutics Inc. 
+YNDX,Yandex N.V. Class A Ordinary Shares
+YORW,York Water Company (The) 
+YQ,17 Education & Technology Group Inc. American Depositary Shares
+YSAC,Yellowstone Acquisition Company Class A 
+YSACU,Yellowstone Acquisition Company Units
+YSACW,Yellowstone Acquisition Company Warrants to purchase Class A 
+YTEN,Yield10 Bioscience Inc. 
+YTRA,Yatra Online Inc. Ordinary Shares
+YVR,Liquid Media Group Ltd. Common Shares
+YY,JOYY Inc. American Depositary Shares
+Z,Zillow Group Inc. Class C Capital Stock
+ZBRA,Zebra Technologies Corporation Class A 
+ZCMD,Zhongchao Inc. Class A Ordinary Shares
+ZEAL,Zealand Pharma A/S American Depositary Shares
+ZEUS,Olympic Steel Inc. 
+ZG,Zillow Group Inc. Class A 
+ZGNX,Zogenix Inc. 
+ZGYH,Yunhong International Class A Ordinary Shares
+ZGYHR,Yunhong International Right
+ZGYHU,Yunhong International Unit
+ZGYHW,Yunhong International Warrant
+ZI,ZoomInfo Technologies Inc. Class A 
+ZION,Zions Bancorporation N.A. 
+ZIONL,Zions Bancorporation 6.95% Fixed-to-Floating Rate Subordinated Notes
+ZIONN,Zions Bancorporation N.A. Dep Shs Repstg 1/40th Int Sh Ser H Perp Pfd Stk
+ZIONO,Zions Bancorporation N.A. Dep Shs Repstg 1/40th Perp Pfd Ser G
+ZIONP,Zions Bancorporation N.A. Depositary Shares (Each representing 1/40th Interest in a Share of Series A Floating-Rate Non-Cumulative Perpetual Preferred Stock)
+ZIOP,ZIOPHARM Oncology Inc 
+ZIXI,Zix Corporation 
+ZKIN,ZK International Group Co. Ltd Ordinary Share
+ZLAB,Zai Lab Limited American Depositary Shares
+ZM,Zoom Video Communications Inc. Class A 
+ZNGA,Zynga Inc. Class A 
+ZNTE,Zanite Acquisition Corp. Class A 
+ZNTEU,Zanite Acquisition Corp. Unit
+ZNTEW,Zanite Acquisition Corp. Warrant
+ZNTL,Zentalis Pharmaceuticals Inc. 
+ZS,Zscaler Inc. 
+ZSAN,Zosano Pharma Corporation 
+ZUMZ,Zumiez Inc. 
+ZVO,Zovio Inc. 
+ZWRKU,Z-Work Acquisition Corp. Units
+ZYNE,Zynerba Pharmaceuticals Inc. 
+ZYXI,Zynex Inc. 

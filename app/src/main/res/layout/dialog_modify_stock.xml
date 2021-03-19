@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:bind="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
@@ -83,7 +82,7 @@
                 android:onClick="@{() -> modifyStockViewModel.deleteStock()}"
                 android:text="@string/delete"
                 android:textColor="@android:color/white"
-                bind:visibility="@{modifyStockViewModel.deleteVisible}" />
+                android:visibility="@{modifyStockViewModel.deleteVisible}" />
 
             <FrameLayout
                 android:layout_width="80dp"
@@ -107,7 +106,7 @@
                     android:clickable="true"
                     android:elevation="10dp"
                     android:focusable="true"
-                    bind:visibility="@{modifyStockViewModel.btnOkLoading}"
+                    android:visibility="@{modifyStockViewModel.btnOkLoading}"
                     tools:visibility="visible">
 
                     <ProgressBar
