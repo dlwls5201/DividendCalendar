@@ -21,7 +21,7 @@
     <string name="payment_date_day">지급일</string>
 
     <string name="input_ticker">티커를 입력해주세요.</string>
-    <string name="company_format">%s(%s)</string>
+    <string name="company_format">(%s)%s</string>
 
     <string name="item_ex_date_day">배당락일 :</string>
     <string name="item_payment_date_day">지급일 :</string>

@@ -6,7 +6,9 @@
     <data>
 
         <import type="com.tistory.dividendcalendar.utils.CountUtil" />
+
         <import type="android.text.TextUtils" />
+
         <import type="android.view.View" />
 
         <variable
@@ -48,14 +50,15 @@
 
             <TextView
                 android:id="@+id/tvStockName"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:text="@{@string/company_format(item.companyName, item.symbol)}"
+                android:text="@{@string/company_format(item.symbol,item.companyName)}"
                 android:textColor="@color/black"
                 android:textSize="13dp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@id/tvStockExDate"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/guidelineStartFromImage"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:text="Apple.Inc(AAPL)" />
