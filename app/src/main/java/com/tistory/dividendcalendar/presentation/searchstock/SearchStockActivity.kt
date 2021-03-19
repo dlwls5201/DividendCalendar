@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.tistory.dividendcalendar.DividendActivity
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.ActivitySearchBinding
+import com.tistory.dividendcalendar.presentation.dialog.ModifyStockDialogFragment
 import com.tistory.dividendcalendar.presentation.searchstock.adapter.SearchNameAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -19,13 +20,24 @@ class SearchStockActivity : DividendActivity<ActivitySearchBinding>(R.layout.act
     private val searchStockViewModel by viewModels<SearchStockViewModel>()
 
     private val searchStockAdapter by lazy {
-        SearchNameAdapter()
+        SearchNameAdapter().apply {
+            onItemClickListener = {
+                ModifyStockDialogFragment.newInstanceForAdd(it.ticker)
+                    .show(supportFragmentManager, null)
+            }
+        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding.searchViewModel = searchStockViewModel
         initRecyclerView()
+
+        //TODO Temporary function
+        binding.tvAddSrock.setOnClickListener {
+            ModifyStockDialogFragment.newInstanceForAdd()
+                .show(supportFragmentManager, null)
+        }
     }
 
     override fun onViewModelSetup() {

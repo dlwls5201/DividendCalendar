@@ -30,6 +30,13 @@ class ModifyStockDialogFragment :
             arguments = bundleOf(ARGUMENT_TYPE to DialogType.ADD)
         }
 
+        fun newInstanceForAdd(ticker: String) = ModifyStockDialogFragment().apply {
+            arguments = bundleOf(
+                ARGUMENT_TYPE to DialogType.ADD,
+                ARGUMENT_TICKER to ticker
+            )
+        }
+
         fun newInstanceForModify(ticker: String, stockCnt: Float) =
             ModifyStockDialogFragment().apply {
                 arguments = bundleOf(

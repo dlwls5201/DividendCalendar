@@ -1,6 +1,7 @@
 package com.tistory.dividendcalendar.presentation.dialog
 
 import android.content.Context
+import android.text.TextUtils
 import androidx.hilt.Assisted
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.*
@@ -62,6 +63,7 @@ class ModifyStockViewModel @ViewModelInject constructor(
             ModifyStockDialogFragment.DialogType.ADD -> {
                 hideDeleteButton()
                 showBtnTitleAdd()
+                setDisableEditTicker()
             }
             ModifyStockDialogFragment.DialogType.MODIFY -> {
                 showDeleteButton()
@@ -91,6 +93,10 @@ class ModifyStockViewModel @ViewModelInject constructor(
     }
 
     private fun setDisableEditTicker() {
+        if (TextUtils.isEmpty(ticker)) {
+            return
+        }
+
         editTicker.postValue(ticker)
         editTickerEnable.postValue(false)
         editTickerCnt.postValue(CountUtil.getDecimalFormat(stockCnt))

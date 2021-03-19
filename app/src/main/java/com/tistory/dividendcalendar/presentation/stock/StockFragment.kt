@@ -27,7 +27,7 @@ class StockFragment : DividendFragment<FragmentStockBinding>(R.layout.fragment_s
         StockAdapter().apply {
             onStockClickListener = {
                 ModifyStockDialogFragment.newInstanceForModify(it.symbol, it.stockCnt)
-                    .show(childFragmentManager, logTag)
+                    .show(childFragmentManager, null)
             }
         }
     }

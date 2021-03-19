@@ -4,7 +4,6 @@ import android.view.ViewGroup
 import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView
 import com.tistory.blackjinbase.base.BaseViewHolder
-import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.databinding.ItemStockNameBinding
 
@@ -13,6 +12,8 @@ class SearchNameAdapter :
 
     private val items = mutableListOf<StockNameItem>()
 
+    var onItemClickListener: ((item: StockNameItem) -> Unit)? = null
+
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
@@ -20,7 +21,7 @@ class SearchNameAdapter :
         return TickerViewHolder(parent).apply {
             itemView.setOnClickListener {
                 val item = items[adapterPosition]
-                Dlog.d("item : $item")
+                onItemClickListener?.invoke(item)
             }
         }
     }
