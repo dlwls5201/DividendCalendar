@@ -148,6 +148,7 @@ class ModifyStockViewModel @ViewModelInject constructor(
                     DWFirebaseAnalyticsLogger.changeStock(
                         ModifyStockDialogFragment.DialogType.ADD, ticker, stockCnt
                     )
+                    showToastEvent(context.resources.getString(R.string.complete_emoji))
                     finishView()
                 }
 

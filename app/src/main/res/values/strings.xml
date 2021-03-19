@@ -21,7 +21,7 @@
     <string name="payment_date_day">PayDate</string>
 
     <string name="input_ticker">please enter ticker</string>
-    <string name="company_format">(%s)%s</string>
+    <string name="company_format">(%s) %s</string>
 
     <string name="item_ex_date_day">exDividendDate :</string>
     <string name="item_payment_date_day">payDate :</string>
@@ -53,5 +53,6 @@
     <string name="latest_version">Latest Version</string>
     <string name="need_update">Need Update</string>
 
-    <string name="hint_input_search_ticker">종목명 혹은 티커명을 입력해주세요.</string>
+    <string name="hint_input_search_ticker">please enter company or ticker</string>
+    <string name="complete_emoji">⎷</string>
 </resources>
