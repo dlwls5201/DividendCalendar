@@ -13,9 +13,9 @@ import android.widget.AdapterView.OnItemLongClickListener
 import androidx.annotation.StringRes
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
-import com.bumptech.glide.Glide
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
+import com.tistory.dividendcalendar.bindingadapter.setImageUrlWithTicker
 import com.tistory.dividendcalendar.utils.CountUtil
 import com.tistory.domain.model.CalendarItem
 import kotlinx.android.synthetic.main.view_calendar.view.*
@@ -341,17 +341,11 @@ class DividendCalendarView : LinearLayout {
                 }.forEachIndexed { index, dividendItem ->
                     when (index) {
                         0 -> {
-                            Glide.with(context)
-                                .load(dividendItem.logoUrl)
-                                .into(ivItemViewCalendarLogo1)
-
+                            ivItemViewCalendarLogo1.setImageUrlWithTicker(dividendItem.logoUrl, dividendItem.ticker)
                             tvItemViewCalendarCompanyName1.text = dividendItem.companyName
                         }
                         1 -> {
-                            Glide.with(context)
-                                .load(dividendItem.logoUrl)
-                                .into(ivItemViewCalendarLogo2)
-
+                            ivItemViewCalendarLogo2.setImageUrlWithTicker(dividendItem.logoUrl, dividendItem.ticker)
                             tvItemViewCalendarCompanyName2.text = dividendItem.companyName
                         }
                         else -> {

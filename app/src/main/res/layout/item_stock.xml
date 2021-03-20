@@ -39,6 +39,7 @@
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 bind:setImageUrl="@{item.logoUrl}"
+                bind:setTickerName="@{item.symbol}"
                 tools:src="@mipmap/ic_launcher" />
 
             <androidx.constraintlayout.widget.Guideline

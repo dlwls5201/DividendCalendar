@@ -57,7 +57,7 @@ class ModifyStockDialogFragment :
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        isCancelable = false
+        isCancelable = true
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

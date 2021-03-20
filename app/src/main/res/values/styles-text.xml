@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- https://learnui.design/blog/android-material-design-font-size-guidelines.html -->
+    <!-- text -->
+    <style name="BaseTextStyle" parent="android:TextAppearance" />
+
+    <style name="TextStyle.Large" parent="BaseTextStyle">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextStyle.Medium" parent="BaseTextStyle">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextStyle.Small" parent="BaseTextStyle">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextStyle.Button" parent="BaseTextStyle">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

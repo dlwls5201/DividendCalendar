@@ -11,6 +11,8 @@ object Constant {
     const val VIEW_STOCK_MODIFY_DIALOG = "StockModifyDialog"
 
     //Firebase
+    const val FB_VIEW_SEARCH_STOCK_ACTIVITY = "VIEW_SearchStockActivity"
+
     const val FB_VIEW_STOCK_FRAGMENT = "VIEW_StockFragment"
     const val FB_VIEW_CALENDAR_FRAGMENT = "VIEW_CalendarFragment"
     const val FB_VIEW_NOTICE_FRAGMENT = "VIEW_NoticeFragment"

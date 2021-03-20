@@ -48,7 +48,7 @@
                 android:textSize="14dp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/tv_add_stock"
                 app:layout_constraintStart_toEndOf="@id/iv_search"
                 app:layout_constraintTop_toTopOf="parent">
 
@@ -56,12 +56,13 @@
             </EditText>
 
             <TextView
-                android:id="@+id/tv_add_srock"
+                android:id="@+id/tv_add_stock"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="?attr/selectableItemBackground"
+                android:onClick="@{() -> searchViewModel.showAddDialog()}"
                 android:padding="10dp"
-                android:text="직접 입력"
+                android:text="@string/direct_input"
                 android:textColor="@color/black"
                 android:textSize="14dp"
                 android:textStyle="bold"

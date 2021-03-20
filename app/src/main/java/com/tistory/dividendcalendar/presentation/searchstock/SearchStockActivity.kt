@@ -5,12 +5,16 @@ import androidx.activity.viewModels
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.tistory.blackjinbase.ext.observeEvent
 import com.tistory.dividendcalendar.DividendActivity
 import com.tistory.dividendcalendar.R
+import com.tistory.dividendcalendar.constant.Constant
 import com.tistory.dividendcalendar.databinding.ActivitySearchBinding
+import com.tistory.dividendcalendar.firebase.DWFirebaseAnalyticsLogger
 import com.tistory.dividendcalendar.presentation.dialog.ModifyStockDialogFragment
 import com.tistory.dividendcalendar.presentation.searchstock.adapter.SearchNameAdapter
 import dagger.hilt.android.AndroidEntryPoint
+import io.userhabit.service.Userhabit
 
 @AndroidEntryPoint
 class SearchStockActivity : DividendActivity<ActivitySearchBinding>(R.layout.activity_search) {
@@ -32,18 +36,26 @@ class SearchStockActivity : DividendActivity<ActivitySearchBinding>(R.layout.act
         super.onCreate(savedInstanceState)
         binding.searchViewModel = searchStockViewModel
         initRecyclerView()
-
-        //TODO Temporary function
-        binding.tvAddSrock.setOnClickListener {
-            ModifyStockDialogFragment.newInstanceForAdd()
-                .show(supportFragmentManager, null)
-        }
+        sendLog()
     }
 
     override fun onViewModelSetup() {
         searchStockViewModel.stockNames.observe(this) {
             searchStockAdapter.replaceAll(it)
         }
+        searchStockViewModel.eventShowAddDialog.observeEvent(this) {
+            showAddDialog()
+        }
+    }
+
+    private fun showAddDialog() {
+        ModifyStockDialogFragment.newInstanceForAdd()
+            .show(supportFragmentManager, null)
+    }
+
+    private fun sendLog() {
+        Userhabit.setScreen(this, Constant.FB_VIEW_SEARCH_STOCK_ACTIVITY)
+        DWFirebaseAnalyticsLogger.sendScreen(Constant.FB_VIEW_SEARCH_STOCK_ACTIVITY)
     }
 
     private fun initRecyclerView() {

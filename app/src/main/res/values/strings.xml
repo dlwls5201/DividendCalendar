@@ -55,4 +55,5 @@
 
     <string name="hint_input_search_ticker">please enter company or ticker</string>
     <string name="complete_emoji">⎷</string>
+    <string name="direct_input">Add Direct</string>
 </resources>

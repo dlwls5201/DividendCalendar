@@ -36,44 +36,23 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     bind:setImageUrl="@{item.logoUrl}"
+                    bind:setTickerName="@{item.ticker}"
                     tools:background="@color/gray_02" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
-                    android:text="@{@string/company_format(item.companyName, item.ticker)}"
+                    android:ellipsize="end"
                     android:textColor="@color/black"
                     android:textSize="15dp"
+                    android:maxLines="2"
+                    android:text="@{@string/company_format(item.ticker, item.companyName)}"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    tools:text="Apple(aapl)" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/item_ex_date_day"
-                    android:textColor="@color/black"
-                    android:textSize="15dp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
-                    android:text="@{item.exDate}"
-                    android:textColor="@color/black"
-                    android:textSize="15dp"
-                    tools:text="2020-04-27" />
+                    tools:text="(aapl) Apple" />
             </LinearLayout>
 
             <LinearLayout
@@ -95,6 +74,30 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:text="@{item.paymentDate}"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    tools:text="2020-04-27" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/item_ex_date_day"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@{item.exDate}"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     tools:text="2020-04-27" />

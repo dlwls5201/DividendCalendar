@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:minWidth="350dp"
         android:orientation="vertical"
-        android:padding="10dp"
+        android:padding="20dp"
         tools:layout_width="350dp">
 
         <TextView
@@ -63,22 +63,22 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/etStockCnt">
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnCancel"
+                style="@style/ButtonStyle.SmallButtonGray"
                 android:layout_width="80dp"
                 android:layout_height="45dp"
                 android:layout_marginEnd="10dp"
-                android:background="@color/cardview_dark_background"
                 android:onClick="@{() -> modifyStockViewModel.finishView()}"
                 android:text="@string/cancel"
                 android:textColor="@android:color/white" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnDelete"
+                style="@style/ButtonStyle.SmallButtonGray"
                 android:layout_width="80dp"
                 android:layout_height="45dp"
                 android:layout_marginEnd="10dp"
-                android:background="@color/cardview_dark_background"
                 android:onClick="@{() -> modifyStockViewModel.deleteStock()}"
                 android:text="@string/delete"
                 android:textColor="@android:color/white"
@@ -88,14 +88,13 @@
                 android:layout_width="80dp"
                 android:layout_height="45dp">
 
-                <Button
+                <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnOk"
+                    style="@style/ButtonStyle.SmallButtonBlue"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@color/cardview_dark_background"
                     android:onClick="@{() -> modifyStockViewModel.okStock()}"
                     android:text="@{modifyStockViewModel.btnOkTitle}"
-                    android:textColor="@android:color/white"
                     tools:text="@string/add" />
 
                 <FrameLayout

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- https://material.io/resources/color/#!/?view.left=0&view.right=1&primary.color=dcb3ff-->
     <!-- color for the app bar and other primary UI elements -->
-    <color name="colorPrimary">#0f4c81</color>
+    <color name="colorPrimary">#0D47A1</color>
 
     <!--  a darker variant of the primary color, used for the status bar (on Android 5.0+) and contextual app bars -->
-    <color name="colorPrimaryDark">#002554</color>
+    <color name="colorPrimaryDark">#002171</color>
 
     <!--  a secondary color for controls like checkboxes and text fields -->
-    <color name="colorAccent">#4c77b1</color>
+    <color name="colorAccent">#5472d3</color>
 
     <color name="black">#2b2b2b</color>
     <color name="white">#ffffff</color>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textAllCaps">true</item>
+        <item name="iconGravity">textStart</item>
+        <item name="android:textAppearance">@style/TextStyle.Medium</item>
+        <item name="iconPadding">8dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="rippleColor">@color/white</item>
+        <item name="cornerRadius">50dp</item>
+    </style>
+
+    <style name="ButtonStyle.SmallButtonBlue" parent="BaseButtonStyle">
+        <item name="android:minHeight">36dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="cornerRadius">4dp</item>
+    </style>
+
+    <style name="ButtonStyle.SmallButtonGray" parent="BaseButtonStyle">
+        <item name="android:minHeight">36dp</item>
+        <item name="android:textColor">#4A5B64</item>
+        <item name="backgroundTint">#C2C2C2</item>
+        <item name="cornerRadius">4dp</item>
+    </style>
+
+    <style name="ButtonStyle.Primary" parent="BaseButtonStyle">
+        <item name="android:minHeight">36dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="ButtonStyle.Black" parent="BaseButtonStyle">
+        <item name="android:minHeight">36dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/black</item>
+    </style>
+
+    <style name="ButtonStyle.White" parent="BaseButtonStyle">
+        <item name="android:minHeight">36dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="iconTint">#212E5A</item>
+    </style>
+</resources>

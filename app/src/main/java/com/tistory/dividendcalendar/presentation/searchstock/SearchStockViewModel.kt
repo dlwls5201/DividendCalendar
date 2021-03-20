@@ -5,6 +5,8 @@ import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.tistory.blackjinbase.ext.EventMutableLiveData
+import com.tistory.blackjinbase.ext.postEvent
 import com.tistory.data.repository.StockNameRepository
 import com.tistory.dividendcalendar.presentation.searchstock.adapter.StockNameItem
 import kotlinx.coroutines.launch
@@ -12,6 +14,8 @@ import kotlinx.coroutines.launch
 class SearchStockViewModel @ViewModelInject constructor(
     private val stockNameRepository: StockNameRepository
 ) : ViewModel() {
+
+    val eventShowAddDialog = EventMutableLiveData<Unit>()
 
     val editSearchText = MutableLiveData<String>()
 
@@ -28,5 +32,9 @@ class SearchStockViewModel @ViewModelInject constructor(
                 postValue(items)
             }
         }
+    }
+
+    fun showAddDialog() {
+        eventShowAddDialog.postEvent(Unit)
     }
 }
