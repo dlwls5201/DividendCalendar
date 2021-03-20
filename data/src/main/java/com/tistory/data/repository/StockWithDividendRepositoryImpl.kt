@@ -108,18 +108,20 @@ class StockWithDividendRepositoryImpl(
         Dlog.d("dividends : $dividends")
 
         dividends.forEach {
-            stockDao.insertDividend(
-                DividendEntity(
-                    dividendId = DividendEntity.makeDividendId(symbol, it.paymentDate),
-                    parentSymbol = symbol,
-                    exDate = it.exDate,
-                    declaredDate = it.declaredDate,
-                    paymentDate = it.paymentDate,
-                    recordDate = it.date,
-                    amount = it.amount.toFloatCheckFormat(),
-                    frequency = it.frequency
+            if (isValidStockDividendValue(it.amount, it.declaredDate)) {
+                stockDao.insertDividend(
+                    DividendEntity(
+                        dividendId = DividendEntity.makeDividendId(symbol, it.paymentDate),
+                        parentSymbol = symbol,
+                        exDate = it.exDate,
+                        declaredDate = it.declaredDate,
+                        paymentDate = it.paymentDate,
+                        recordDate = it.date,
+                        amount = it.amount.toFloatCheckFormat(),
+                        frequency = it.frequency
+                    )
                 )
-            )
+            }
         }
     }
 
@@ -166,18 +168,20 @@ class StockWithDividendRepositoryImpl(
                     Dlog.d("tempDividend : $tempDividend")
 
                     tempDividend.let {
-                        stockDao.insertDividend(
-                            DividendEntity(
-                                dividendId = DividendEntity.makeDividendId(symbol, it.paymentDate),
-                                parentSymbol = symbol,
-                                exDate = it.exDate,
-                                declaredDate = it.declaredDate,
-                                paymentDate = it.paymentDate,
-                                recordDate = it.date,
-                                amount = it.amount.toFloatCheckFormat(),
-                                frequency = it.frequency
+                        if (isValidStockDividendValue(it.amount, it.declaredDate)) {
+                            stockDao.insertDividend(
+                                DividendEntity(
+                                    dividendId = DividendEntity.makeDividendId(symbol, it.paymentDate),
+                                    parentSymbol = symbol,
+                                    exDate = it.exDate,
+                                    declaredDate = it.declaredDate,
+                                    paymentDate = it.paymentDate,
+                                    recordDate = it.date,
+                                    amount = it.amount.toFloatCheckFormat(),
+                                    frequency = it.frequency
+                                )
                             )
-                        )
+                        }
                     }
                 }
             } catch (e: Exception) {
@@ -187,8 +191,9 @@ class StockWithDividendRepositoryImpl(
         } else {
             Dlog.d("다음 배당금이 없습니다")
         }
-
     }
+
+    private fun isValidStockDividendValue(amount: String, declaredDate: String) = amount != "0" && declaredDate != "0000-00-00"
 
     override suspend fun deleteStockWithDividends(ticker: String) {
         val symbol = ticker.toUpperCase()
