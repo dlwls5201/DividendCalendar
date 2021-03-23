@@ -143,8 +143,6 @@ class MainActivity : DividendActivity<ActivityMainBinding>(R.layout.activity_mai
 
         fabAddStock.setOnClickListener {
             startActivity(Intent(this, SearchStockActivity::class.java))
-            /*ModifyStockDialogFragment.newInstanceForAdd()
-                .show(supportFragmentManager, logTag)*/
         }
     }
 
