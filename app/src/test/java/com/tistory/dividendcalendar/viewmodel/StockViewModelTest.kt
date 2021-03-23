@@ -96,7 +96,7 @@ class StockViewModelTest {
         listOf(
             StockWithDividendItem(
                 symbol = "BJ",
-                stockCnt = 10,
+                stockCnt = 10f,
                 logoUrl = "choco",
                 companyName = "BlackJIn",
                 dividends = listOf(
@@ -113,7 +113,7 @@ class StockViewModelTest {
         listOf(
             StockWithDividendItem(
                 symbol = "BJ",
-                stockCnt = 10,
+                stockCnt = 10f,
                 logoUrl = "banana",
                 companyName = "BlackJIn",
                 dividends = listOf(
@@ -126,7 +126,7 @@ class StockViewModelTest {
             ),
             StockWithDividendItem(
                 symbol = "BJ",
-                stockCnt = 10,
+                stockCnt = 10f,
                 logoUrl = "apple",
                 companyName = "BlackJIn",
                 dividends = listOf(
