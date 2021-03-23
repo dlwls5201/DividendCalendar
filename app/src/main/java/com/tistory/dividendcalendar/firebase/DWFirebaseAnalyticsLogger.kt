@@ -38,8 +38,7 @@ object DWFirebaseAnalyticsLogger {
             return
         }
 
-
-        val key = when (type) {
+        val event = when (type) {
             ModifyStockDialogFragment.DialogType.ADD -> Constant.FB_VIEW_STOCK_ADD_DIALOG
             ModifyStockDialogFragment.DialogType.MODIFY -> Constant.FB_VIEW_STOCK_MODIFY_DIALOG
         }
@@ -49,7 +48,7 @@ object DWFirebaseAnalyticsLogger {
         )
 
         try {
-            firebaseAnalytics.logEvent(key, bundle)
+            firebaseAnalytics.logEvent(event, bundle)
         } catch (e: Exception) {
             FirebaseCrashlytics.getInstance().recordException(e)
         }
