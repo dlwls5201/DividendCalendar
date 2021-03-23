@@ -87,6 +87,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
+                android:autoLink="web"
                 android:lineSpacingExtra="4dp"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
