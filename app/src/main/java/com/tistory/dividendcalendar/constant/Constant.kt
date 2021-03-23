@@ -4,12 +4,6 @@ object Constant {
 
     const val DEFAULT_LANGUAGE = "en"
 
-    const val VIEW_STOCK_FRAGMENT = "StockFragment"
-    const val VIEW_CALENDAR_FRAGMENT = "CalendarFragment"
-    const val VIEW_NOTICE_FRAGMENT = "NoticeFragment"
-    const val VIEW_STOCK_ADD_DIALOG = "StockAddDialog"
-    const val VIEW_STOCK_MODIFY_DIALOG = "StockModifyDialog"
-
     //Firebase
     const val FB_VIEW_SEARCH_STOCK_ACTIVITY = "VIEW_SearchStockActivity"
 
