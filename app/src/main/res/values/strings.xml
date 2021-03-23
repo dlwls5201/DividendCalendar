@@ -47,7 +47,7 @@
 
     <string name="ok">ok</string>
     <string name="total_dividend_explain">This is total dividend of current month\n(stock dividend * stock count)</string>
-    <string name="total_dividend_monthly">average monthly dividend : $s</string>
+    <string name="total_dividend_monthly">average monthly dividend : $%s</string>
 
     <string name="latest_version">Latest Version</string>
     <string name="need_update">Need Update</string>

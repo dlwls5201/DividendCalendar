@@ -23,7 +23,6 @@ import com.tistory.dividendcalendar.utils.ReadTextFileUtil
 import com.tistory.domain.base.BaseListener
 import com.tistory.domain.usecase.RefreshAllStockDividendUsecase
 import dagger.hilt.android.AndroidEntryPoint
-import io.userhabit.service.Userhabit
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -118,7 +117,6 @@ class MainActivity : DividendActivity<ActivityMainBinding>(R.layout.activity_mai
 
     private fun initButton() {
         btnNavChart.setOnClickListener {
-            Userhabit.setScreen(this, Constant.VIEW_STOCK_FRAGMENT)
             DWFirebaseAnalyticsLogger.sendScreen(Constant.FB_VIEW_STOCK_FRAGMENT)
 
             initStockFragment()
@@ -126,7 +124,6 @@ class MainActivity : DividendActivity<ActivityMainBinding>(R.layout.activity_mai
         }
 
         btnNavCalendar.setOnClickListener {
-            Userhabit.setScreen(this, Constant.VIEW_CALENDAR_FRAGMENT)
             DWFirebaseAnalyticsLogger.sendScreen(Constant.FB_VIEW_CALENDAR_FRAGMENT)
 
             initCalendarFragment()
@@ -134,7 +131,6 @@ class MainActivity : DividendActivity<ActivityMainBinding>(R.layout.activity_mai
         }
 
         btnNavSetting.setOnClickListener {
-            Userhabit.setScreen(this, Constant.VIEW_NOTICE_FRAGMENT)
             DWFirebaseAnalyticsLogger.sendScreen(Constant.FB_VIEW_NOTICE_FRAGMENT)
 
             initNoticeFragment()
@@ -143,8 +139,6 @@ class MainActivity : DividendActivity<ActivityMainBinding>(R.layout.activity_mai
 
         fabAddStock.setOnClickListener {
             startActivity(Intent(this, SearchStockActivity::class.java))
-            /*ModifyStockDialogFragment.newInstanceForAdd()
-                .show(supportFragmentManager, logTag)*/
         }
     }
 

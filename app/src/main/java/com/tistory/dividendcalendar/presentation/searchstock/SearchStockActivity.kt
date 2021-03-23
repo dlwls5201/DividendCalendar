@@ -14,7 +14,6 @@ import com.tistory.dividendcalendar.firebase.DWFirebaseAnalyticsLogger
 import com.tistory.dividendcalendar.presentation.dialog.ModifyStockDialogFragment
 import com.tistory.dividendcalendar.presentation.searchstock.adapter.SearchNameAdapter
 import dagger.hilt.android.AndroidEntryPoint
-import io.userhabit.service.Userhabit
 
 @AndroidEntryPoint
 class SearchStockActivity : DividendActivity<ActivitySearchBinding>(R.layout.activity_search) {
@@ -54,7 +53,6 @@ class SearchStockActivity : DividendActivity<ActivitySearchBinding>(R.layout.act
     }
 
     private fun sendLog() {
-        Userhabit.setScreen(this, Constant.FB_VIEW_SEARCH_STOCK_ACTIVITY)
         DWFirebaseAnalyticsLogger.sendScreen(Constant.FB_VIEW_SEARCH_STOCK_ACTIVITY)
     }
 

@@ -13,7 +13,6 @@ import com.tistory.dividendcalendar.constant.Constant
 import com.tistory.dividendcalendar.databinding.DialogModifyStockBinding
 import com.tistory.dividendcalendar.firebase.DWFirebaseAnalyticsLogger
 import dagger.hilt.android.AndroidEntryPoint
-import io.userhabit.service.Userhabit
 
 @AndroidEntryPoint
 class ModifyStockDialogFragment :
@@ -67,15 +66,6 @@ class ModifyStockDialogFragment :
     }
 
     private fun showLog() {
-        val type = arguments?.getSerializable(ARGUMENT_TYPE) as? DialogType ?: return
-        when (type) {
-            DialogType.ADD -> {
-                Userhabit.setScreen(requireActivity(), Constant.VIEW_STOCK_ADD_DIALOG)
-            }
-            DialogType.MODIFY -> {
-                Userhabit.setScreen(requireActivity(), Constant.VIEW_STOCK_MODIFY_DIALOG)
-            }
-        }
         DWFirebaseAnalyticsLogger.sendScreen(Constant.FB_VIEW_STOCK_DIALOG)
     }
 
