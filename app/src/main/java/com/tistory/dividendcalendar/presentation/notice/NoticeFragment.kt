@@ -92,7 +92,7 @@ class NoticeFragment : DividendFragment<FragmentNoticeBinding>(R.layout.fragment
     private fun sendEmail() {
         val email = Intent(Intent.ACTION_SEND).apply {
             type = "plain/Text"
-            val address = arrayOf("dlwls5201@gmail.com")
+            val address = arrayOf("baedanggum@gmail.com")
             putExtra(Intent.EXTRA_EMAIL, address)
             putExtra(Intent.EXTRA_SUBJECT, "<" + getString(R.string.app_name) + ">")
             putExtra(
