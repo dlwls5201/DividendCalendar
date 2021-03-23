@@ -9,6 +9,7 @@ import com.tistory.blackjinbase.ext.EventMutableLiveData
 import com.tistory.blackjinbase.ext.postEvent
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
+import com.tistory.dividendcalendar.firebase.DWFirebaseAnalyticsLogger
 import com.tistory.dividendcalendar.utils.CountUtil
 import com.tistory.domain.base.BaseListener
 import com.tistory.domain.repository.ModifyStockCountUsecase
