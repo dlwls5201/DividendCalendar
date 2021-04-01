@@ -73,9 +73,15 @@ fun ImageView.setImageUrlWithTicker(url: String?, ticker: String?) {
 
         val drawable = BitmapDrawable(resources, bitmap)
 
-        Glide.with(context)
-            .load(_url)
-            .placeholder(drawable)
-            .into(this)
+        if (ticker == "NKE") {
+            setImageDrawable(
+                ContextCompat.getDrawable(context, R.drawable.logo_nike)
+            )
+        } else {
+            Glide.with(context)
+                .load(_url)
+                .placeholder(drawable)
+                .into(this)
+        }
     }
 }
