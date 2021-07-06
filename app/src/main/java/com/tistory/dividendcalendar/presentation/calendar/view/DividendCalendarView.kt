@@ -3,6 +3,7 @@ package com.tistory.dividendcalendar.presentation.calendar.view
 import android.content.Context
 import android.graphics.Color
 import android.graphics.Typeface
+import android.text.TextUtils
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.View
@@ -17,6 +18,7 @@ import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.bindingadapter.setImageUrlWithTicker
 import com.tistory.dividendcalendar.utils.CountUtil
+import com.tistory.dividendcalendar.utils.PrefUtil
 import com.tistory.domain.model.CalendarItem
 import kotlinx.android.synthetic.main.view_calendar.view.*
 import java.text.SimpleDateFormat
@@ -98,8 +100,25 @@ class DividendCalendarView : LinearLayout {
         loadDateFormat(attrs)
         initUiHeaderSize()
         initButton()
+        initCalendarType()
 
         updateCalendar()
+    }
+
+    private fun initCalendarType() {
+        val type = PrefUtil.get(PrefUtil.PREF_CALENDAR_TYPE, "")
+        if (TextUtils.isEmpty(type)) {
+            return
+        }
+
+        when (type) {
+            CalendarType.EX_DATE.name -> {
+                calendarType = CalendarType.EX_DATE
+            }
+            CalendarType.PAYMENT_DATE.name -> {
+                calendarType = CalendarType.PAYMENT_DATE
+            }
+        }
     }
 
     private fun loadDateFormat(attrs: AttributeSet?) {
@@ -168,22 +187,45 @@ class DividendCalendarView : LinearLayout {
         ivFilterCalendarType.setOnClickListener {
             val popup = PopupMenu(context, ivFilterCalendarType)
             popup.inflate(R.menu.calendar_header)
+
+            defaultCheckSetting(popup)
+
             popup.setOnMenuItemClickListener { item ->
                 when (item.itemId) {
                     R.id.action_payment_date_day -> {
                         calendarType = CalendarType.PAYMENT_DATE
+                        saveCalendarTypeToPref()
                         updateCalendar()
                     }
                     R.id.action_ex_date_day -> {
                         calendarType = CalendarType.EX_DATE
+                        saveCalendarTypeToPref()
                         updateCalendar()
                     }
                 }
                 true
             }
-            popup.show();
+            popup.show()
         }
     }
+
+    private fun defaultCheckSetting(popupMenu: PopupMenu) {
+        when (calendarType) {
+            CalendarType.PAYMENT_DATE -> {
+                val paymentDateView = popupMenu.menu.findItem(R.id.action_payment_date_day)
+                paymentDateView.title = resources.getString(R.string.payment_date_day) + "  ✓️"
+            }
+            CalendarType.EX_DATE -> {
+                val exDateView = popupMenu.menu.findItem(R.id.action_ex_date_day)
+                exDateView.title = resources.getString(R.string.ex_date_day) + "  ✓️"
+            }
+        }
+    }
+
+    private fun saveCalendarTypeToPref() {
+        PrefUtil.put(PrefUtil.PREF_CALENDAR_TYPE, calendarType.name)
+    }
+
 
     /**
      * Display dates correctly in grid
