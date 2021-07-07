@@ -4,6 +4,7 @@ import com.tistory.data.di.ApiModule
 import com.tistory.data.source.remote.model.DividendResponse
 import com.tistory.data.source.remote.model.LogoResponse
 import com.tistory.data.source.remote.model.ProfileResponse
+import com.tistory.data.source.remote.model.QuoteResponse
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
@@ -35,4 +36,10 @@ interface StockApi {
         @Path("symbol") symbol: String,
         @Query("token") token: String = ApiModule.token
     ): ProfileResponse
+
+    @GET("stable/stock/{symbol}/quote")
+    suspend fun getQuote(
+        @Path("symbol") symbol: String,
+        @Query("token") token: String = ApiModule.token
+    ): QuoteResponse
 }

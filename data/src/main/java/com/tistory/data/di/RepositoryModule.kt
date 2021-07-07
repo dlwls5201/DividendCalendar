@@ -1,11 +1,13 @@
 package com.tistory.data.di
 
+import com.tistory.data.repository.QuoteRepositoryImpl
 import com.tistory.data.repository.StockNameRepository
 import com.tistory.data.repository.StockNameRepositoryImpl
 import com.tistory.data.repository.StockWithDividendRepositoryImpl
 import com.tistory.data.source.local.StockDao
 import com.tistory.data.source.local.StockNameDao
 import com.tistory.data.source.remote.api.StockApi
+import com.tistory.domain.repository.QuoteRepository
 import com.tistory.domain.repository.StockWithDividendRepository
 import dagger.Module
 import dagger.Provides
@@ -31,5 +33,12 @@ object RepositoryModule {
         tickerDao: StockNameDao
     ): StockNameRepository {
         return StockNameRepositoryImpl(tickerDao)
+    }
+
+    @Provides
+    fun provideQuoteRepo(
+        stockApi: StockApi
+    ): QuoteRepository {
+        return QuoteRepositoryImpl(stockApi)
     }
 }
