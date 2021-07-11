@@ -6,6 +6,7 @@ import androidx.fragment.app.viewModels
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.DividendFragment
 import com.tistory.dividendcalendar.databinding.FragmentStockBinding
+import com.tistory.dividendcalendar.presentation.bottomsheet.DividendDetailBottomSheet
 import com.tistory.dividendcalendar.presentation.dialog.ModifyStockDialogFragment
 import com.tistory.dividendcalendar.presentation.stock.adapter.StockAdapter
 import dagger.hilt.android.AndroidEntryPoint
@@ -27,6 +28,10 @@ class StockFragment : DividendFragment<FragmentStockBinding>(R.layout.fragment_s
         StockAdapter().apply {
             onStockClickListener = {
                 ModifyStockDialogFragment.newInstanceForModify(it.symbol, it.stockCnt)
+                    .show(childFragmentManager, null)
+            }
+            onStockProfileClickListener = {
+                DividendDetailBottomSheet.newInstance(it)
                     .show(childFragmentManager, null)
             }
         }

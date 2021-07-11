@@ -15,6 +15,8 @@ class StockAdapter :
 
     private val items = mutableListOf<StockWithDividendItem>()
 
+    var onStockProfileClickListener: ((withDividendItem: StockWithDividendItem) -> Unit)? = null
+
     var onStockClickListener: ((withDividendItem: StockWithDividendItem) -> Unit)? = null
 
     override fun onCreateViewHolder(
@@ -25,6 +27,11 @@ class StockAdapter :
             itemView.setOnClickListener {
                 val item = items[adapterPosition]
                 onStockClickListener?.invoke(item)
+            }
+
+            binding.stockLogo.setOnClickListener {
+                val item = items[adapterPosition]
+                onStockProfileClickListener?.invoke(item)
             }
         }
     }
