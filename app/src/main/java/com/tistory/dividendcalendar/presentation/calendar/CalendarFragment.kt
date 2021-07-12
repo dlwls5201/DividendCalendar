@@ -3,7 +3,6 @@ package com.tistory.dividendcalendar.presentation.calendar
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
-import com.tistory.blackjinbase.ext.alert
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.base.DividendFragment
@@ -61,11 +60,7 @@ class CalendarFragment : DividendFragment<FragmentCalendarBinding>(R.layout.frag
 
     private fun initButton() {
         binding.cvCalendarTotalDividend.setOnClickListener {
-            requireContext().alert(message = getString(R.string.total_dividend_explain)) {
-                positiveButton(getString(R.string.ok)) {
-                    //..
-                }
-            }.show()
+            binding.dividendCalendarView.changeCalendarType()
         }
     }
 

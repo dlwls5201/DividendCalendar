@@ -209,6 +209,33 @@ class DividendCalendarView : LinearLayout {
         }
     }
 
+    fun changeCalendarType() {
+
+        calendarType = if (calendarType == CalendarType.PAYMENT_DATE) {
+            CalendarType.EX_DATE
+        } else {
+            CalendarType.PAYMENT_DATE
+        }
+
+        val popup = PopupMenu(context, ivFilterCalendarType)
+        popup.inflate(R.menu.calendar_header)
+
+        defaultCheckSetting(popup)
+
+        when (calendarType) {
+            CalendarType.PAYMENT_DATE -> {
+                calendarType = CalendarType.PAYMENT_DATE
+                saveCalendarTypeToPref()
+                updateCalendar()
+            }
+            CalendarType.EX_DATE -> {
+                calendarType = CalendarType.EX_DATE
+                saveCalendarTypeToPref()
+                updateCalendar()
+            }
+        }
+    }
+
     private fun defaultCheckSetting(popupMenu: PopupMenu) {
         when (calendarType) {
             CalendarType.PAYMENT_DATE -> {
