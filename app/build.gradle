@@ -6,8 +6,8 @@ apply plugin: 'com.google.firebase.crashlytics'
 android {
     defaultConfig {
         applicationId application_id
-        versionCode 145
-        versionName "1.4.5"
+        versionCode 147
+        versionName "1.4.7"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
