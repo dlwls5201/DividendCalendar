@@ -270,13 +270,16 @@ class DividendCalendarView : LinearLayout {
             ("${sdf.format(currentDate.time)} ${resources.getString(calendarType.stringId)}")
 
         // update total current dividend
-        val sdf2 = SimpleDateFormat("MMMM")
-        val totalDividend = getTotalCurrentDividend()
-        val title =
-            "${sdf2.format(currentDate.time)} ${resources.getString(R.string.dividend)} : $${
-                CountUtil.getDecimalFormat(totalDividend)
-            }"
-        totalCurrentDividendListener?.invoke(title)
+        if (calendarType == CalendarType.EX_DATE) {
+            val totalExDividendCnt = getTotalExDividendCnt()
+            val title = "${resources.getString(R.string.item_ex_date_day_cnt)} $totalExDividendCnt"
+            totalCurrentDividendListener?.invoke(title)
+        } else {
+            val sdf2 = SimpleDateFormat("MMMM")
+            val totalDividend = getTotalCurrentDividend()
+            val title = "${sdf2.format(currentDate.time)} ${resources.getString(R.string.dividend)} : $${CountUtil.getDecimalFormat(totalDividend)}"
+            totalCurrentDividendListener?.invoke(title)
+        }
     }
 
     private val childViewHeight: Float
@@ -414,6 +417,25 @@ class DividendCalendarView : LinearLayout {
 
     fun setTotalDividendListener(listener: (title: String) -> Unit) {
         totalCurrentDividendListener = listener
+    }
+
+    private fun getTotalExDividendCnt(): Int {
+        val currentYear = currentDate.get(Calendar.YEAR)
+        val currentMonth = currentDate.get(Calendar.MONTH) + 1
+
+        dividendItems.filter {
+            val date = it.exDate.split("-")
+            if (date.size == 3) {
+                val itemYear = date[0].toInt()
+                val itemMonth = date[1].toInt()
+
+                itemYear == currentYear && currentMonth == itemMonth
+            } else {
+                false
+            }
+        }.let {
+            return it.size
+        }
     }
 
     private fun getTotalCurrentDividend(): Float {

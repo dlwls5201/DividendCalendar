@@ -23,6 +23,7 @@
     <string name="company_format">(%s) %s</string>
 
     <string name="item_ex_date_day">exDividendDate :</string>
+    <string name="item_ex_date_day_cnt">exDividendDate cnt :</string>
     <string name="item_payment_date_day">payDate :</string>
     <string name="item_my_stock_cnt">stock cnt :</string>
     <string name="item_price_of_one_stock">price per stock :</string>
