@@ -10,4 +10,9 @@ object CountUtil {
     fun getDecimalFormat(n: Float): String {
         return df.format(n)
     }
+
+    @JvmStatic
+    fun getDecimalFormat(n: Double): String {
+        return df.format(n)
+    }
 }

@@ -17,7 +17,7 @@ abstract class BaseViewHolder<out B : ViewDataBinding, in D>(
 ) {
 
     protected val context: Context = itemView.context
-    protected val binding: B = DataBindingUtil.bind(itemView)!!
+    val binding: B = DataBindingUtil.bind(itemView)!!
 
     abstract fun bind(data: D)
 }

@@ -11,6 +11,8 @@ object PrefUtil {
 
     const val ONCE_LOAD_STOCK_NAME = "once_load_stock_name"
 
+    const val PREF_CALENDAR_TYPE = "calendar_type" // CalendarType
+
     private lateinit var pref: SharedPreferences
 
     fun init(context: Context) {

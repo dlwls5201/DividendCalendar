@@ -12,9 +12,9 @@ import com.tistory.dividendcalendar.R
 import com.tistory.dividendcalendar.firebase.DWFirebaseAnalyticsLogger
 import com.tistory.dividendcalendar.utils.CountUtil
 import com.tistory.domain.base.BaseListener
-import com.tistory.domain.repository.ModifyStockCountUsecase
 import com.tistory.domain.usecase.AddStockUsecase
 import com.tistory.domain.usecase.DeleteStockUsecase
+import com.tistory.domain.usecase.ModifyStockCountUsecase
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.launch
 import retrofit2.HttpException

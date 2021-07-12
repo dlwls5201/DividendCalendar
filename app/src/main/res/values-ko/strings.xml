@@ -23,6 +23,7 @@
     <string name="company_format">(%s) %s</string>
 
     <string name="item_ex_date_day">배당락일 :</string>
+    <string name="item_ex_date_day_cnt">배당락일 수 :</string>
     <string name="item_payment_date_day">지급일 :</string>
     <string name="item_my_stock_cnt">나의 주식 수 :</string>
     <string name="item_price_of_one_stock">1주당 가격 :</string>
@@ -56,4 +57,8 @@
     <string name="complete_emoji">⎷</string>
     <string name="direct_input">직접 입력</string>
     <string name="notice">공지사항</string>
+
+    <string name="previous_close">전일 종가</string>
+    <string name="week_52_high">52-주 고가</string>
+    <string name="week_52_low">52-주 최저</string>
 </resources>
