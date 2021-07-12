@@ -1,5 +1,6 @@
 package com.tistory.dividendcalendar.base
 
+import android.app.Dialog
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,6 +12,7 @@ import androidx.fragment.app.FragmentManager
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.tistory.blackjinbase.util.Dlog
 import com.tistory.blackjinbase.util.Showlog
+import com.tistory.dividendcalendar.R
 
 abstract class DividendBottomSheet<B : ViewDataBinding>(
     @LayoutRes private val layoutId: Int
@@ -19,6 +21,11 @@ abstract class DividendBottomSheet<B : ViewDataBinding>(
     protected lateinit var binding: B
 
     abstract var logTag: String
+
+    override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
+        setStyle(STYLE_NO_TITLE, R.style.RoundBottomSheetDialog)
+        return super.onCreateDialog(savedInstanceState)
+    }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         binding = DataBindingUtil.inflate(inflater, layoutId, container, false)

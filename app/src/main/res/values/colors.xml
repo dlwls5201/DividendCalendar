@@ -11,6 +11,8 @@
 
     <color name="black">#2b2b2b</color>
     <color name="white">#ffffff</color>
+    <color name="red">@android:color/holo_red_light</color>
+    <color name="blue">@android:color/holo_blue_dark</color>
 
     <color name="dim">#33000000</color>
     <color name="calendar_header">#44a1c1da</color>

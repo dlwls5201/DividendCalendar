@@ -57,4 +57,8 @@
     <string name="complete_emoji">⎷</string>
     <string name="direct_input">직접 입력</string>
     <string name="notice">공지사항</string>
+
+    <string name="previous_close">전일 종가</string>
+    <string name="week_52_high">52-주 고가</string>
+    <string name="week_52_low">52-주 최저</string>
 </resources>

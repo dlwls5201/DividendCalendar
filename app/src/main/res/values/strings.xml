@@ -57,4 +57,8 @@
     <string name="complete_emoji">⎷</string>
     <string name="direct_input">Add Direct</string>
     <string name="notice">notice</string>
+
+    <string name="previous_close">Previous Close</string>
+    <string name="week_52_high">52week high</string>
+    <string name="week_52_low">52week low</string>
 </resources>

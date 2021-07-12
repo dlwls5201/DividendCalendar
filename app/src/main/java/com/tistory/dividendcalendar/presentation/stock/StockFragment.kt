@@ -31,7 +31,7 @@ class StockFragment : DividendFragment<FragmentStockBinding>(R.layout.fragment_s
                     .show(childFragmentManager, null)
             }
             onStockProfileClickListener = {
-                DividendDetailBottomSheet.newInstance(it)
+                DividendDetailBottomSheet.newInstance(it.symbol)
                     .show(childFragmentManager, null)
             }
         }

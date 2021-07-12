@@ -37,8 +37,9 @@ object RepositoryModule {
 
     @Provides
     fun provideQuoteRepo(
+        stockDao: StockDao,
         stockApi: StockApi
     ): QuoteRepository {
-        return QuoteRepositoryImpl(stockApi)
+        return QuoteRepositoryImpl(stockDao, stockApi)
     }
 }
